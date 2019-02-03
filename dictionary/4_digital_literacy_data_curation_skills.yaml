@@ -1,0 +1,100 @@
+RootParadigm:
+    ieml: "t.-x.-s.y.-'wa.e.-M:M:.-',"
+    translations:
+        fr: |-
+            litéracie numérique, compétences en curation de données
+        en: |-
+            digital literacy, data curation skills
+    inhibitions: []
+Semes:
+    -   ieml: "t.-x.-s.y.-'wa.e.-s.-',"
+        translations:
+            fr: |-
+                gestion de l'attention
+            en: |-
+                attention management
+    -   ieml: "t.-x.-s.y.-'wa.e.-b.-',"
+        translations:
+            fr: |-
+                interpretation
+            en: |-
+                interpretation
+    -   ieml: "t.-x.-s.y.-'wa.e.-t.-',"
+        translations:
+            fr: |-
+                gestion de la mémoire
+            en: |-
+                memory management
+    -   ieml: "t.-x.-s.y.-'wa.e.-k.-',"
+        translations:
+            fr: |-
+                critique externe
+            en: |-
+                external critique
+    -   ieml: "t.-x.-s.y.-'wa.e.-m.-',"
+        translations:
+            fr: |-
+                critique interne
+            en: |-
+                internal critique
+    -   ieml: "t.-x.-s.y.-'wa.e.-n.-',"
+        translations:
+            fr: |-
+                critique pragmatique
+            en: |-
+                pragmatic critique
+    -   ieml: "t.-x.-s.y.-'wa.e.-d.-',"
+        translations:
+            fr: |-
+                communication stigmergique
+            en: |-
+                stigmergic communication
+    -   ieml: "t.-x.-s.y.-'wa.e.-f.-',"
+        translations:
+            fr: |-
+                liberté (compétence en intelligence collective)
+            en: |-
+                liberty (collective intelligence skill)
+    -   ieml: "t.-x.-s.y.-'wa.e.-l.-',"
+        translations:
+            fr: |-
+                apprentissage collaboratif
+            en: |-
+                collaborative learning
+Paradigms:
+    -   ieml: "t.-x.-s.y.-'wa.e.-S:M:.-',"
+        translations:
+            fr: |-
+                intelligence personnelle
+            en: |-
+                personal intelligence
+    -   ieml: "t.-x.-s.y.-'wa.e.-B:M:.-',"
+        translations:
+            fr: |-
+                intelligence critique
+            en: |-
+                critical intelligence
+    -   ieml: "t.-x.-s.y.-'wa.e.-T:M:.-',"
+        translations:
+            fr: |-
+                intelligence collective
+            en: |-
+                collective intelligence
+    -   ieml: "t.-x.-s.y.-'wa.e.-M:S:.-',"
+        translations:
+            fr: |-
+                conscience
+            en: |-
+                awareness
+    -   ieml: "t.-x.-s.y.-'wa.e.-M:B:.-',"
+        translations:
+            fr: |-
+                signification
+            en: |-
+                meaning
+    -   ieml: "t.-x.-s.y.-'wa.e.-M:T:.-',"
+        translations:
+            fr: |-
+                mémoire
+            en: |-
+                memory

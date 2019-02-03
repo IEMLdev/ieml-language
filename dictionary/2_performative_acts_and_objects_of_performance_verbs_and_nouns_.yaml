@@ -1,0 +1,1318 @@
+RootParadigm:
+    ieml: "O:M:.O:M:.-+M:O:.M:O:.-"
+    translations:
+        fr: |-
+            actes performatifs et objets de performance (verbes et noms)
+        en: |-
+            performative acts and objects of performance (verbs and nouns)
+    inhibitions: []
+Semes:
+    -   ieml: "y.y.-"
+        translations:
+            fr: |-
+                connaître, maîtriser la connaissance
+            en: |-
+                mastering knowledge
+    -   ieml: "y.o.-"
+        translations:
+            fr: |-
+                établir des priorités
+            en: |-
+                establish priorities
+    -   ieml: "y.e.-"
+        translations:
+            fr: |-
+                analyser
+            en: |-
+                analyze
+    -   ieml: "y.u.-"
+        translations:
+            fr: |-
+                interroger
+            en: |-
+                interrogate
+    -   ieml: "y.a.-"
+        translations:
+            fr: |-
+                apprendre
+            en: |-
+                learn
+    -   ieml: "y.i.-"
+        translations:
+            fr: |-
+                expliciter | formaliser
+            en: |-
+                explicate | formalize
+    -   ieml: "o.y.-"
+        translations:
+            fr: |-
+                choisir
+            en: |-
+                choose
+    -   ieml: "o.o.-"
+        translations:
+            fr: |-
+                viser un objectif
+            en: |-
+                aim at an objective
+    -   ieml: "o.e.-"
+        translations:
+            fr: |-
+                spécifier
+            en: |-
+                specify
+    -   ieml: "o.u.-"
+        translations:
+            fr: |-
+                faire campagne
+            en: |-
+                campaign
+    -   ieml: "o.a.-"
+        translations:
+            fr: |-
+                mener | diriger
+            en: |-
+                lead
+    -   ieml: "o.i.-"
+        translations:
+            fr: |-
+                poser une candidature
+            en: |-
+                make an application
+    -   ieml: "e.y.-"
+        translations:
+            fr: |-
+                faire la synthèse
+            en: |-
+                synthesize
+    -   ieml: "e.o.-"
+        translations:
+            fr: |-
+                concevoir | planifier
+            en: |-
+                design | plan
+    -   ieml: "e.e.-"
+        translations:
+            fr: |-
+                exercer une compétence
+            en: |-
+                exercise a competence
+    -   ieml: "e.u.-"
+        translations:
+            fr: |-
+                délibérer
+            en: |-
+                deliberate
+    -   ieml: "e.a.-"
+        translations:
+            fr: |-
+                demander
+            en: |-
+                demand
+    -   ieml: "e.i.-"
+        translations:
+            fr: |-
+                donner
+            en: |-
+                give
+    -   ieml: "u.y.-"
+        translations:
+            fr: |-
+                répondre
+            en: |-
+                respond
+    -   ieml: "u.o.-"
+        translations:
+            fr: |-
+                adhérer à des idées
+            en: |-
+                adhere to ideas
+    -   ieml: "u.e.-"
+        translations:
+            fr: |-
+                juger, décider
+            en: |-
+                judge (to), decide (to)
+    -   ieml: "u.u.-"
+        translations:
+            fr: |-
+                communiquer
+            en: |-
+                communicate
+    -   ieml: "u.a.-"
+        translations:
+            fr: |-
+                promettre
+            en: |-
+                promise (to)
+    -   ieml: "u.i.-"
+        translations:
+            fr: |-
+                prêter
+            en: |-
+                lend
+    -   ieml: "a.y.-"
+        translations:
+            fr: |-
+                enseigner
+            en: |-
+                teach
+    -   ieml: "a.o.-"
+        translations:
+            fr: |-
+                suivre
+            en: |-
+                follow
+    -   ieml: "a.e.-"
+        translations:
+            fr: |-
+                offrir | fournir
+            en: |-
+                offer | supply
+    -   ieml: "a.u.-"
+        translations:
+            fr: |-
+                tenir sa promesse
+            en: |-
+                keep one's word
+    -   ieml: "a.a.-"
+        translations:
+            fr: |-
+                contracter
+            en: |-
+                contract (to)
+    -   ieml: "a.i.-"
+        translations:
+            fr: |-
+                vendre
+            en: |-
+                sell
+    -   ieml: "i.y.-"
+        translations:
+            fr: |-
+                computer
+            en: |-
+                compute
+    -   ieml: "i.o.-"
+        translations:
+            fr: |-
+                obtenir une position
+            en: |-
+                obtain | get a position
+    -   ieml: "i.e.-"
+        translations:
+            fr: |-
+                prendre
+            en: |-
+                take
+    -   ieml: "i.u.-"
+        translations:
+            fr: |-
+                emprunter
+            en: |-
+                borrow
+    -   ieml: "i.a.-"
+        translations:
+            fr: |-
+                acheter
+            en: |-
+                buy
+    -   ieml: "i.i.-"
+        translations:
+            fr: |-
+                fabriquer
+            en: |-
+                manufacture
+    -   ieml: "j.j.-"
+        translations:
+            fr: |-
+                connaissance, maîtrise intellectuelle
+            en: |-
+                knowledge, intellectual mastery
+    -   ieml: "j.g.-"
+        translations:
+            fr: |-
+                question, interrogation, doute
+            en: |-
+                question, interrogation, doubt
+    -   ieml: "j.h.-"
+        translations:
+            fr: |-
+                priorité
+            en: |-
+                priority
+    -   ieml: "j.c.-"
+        translations:
+            fr: |-
+                apprentissage
+            en: |-
+                learning
+    -   ieml: "j.p.-"
+        translations:
+            fr: |-
+                analyse
+            en: |-
+                analysis
+    -   ieml: "j.x.-"
+        translations:
+            fr: |-
+                formalisme mathématique
+            en: |-
+                mathematical formalism
+    -   ieml: "g.j.-"
+        translations:
+            fr: |-
+                réponse, certitude
+            en: |-
+                response, answer, certainty
+    -   ieml: "g.g.-"
+        translations:
+            fr: |-
+                communication
+            en: |-
+                communication
+    -   ieml: "g.h.-"
+        translations:
+            fr: |-
+                changement d'idées
+            en: |-
+                change of ideas
+    -   ieml: "g.c.-"
+        translations:
+            fr: |-
+                promesse
+            en: |-
+                promise
+    -   ieml: "g.p.-"
+        translations:
+            fr: |-
+                jugement, décision
+            en: |-
+                judgement, decision
+    -   ieml: "g.x.-"
+        translations:
+            fr: |-
+                crédit
+            en: |-
+                credit
+    -   ieml: "h.j.-"
+        translations:
+            fr: |-
+                choix
+            en: |-
+                choice
+    -   ieml: "h.g.-"
+        translations:
+            fr: |-
+                campagne de communication
+            en: |-
+                communication campaign
+    -   ieml: "h.h.-"
+        translations:
+            fr: |-
+                auto-détermination
+            en: |-
+                self-determination
+    -   ieml: "h.c.-"
+        translations:
+            fr: |-
+                direction, management, administration
+            en: |-
+                management, administration
+    -   ieml: "h.p.-"
+        translations:
+            fr: |-
+                spécification, requisit
+            en: |-
+                specification, requisite
+    -   ieml: "h.x.-"
+        translations:
+            fr: |-
+                candidat
+            en: |-
+                applicant, candidate
+    -   ieml: "c.j.-"
+        translations:
+            fr: |-
+                enseignement
+            en: |-
+                teaching
+    -   ieml: "c.g.-"
+        translations:
+            fr: |-
+                voeu
+            en: |-
+                vow
+    -   ieml: "c.h.-"
+        translations:
+            fr: |-
+                personnel, employé
+            en: |-
+                staff, employee
+    -   ieml: "c.c.-"
+        translations:
+            fr: |-
+                contrat, création de lien social
+            en: |-
+                contract, social bond creation
+    -   ieml: "c.p.-"
+        translations:
+            fr: |-
+                offre
+            en: |-
+                offer
+    -   ieml: "c.x.-"
+        translations:
+            fr: |-
+                propriétaire
+            en: |-
+                owner
+    -   ieml: "p.j.-"
+        translations:
+            fr: |-
+                synthèse
+            en: |-
+                synthesis
+    -   ieml: "p.g.-"
+        translations:
+            fr: |-
+                délibération, discussion, débat
+            en: |-
+                deliberation, discussion, debate
+    -   ieml: "p.h.-"
+        translations:
+            fr: |-
+                conception, design, plan
+            en: |-
+                design, plan, conception
+    -   ieml: "p.c.-"
+        translations:
+            fr: |-
+                demande
+            en: |-
+                demand
+    -   ieml: "p.p.-"
+        translations:
+            fr: |-
+                pouvoir, rapport des forces
+            en: |-
+                power, balance of power
+    -   ieml: "p.x.-"
+        translations:
+            fr: |-
+                échange
+            en: |-
+                exchange
+    -   ieml: "x.j.-"
+        translations:
+            fr: |-
+                computation, manipulation symbolique
+            en: |-
+                computing, symbolic manipulationı
+    -   ieml: "x.g.-"
+        translations:
+            fr: |-
+                dette
+            en: |-
+                debt
+    -   ieml: "x.h.-"
+        translations:
+            fr: |-
+                position, emploi, poste
+            en: |-
+                position, employment, job
+    -   ieml: "x.c.-"
+        translations:
+            fr: |-
+                propriété
+            en: |-
+                property
+    -   ieml: "x.p.-"
+        translations:
+            fr: |-
+                partage
+            en: |-
+                sharing
+    -   ieml: "x.x.-"
+        translations:
+            fr: |-
+                fabrication, processus de production
+            en: |-
+                manufacturing, production process
+Paradigms:
+    -   ieml: "y.O:S:.-"
+        translations:
+            fr: |-
+                savoir performer abstraitement
+            en: |-
+                knowing perform abstractly
+    -   ieml: "y.O:B:.-"
+        translations:
+            fr: |-
+                savoir performer subjectivement
+            en: |-
+                knowing perform subjectively
+    -   ieml: "y.O:T:.-"
+        translations:
+            fr: |-
+                savoir performer objectivement
+            en: |-
+                knowing perform objectively
+    -   ieml: "o.O:S:.-"
+        translations:
+            fr: |-
+                performer à partir de la volonté selon le signe
+            en: |-
+                perform from the will according to sign
+    -   ieml: "o.O:B:.-"
+        translations:
+            fr: |-
+                performer à partir de la volonté selon l'être
+            en: |-
+                perform from the will according to being
+    -   ieml: "o.O:T:.-"
+        translations:
+            fr: |-
+                performer à partir de la volonté selon la chose
+            en: |-
+                perform from the will according to thing
+    -   ieml: "e.O:S:.-"
+        translations:
+            fr: |-
+                performer à partir de la compétence selon le signe
+            en: |-
+                perform from competency according to sign
+    -   ieml: "e.O:B:.-"
+        translations:
+            fr: |-
+                performer à partir de la compétence selon l'être
+            en: |-
+                perform from the competency according to being
+    -   ieml: "e.O:T:.-"
+        translations:
+            fr: |-
+                performer à partir de la compétence selon la chose
+            en: |-
+                perform from the competency according to thing
+    -   ieml: "u.O:S:.-"
+        translations:
+            fr: |-
+                performer à partir de l'expression selon le signe
+            en: |-
+                perform from the expression according to sign
+    -   ieml: "u.O:B:.-"
+        translations:
+            fr: |-
+                performer à partir de l'expression selon l'être
+            en: |-
+                perform from the expression according to being
+    -   ieml: "u.O:T:.-"
+        translations:
+            fr: |-
+                performer à partir de l'expression selon la chose
+            en: |-
+                perform from the expression according to thing
+    -   ieml: "a.O:S:.-"
+        translations:
+            fr: |-
+                performer sur une base sociale selon le signe
+            en: |-
+                perform on a social basis according to sign
+    -   ieml: "a.O:B:.-"
+        translations:
+            fr: |-
+                performer sur une base sociale selon l'être
+            en: |-
+                perform on a social basis according to being
+    -   ieml: "a.O:T:.-"
+        translations:
+            fr: |-
+                performer sur une base sociale selon la chose
+            en: |-
+                perform on a social basis according to thing
+    -   ieml: "i.O:S:.-"
+        translations:
+            fr: |-
+                performer sur une base concrète selon le signe
+            en: |-
+                perform on a concrete basis according to sign
+    -   ieml: "i.O:B:.-"
+        translations:
+            fr: |-
+                performer sur une base concrète selon l'être
+            en: |-
+                perform on a concrete basis according to being
+    -   ieml: "i.O:T:.-"
+        translations:
+            fr: |-
+                performer sur une base concrète selon la chose
+            en: |-
+                perform on a concrete basis according to thing
+    -   ieml: "O:S:.y.-"
+        translations:
+            fr: |-
+                performer dans le savoir selon le signe
+            en: |-
+                perform into knowledge according to sign
+    -   ieml: "O:S:.o.-"
+        translations:
+            fr: |-
+                performer dans la volonté selon le signe
+            en: |-
+                perform into will according to sign
+    -   ieml: "O:S:.e.-"
+        translations:
+            fr: |-
+                performer dans la compétence selon le signe
+            en: |-
+                perform into competency according to sign
+    -   ieml: "O:S:.u.-"
+        translations:
+            fr: |-
+                performer dans l'expression selon le signe
+            en: |-
+                perform into expression according to sign
+    -   ieml: "O:S:.a.-"
+        translations:
+            fr: |-
+                performer dans la relation sociale selon le signe
+            en: |-
+                perform into social relation according to sign
+    -   ieml: "O:S:.i.-"
+        translations:
+            fr: |-
+                performer dans le concret selon le signe
+            en: |-
+                perform into concrete matters according to sign
+    -   ieml: "O:B:.y.-"
+        translations:
+            fr: |-
+                performer dans le savoir selon l'être
+            en: |-
+                perform into knowledge according to being
+    -   ieml: "O:B:.o.-"
+        translations:
+            fr: |-
+                performer dans la volonté selon l'être
+            en: |-
+                perform into will according to being
+    -   ieml: "O:B:.e.-"
+        translations:
+            fr: |-
+                performer dans la compétence selon l'être
+            en: |-
+                perform into competency according to being
+    -   ieml: "O:B:.u.-"
+        translations:
+            fr: |-
+                performer dans l'expression selon l'être
+            en: |-
+                perform into expression according to being
+    -   ieml: "O:B:.a.-"
+        translations:
+            fr: |-
+                performer dans la relation sociale selon l'être
+            en: |-
+                perform into social relation according to being
+    -   ieml: "O:B:.i.-"
+        translations:
+            fr: |-
+                performer dans le concret selon l'être
+            en: |-
+                perform into concrete matters according to being
+    -   ieml: "O:T:.y.-"
+        translations:
+            fr: |-
+                performer dans le savoir selon la chose
+            en: |-
+                perform into knowledge according to thing
+    -   ieml: "O:T:.o.-"
+        translations:
+            fr: |-
+                performer dans la volonté selon la chose
+            en: |-
+                perform into will according to thing
+    -   ieml: "O:T:.e.-"
+        translations:
+            fr: |-
+                performer dans la competence selon la chose
+            en: |-
+                perform into competency according to thing
+    -   ieml: "O:T:.u.-"
+        translations:
+            fr: |-
+                performer dans l'expression selon la chose
+            en: |-
+                perform into expression according to thing
+    -   ieml: "O:T:.a.-"
+        translations:
+            fr: |-
+                performer dans la relation sociale selon la chose
+            en: |-
+                perform into social relation according to thing
+    -   ieml: "O:T:.i.-"
+        translations:
+            fr: |-
+                performer dans le concret selon la chose
+            en: |-
+                perform into concrete matters according to thing
+    -   ieml: "j.S:O:.-"
+        translations:
+            fr: |-
+                transformation abstraite de la manipulation symbolique
+            en: |-
+                abstract transformation of symbolic manipulation
+    -   ieml: "j.B:O:.-"
+        translations:
+            fr: |-
+                transformation subjective de la manipulation symbolique
+            en: |-
+                subjective transformation of symbolic manipulation
+    -   ieml: "j.T:O:.-"
+        translations:
+            fr: |-
+                transformation objective de la manipulation symbolique
+            en: |-
+                objective transformation of symbolic manipulation
+    -   ieml: "g.S:O:.-"
+        translations:
+            fr: |-
+                transformation abstraite du message
+            en: |-
+                abstract transformation of the message
+    -   ieml: "g.B:O:.-"
+        translations:
+            fr: |-
+                transformation subjective du message
+            en: |-
+                subjective transformation of the message
+    -   ieml: "g.T:O:.-"
+        translations:
+            fr: |-
+                transformation objective du message
+            en: |-
+                objective transformation of the message
+    -   ieml: "S:O:.j.-"
+        translations:
+            fr: |-
+                transformation abstraite dans la manipulation symbolique
+            en: |-
+                abstract transformation into symbolic manipulation
+    -   ieml: "S:O:.g.-"
+        translations:
+            fr: |-
+                transformation abstraite dans un message
+            en: |-
+                abstract transformation into a message
+    -   ieml: "S:O:.h.-"
+        translations:
+            fr: |-
+                transformation abstraite dans le sens
+            en: |-
+                abstract transformation in the meaning
+    -   ieml: "S:O:.c.-"
+        translations:
+            fr: |-
+                transformation abstraite dans les personnes
+            en: |-
+                abstract transformation in people
+    -   ieml: "S:O:.p.-"
+        translations:
+            fr: |-
+                transformation abstraite dans le référent
+            en: |-
+                abstract transformation in the referent
+    -   ieml: "S:O:.x.-"
+        translations:
+            fr: |-
+                transformation dans une matière abstraite
+            en: |-
+                transformation in an abstract matter
+    -   ieml: "h.S:O:.-"
+        translations:
+            fr: |-
+                transformation abstraite du sens
+            en: |-
+                abstract transformation of the meaning
+    -   ieml: "h.B:O:.-"
+        translations:
+            fr: |-
+                transformation subjective du sens
+            en: |-
+                subjective transformation of the meaning
+    -   ieml: "h.T:O:.-"
+        translations:
+            fr: |-
+                transformation objective du sens
+            en: |-
+                objective transformation of the meaning
+    -   ieml: "c.S:O:.-"
+        translations:
+            fr: |-
+                transformation abstraite des personnes
+            en: |-
+                abstract transformation of people
+    -   ieml: "c.B:O:.-"
+        translations:
+            fr: |-
+                transformation subjective des personnes
+            en: |-
+                subjective transformation of people
+    -   ieml: "c.T:O:.-"
+        translations:
+            fr: |-
+                transformation objective des personnes
+            en: |-
+                objective transformation of people
+    -   ieml: "B:O:.j.-"
+        translations:
+            fr: |-
+                transformation subjective dans la manipulation symbolique
+            en: |-
+                subjective transformation into symbolic manipulation
+    -   ieml: "B:O:.g.-"
+        translations:
+            fr: |-
+                transformation subjective dans un message
+            en: |-
+                subjective transformation into a message
+    -   ieml: "B:O:.h.-"
+        translations:
+            fr: |-
+                transformation subjective dans le sens
+            en: |-
+                subjective transformation in the meaning
+    -   ieml: "B:O:.c.-"
+        translations:
+            fr: |-
+                transformation subjective dans les personnes
+            en: |-
+                subjective transformation in people
+    -   ieml: "B:O:.p.-"
+        translations:
+            fr: |-
+                transformation subjective dans le référent
+            en: |-
+                subjective transformation in the referent
+    -   ieml: "B:O:.x.-"
+        translations:
+            fr: |-
+                transformation dans une matière subjective
+            en: |-
+                transformation in a subjective matter
+    -   ieml: "p.S:O:.-"
+        translations:
+            fr: |-
+                transformation abstraite du référent
+            en: |-
+                abstract transformation of the referent
+    -   ieml: "p.B:O:.-"
+        translations:
+            fr: |-
+                transformation subjective du référent
+            en: |-
+                subjective transformation of the referent
+    -   ieml: "p.T:O:.-"
+        translations:
+            fr: |-
+                transformation objective du référent
+            en: |-
+                objective transformation of the referent
+    -   ieml: "x.S:O:.-"
+        translations:
+            fr: |-
+                transformation matérielle abstraite
+            en: |-
+                abstract material transformation
+    -   ieml: "x.B:O:.-"
+        translations:
+            fr: |-
+                transformation matérielle subjective
+            en: |-
+                subjective material transformation
+    -   ieml: "x.T:O:.-"
+        translations:
+            fr: |-
+                transformation matérielle objective
+            en: |-
+                objective material transformation
+    -   ieml: "T:O:.j.-"
+        translations:
+            fr: |-
+                transformation objective dans la manipulation symbolique
+            en: |-
+                objective manipulation into symbolic manipulation
+    -   ieml: "T:O:.g.-"
+        translations:
+            fr: |-
+                transformation objective dans un message
+            en: |-
+                objective transformation into a message
+    -   ieml: "T:O:.h.-"
+        translations:
+            fr: |-
+                transformation objective dans le sens
+            en: |-
+                objective transformation in the meaning
+    -   ieml: "T:O:.c.-"
+        translations:
+            fr: |-
+                transformation objective dans les personnes
+            en: |-
+                objective transformation in people
+    -   ieml: "T:O:.p.-"
+        translations:
+            fr: |-
+                transformation objective dans le référent
+            en: |-
+                objective transformation into the referent
+    -   ieml: "T:O:.x.-"
+        translations:
+            fr: |-
+                transformation dans une matière objective
+            en: |-
+                transformation in an objective matter
+    -   ieml: "y.U:M:.-"
+        translations:
+            fr: |-
+                savoir performer virtuellement
+            en: |-
+                knowing perform virtually
+    -   ieml: "y.A:M:.-"
+        translations:
+            fr: |-
+                savoir performer actuellement
+            en: |-
+                knowing perform actually
+    -   ieml: "o.U:M:.-"
+        translations:
+            fr: |-
+                performer virtuellement à partir de la volonté
+            en: |-
+                perform virtually from the will
+    -   ieml: "o.A:M:.-"
+        translations:
+            fr: |-
+                performer actuellement à partir de la volonté
+            en: |-
+                perform actually from the will
+    -   ieml: "e.U:M:.-"
+        translations:
+            fr: |-
+                performer virtuellement à partir de la compétence
+            en: |-
+                perform virtually from the competency
+    -   ieml: "e.A:M:.-"
+        translations:
+            fr: |-
+                performer à partir de la compétence actuellement
+            en: |-
+                perform actually from the competency
+    -   ieml: "U:M:.y.-"
+        translations:
+            fr: |-
+                performer virtuellement dans le savoir
+            en: |-
+                perform virtually into knowledge
+    -   ieml: "U:M:.o.-"
+        translations:
+            fr: |-
+                performer dans la volonté virtuellement
+            en: |-
+                perform virtually into will
+    -   ieml: "U:M:.e.-"
+        translations:
+            fr: |-
+                performer virtuellement dans la compétence
+            en: |-
+                perform virtually into competency
+    -   ieml: "U:M:.u.-"
+        translations:
+            fr: |-
+                performer dans l'expression virtuellement
+            en: |-
+                perform virtually into expression
+    -   ieml: "U:M:.a.-"
+        translations:
+            fr: |-
+                performer virtuellement dans la relation sociale
+            en: |-
+                perform virtually into social relation
+    -   ieml: "U:M:.i.-"
+        translations:
+            fr: |-
+                performer virtuellement dans le concret
+            en: |-
+                perform virtually into concrete matters
+    -   ieml: "u.U:M:.-"
+        translations:
+            fr: |-
+                performer virtuellement à partir de l'expression
+            en: |-
+                perform virtually from the expression
+    -   ieml: "u.A:M:.-"
+        translations:
+            fr: |-
+                performer actuellement à partir de l'expression
+            en: |-
+                perform actually from the expression
+    -   ieml: "a.U:M:.-"
+        translations:
+            fr: |-
+                performer virtuellement sur une base sociale
+            en: |-
+                perform virtually on a social basis
+    -   ieml: "a.A:M:.-"
+        translations:
+            fr: |-
+                performer actuellement sur une base sociale
+            en: |-
+                perform actually on a social basis
+    -   ieml: "i.U:M:.-"
+        translations:
+            fr: |-
+                performer virtuellement sur une base concrète
+            en: |-
+                perform virtually on a concrete basis
+    -   ieml: "i.A:M:.-"
+        translations:
+            fr: |-
+                performer actuellement sur une base concrète
+            en: |-
+                perform actually on a concrete basis
+    -   ieml: "A:M:.y.-"
+        translations:
+            fr: |-
+                performer actuellement dans le savoir
+            en: |-
+                perform actually into knowledge
+    -   ieml: "A:M:.o.-"
+        translations:
+            fr: |-
+                performer dans la volonté actuellement
+            en: |-
+                perform actually into will
+    -   ieml: "A:M:.e.-"
+        translations:
+            fr: |-
+                performer actuellement dans la compétence
+            en: |-
+                perform actually into competency
+    -   ieml: "A:M:.u.-"
+        translations:
+            fr: |-
+                performer dans l'expression actuellement
+            en: |-
+                perform actually into expression
+    -   ieml: "A:M:.a.-"
+        translations:
+            fr: |-
+                performer actuellement dans la relation sociale
+            en: |-
+                perform actually into social relation
+    -   ieml: "A:M:.i.-"
+        translations:
+            fr: |-
+                performer actuellement dans le concret
+            en: |-
+                perform actually into concrete matters
+    -   ieml: "j.M:U:.-"
+        translations:
+            fr: |-
+                transformation virtuelle de la manipulation symbolique
+            en: |-
+                virtual transformation of symbolic manipulation
+    -   ieml: "j.M:A:.-"
+        translations:
+            fr: |-
+                transformation actuelle de la manipulation symbolique
+            en: |-
+                actual transformation of symbolic manipulation
+    -   ieml: "g.M:U:.-"
+        translations:
+            fr: |-
+                transformation virtuelle du message
+            en: |-
+                virtual transformation of the message
+    -   ieml: "g.M:A:.-"
+        translations:
+            fr: |-
+                transformation actuelle du message
+            en: |-
+                actual transformation of the message
+    -   ieml: "h.M:U:.-"
+        translations:
+            fr: |-
+                transformation virtuelle du sens
+            en: |-
+                virtual transformation of the meaning
+    -   ieml: "h.M:A:.-"
+        translations:
+            fr: |-
+                transformation actuelle du sens
+            en: |-
+                actual transformation of the meaning
+    -   ieml: "c.M:U:.-"
+        translations:
+            fr: |-
+                transformation virtuelle des personnes
+            en: |-
+                virtual transformation of people
+    -   ieml: "c.M:A:.-"
+        translations:
+            fr: |-
+                transformation actuelle des personnes
+            en: |-
+                actual transformation des personnes
+    -   ieml: "p.M:U:.-"
+        translations:
+            fr: |-
+                transformation virtuelle du référent
+            en: |-
+                virtual transformation of the referent
+    -   ieml: "p.M:A:.-"
+        translations:
+            fr: |-
+                transformation actuelle du référent
+            en: |-
+                actual transformation of the referent
+    -   ieml: "x.M:U:.-"
+        translations:
+            fr: |-
+                transformation matérielle virtuelle
+            en: |-
+                virtual material transformation
+    -   ieml: "x.M:A:.-"
+        translations:
+            fr: |-
+                transformation materielle actuelle
+            en: |-
+                actual material transformation
+    -   ieml: "M:U:.j.-"
+        translations:
+            fr: |-
+                transformation virtuelle dans la manipulation symbolique
+            en: |-
+                virtual transformation into symbolic manipulation
+    -   ieml: "M:U:.g.-"
+        translations:
+            fr: |-
+                transformation virtuelle d'un message
+            en: |-
+                virtual transformation of a message
+    -   ieml: "M:U:.h.-"
+        translations:
+            fr: |-
+                transformation virtuelle dans le sens
+            en: |-
+                virtual transformation in the meaning
+    -   ieml: "M:U:.c.-"
+        translations:
+            fr: |-
+                transformation virtuelle dans les personnes
+            en: |-
+                virtual transformation in people
+    -   ieml: "M:U:.p.-"
+        translations:
+            fr: |-
+                transformation virtuelle dans le référent
+            en: |-
+                virtual transformation in the referent
+    -   ieml: "M:U:.x.-"
+        translations:
+            fr: |-
+                transformation virtuelle dans la matière
+            en: |-
+                virtual transformation in matter
+    -   ieml: "M:A:.j.-"
+        translations:
+            fr: |-
+                transformation actuelle dans la manipulation symbolique
+            en: |-
+                actual transformation into symbolic manipulation
+    -   ieml: "M:A:.g.-"
+        translations:
+            fr: |-
+                transformation actuelle d'un message
+            en: |-
+                actual transformation of a message
+    -   ieml: "M:A:.h.-"
+        translations:
+            fr: |-
+                transformation actuelle dans le sens
+            en: |-
+                actual transformation in the meaning
+    -   ieml: "M:A:.c.-"
+        translations:
+            fr: |-
+                transformation actuelle dans les personnes
+            en: |-
+                actual transformation in people
+    -   ieml: "M:A:.p.-"
+        translations:
+            fr: |-
+                transformation actuelle dans le référent
+            en: |-
+                actual transformation in the referent
+    -   ieml: "M:A:.x.-"
+        translations:
+            fr: |-
+                transformation actuelle dans la matière
+            en: |-
+                actual transformation in matter
+    -   ieml: "y.O:M:.-"
+        translations:
+            fr: |-
+                savoir en substance
+            en: |-
+                knowing in substance
+    -   ieml: "o.O:M:.-"
+        translations:
+            fr: |-
+                vouloir en substance
+            en: |-
+                want in substance
+    -   ieml: "e.O:M:.-"
+        translations:
+            fr: |-
+                pouvoir en substance
+            en: |-
+                can in substance
+    -   ieml: "u.O:M:.-"
+        translations:
+            fr: |-
+                dire en substance
+            en: |-
+                say in substance
+    -   ieml: "a.O:M:.-"
+        translations:
+            fr: |-
+                s'engager en substance
+            en: |-
+                commit in substance
+    -   ieml: "i.O:M:.-"
+        translations:
+            fr: |-
+                faire en substance
+            en: |-
+                do in substance
+    -   ieml: "O:M:.y.-"
+        translations:
+            fr: |-
+                savoir en attribut
+            en: |-
+                know in attribute
+    -   ieml: "O:M:.o.-"
+        translations:
+            fr: |-
+                vouloir en attribut
+            en: |-
+                want in attribute
+    -   ieml: "O:M:.e.-"
+        translations:
+            fr: |-
+                pouvoir en attribut
+            en: |-
+                can in attribute
+    -   ieml: "O:M:.u.-"
+        translations:
+            fr: |-
+                dire en attribut
+            en: |-
+                say in attribute
+    -   ieml: "O:M:.a.-"
+        translations:
+            fr: |-
+                s'engager en attribut
+            en: |-
+                commit in attribute
+    -   ieml: "O:M:.i.-"
+        translations:
+            fr: |-
+                faire en attribut
+            en: |-
+                do in attribute
+    -   ieml: "j.M:O:.-"
+        translations:
+            fr: |-
+                idée en substance
+            en: |-
+                idea in substance
+    -   ieml: "g.M:O:.-"
+        translations:
+            fr: |-
+                message en substance
+            en: |-
+                message in substance
+    -   ieml: "h.M:O:.-"
+        translations:
+            fr: |-
+                sujet en substance
+            en: |-
+                subject in substance
+    -   ieml: "c.M:O:.-"
+        translations:
+            fr: |-
+                individu en substance
+            en: |-
+                individual in substance
+    -   ieml: "p.M:O:.-"
+        translations:
+            fr: |-
+                objet en substance
+            en: |-
+                object in substance
+    -   ieml: "x.M:O:.-"
+        translations:
+            fr: |-
+                corps en substance
+            en: |-
+                body in substance
+    -   ieml: "M:O:.j.-"
+        translations:
+            fr: |-
+                idée en attribut
+            en: |-
+                idea in attribute
+    -   ieml: "M:O:.g.-"
+        translations:
+            fr: |-
+                message en attribut
+            en: |-
+                message in attribute
+    -   ieml: "M:O:.h.-"
+        translations:
+            fr: |-
+                sujet en attribut
+            en: |-
+                subject in attribute
+    -   ieml: "M:O:.c.-"
+        translations:
+            fr: |-
+                individu en attribut
+            en: |-
+                individual in attribute
+    -   ieml: "M:O:.p.-"
+        translations:
+            fr: |-
+                objet en attribut
+            en: |-
+                objet en attribut
+    -   ieml: "M:O:.x.-"
+        translations:
+            fr: |-
+                corps en attribut
+            en: |-
+                body in attribute
+    -   ieml: "O:M:.O:M:.-"
+        translations:
+            fr: |-
+                actes performatifs
+            en: |-
+                performative acts
+    -   ieml: "M:O:.M:O:.-"
+        translations:
+            fr: |-
+                objets de performance
+            en: |-
+                objects of performance

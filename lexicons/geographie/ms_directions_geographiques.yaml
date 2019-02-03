@@ -1,0 +1,188 @@
+Words:
+  - ieml: "[([l.-S:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "nord"
+      en:
+        - "north"
+  - ieml: "[([l.-S:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "sud"
+      en:
+        - "south"
+  - ieml: "[([l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "est"
+      en:
+        - "east"
+  - ieml: "[([l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "ouest"
+      en:
+        - "west"
+  - ieml: "[([E:.-B:.n.-l.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "là | près"
+      en:
+        - "near | there"
+  - ieml: "[([E:.-T:.s.-l.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "à partir de"
+      en:
+        - "from"
+  - ieml: "[([E:.-T:.d.-l.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "en direction de"
+      en:
+        - "toward"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-S:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans le nord"
+      en:
+        - "in the north"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-S:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "du nord"
+      en:
+        - "from the north"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-S:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers le nord"
+      en:
+        - "to the north"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-S:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans le sud"
+      en:
+        - "in the south"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-S:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "du sud"
+      en:
+        - "from the south"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-S:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers le sud"
+      en:
+        - "to the south"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans l'est"
+      en:
+        - "in the east"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "de l'est"
+      en:
+        - "from the east"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers l'est"
+      en:
+        - "to the east"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans l'ouest"
+      en:
+        - "in the west"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "de l'ouest"
+      en:
+        - "from the west"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers l'ouest"
+      en:
+        - "to the west"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-S:.U:.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans le nord-est"
+      en:
+        - "in the north-east"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-S:.U:.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "du nord-est"
+      en:
+        - "from the north-east"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-S:.U:.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers le nord-est"
+      en:
+        - "to the north-east"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-S:.U:.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans le nord-ouest"
+      en:
+        - "in the north-west"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-S:.U:.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "du nord-ouest"
+      en:
+        - "from the north-west"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-S:.U:.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers le nord-ouest"
+      en:
+        - "to the north-west"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-S:.A:.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans le sud-est"
+      en:
+        - "in the south-east"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-S:.A:.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "du sud-est"
+      en:
+        - "from the south-east"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-S:.A:.-']+[l.-B:.U:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers le sud-est"
+      en:
+        - "to the south-east"
+  - ieml: "[([E:.-B:.n.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "dans le sud-ouest"
+      en:
+        - "in the south-west"
+  - ieml: "[([E:.-T:.s.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "du sud-ouest"
+      en:
+        - "from the south-west"
+  - ieml: "[([E:.-T:.d.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vers le sud-ouest"
+      en:
+        - "to the south-west"
+

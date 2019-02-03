@@ -1,0 +1,472 @@
+RootParadigm:
+    ieml: "b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+wu.f.A:.-+a.S:.-+i.U:.-+e.O:.-+S:+T:T:.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+    translations:
+        fr: |-
+            parties des instruments de musique, orchestre, lutherie: médiateurs et parties vibrantes
+        en: |-
+            parts of musical instruments, orchestra, lutherie: mediators and vibrating parts
+    inhibitions: []
+Semes:
+    -   ieml: "b.i.-n.i.-'e.U:.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                plectre de pierre, céramique ou plastique
+            en: |-
+                plectrum (or mediator) made of stone, ceramic or plastic
+    -   ieml: "b.i.-n.i.-'e.U:.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                plectre de bois
+            en: |-
+                wood plectrum (or mediator)
+    -   ieml: "b.i.-n.i.-'e.U:.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                plectre de métal
+            en: |-
+                metal plectrum (or mediator)
+    -   ieml: "b.i.-n.i.-'e.U:.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                main qui tire ou pince un instrument de musique
+            en: |-
+                hand pinching or pulling a musical instrument
+    -   ieml: "b.i.-n.i.-'e.U:.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                plectre fait de matière animale (corne...)
+            en: |-
+                plectrum made with animal matter (horn...)
+    -   ieml: "b.i.-n.i.-'e.A:.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                archet de céramique ou de plastique
+            en: |-
+                bow made of ceramic or plastic
+    -   ieml: "b.i.-n.i.-'e.A:.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                archet de bois
+            en: |-
+                bow made of wood
+    -   ieml: "b.i.-n.i.-'e.A:.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                archet métallique
+            en: |-
+                metallic bow
+    -   ieml: "b.i.-n.i.-'e.A:.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                main qui frotte ou pousse sur un instrument de musique
+            en: |-
+                hand that rubs or pushes on a musical intrument
+    -   ieml: "b.i.-n.i.-'e.A:.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                archet fait de matière animale (crin, etc.)
+            en: |-
+                bow made of animal matter (horsehair, etc.)
+    -   ieml: "b.i.-n.i.-'wu.f.A:.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                clavier fait de pierre, céramique ou plastique
+            en: |-
+                keyboard made of stone, ceramic or plastic
+    -   ieml: "b.i.-n.i.-'wu.f.A:.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                clavier de bois
+            en: |-
+                wooden keyboard
+    -   ieml: "b.i.-n.i.-'wu.f.A:.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                clavier de métal
+            en: |-
+                metallic keyboard
+    -   ieml: "b.i.-n.i.-'wu.f.A:.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                toucher direct sur un instrument de musique
+            en: |-
+                direct touch on a musical instrument
+    -   ieml: "b.i.-n.i.-'wu.f.A:.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                clavier fait de matière animale (ivoire, os...)
+            en: |-
+                keyboard made of animal matter (ivory, bone...)
+    -   ieml: "b.i.-n.i.-'a.S:.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                soufflet de céramique ou plastique
+            en: |-
+                bellows made of ceramic or plastic
+    -   ieml: "b.i.-n.i.-'a.S:.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                soufflet de bois
+            en: |-
+                wooden bellows
+    -   ieml: "b.i.-n.i.-'a.S:.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                soufflet de métal
+            en: |-
+                metallic bellows
+    -   ieml: "b.i.-n.i.-'a.S:.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                bouche qui souffle dans un instrument de musique
+            en: |-
+                mouth blowing into a musical instrument
+    -   ieml: "b.i.-n.i.-'a.S:.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                soufflet fait de matière animale (peau, cuir...)
+            en: |-
+                bellows made of animal matter (skin, leather...)
+    -   ieml: "b.i.-n.i.-'i.U:.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                baguette ou marteau de pierre, de céramique ou plastique
+            en: |-
+                stick or hammer made of stone, ceramic or plastic
+    -   ieml: "b.i.-n.i.-'i.U:.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                baguette ou marteau de bois
+            en: |-
+                wooden stick or hammer
+    -   ieml: "b.i.-n.i.-'i.U:.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                baguette ou marteau de métal
+            en: |-
+                metallic stick or hammer
+    -   ieml: "b.i.-n.i.-'i.U:.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                partie du corps de l'instrumentiste utilisée pour frapper sur un instrument de musique
+            en: |-
+                instrumentalist's body part used to strike on a musical instrument
+    -   ieml: "b.i.-n.i.-'i.U:.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                baguette ou marteau fait d'une matière animale (os...)
+            en: |-
+                stick or hammer made of animal matter (bone...)
+    -   ieml: "b.i.-n.i.-'t.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                cloche de de verre, de pierre, de céramique ou de plastique
+            en: |-
+                bell made of glass, stone, ceramic or plastic
+    -   ieml: "b.i.-n.i.-'t.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                cloche de bois
+            en: |-
+                wooden bell
+    -   ieml: "b.i.-n.i.-'t.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                cloche de métal
+            en: |-
+                metallic bell
+    -   ieml: "b.i.-n.i.-'t.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                partie du corps de l'instrumentiste utilisée comme cloche
+            en: |-
+                part of the instrumentalist's body used as a bell
+    -   ieml: "b.i.-n.i.-'t.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                cloche faite de matière animale
+            en: |-
+                bell made of animal matter
+    -   ieml: "b.i.-n.i.-'m.i.-f.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                membrane vibrante faite de pierre ou plastique
+            en: |-
+                Vibrating membrane made of stone or plastic
+    -   ieml: "b.i.-n.i.-'m.i.-f.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                membrane vibrante faite de bois ou autre matière végétale
+            en: |-
+                vibrating membrane made of wood or other vegetal matter
+    -   ieml: "b.i.-n.i.-'m.i.-f.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                membrane vibrante faite de métal
+            en: |-
+                vibrating membrane made of metal
+    -   ieml: "b.i.-n.i.-'m.i.-f.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                partie du corps de l'instrumentiste utilisée comme membrane vibrante
+            en: |-
+                part of the instrumentalist's body used as a vibrating membrane
+    -   ieml: "b.i.-n.i.-'m.i.-f.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                membrane vibrante faite de matière animale (peau...)
+            en: |-
+                vibrating membrane made of animal matter (skin...)
+    -   ieml: "b.i.-n.i.-'l.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                corde vibrante faite de plastique
+            en: |-
+                vibrating string made of plastic
+    -   ieml: "b.i.-n.i.-'l.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                corde vibrante faite de matière végétale
+            en: |-
+                vibrating string made of vegetal matter
+    -   ieml: "b.i.-n.i.-'l.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                corde vibrante faite de métal
+            en: |-
+                vibrating string made of metal
+    -   ieml: "b.i.-n.i.-'l.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                cordes vocales
+            en: |-
+                vocal chords
+    -   ieml: "b.i.-n.i.-'l.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                corde vibrante faite de matière animale (boyau de chat...)
+            en: |-
+                vibrating string made of animal matter (cat hose...)
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                sifflet de pierre, céramique ou plastique
+            en: |-
+                whistle made of stone, ceramic or plastic
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                sifflet de bois
+            en: |-
+                wooden whistle
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                sifflet de métal
+            en: |-
+                metallic whistle
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                bouche utilisée pour siffler
+            en: |-
+                mouth used to whistle
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                sifflet fait de matière animale (os...)
+            en: |-
+                whistle made of animal matter (bone...)
+    -   ieml: "b.i.-n.i.-'l.i.-f.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                plaquettes de pierre, de verre ou de plastique
+            en: |-
+                plates of stone, glass or plastic
+    -   ieml: "b.i.-n.i.-'l.i.-f.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                plaquettes de bois
+            en: |-
+                plates of wood
+    -   ieml: "b.i.-n.i.-'l.i.-f.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                plaquettes de métal
+            en: |-
+                metal plates
+    -   ieml: "b.i.-n.i.-'l.i.-f.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                partie du corps de l'instrumentiste utilisée comme plaquette vibrante (dents...)
+            en: |-
+                part of the instrumentalist's body used as vibrating plaque (teeth...)
+    -   ieml: "b.i.-n.i.-'l.i.-f.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                plaquettes vibrantes faites de matière animale (os...)
+            en: |-
+                Vibrating plates made of animal matter (bone ...)
+Paradigms:
+    -   ieml: "b.i.-n.i.-'e.U:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                plectre
+            en: |-
+                plectrum
+    -   ieml: "b.i.-n.i.-'e.A:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                archet
+            en: |-
+                bow
+    -   ieml: "b.i.-n.i.-'e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                médiateurs de terre
+            en: |-
+                earthy mediators
+    -   ieml: "b.i.-n.i.-'e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                médiateurs de bois
+            en: |-
+                wooden mediators
+    -   ieml: "b.i.-n.i.-'e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                médiateur de métal
+            en: |-
+                metallic mediator
+    -   ieml: "b.i.-n.i.-'e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                médiateur de chair
+            en: |-
+                fleshy mediator
+    -   ieml: "b.i.-n.i.-'e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                médiateur de matière animale
+            en: |-
+                mediator made of animal matter
+    -   ieml: "b.i.-n.i.-'wu.f.A:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                clavier
+            en: |-
+                keyboard
+    -   ieml: "b.i.-n.i.-'a.S:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                soufflet
+            en: |-
+                bellows
+    -   ieml: "b.i.-n.i.-'i.U:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                baguette ou marteau
+            en: |-
+                stick or hammer
+    -   ieml: "b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E:.-+n.+f.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                vibrateurs de terre, verre, plastique...
+            en: |-
+                vibrators made of clay, glass, plastic...
+    -   ieml: "b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E:.-+n.+f.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                vibrateurs de bois
+            en: |-
+                wooden vibrators
+    -   ieml: "b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E:.-+n.+f.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                vibrateur de métal
+            en: |-
+                metallic vibrator
+    -   ieml: "b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E:.-+n.+f.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                vibrateur de chair
+            en: |-
+                vibrator of flesh
+    -   ieml: "b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E:.-+n.+f.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                vibrateur de matière animale
+            en: |-
+                vibrator made of animal matter
+    -   ieml: "b.i.-n.i.-'t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                cloche
+            en: |-
+                bell
+    -   ieml: "b.i.-n.i.-'m.i.-f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                membrane vibrante
+            en: |-
+                vibrating membrane
+    -   ieml: "b.i.-n.i.-'l.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                corde
+            en: |-
+                string
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                sifflet
+            en: |-
+                whistle
+    -   ieml: "b.i.-n.i.-'l.i.-f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                plaquette vibrante
+            en: |-
+                vibrating plate
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-+S:+T:T:.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                médiateurs et parties vibrantes faites de matière terreuse (céramique, plastique, verre...)
+            en: |-
+                mediators and vibrating parts made of earthy matters (ceramic, plastic, glass...)
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-+S:+T:T:.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                médiateurs et parties vibrantes faites de bois
+            en: |-
+                mediators and vibrating parts made of wood
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-+S:+T:T:.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                médiateurs et parties vibrantes faites de métal
+            en: |-
+                mediators and vibrating parts made of metal
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-+S:+T:T:.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                médiateurs et parties vibrantes faites de chair humaine
+            en: |-
+                mediators and vibrating parts made of human flesh
+    -   ieml: "b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-+S:+T:T:.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                médiateurs et parties vibrantes faites de matière animale
+            en: |-
+                mediators diaries and vibrating parts made of animal matter
+    -   ieml: "b.i.-n.i.-'e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                parties des instruments de musique, orchestre, lutherie: médiateurs
+            en: |-
+                parts of musical instruments, orchestra, lutherie: mediators
+    -   ieml: "b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E:.-+n.+f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                parties des instruments de musique, orchestre, lutherie: vibrateurs
+            en: |-
+                parts of musical instruments, orchestra, lutherie: vibrators

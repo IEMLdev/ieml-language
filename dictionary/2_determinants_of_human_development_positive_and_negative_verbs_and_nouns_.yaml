@@ -1,0 +1,2078 @@
+RootParadigm:
+    ieml: "O:M:.M:M:.-+M:M:.O:M:.-"
+    translations:
+        fr: |-
+            déterminants du développement humain, positifs et négatifs (verbes et noms)
+        en: |-
+            determinants of human development, positive and negative (verbs and nouns)
+    inhibitions: []
+    comments:
+        fr: |-
+            Les deux paradigmes M:M:.O:M:.- et O:M:.M:M:.- font partie du même paradigme-racine M:M:.O:M:.- + O:M:.M:M:.- intitulé «déterminants du développement humain ». Dans ce paradigme-racine,les sèmes inverses sont sémantiquement liés, par exemple t.y.- (gestion de la mémoire) et y.t.- (oublier) ou k.y.- (intelligence relationnelle) et y.k.- (ignorer les relations).
+            Allez à [M:M:.O:M:.-](https://intlekt.io/?comments=M%3AM%3A.O%3AM%3A.-) et explorez les sèmes de ce paradigme, qui sont au fondement de plusieurs autres paradigmes de couche 3
+        en: |-
+            Both paradigms M:M:.O:M:.- and O:M:.M:M:.- are part of the same root-paradigm M:M:.O:M:.- + O:M:.M:M:.- that is entitled « determinants of human development ». In this root-paradigm, inverse semes are semantically related, for example t.y.- (memory management) and y.t.- (forget) or k.y.- (relational intelligence) and y.k.- (ignore relations).
+            Please, go to [M:M:.O:M:.-](https://intlekt.io/?comments=M%3AM%3A.O%3AM%3A.-) and explore the semes of this paradigm, which are the foundation of several other Layer 3 paradigms.
+Semes:
+    -   ieml: "y.s.-"
+        translations:
+            fr: |-
+                négliger la discipline intellectuelle
+            en: |-
+                neglect intellectual discipline
+    -   ieml: "y.b.-"
+        translations:
+            fr: |-
+                ne pas abstraire
+            en: |-
+                not be able to abstract
+    -   ieml: "y.t.-"
+        translations:
+            fr: |-
+                oublier
+            en: |-
+                forget
+    -   ieml: "y.k.-"
+        translations:
+            fr: |-
+                ignorer les relations
+            en: |-
+                ignore relations
+    -   ieml: "y.m.-"
+        translations:
+            fr: |-
+                ignorer ses émotions
+            en: |-
+                ignore emotions
+    -   ieml: "y.n.-"
+        translations:
+            fr: |-
+                ignorer les principes
+            en: |-
+                ignore principles
+    -   ieml: "y.d.-"
+        translations:
+            fr: |-
+                ignorer les faits
+            en: |-
+                ignore facts
+    -   ieml: "y.f.-"
+        translations:
+            fr: |-
+                intoxiquer | tromper
+            en: |-
+                intoxicate | deceive
+    -   ieml: "y.l.-"
+        translations:
+            fr: |-
+                ignorer les limites
+            en: |-
+                ignore limits
+    -   ieml: "o.s.-"
+        translations:
+            fr: |-
+                avoir des préjugés
+            en: |-
+                have prejudices
+    -   ieml: "o.b.-"
+        translations:
+            fr: |-
+                mal comprendre
+            en: |-
+                misunderstand
+    -   ieml: "o.t.-"
+        translations:
+            fr: |-
+                être en retard | procrastiner | manquer l'occasion
+            en: |-
+                be late | procrastinate | miss the opportunity
+    -   ieml: "o.k.-"
+        translations:
+            fr: |-
+                briser les liens sociaux
+            en: |-
+                break social bonds
+    -   ieml: "o.m.-"
+        translations:
+            fr: |-
+                manquer d'empathie | de compassion
+            en: |-
+                lack empathy | compassion
+    -   ieml: "o.n.-"
+        translations:
+            fr: |-
+                être fermé d'esprit
+            en: |-
+                be narrow-minded
+    -   ieml: "o.d.-"
+        translations:
+            fr: |-
+                mentir
+            en: |-
+                lie
+    -   ieml: "o.f.-"
+        translations:
+            fr: |-
+                faire souffrir
+            en: |-
+                inflict suffering
+    -   ieml: "o.l.-"
+        translations:
+            fr: |-
+                provoquer le chaos | la confusion
+            en: |-
+                provoke chaos | confusion
+    -   ieml: "e.s.-"
+        translations:
+            fr: |-
+                négliger les codes
+            en: |-
+                neglect codes
+    -   ieml: "e.b.-"
+        translations:
+            fr: |-
+                être incohérent
+            en: |-
+                be incoherent
+    -   ieml: "e.t.-"
+        translations:
+            fr: |-
+                offenser
+            en: |-
+                offend
+    -   ieml: "e.k.-"
+        translations:
+            fr: |-
+                être emporté par ses passions
+            en: |-
+                be carried away by one's passions
+    -   ieml: "e.m.-"
+        translations:
+            fr: |-
+                menacer, être dangereux
+            en: |-
+                threaten, be dangerous
+    -   ieml: "e.n.-"
+        translations:
+            fr: |-
+                être conformiste | suiviste
+            en: |-
+                blindly conform
+    -   ieml: "e.d.-"
+        translations:
+            fr: |-
+                négliger le corps
+            en: |-
+                neglect the body
+    -   ieml: "e.f.-"
+        translations:
+            fr: |-
+                être techniquement incompétent
+            en: |-
+                be technically incompetent
+    -   ieml: "e.l.-"
+        translations:
+            fr: |-
+                entreprendre une action irréaliste
+            en: |-
+                undertake an impractical act
+    -   ieml: "u.s.-"
+        translations:
+            fr: |-
+                défigurer | rendre illisible
+            en: |-
+                disfigure | deface
+    -   ieml: "u.b.-"
+        translations:
+            fr: |-
+                soliloquer
+            en: |-
+                soliloquize
+    -   ieml: "u.t.-"
+        translations:
+            fr: |-
+                contrefaire | faire un faux
+            en: |-
+                counterfeit | forge
+    -   ieml: "u.k.-"
+        translations:
+            fr: |-
+                parler jargon
+            en: |-
+                use jargon
+    -   ieml: "u.m.-"
+        translations:
+            fr: |-
+                manipuler les émotions
+            en: |-
+                manipulate emotions
+    -   ieml: "u.n.-"
+        translations:
+            fr: |-
+                se réfugier dans l'anonymat | présenter une fausse identité
+            en: |-
+                take refuge in anonymity | faking an identity
+    -   ieml: "u.d.-"
+        translations:
+            fr: |-
+                manquer de précision
+            en: |-
+                lack precision
+    -   ieml: "u.f.-"
+        translations:
+            fr: |-
+                fuir ses sensations | anesthésier
+            en: |-
+                shun one's sensations | anesthetize
+    -   ieml: "u.l.-"
+        translations:
+            fr: |-
+                salir | empoisonner
+            en: |-
+                soil | poison
+    -   ieml: "a.s.-"
+        translations:
+            fr: |-
+                prendre à  la lettre
+            en: |-
+                interpret literally
+    -   ieml: "a.b.-"
+        translations:
+            fr: |-
+                interrompre la communication
+            en: |-
+                interrupt the communication
+    -   ieml: "a.t.-"
+        translations:
+            fr: |-
+                imiter | plagier
+            en: |-
+                imitate | plagiarize
+    -   ieml: "a.k.-"
+        translations:
+            fr: |-
+                attiser le conflit
+            en: |-
+                stir up conflict
+    -   ieml: "a.m.-"
+        translations:
+            fr: |-
+                abandonner un projet | une personne
+            en: |-
+                give up | forsake
+    -   ieml: "a.n.-"
+        translations:
+            fr: |-
+                corrompre
+            en: |-
+                corrupt
+    -   ieml: "a.d.-"
+        translations:
+            fr: |-
+                être superficiel
+            en: |-
+                be superficial
+    -   ieml: "a.f.-"
+        translations:
+            fr: |-
+                agresser physiquement
+            en: |-
+                physically assault
+    -   ieml: "a.l.-"
+        translations:
+            fr: |-
+                transgresser
+            en: |-
+                transgress
+    -   ieml: "i.s.-"
+        translations:
+            fr: |-
+                bloquer les interfaces
+            en: |-
+                block interfaces
+    -   ieml: "i.b.-"
+        translations:
+            fr: |-
+                interrompre la transmission
+            en: |-
+                cut off transmission
+    -   ieml: "i.t.-"
+        translations:
+            fr: |-
+                briser, fracasser, détruire, faire des dégâts
+            en: |-
+                break, smash, destroy, provoque dammage
+    -   ieml: "i.k.-"
+        translations:
+            fr: |-
+                voler quelque chose
+            en: |-
+                steal
+    -   ieml: "i.m.-"
+        translations:
+            fr: |-
+                utiliser des armes
+            en: |-
+                use weapons
+    -   ieml: "i.n.-"
+        translations:
+            fr: |-
+                provoquer un accident
+            en: |-
+                provoke an accident
+    -   ieml: "i.d.-"
+        translations:
+            fr: |-
+                dérégler | détraquer un mécanisme
+            en: |-
+                break down | wreck a mechanism
+    -   ieml: "i.f.-"
+        translations:
+            fr: |-
+                être malade | blessé
+            en: |-
+                be sick | injured
+    -   ieml: "i.l.-"
+        translations:
+            fr: |-
+                tomber dans un piège
+            en: |-
+                be caught in a trap
+    -   ieml: "s.y.-"
+        translations:
+            fr: |-
+                connaissance organisée
+            en: |-
+                organized knowledge
+    -   ieml: "s.o.-"
+        translations:
+            fr: |-
+                souci de la pensée
+            en: |-
+                concern for thought
+    -   ieml: "s.e.-"
+        translations:
+            fr: |-
+                maîtrise des codes, grammaire au sens étroit
+            en: |-
+                mastery of codes, grammar in the narrow sense
+    -   ieml: "s.u.-"
+        translations:
+            fr: |-
+                image, signe analogique, représentation
+            en: |-
+                image, analog sign, representation
+        comments:
+            fr: |-
+                L'image peut être visuelle, auditive, olfactive, tactile, etc. Ce qui la distingue n'est pas sa modalité sensorielle mais le type de relation – analogique, iconique ou diagrammatique – qu'elle entretient avec ce qu'elle représente. Le principal rôle de l'image est de soutenir l'activité de pensée en offrant un modèle ou une représentation d'un système de relations complexes. Mais l'image n'est pas seulement signe de quelque chose, c'est aussi un type de dynamique interne au signe. Ses parties se présentent alternativement comme des figures tandis que le reste passe dans le fond, comme lorsque l'on observe les traits d'un visage, quand on écoute les voix distinctes des instruments dans un concert ou que l'on goûte un vin. L'image vivante surgit de cette circulation des parties entre rôle de figure et rôle de fond, de la résonance entre un tout impossible à saisir sans analyse et des détails qui ne prennent sens que sur l'arrière plan d'une totalité fuyante.
+            en: |-
+                The image can be visual, auditory, olfactory, tactile, etc. What distinguishes it is not its sensory modality but the type of relationship - analog, iconic or diagrammatic - it has with what it represents. The main role of the image is to support thought activity by providing a model or representation of a system of complex relationships. But the image is not only a sign of something, it is also a type of dynamics internal to the sign. Its parts appear alternately as figures while the rest pass through the background, as when you observe the features of a face, when you listen to the distinct voices of the instruments in a concert or when you taste a wine. The living image emerges from this circulation of the parts between the role of figure and the role of background, from the resonance between a whole impossible to grasp without analysis and details that only make sense in the background of a fleeting whole.
+    -   ieml: "s.a.-"
+        translations:
+            fr: |-
+                interprète
+            en: |-
+                interpreter
+        comments:
+            fr: |-
+                L'interprète navigue entre plusieurs univers de sens, voyage entre les cultures, traduit une langue dans une autre. Il indique la signification des oracles et des événements incompréhensibles. Responsable de l'adaptation et de la création du sens, il décrypte le mystère du réel.
+            en: |-
+                The interpreter navigates between several worlds of meaning, travels between cultures, translates from one language into another. He reveals the meaning of oracles and incomprehensible events. Responsible for the adaptation and creation of meaning, he deciphers the mystery of reality.
+    -   ieml: "s.i.-"
+        translations:
+            fr: |-
+                interface | tech. de traduction
+            en: |-
+                interface | translation tech.
+        comments:
+            fr: |-
+                L'interface convertit et traduit. Le moulin et la roue transforment le mouvement rectiligne en mouvement circulaire. Le moteur métamorphose la chaleur en mouvement. Quant aux interfaces électroniques et informatiques elles organisent le passage d'un type de codage à l'autre.
+            en: |-
+                The interface converts and translates. The mill and the wheel transform the rectilinear movement into a circular movement. The engine transforms heat into motion. As for the electronic and computer interfaces, they organize the transition from one type of coding to another.
+    -   ieml: "b.y.-"
+        translations:
+            fr: |-
+                intelligence formelle
+            en: |-
+                formal intelligence
+    -   ieml: "b.o.-"
+        translations:
+            fr: |-
+                goût du langage
+            en: |-
+                taste for language
+    -   ieml: "b.e.-"
+        translations:
+            fr: |-
+                capacité de raisonner, dialectique au sens étroit
+            en: |-
+                reasoning ability, dialectic in the narrow sense
+    -   ieml: "b.u.-"
+        translations:
+            fr: |-
+                parole | signe linguistique
+            en: |-
+                speech | linguistic sign
+        comments:
+            fr: |-
+                La parole s'entend comme expression concrète d'un système de signes abstrait, performance effective qui actualise une compétence linguistique. La parole est un signe adressé à quelqu'un. Elle demande l'écoute par l'autre et provoque réflexivement l'écoute de soi, en ce moment où le signe proféré s'intériorise et prend sens pour un être.
+            en: |-
+                Speech is understood as the concrete expression of a system of abstract signs, an effective performance that updates linguistic competence. The word is a sign addressed to someone. It asks for listening by the other and provokes reflexively listening to oneself, at this moment when the sign uttered becomes internalized and takes on meaning for a being.
+    -   ieml: "b.a.-"
+        translations:
+            fr: |-
+                conteur
+            en: |-
+                storyteller
+        comments:
+            fr: |-
+                Maître de la parole et du récit, griot, barde, aède, messager, annonceur, le conteur engendre la littérature et les rôles de communication.
+            en: |-
+                Master of speech and storytelling, griot, bard, bard, elder, messenger, announcer, the storyteller generates literature and communication roles.
+    -   ieml: "b.i.-"
+        translations:
+            fr: |-
+                médium | technique de transmission
+            en: |-
+                medium | transmission technique
+        comments:
+            fr: |-
+                La notion de médium recouvre les supports physiques des signes et les environnements matériels de la communication. Voici le vecteur technique du langage. Le phare et le sémaphore, la corne de brume et l'instrument de musique, la page et l'écran, le haut parleur et le micro sont des médias. Internet et la réalité augmentée, des hypermédias.
+            en: |-
+                The notion of medium covers the physical supports of signs and the material environments of communication. This is the technical vector of language. The headlight and semaphore, the foghorn and musical instrument, the page and screen, the loudspeaker and the microphone are media. Internet and augmented reality, hypermedia.
+    -   ieml: "t.y.-"
+        translations:
+            fr: |-
+                gestion de la mémoire, mnémotechnique
+            en: |-
+                memory management, mnemonics
+    -   ieml: "t.o.-"
+        translations:
+            fr: |-
+                moment opportun | occasion, évolution, valeur du temps
+            en: |-
+                right moment | good timing, evolution, value of time
+    -   ieml: "t.e.-"
+        translations:
+            fr: |-
+                capacité de convaincre, rhétorique au sens étroit
+            en: |-
+                ability to convince, rhetoric in a narrow sense
+    -   ieml: "t.u.-"
+        translations:
+            fr: |-
+                marque | signe durable
+            en: |-
+                mark | enduring sign
+        comments:
+            fr: |-
+                Lorsqu'un signe s'implique ou s'inscrit dans une chose, il joue le rôle d'une marque. A partir de l'encoche ou de la gravure élémentaire se complexifient des fonctions de résistance, d'irréversibilité et de conservation. La marque n'indique le passage du temps qu'en lui échappant : c'est le rôle mémoriel de l'écriture, du code et de la comptabilité.
+            en: |-
+                hen a sign gets involved or is part of something, it plays the role of a mark. From the notch or elementary engraving, resistance, irreversibility and conservation functions become more complex. The mark indicates the passage of time only by escaping it: it is the memorable role of writing, code and accounting.
+    -   ieml: "t.a.-"
+        translations:
+            fr: |-
+                scribe
+            en: |-
+                scribe
+        comments:
+            fr: |-
+                Expert de la marque et de la mémoire, le scribe s'occupe de l'écriture, des archives et de la comptabilité. Il engendre notamment le fonctionnaire, le notaire et le banquier.
+            en: |-
+                An expert in mark and memory, the scribe takes care of writing, archives and accounting. It includes the civil servant, the notary and the banker.
+    -   ieml: "t.i.-"
+        translations:
+            fr: |-
+                contenant | technique de conservation
+            en: |-
+                container | conservation technique
+        comments:
+            fr: |-
+                Equivalent matériel de la mémoire, le contenant empêche l'écoulement des liquides et des grains. L'emballage préserve toutes sortes de biens contre la dégradation ou l'usure. Sacs et bouteilles, amphores et gourdes aident le transport et l'entreposage. Enveloppe, couverture, vêtement et revêtement, le contenant protège aussi bien les signes que les gens et les choses.
+            en: |-
+                A material equivalent of memory, the container prevents the flow of liquids and grains. Packaging protects all kinds of goods against damage or wear and tear. Bags and flasks, amphoras and bottles help with transportation and storage. Wrapping, blanket, clothing and coating, the container protects signs as well as people and things.
+    -   ieml: "k.y.-"
+        translations:
+            fr: |-
+                intelligence relationnelle
+            en: |-
+                relational intelligence
+    -   ieml: "k.o.-"
+        translations:
+            fr: |-
+                désir de lien social
+            en: |-
+                desire for social bond
+    -   ieml: "k.e.-"
+        translations:
+            fr: |-
+                maîtrise de soi
+            en: |-
+                self-control
+    -   ieml: "k.u.-"
+        translations:
+            fr: |-
+                symbole | signe conventionnel
+            en: |-
+                symbol | conventional sign
+        comments:
+            fr: |-
+                Le symbole était chez les anciens Grecs un tesson de poterie cassé en deux dont les fragments devaient coïncider lorsque leurs porteurs se rencontraient. Il s&#x27;agit donc d&#x27;un signe de reconnaissance, par définition conventionnel, qui participe activement à nous mettre d&#x27;accord. Qu&#x27;il soit linguistique, musical, religieux, vestimentaire ou autre, le symbole fonctionne comme médiateur du lien social. Centrifuge, il se partage entre les membres d&#x27;une communauté ; centripète, il les unit.
+            en: |-
+                The symbol was for the ancient Greeks a shard of broken pottery split in two, the fragments of which had to coincide when their bearers met. It is therefore a sign of recognition, by definition conventional, which actively participates in reaching an agreement. Whether linguistic, musical, religious, clothing or other, the symbol functions as a mediator of social connection. Centrifugal, it is shared among the members of a community; centripetal, it unites them.
+    -   ieml: "k.a.-"
+        translations:
+            fr: |-
+                chef, roi, président, directeur
+            en: |-
+                chief, king, head of state, president, director
+        comments:
+            fr: |-
+                Le chef – avec les rois, reines, meneurs, directeurs et présidents qui en découlent – représente l'unité sociale. Il maintien l'accord dans le groupe qu'il dirige et fait système avec la cité (et donc les citoyens) qu'il rassemble. Au-delà de la politique, ce rôle d'unification harmonique peut être tenu par des musiciens, chanteurs, acteurs ou toute autre figure capable de polariser un public.
+            en: |-
+                The chief - with the kings, queens, leaders, directors and presidents who follow - represents the social unit. He maintains the agreement in the group he leads and works in a system with the city (and therefore the citizens) he brings together. Beyond politics, this role of harmonic unification can be played by musicians, singers, actors or any other figure capable of polarizing an audience.
+    -   ieml: "k.i.-"
+        translations:
+            fr: |-
+                don | technique d'échange
+            en: |-
+                gift | technique of exchange
+        comments:
+            fr: |-
+                En tissant les rapports entre les personnes et les groupes, le don unifie la société. Prototype de la réciprocité et de l'échange, il fournit l'un des principaux supports matériels de la relation sociale. Le don se diversifie en monnaie et marchandise, en cadeau et en fête.
+            en: |-
+                By weaving relationships between individuals and groups, the gift unifies society. A prototype of reciprocity and exchange, it provides one of the main material supports of the social relationship. The gift is diversified into money and merchandise, into gifts and festivals.
+    -   ieml: "m.y.-"
+        translations:
+            fr: |-
+                intelligence émotionnelle
+            en: |-
+                emotional intelligence
+    -   ieml: "m.o.-"
+        translations:
+            fr: |-
+                empathie
+            en: |-
+                empathy
+    -   ieml: "m.e.-"
+        translations:
+            fr: |-
+                capacité de négocier
+            en: |-
+                negotiation ability
+    -   ieml: "m.u.-"
+        translations:
+            fr: |-
+                symptôme | signe d'affect
+            en: |-
+                symptom | sign of affect
+        comments:
+            fr: |-
+                Les symptômes manifestent les émotions et les désirs dans les transformations de l&#x27;organisme : rires et pleurs, rougeurs et pâleurs, érections et sécrétions, langage – inconscient ou calculé – du geste et de l&#x27;attitude. Le comédien joue sur la gamme de ces signes affectifs. Le médecin reconnaît dans les maladies psychosomatiques les signes d&#x27;affects refoulés. Parmi les foules échauffées, les signes de la panique, de la fureur ou de l&#x27;adoration se propagent comme des épidémies. Et les émoticônes se font virales dans les médias sociaux.
+            en: |-
+                Symptoms manifest emotions and desires in the transformations of the body: laughter and tears, redness and pallor, erections and secretions, language - unconscious or calculated - of gesture and attitude. The actor plays on the range of these emotional signs. The doctor recognizes in psychosomatic illnesses the signs of repressed affects. Among the heated crowds, signs of panic, fury or adoration spread like epidemics. And emoticons become viral in social media.
+    -   ieml: "m.a.-"
+        translations:
+            fr: |-
+                parent
+            en: |-
+                parent
+        comments:
+            fr: |-
+                Le parent joue le rôle de vis-à-vis affectif : le père et la mère, le frère et la soeur, l'amie et l'amant, l'époux et l'épouse, les familiers et les voisins.
+            en: |-
+                The parent plays the role of emotional partner: father and mother, brother and sister, friend and lover, husband and wife, family members and neighbours.
+    -   ieml: "m.i.-"
+        translations:
+            fr: |-
+                jouet | technique de séduction
+            en: |-
+                toy | seduction technique
+        comments:
+            fr: |-
+                Le jouet porte l'émotion, favorise la projection affective et l'attachement émotionnel. Il génère les appâts, les fétiches, les bijoux et les parfums. Il ouvre le grand espace libre des jeux.
+            en: |-
+                The toy carries emotion, promotes affective projection and sentimental attachment. It generates bait, fetishes, jewellery and perfumes. It opens the free space of the games.
+    -   ieml: "n.y.-"
+        translations:
+            fr: |-
+                connaissance des principes
+            en: |-
+                knowledge of principles
+    -   ieml: "n.o.-"
+        translations:
+            fr: |-
+                volonté de cosmos
+            en: |-
+                will for cosmos
+    -   ieml: "n.e.-"
+        translations:
+            fr: |-
+                capacité de diriger
+            en: |-
+                leadership
+    -   ieml: "n.u.-"
+        translations:
+            fr: |-
+                nom | place symbolique
+            en: |-
+                name | symbolic place
+        comments:
+            fr: |-
+                En nommant les plantes et les animaux, Adam s&#x27;approprie la création. Le nom transforme l&#x27;univers matériel – la chose – en monde habité (par l&#x27;être). Ce n&#x27;est pas là l&#x27;opposé du verbe mais le signe qui ouvre à la maîtrise cognitive de l&#x27;environnement : une prise de l&#x27;esprit sur la matière. En ce sens, le vocabulaire d&#x27;un individu ou d&#x27;une communauté fonctionne comme un jeu d&#x27;étiquettes logiques, un trousseau de clés mentales qui révèle simultanément une architecture subjective et un monde objectif.
+            en: |-
+                By naming plants and animals, Adam appropriates creation. The name transforms the material universe - the thing - into an world inhabited by the being. This is not the opposite of the verb but the sign that opens to the cognitive control of the environment: a grasp of the mind on matter. In this sense, an individual's or community's vocabulary functions as a set of logical labels, a bundle of mental keys that simultaneously reveals a subjective architecture and an objective world.
+    -   ieml: "n.a.-"
+        translations:
+            fr: |-
+                juge
+            en: |-
+                judge
+        comments:
+            fr: |-
+                Le juge applique la loi ou la coutume – en principe de manière impartiale – et fait donc régner dans la société l'équivalent d'un ordre cosmique. Quant au juste, il a intériorisé la loi, et parfois même une loi plus exigeante que celle dont la société se contente. Certaines traditions spirituelles ne nous apprennent-elles pas que les justes cachés soutiennent le monde ?
+            en: |-
+                The judge applies the law or custom - in principle impartially - and thus ensures that the equivalent of a cosmic order prevails in society. As for the righteous, he has internalized the law, and sometimes even a law more demanding than the one with which society is content. Do not some spiritual traditions teach us that the hidden righteous support the world?
+    -   ieml: "n.i.-"
+        translations:
+            fr: |-
+                feu | technique de transformation
+            en: |-
+                fire | transformation technique
+        comments:
+            fr: |-
+                La maîtrise du feu est la première condition de l'émergence d'un monde humain. Le feu est à la base de techniques de transformation de la matière comme la cuisine, la poterie, la métallurgie, la chimie et de nombreuses techniques de production d'énergie.
+            en: |-
+                Fire mastery is the first condition for the emergence of a human world. Fire is the basis for material transformation techniques such as cooking, pottery, metallurgy, chemistry and many energy production techniques.
+    -   ieml: "d.y.-"
+        translations:
+            fr: |-
+                connaissance factuelle
+            en: |-
+                knowledge of facts
+    -   ieml: "d.o.-"
+        translations:
+            fr: |-
+                valorisation de la vérité
+            en: |-
+                valuation of truth
+    -   ieml: "d.e.-"
+        translations:
+            fr: |-
+                habileté sensori-motrice
+            en: |-
+                sensorimotor ability
+    -   ieml: "d.u.-"
+        translations:
+            fr: |-
+                pointeur | signe indiciel
+            en: |-
+                pointer | indexation sign
+        comments:
+            fr: |-
+                Le pointeur désigne, montre, indique ; il oriente l'attention. Ainsi des index, flèches ou panneaux. Dans la langue, les deïctiques (ici, là-bas, maintenant, je, celles-ci...) se contentent de pointer en situation sans que rien de précis ne subsiste dans les énoncés hors contexte. Une proposition (un signe) est vraie si elle correspond à son objet (un état de chose). La vérité suppose donc une fonction sémiotique de pointage vers le référent, une capacité des signes à envelopper les choses avant que la marchandise logique ne soit pesée sur les balances de l'exactitude.
+            en: |-
+                The pointer designates, shows, indicates; it directs attention. For example, indexes, arrows or signboards. In language, deictics (here, there, now, I, these...) simply point to situations without anything specific remaining in the statements out of context. A statement (a sign) is true if it corresponds to its object (a state of things). Truth therefore implies a semiotic function of pointing to the referent, an ability of signs to wrap things before the logical commodity is weighed on the scales of exactitude.
+    -   ieml: "d.a.-"
+        translations:
+            fr: |-
+                chercheur
+            en: |-
+                researcher
+        comments:
+            fr: |-
+                Le chercheur est responsable de la vérité. Il garantit l'exactitude du savoir reçu et pour cela le questionne ou le met en doute. Il s'incarne notamment en étudiant, car tout apprentissage est une recherche, ou en témoin (martyr, en Grec), qui met en jeu son identité au service d'une vérité qui le dépasse.
+            en: |-
+                The researcher is responsible for the truth. He guarantees the accuracy of traditional knowledge and questions or challenges it. It is incarnated in particular by a student (because all learning is a research) or a witness (martyr, in Greek), who puts his identity at stake in the service of a truth that exceeds him.
+    -   ieml: "d.i.-"
+        translations:
+            fr: |-
+                mètre | technique de mesure
+            en: |-
+                meter | technique of measurement
+        comments:
+            fr: |-
+                De l'humble mètre jusqu'aux réseaux métrologiques complexes du XXIe siècle, les instruments de mesure et d'observation sont au service de l'exactitude et du calcul. Cartes et calendriers, chronomètres et balances, normes et standards coordonnent les activités.
+            en: |-
+                From the humble meter to the complex metrological networks of the 21st century, measuring and observation instruments are at the forefront of accuracy and calculation. Maps and calendars, chronometers and scales, norms and standards coordinate activities.
+    -   ieml: "f.y.-"
+        translations:
+            fr: |-
+                intelligence du corps
+            en: |-
+                body intelligence
+    -   ieml: "f.o.-"
+        translations:
+            fr: |-
+                appréciation du corps | de la vie
+            en: |-
+                appreciation of the body | life
+    -   ieml: "f.e.-"
+        translations:
+            fr: |-
+                habileté technique
+            en: |-
+                technical ability
+    -   ieml: "f.u.-"
+        translations:
+            fr: |-
+                sensation | signe phénomenal
+            en: |-
+                sensation | phenomenal sign
+        comments:
+            fr: |-
+                Les sensations sont simplement les signes envisagés sous l'angle de la perception. Selon les modalités, ce sont des formes et des couleurs, des sons graves ou aigus, des mélanges de saveurs, la singularité des parfums, le doux et le dur, le lisse et le rugueux, le chaud et le froid, le plaisir et la douleur, les manifestations sensorielles qui accompagnent les mouvements volontaires ou involontaires et les micro-perceptions qui montent des organes.
+            en: |-
+                Sensations are simply the signs considered from the perspective of perception. Depending on the modalities, they are shapes and colours, low or high-pitched sounds, mixtures of tastes, singularity of fragrances, soft and hard, smooth and rough, hot and cold, pleasure and pain, sensory manifestations that accompany voluntary or involuntary movements and micro-perceptions that rise from the organs.
+    -   ieml: "f.a.-"
+        translations:
+            fr: |-
+                guérisseur
+            en: |-
+                healer
+        comments:
+            fr: |-
+                Le rôle du guérisseur, soignant ou médecin est évidemment de maintenir la vie en santé. Ce rôle se diversifie en masseur, infirmier ou pharmacienne mais aussi, par exemple, en pourvoyeur ou en cuisinière puisque la nourriture est indispensable à la survie et que la diète soutient la santé.
+            en: |-
+                The role of the healer, caregiver or doctor is obviously to maintain a healthy life. This role diversifies into a masseur, nurse or pharmacist, but also, for example, a provider or cook, since food is essential for survival and the diet supports health.
+    -   ieml: "f.i.-"
+        translations:
+            fr: |-
+                organe | technique de soin
+            en: |-
+                organ | caring technique
+        comments:
+            fr: |-
+                L'organe représente une vie fonctionnelle et corporelle, qui peut être augmenté par des prothèses et modifiée par des drogues. Il se distribue en grands systèmes (immunitaire, nerveux, circulatoire, digestif, etc.) et culmine dans un organisme, hôte d'un écosystème externe et siège d'un écosystème interne.
+            en: |-
+                The organ represents a functional and bodily life, which can be increased by prostheses and modified by drugs. It is distributed into major systems (immune, nervous, circulatory, digestive, etc.) and culminates in an organism, host of an external ecosystem and home of an internal ecosystem.
+    -   ieml: "l.y.-"
+        translations:
+            fr: |-
+                conscience des limites
+            en: |-
+                awareness of limits
+    -   ieml: "l.o.-"
+        translations:
+            fr: |-
+                organisation | aménagement de l'espace
+            en: |-
+                space organization | fitting out
+    -   ieml: "l.e.-"
+        translations:
+            fr: |-
+                compétence en ingénierie
+            en: |-
+                engineering competence
+    -   ieml: "l.u.-"
+        translations:
+            fr: |-
+                trace | signe matériel
+            en: |-
+                trace | material sign
+        comments:
+            fr: |-
+                La trace révèle dans la matière la signature d'une cause mouvante : empreintes, vibrations, modulations, fragments, sillages, gouttes, odeurs. Alors que la marque – signe dans le temps – était faite exprès pour durer, la trace est souvent involontaire et peut être transitoire, comme la course d'un enfant qui s'imprime un instant sur la neige ou le sable. C'est le signe dans l'espace. Quoique résultant du contact fortuit des choses ou de la causalité naturelle elle n'en signale pas avec moins de certitude l'existence de son objet : la fumée dénonce le feu.
+            en: |-
+                The trace reveals in the matter the signature of a moving cause: prints, vibrations, modulations, fragments, wakes, drops, smells. While the mark - a sign in time - was made on purpose to last, the trace is often unintentional and can be transient, like a child's run that prints itself for a moment on snow or sand. It's the sign in space. Although resulting from the fortuitous contact of things or natural causality, it does not signal with less certainty the existence of its object: smoke denounces fire.
+    -   ieml: "l.a.-"
+        translations:
+            fr: |-
+                gardien
+            en: |-
+                guardian
+        comments:
+            fr: |-
+                Le gardien veille sur l'espace ou le territoire du groupe. Protecteur des lieux, il engendre le guerrier, le militaire et le policier mais son rôle ne s'arrête pas là : il sculpte les paysages, édifie les bâtiments, construit les routes et les ponts.
+            en: |-
+                The guardian watches over the space or territory of the group. Protector of the place, he generates the warrior, the soldier and the policeman but his role does not stop there: he sculpts the landscapes, erects the buildings, constructs the roads and the bridges.
+    -   ieml: "l.i.-"
+        translations:
+            fr: |-
+                noeud | technique de connection
+            en: |-
+                knot | connection technique
+        comments:
+            fr: |-
+                Le noeud figure les techniques de connexion : cordes et chaînes, aiguilles et fils, trames et textiles. Il prend dans ses filets tout ce qui sert à conjoindre et à séparer les choses dans l'espace physique : outils de découpe et de collage, lames et glues, joints et mortiers, murs et portes, routes et ponts.
+            en: |-
+                The knot represents the connection techniques: ropes and chains, needles and threads, wefts and textiles. He takes in his nets everything that serves to join and separate things in physical space: cutting and sticking tools, blades and glues, joints and mortars, walls and doors, roads and bridges.
+Paradigms:
+    -   ieml: "O:S:.s.-"
+        translations:
+            fr: |-
+                miner la pensée abstraitement
+            en: |-
+                undermine thought in an abstract way
+    -   ieml: "O:S:.b.-"
+        translations:
+            fr: |-
+                défaire le langage abstraitement
+            en: |-
+                undo language in an abstract way
+    -   ieml: "O:S:.t.-"
+        translations:
+            fr: |-
+                détruire la mémoire abstraitement
+            en: |-
+                destroy memory in an abstract way
+    -   ieml: "O:S:.k.-"
+        translations:
+            fr: |-
+                défaire la société abstaritement
+            en: |-
+                undo society in a n abstract way
+    -   ieml: "O:S:.m.-"
+        translations:
+            fr: |-
+                défaire un lien affectif abstraitement
+            en: |-
+                undo an affective bond in an abstract way
+    -   ieml: "O:S:.n.-"
+        translations:
+            fr: |-
+                défaire un monde abstraitement
+            en: |-
+                undo a world in an abstract way
+    -   ieml: "O:S:.d.-"
+        translations:
+            fr: |-
+                miner la vérité abstraitement
+            en: |-
+                undermine truth in an abstract way
+    -   ieml: "O:S:.f.-"
+        translations:
+            fr: |-
+                affaiblir la vie abstraitement
+            en: |-
+                weaken life in an abstract way
+    -   ieml: "O:S:.l.-"
+        translations:
+            fr: |-
+                détruire l'espace abstraitement
+            en: |-
+                destroy space in an abstract way
+    -   ieml: "O:B:.s.-"
+        translations:
+            fr: |-
+                miner la pensée existentiellement
+            en: |-
+                undermine thought in an existential way
+    -   ieml: "O:B:.b.-"
+        translations:
+            fr: |-
+                défaire le langage existentiellement
+            en: |-
+                undo language in an existential way
+    -   ieml: "O:B:.t.-"
+        translations:
+            fr: |-
+                détruire la mémoire existentiellement
+            en: |-
+                destroy memory in an existential way
+    -   ieml: "O:B:.k.-"
+        translations:
+            fr: |-
+                défaire la société existentiellement
+            en: |-
+                undo society in an existential way
+    -   ieml: "O:B:.m.-"
+        translations:
+            fr: |-
+                défaire un lien affectif existentiellement
+            en: |-
+                undo an affective bond in an existential way
+    -   ieml: "O:B:.n.-"
+        translations:
+            fr: |-
+                défaire un monde existentiellement
+            en: |-
+                undo a world existentially
+    -   ieml: "O:B:.d.-"
+        translations:
+            fr: |-
+                miner la vérité existentiellement
+            en: |-
+                undermine truth in an existential way
+    -   ieml: "O:B:.f.-"
+        translations:
+            fr: |-
+                affaiblir la vie existentiellement
+            en: |-
+                weaken life existentially
+    -   ieml: "O:B:.l.-"
+        translations:
+            fr: |-
+                détruire l'espace existentiellement
+            en: |-
+                destroy space in an existential way
+    -   ieml: "O:T:.s.-"
+        translations:
+            fr: |-
+                miner la pensée concrètement
+            en: |-
+                undermine thought in a concrete way
+    -   ieml: "O:T:.b.-"
+        translations:
+            fr: |-
+                défaire le langage concrètement
+            en: |-
+                undo language in a concrete way
+    -   ieml: "O:T:.t.-"
+        translations:
+            fr: |-
+                détruire la mémoire concrètement
+            en: |-
+                destroy memory in a concrete way
+    -   ieml: "O:T:.k.-"
+        translations:
+            fr: |-
+                défaire la société concrètement
+            en: |-
+                undo society in a concrete way
+    -   ieml: "O:T:.m.-"
+        translations:
+            fr: |-
+                défaire un lien affectif concrètement
+            en: |-
+                undo an affective bond in a concrete way
+    -   ieml: "O:T:.n.-"
+        translations:
+            fr: |-
+                défaire un monde concrètement
+            en: |-
+                undo a world in a concrete way
+    -   ieml: "O:T:.d.-"
+        translations:
+            fr: |-
+                miner la vérité concrètement
+            en: |-
+                undermine truth in a concrete way
+    -   ieml: "O:T:.f.-"
+        translations:
+            fr: |-
+                affaiblir la vie concrètement
+            en: |-
+                weaken life in a concrete way
+    -   ieml: "O:T:.l.-"
+        translations:
+            fr: |-
+                détruire l'espace concrètement
+            en: |-
+                destroy space in a concrete way
+    -   ieml: "s.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de pensée
+            en: |-
+                abstract thought factors
+    -   ieml: "s.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels de pensée
+            en: |-
+                existential thought factors
+    -   ieml: "s.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets de pensée
+            en: |-
+                concrete thought factors
+    -   ieml: "b.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de langage
+            en: |-
+                abstract language factors
+    -   ieml: "b.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels de langage
+            en: |-
+                existential language factors
+    -   ieml: "b.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets de langage
+            en: |-
+                concrete language factors
+    -   ieml: "t.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de mémoire
+            en: |-
+                abstract memory factors
+    -   ieml: "t.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels de mémoire
+            en: |-
+                existential memory factors
+    -   ieml: "t.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets de mémoire
+            en: |-
+                concrete memory factors
+    -   ieml: "k.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de société
+            en: |-
+                abstract society factors
+    -   ieml: "k.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels de société
+            en: |-
+                existential society factors
+    -   ieml: "k.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets de société
+            en: |-
+                concrete society factors
+    -   ieml: "m.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de lien affectif
+            en: |-
+                abstract factors of an affective bond
+    -   ieml: "m.O:B:.-"
+        translations:
+            fr: |-
+                production existentielle de lien affectif
+            en: |-
+                existential production of an affective bond
+    -   ieml: "m.O:T:.-"
+        translations:
+            fr: |-
+                production concrète de lien affectif
+            en: |-
+                concrete production of an affective bond
+    -   ieml: "n.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de monde
+            en: |-
+                abstract world factors
+    -   ieml: "n.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels de monde
+            en: |-
+                existential world factors
+    -   ieml: "n.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets de monde
+            en: |-
+                concrete world factors
+    -   ieml: "d.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de vérité
+            en: |-
+                abstract factors of truth
+    -   ieml: "d.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels de vérité
+            en: |-
+                existential factors of truth
+    -   ieml: "d.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets de vérité
+            en: |-
+                concrete factors of truth
+    -   ieml: "f.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits de vie
+            en: |-
+                abstract life factors
+    -   ieml: "f.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels de vie
+            en: |-
+                existential life factors
+    -   ieml: "f.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets de vie
+            en: |-
+                concrete life factors
+    -   ieml: "l.O:S:.-"
+        translations:
+            fr: |-
+                facteurs abstraits d'espace
+            en: |-
+                abstract space factors
+    -   ieml: "l.O:B:.-"
+        translations:
+            fr: |-
+                facteurs existentiels d'espace
+            en: |-
+                existential space factors
+    -   ieml: "l.O:T:.-"
+        translations:
+            fr: |-
+                facteurs concrets d'espace
+            en: |-
+                concrete space factors
+    -   ieml: "y.S:M:.-"
+        translations:
+            fr: |-
+                ignorer le signe
+            en: |-
+                ignore sign
+    -   ieml: "y.B:M:.-"
+        translations:
+            fr: |-
+                ignorer l'être
+            en: |-
+                ignore being
+    -   ieml: "y.T:M:.-"
+        translations:
+            fr: |-
+                ignorer la chose
+            en: |-
+                ignore thing
+    -   ieml: "y.M:S:.-"
+        translations:
+            fr: |-
+                montrer le signe de l'ignorance
+            en: |-
+                show the sign of ignorance
+    -   ieml: "y.M:B:.-"
+        translations:
+            fr: |-
+                montrer l'être de l'ignorance
+            en: |-
+                show the being of ignorance
+    -   ieml: "y.M:T:.-"
+        translations:
+            fr: |-
+                montrer la chose de l'ignorance
+            en: |-
+                show the thing of ignorance
+    -   ieml: "o.S:M:.-"
+        translations:
+            fr: |-
+                assombrir le signe
+            en: |-
+                darken the sign
+    -   ieml: "o.B:M:.-"
+        translations:
+            fr: |-
+                assombrir l'être
+            en: |-
+                darken the being
+    -   ieml: "o.T:M:.-"
+        translations:
+            fr: |-
+                assombrir la chose
+            en: |-
+                darken the thing
+    -   ieml: "o.M:S:.-"
+        translations:
+            fr: |-
+                montrer le signe de l'obscurité
+            en: |-
+                show the sign of darkness
+    -   ieml: "o.M:B:.-"
+        translations:
+            fr: |-
+                montrer l'être de l'obscurité
+            en: |-
+                show the being of darkness
+    -   ieml: "o.M:T:.-"
+        translations:
+            fr: |-
+                montrer la chose de l'obscurité
+            en: |-
+                show the thing of darkness
+    -   ieml: "e.S:M:.-"
+        translations:
+            fr: |-
+                manquer d'habiletés dans le trivium du signe
+            en: |-
+                lack skills in the trivium of the sign
+    -   ieml: "e.B:M:.-"
+        translations:
+            fr: |-
+                manquer d'habiletés dans le trivium de l'être
+            en: |-
+                lack skills in the trivium of the being
+    -   ieml: "e.T:M:.-"
+        translations:
+            fr: |-
+                manquer d'habileté dans le trivium de la chose
+            en: |-
+                lack skills in the trivium of the thing
+    -   ieml: "e.M:S:.-"
+        translations:
+            fr: |-
+                manquer d'habiletés grammaticales
+            en: |-
+                lack grammatical skills
+    -   ieml: "e.M:B:.-"
+        translations:
+            fr: |-
+                manquer d'habiletés dialectiques
+            en: |-
+                lack dialectical skills
+    -   ieml: "e.M:T:.-"
+        translations:
+            fr: |-
+                manquer d'habiletés rhétoriques
+            en: |-
+                lack rhetorical skills
+    -   ieml: "U:M:.s.-"
+        translations:
+            fr: |-
+                miner la pensée virtuellement
+            en: |-
+                undermine thought virtually
+    -   ieml: "U:M:.b.-"
+        translations:
+            fr: |-
+                défaire le langage virtuellement
+            en: |-
+                undo language virtually
+    -   ieml: "U:M:.t.-"
+        translations:
+            fr: |-
+                détruire la mémoire virtuellement
+            en: |-
+                destroy memory virtually
+    -   ieml: "U:M:.k.-"
+        translations:
+            fr: |-
+                défaire la société virtuellement
+            en: |-
+                undo society virtually
+    -   ieml: "U:M:.m.-"
+        translations:
+            fr: |-
+                défaire un lien affectif virtuellement
+            en: |-
+                undo an affective bon virtually
+    -   ieml: "U:M:.n.-"
+        translations:
+            fr: |-
+                défaire un monde virtuellement
+            en: |-
+                undo a world virtually
+    -   ieml: "U:M:.d.-"
+        translations:
+            fr: |-
+                miner la vérité virtuellement
+            en: |-
+                undermine truth virtually
+    -   ieml: "U:M:.f.-"
+        translations:
+            fr: |-
+                affaiblir la vie virtuellement
+            en: |-
+                weaken life virtually
+    -   ieml: "U:M:.l.-"
+        translations:
+            fr: |-
+                détruire l'espace virtuellement
+            en: |-
+                destroy space virtually
+    -   ieml: "u.S:M:.-"
+        translations:
+            fr: |-
+                détruire le signe de la signification
+            en: |-
+                destroy the sign of meaning
+    -   ieml: "u.B:M:.-"
+        translations:
+            fr: |-
+                détruire l'être de la signification
+            en: |-
+                destroy the being of meaning
+    -   ieml: "u.T:M:.-"
+        translations:
+            fr: |-
+                détruire la chose de la signification
+            en: |-
+                destroy the thing of meaning
+    -   ieml: "u.M:S:.-"
+        translations:
+            fr: |-
+                montrer le signe de la signification détruite
+            en: |-
+                show the sign of destroyed signification
+    -   ieml: "u.M:B:.-"
+        translations:
+            fr: |-
+                montrer l'être de la signification détruite
+            en: |-
+                show the being of destroyed meaning
+    -   ieml: "u.M:T:.-"
+        translations:
+            fr: |-
+                montrer la chose de la signification détruite
+            en: |-
+                show the thing of the destroyed meaning
+    -   ieml: "a.S:M:.-"
+        translations:
+            fr: |-
+                détruire le signe des relations sociales
+            en: |-
+                destroy the sign of social relations
+    -   ieml: "a.B:M:.-"
+        translations:
+            fr: |-
+                détruire l'être des relations sociales
+            en: |-
+                destroy the being of social relations
+    -   ieml: "a.T:M:.-"
+        translations:
+            fr: |-
+                détruire la chose des relations sociales
+            en: |-
+                destroy the thing of social relations
+    -   ieml: "a.M:S:.-"
+        translations:
+            fr: |-
+                montrer le signe des relations détruites
+            en: |-
+                show the sign of destroyed relationships
+    -   ieml: "a.M:B:.-"
+        translations:
+            fr: |-
+                montrer l'être des relations détruites
+            en: |-
+                show the being of destroyed relationships
+    -   ieml: "a.M:T:.-"
+        translations:
+            fr: |-
+                montrer la chose des relations détruites
+            en: |-
+                show the thing of destroyed relationship
+    -   ieml: "i.S:M:.-"
+        translations:
+            fr: |-
+                détruire le signe techniquement
+            en: |-
+                destroy the sign technically
+    -   ieml: "i.B:M:.-"
+        translations:
+            fr: |-
+                détruire l'être techniquement
+            en: |-
+                destroy the being technically
+    -   ieml: "i.T:M:.-"
+        translations:
+            fr: |-
+                détruire la chose techniquement
+            en: |-
+                destroy the thing technically
+    -   ieml: "i.M:S:.-"
+        translations:
+            fr: |-
+                montrer le signe de la destruction technique
+            en: |-
+                show the sign of technical destruction
+    -   ieml: "i.M:B:.-"
+        translations:
+            fr: |-
+                montrer l'être de la destruction technique
+            en: |-
+                show the being of technical destruction
+    -   ieml: "i.M:T:.-"
+        translations:
+            fr: |-
+                montrer la chose de la destruction technique
+            en: |-
+                show the thing of technical destruction
+    -   ieml: "A:M:.s.-"
+        translations:
+            fr: |-
+                miner la pensée actuellement
+            en: |-
+                undermine thought actually
+    -   ieml: "A:M:.b.-"
+        translations:
+            fr: |-
+                défaire le langage actuellement
+            en: |-
+                undo language actually
+    -   ieml: "A:M:.t.-"
+        translations:
+            fr: |-
+                détruire la mémoire actuellement
+            en: |-
+                destroy memory actually
+    -   ieml: "A:M:.k.-"
+        translations:
+            fr: |-
+                défaire la société actuellement
+            en: |-
+                undo society actually
+    -   ieml: "A:M:.m.-"
+        translations:
+            fr: |-
+                défaire un lien affectif actuellement
+            en: |-
+                undo an affective bond actually
+    -   ieml: "A:M:.n.-"
+        translations:
+            fr: |-
+                défaire un monde actuellement
+            en: |-
+                undo a world actually
+    -   ieml: "A:M:.d.-"
+        translations:
+            fr: |-
+                miner la vérité actuellement
+            en: |-
+                undermine truth actually
+    -   ieml: "A:M:.f.-"
+        translations:
+            fr: |-
+                affaiblir la vie actuellement
+            en: |-
+                weaken life actually
+    -   ieml: "A:M:.l.-"
+        translations:
+            fr: |-
+                détruire l'espace actuellement
+            en: |-
+                destroy space actually
+    -   ieml: "s.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de pensée
+            en: |-
+                virtual thought factors
+    -   ieml: "s.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de pensée
+            en: |-
+                actual thought factors
+    -   ieml: "b.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de langage
+            en: |-
+                virtual language factors
+    -   ieml: "b.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de langage
+            en: |-
+                actual language factors
+    -   ieml: "t.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de mémoire
+            en: |-
+                virtual memory factors
+    -   ieml: "t.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de mémoire
+            en: |-
+                actual memory factors
+    -   ieml: "S:M:.y.-"
+        translations:
+            fr: |-
+                connaissance par le signe
+            en: |-
+                knowing by sign
+    -   ieml: "S:M:.o.-"
+        translations:
+            fr: |-
+                désir du signe
+            en: |-
+                desiring the sign
+    -   ieml: "S:M:.e.-"
+        translations:
+            fr: |-
+                savoir faire portant sur les signes, trivium au sens étroit
+            en: |-
+                know how of the sign, trivium in the narrow sense
+    -   ieml: "S:M:.u.-"
+        translations:
+            fr: |-
+                signifie le signe
+            en: |-
+                signifying sign
+    -   ieml: "S:M:.a.-"
+        translations:
+            fr: |-
+                socialise par le signe
+            en: |-
+                socialize with sign
+    -   ieml: "S:M:.i.-"
+        translations:
+            fr: |-
+                signe en substance technique
+            en: |-
+                sign in technical substance
+    -   ieml: "k.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de société
+            en: |-
+                virtual society factors
+    -   ieml: "k.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de société
+            en: |-
+                actual society factors
+    -   ieml: "m.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de lien affectif
+            en: |-
+                virtual factors of affective bond
+    -   ieml: "m.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de lien affectif
+            en: |-
+                actual factors of affective bond
+    -   ieml: "n.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de monde
+            en: |-
+                virtual world factors
+    -   ieml: "n.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de monde
+            en: |-
+                actual world factors
+    -   ieml: "B:M:.y.-"
+        translations:
+            fr: |-
+                connaissance par l'être
+            en: |-
+                knowing by being
+    -   ieml: "B:M:.o.-"
+        translations:
+            fr: |-
+                désir de l'être
+            en: |-
+                desiring the being
+    -   ieml: "B:M:.e.-"
+        translations:
+            fr: |-
+                savoir faire portant sur les êtres
+            en: |-
+                expertise on beings
+    -   ieml: "B:M:.u.-"
+        translations:
+            fr: |-
+                signifie l'être
+            en: |-
+                signifying being
+    -   ieml: "B:M:.a.-"
+        translations:
+            fr: |-
+                socialise par l'être
+            en: |-
+                socialize with being
+    -   ieml: "B:M:.i.-"
+        translations:
+            fr: |-
+                être en substance technique
+            en: |-
+                being in technical substance
+    -   ieml: "d.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de vérité
+            en: |-
+                virtual truth factors
+    -   ieml: "d.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de vérité
+            en: |-
+                actual truth factors
+    -   ieml: "f.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels de vie
+            en: |-
+                virtual life factors
+    -   ieml: "f.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels de vie
+            en: |-
+                actual life factors
+    -   ieml: "l.U:M:.-"
+        translations:
+            fr: |-
+                facteurs virtuels d'espace
+            en: |-
+                virtual space factors
+    -   ieml: "l.A:M:.-"
+        translations:
+            fr: |-
+                facteurs actuels d'espace
+            en: |-
+                actual space factors
+    -   ieml: "T:M:.y.-"
+        translations:
+            fr: |-
+                connaissance par la chose
+            en: |-
+                knowing by thing
+    -   ieml: "T:M:.o.-"
+        translations:
+            fr: |-
+                désir de la chose
+            en: |-
+                dsering the thing
+    -   ieml: "T:M:.e.-"
+        translations:
+            fr: |-
+                savoir faire portant sur les choses
+            en: |-
+                know how of the thing
+    -   ieml: "T:M:.u.-"
+        translations:
+            fr: |-
+                signifie la chose
+            en: |-
+                signifying thing
+    -   ieml: "T:M:.a.-"
+        translations:
+            fr: |-
+                socialise par la chose
+            en: |-
+                socialize with thing
+    -   ieml: "T:M:.i.-"
+        translations:
+            fr: |-
+                chose en substance technique
+            en: |-
+                thing in technical substance
+    -   ieml: "M:S:.y.-"
+        translations:
+            fr: |-
+                connaissance du signe
+            en: |-
+                knowledge of the sign
+    -   ieml: "M:S:.o.-"
+        translations:
+            fr: |-
+                vouloir devenir signe
+            en: |-
+                want becoming sign
+    -   ieml: "M:S:.e.-"
+        translations:
+            fr: |-
+                grammaire
+            en: |-
+                grammar
+        comments:
+            fr: |-
+                Au niveau de la grammaire, nous trouvons les capacités d'action fondamentales, des compétences "de base". Mais il ne s'agit pas nécessairement de compétences élémentaires ; il peut évidemment y avoir des degrés très élevés de compétence linguistique, de maîtrise de soi ou de raffinement sensori-moteur. Les compétences grammaticales impliquent le moi. Ils supposent un pouvoir discursif ou symbolique par rapport aux signes, des énergies émotionnelles ou affectives par rapport aux êtres, des capacités physiques par rapport aux choses.
+            en: |-
+                At the level of grammar we find fundamental capacities for action, “basic” competencies. But this does not necessarily mean elementary skills; there can obviously be very high degrees of linguistic competency, self-mastery or sensorymotor refinement. Grammatical competencies involve the self. They involve discursive or symbolic power with regard to signs, emotional or affective energies with regard to beings, and physical skills with regard to things.
+    -   ieml: "M:S:.u.-"
+        translations:
+            fr: |-
+                signe tourné vers le signe
+            en: |-
+                sign oriented sign
+    -   ieml: "M:S:.a.-"
+        translations:
+            fr: |-
+                rôle tourné vers le signe
+            en: |-
+                role facing sign
+    -   ieml: "M:S:.i.-"
+        translations:
+            fr: |-
+                signe en attribut technique
+            en: |-
+                sign in technical attribute
+    -   ieml: "M:B:.y.-"
+        translations:
+            fr: |-
+                connaissance de l'être
+            en: |-
+                knowledge of the being
+    -   ieml: "M:B:.o.-"
+        translations:
+            fr: |-
+                vouloir devenir être
+            en: |-
+                want becoming being
+    -   ieml: "M:B:.e.-"
+        translations:
+            fr: |-
+                dialectique
+            en: |-
+                dialectic
+        comments:
+            fr: |-
+                La dialectique inclut les compétences interactionnelles. Dans la rangée des signes, la maîtrise grammaticale des codes sert la connaissance d'une grande variété de sujets, ainsi que la maîtrise du raisonnement et du dialogue. Dans la rangée des êtres, l'estime de soi et la maîtrise de soi servent des relations égalitaires et mutuellement respectueuses avec les autres. Les conflits et les intérêts divergents sont réglés par la négociation, tandis que les accords et les promesses sont gérés contractuellement. Dans la rangée des choses, les compétences sensori-motrices servent le savoir-faire technique impliquant la manipulation d'outils et de machines, ainsi que la capacité de créer et de maintenir des environnements concrets pour la vie et le travail. Encore une fois, les compétences dialectiques ne sont pas des compétences " moyennes " entre grammaire et rhétorique. Chaque compétence dialectique peut être répartie sur une échelle d'excellence allant du minimal à l'exceptionnel.
+            en: |-
+                Dialectic includes interactional competencies. In the signs row, the grammatical mastery of codes serves knowledge of a wide variety of subjects, reasoning and dialog. In the beings row, self-esteem and self-mastery serve egalitarian, mutually respectful relationships with others. Conflicts and divergent interests are settled through negotiation, while agreements and promises are managed contractually. In the things row, sensory-motor competencies serve technical know-how involving the manipulation of tools and machines, and the ability to create and maintain concrete environments for life and work. Once again, dialectical competencies are not “medium” competencies between grammar and rhetoric. Each dialectical competency can be distributed on a scale of excellence from minimal to exceptional.
+    -   ieml: "M:B:.u.-"
+        translations:
+            fr: |-
+                signe tourné vers l'être
+            en: |-
+                being oriented sign
+    -   ieml: "M:B:.a.-"
+        translations:
+            fr: |-
+                rôle tourné vers l'être
+            en: |-
+                role facing being
+    -   ieml: "M:B:.i.-"
+        translations:
+            fr: |-
+                être en attribut technique
+            en: |-
+                being in technical attribute
+    -   ieml: "M:T:.y.-"
+        translations:
+            fr: |-
+                connaissance de la chose
+            en: |-
+                knowledge of the thing
+    -   ieml: "M:T:.o.-"
+        translations:
+            fr: |-
+                vouloir devenir chose
+            en: |-
+                want becoming thing
+    -   ieml: "M:T:.e.-"
+        translations:
+            fr: |-
+                rhétorique
+            en: |-
+                rhetorics
+        comments:
+            fr: |-
+                La capacité de faire avancer les choses effectivement se trouvent dans la rhétorique. Les stratégies de communication organisent les signes et les messages de manière à accomplir le travail de persuasion, de recadrage (ou même de tromperie) aussi efficacement que possible. Le leadership, la capacité d'inspirer ou de diriger un groupe, agit sur les êtres, en particulier sur leur cohésion sociale. Enfin, l'ingénierie consiste à faire réaliser des actions sur des choses par des choses, en combinant des mécanismes dans un but précis. Encore une fois, la rhétorique n'est en aucun cas le "sommet" des compétences puisqu'il y a évidemment plusieurs degrés de capacités stratégiques, de la faiblesse à l'efficacité maximale.
+            en: |-
+                The capacity to get things done are to be found in rhetoric. Communication strategies organize signs and messages so as to accomplish the work of persuasion, reframing (or even deception) as effectively as possible. Leadership, the ability to inspire or direct a group, acts on beings, in particular on their social cohesion. Finally, engineering involves having actions carried out on things, combining mechanisms for a particular purpose. Once again, rhetoric is in no way the “summit” of the competencies since there are obviously many degrees of strategic abilities, from weakness to maximum effectiveness
+    -   ieml: "M:T:.u.-"
+        translations:
+            fr: |-
+                signe tourné vers la chose
+            en: |-
+                thing oriented sign
+    -   ieml: "M:T:.a.-"
+        translations:
+            fr: |-
+                rôle tourné vers la chose
+            en: |-
+                role facing thing
+    -   ieml: "M:T:.i.-"
+        translations:
+            fr: |-
+                chose en attribut technique
+            en: |-
+                thing in technical attribute
+    -   ieml: "O:M:.s.-"
+        translations:
+            fr: |-
+                miner la pensée
+            en: |-
+                undermine thought
+    -   ieml: "O:M:.b.-"
+        translations:
+            fr: |-
+                défaire le  langage
+            en: |-
+                undo language
+    -   ieml: "O:M:.t.-"
+        translations:
+            fr: |-
+                détruire la mémoire
+            en: |-
+                destroy memory
+    -   ieml: "O:M:.k.-"
+        translations:
+            fr: |-
+                défaire la société
+            en: |-
+                undo society
+    -   ieml: "O:M:.m.-"
+        translations:
+            fr: |-
+                défaire un lien affectif
+            en: |-
+                undo an affective bond
+    -   ieml: "O:M:.n.-"
+        translations:
+            fr: |-
+                défaire un monde
+            en: |-
+                undo a world
+    -   ieml: "O:M:.d.-"
+        translations:
+            fr: |-
+                miner la vérité
+            en: |-
+                undermine truth
+    -   ieml: "O:M:.f.-"
+        translations:
+            fr: |-
+                affaiblir la vie
+            en: |-
+                weaken life
+    -   ieml: "O:M:.l.-"
+        translations:
+            fr: |-
+                détruire l'espace
+            en: |-
+                destroy space
+    -   ieml: "s.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de pensée
+            en: |-
+                thought factors
+    -   ieml: "b.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de langage
+            en: |-
+                language factors
+    -   ieml: "t.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de mémoire
+            en: |-
+                memory factors
+    -   ieml: "k.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de société
+            en: |-
+                society factors
+    -   ieml: "m.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de lien affectif
+            en: |-
+                factors of affective bond
+    -   ieml: "n.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de monde
+            en: |-
+                world factors
+    -   ieml: "d.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de vérité
+            en: |-
+                truth factors
+    -   ieml: "f.O:M:.-"
+        translations:
+            fr: |-
+                facteurs de vie
+            en: |-
+                life factors
+    -   ieml: "l.O:M:.-"
+        translations:
+            fr: |-
+                facteurs d'espace
+            en: |-
+                space factors
+    -   ieml: "y.M:M:.-"
+        translations:
+            fr: |-
+                ignorer
+            en: |-
+                ignore
+    -   ieml: "o.M:M:.-"
+        translations:
+            fr: |-
+                assombrir l'existence humaine
+            en: |-
+                darken human existence
+    -   ieml: "e.M:M:.-"
+        translations:
+            fr: |-
+                manquer d'habileté
+            en: |-
+                lack skill
+    -   ieml: "u.M:M:.-"
+        translations:
+            fr: |-
+                détruire la signification
+            en: |-
+                destroy meaning
+    -   ieml: "a.M:M:.-"
+        translations:
+            fr: |-
+                détruire les relations sociales
+            en: |-
+                destroy social relations
+    -   ieml: "i.M:M:.-"
+        translations:
+            fr: |-
+                détruire techniquement
+            en: |-
+                destroy technically
+    -   ieml: "M:M:.y.-"
+        translations:
+            fr: |-
+                genres de connaissances
+            en: |-
+                kinds of knowledge
+    -   ieml: "M:M:.o.-"
+        translations:
+            fr: |-
+                genres de valeurs | vouloir être
+            en: |-
+                kinds of value | will to be
+    -   ieml: "M:M:.e.-"
+        translations:
+            fr: |-
+                genres de compétences
+            en: |-
+                kinds of competencies
+        comments:
+            fr: |-
+                La distinction entre grammaire, dialectique et rhétorique remonte à l&#x27;antiquité grecque et romaine et au Moyen Âge européen. Le trivium a été pendant de nombreux siècles la base de l&#x27;éducation libérale. La grammaire couvrait les compétences de base de la lecture et de l&#x27;écriture et une certaine familiarité avec le corpus des auteurs traditionnellement définis comme les &quot;classiques&quot;. La dialectique correspondait à peu près à la logique, aux règles du raisonnement et à la capacité de mener un dialogue bien argumenté. Quant à la rhétorique, elle consiste essentiellement en l&#x27;art de composer, de mémoriser et de prononcer des discours élaborés et convaincants, adaptés aux circonstances et aux attentes du public. Parallèlement au trivium classique, qui était une préparation à la maîtrise de la manipulation des signes, il fallait encore concevoir un trivium d&#x27;êtres et un trivium de choses. J&#x27;ai donc développé une matrice de compétences à neuf cellules, avec signe, être, chose en rangées et grammaire, dialectique et rhétorique en colonnes. Parce que la complémentarité et l&#x27;opposition de la grammaire, de la dialectique et de la rhétorique obéissent à une symétrie ternaire, elle est représentée par l&#x27;utilisation de S+B+T=M.
+                Cliquez sur les trois têtes de colonne pour plus de details.
+            en: |-
+                The distinction between grammar, dialectic, and rhetoric comes from Greek and Roman antiquity and the European Middle Ages. The trivium was for many centuries the basis of liberal education. Grammar covered the basic abilities of reading and writing and some familiarity with the corpus of authors traditionally defined as the “classics”. Dialectic corresponded roughly to logic, the rules of reasoning and the ability to carry out a well-argued dialog. As for rhetoric, it consisted essentially of the art of composing, memorizing and delivering elaborate, convincing speeches suited to the circumstances and the audience’s expectations. In parallel with the classical trivium, which was a preparation for mastering the manipulation of signs, a trivium of beings and a trivium of things still had to be conceived. I thus developed a matrix of competencies with nine cells, with sign, being, thing in rows and grammar, dialectic and rhetoric in columns. Because the complementarity and opposition of grammar, dialectic and rhetoric obey to a ternary symmetry, it is represented by the use of S + B +T= M.
+                Click on the three heads of columns to get some details.
+    -   ieml: "M:M:.u.-"
+        translations:
+            fr: |-
+                genres de signes
+            en: |-
+                kinds of signs
+        comments:
+            fr: |-
+                Il ne s&#x27;agit évidemment pas de classer les signes réels dans l&#x27;un ou l&#x27;autre de ces neuf genres de manière exclusive, mais bien plutôt, pour chaque signe concret, de déterminer de quelle manière et dans quelles proportions il joue l&#x27;un ou plusieurs de ces rôles sémiotiques interdépendants.
+                Cliquer sur les neuf sèmes pour plus de détails.
+            en: |-
+                It is obviously not a matter of classifying the real signs in one or the other of these nine genres in an exclusive way, but rather, for each concrete sign, of determining how and in what proportions it plays one or more of these interdependent semiotic roles.
+                Click on the nine semes for more details.
+    -   ieml: "M:M:.a.-"
+        translations:
+            fr: |-
+                genres de rôles sociaux
+            en: |-
+                kinds of social roles
+        comments:
+            fr: |-
+                Comme dans le cas des signes, un même acteur peut jouer plusieurs rôles sociaux.
+            en: |-
+                As with signs, the same actor can play several social roles.
+    -   ieml: "M:M:.i.-"
+        translations:
+            fr: |-
+                genres d'outils | techniques
+            en: |-
+                kind of tools | technology
+    -   ieml: "S:M:.O:M:.-"
+        translations:
+            fr: |-
+                signe du développement humain
+            en: |-
+                sign of human development
+    -   ieml: "B:M:.O:M:.-"
+        translations:
+            fr: |-
+                être du développement humain
+            en: |-
+                being of human development
+    -   ieml: "T:M:.O:M:.-"
+        translations:
+            fr: |-
+                chose du développement humain
+            en: |-
+                thing of human development
+    -   ieml: "M:S:.O:M:.-"
+        translations:
+            fr: |-
+                devenir signe du développement humain
+            en: |-
+                human development becoming sign
+    -   ieml: "M:B:.O:M:.-"
+        translations:
+            fr: |-
+                devenir être du développement humain
+            en: |-
+                human development becoming being
+    -   ieml: "M:T:.O:M:.-"
+        translations:
+            fr: |-
+                devenir chose du développement humain
+            en: |-
+                human development becoming thing
+    -   ieml: "M:M:.O:S:.-"
+        translations:
+            fr: |-
+                développement humain du signe
+            en: |-
+                human development of the sign
+    -   ieml: "M:M:.O:B:.-"
+        translations:
+            fr: |-
+                développement humain de l'être
+            en: |-
+                human development of the being
+    -   ieml: "M:M:.O:T:.-"
+        translations:
+            fr: |-
+                développement humain de la chose
+            en: |-
+                human development of the thing
+    -   ieml: "M:M:.U:M:.-"
+        translations:
+            fr: |-
+                développement humain virtuel
+            en: |-
+                virtual human development
+    -   ieml: "M:M:.A:M:.-"
+        translations:
+            fr: |-
+                développement humain actuel
+            en: |-
+                actual human development
+    -   ieml: "O:M:.M:M:.-"
+        translations:
+            fr: |-
+                saper le développement humain
+            en: |-
+                undermine human development
+        comments:
+            fr: |-
+                Les deux paradigmes M:M:.O:M:.- et O:M:.M:M:.- font partie du même paradigme-racine M:M:.O:M:.- + O:M:.M:M:.- intitulé «déterminants du développement humain ». Dans ce paradigme-racine,les sèmes inverses sont sémantiquement liés, par exemple t.y.- (gestion de la mémoire) et y.t.- (oublier) ou k.y.- (intelligence relationnelle) et y.k.- (ignorer les relations).
+                Allez à [M:M:.O:M:.-](https://intlekt.io/?comments=M%3AM%3A.O%3AM%3A.-) et explorez les sèmes de ce paradigme, qui sont au fondement de plusieurs autres paradigmes de couche 3
+            en: |-
+                Both paradigms M:M:.O:M:.- and O:M:.M:M:.- are part of the same root-paradigm M:M:.O:M:.- + O:M:.M:M:.- that is entitled « determinants of human development ». In this root-paradigm, inverse semes are semantically related, for example t.y.- (memory management) and y.t.- (forget) or k.y.- (relational intelligence) and y.k.- (ignore relations).
+                Explore the semes of M:M:.O:M:.- which are the foundation of several other Layer 3 paradigms.
+    -   ieml: "M:M:.O:M:.-"
+        translations:
+            fr: |-
+                développement humain
+            en: |-
+                human development
+        comments:
+            fr: |-
+                Les deux paradigmes M:M:.O:M:.- et O:M:.M:M:.- font partie du même paradigme-racine M:M:.O:M:.- + O:M:.M:M:.- intitulé «déterminants du développement humain ». Dans ce paradigme-racine,les sèmes inverses sont sémantiquement liés, par exemple t.y.- (gestion de la mémoire) et y.t.- (oublier) ou k.y.- (intelligence relationnelle) et y.k.- (ignorer les relations).
+                Explorez les semes de M:M:.O:M:.- qui sont au fondement de plusieurs paradigmes de couche 3.
+            en: |-
+                Both paradigms M:M:.O:M:.- and O:M:.M:M:.- are part of the same root-paradigm M:M:.O:M:.- + O:M:.M:M:.- that is entitled « determinants of human development ». In this root-paradigm, inverse semes are semantically related, for example t.y.- (memory management) and y.t.- (forget) or k.y.- (relational intelligence) and y.k.- (ignore relations).
+                Explore the semes of M:M:.O:M:.- which are the foundation of several other Layer 3 paradigms.

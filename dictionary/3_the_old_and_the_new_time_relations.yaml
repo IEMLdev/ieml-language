@@ -1,0 +1,76 @@
+RootParadigm:
+    ieml: "t.o.-M:O:.-'"
+    translations:
+        fr: |-
+            l'ancien et le nouveau, relations dans le temps
+        en: |-
+            the old and the new, time relations
+    inhibitions: []
+Semes:
+    -   ieml: "t.o.-j.-'"
+        translations:
+            fr: |-
+                futuriste, visionnaire
+            en: |-
+                futuristic, visionary
+    -   ieml: "t.o.-g.-'"
+        translations:
+            fr: |-
+                en avance, trop tôt
+            en: |-
+                ahead of time, too early
+    -   ieml: "t.o.-h.-'"
+        translations:
+            fr: |-
+                contemporain, moderne
+            en: |-
+                contemporary, modern
+    -   ieml: "t.o.-c.-'"
+        translations:
+            fr: |-
+                nouveau, neuf, récent, frais
+            en: |-
+                new, latest, fresh
+    -   ieml: "t.o.-p.-'"
+        translations:
+            fr: |-
+                ancien, archaïque, antique, classique
+            en: |-
+                ancient, archaic, antique, classical
+    -   ieml: "t.o.-x.-'"
+        translations:
+            fr: |-
+                vieux, usé, usagé, d'occasion
+            en: |-
+                old, used, worn, second hand
+Paradigms:
+    -   ieml: "t.o.-S:O:.-'"
+        translations:
+            fr: |-
+                tourné vers le futur
+            en: |-
+                future oriented
+    -   ieml: "t.o.-B:O:.-'"
+        translations:
+            fr: |-
+                tourné vers le présent
+            en: |-
+                present oriented
+    -   ieml: "t.o.-T:O:.-'"
+        translations:
+            fr: |-
+                tourné vers le passé
+            en: |-
+                past oriented
+    -   ieml: "t.o.-M:U:.-'"
+        translations:
+            fr: |-
+                orientation historique
+            en: |-
+                historical orientation
+    -   ieml: "t.o.-M:A:.-'"
+        translations:
+            fr: |-
+                orientation vers la vie quotidienne
+            en: |-
+                everyday life orientation

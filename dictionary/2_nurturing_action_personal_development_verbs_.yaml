@@ -1,0 +1,652 @@
+RootParadigm:
+    ieml: "O:O:.M:M:.-"
+    translations:
+        fr: |-
+            nourrir l'action, développement personnel (verbes)
+        en: |-
+            nurturing action, personal development (verbs)
+    inhibitions: []
+Semes:
+    -   ieml: "wo.s.-"
+        translations:
+            fr: |-
+                brasser les idées
+            en: |-
+                brainstorm
+    -   ieml: "wo.b.-"
+        translations:
+            fr: |-
+                augmenter les ressources linguistiques
+            en: |-
+                augment linguistic resources
+    -   ieml: "wo.t.-"
+        translations:
+            fr: |-
+                se remémorer
+            en: |-
+                remember
+    -   ieml: "wo.k.-"
+        translations:
+            fr: |-
+                semer les graines du changement social
+            en: |-
+                plant the seeds of social change
+    -   ieml: "wo.m.-"
+        translations:
+            fr: |-
+                changer les réflexes émotionnels
+            en: |-
+                change emotional patterns
+    -   ieml: "wo.n.-"
+        translations:
+            fr: |-
+                changer de représentation du monde
+            en: |-
+                change world representation
+    -   ieml: "wo.d.-"
+        translations:
+            fr: |-
+                méditer sur différentes théories
+            en: |-
+                meditate on different theories
+    -   ieml: "wo.f.-"
+        translations:
+            fr: |-
+                expérimenter de nouvelles habitudes corporelles
+            en: |-
+                experiment new bodily habits
+    -   ieml: "wo.l.-"
+        translations:
+            fr: |-
+                faire de l'espace | réorganiser
+            en: |-
+                make room | reorganize
+    -   ieml: "wa.s.-"
+        translations:
+            fr: |-
+                se soucier de l'action
+            en: |-
+                have concern for action
+    -   ieml: "wa.b.-"
+        translations:
+            fr: |-
+                s'exprimer par les actes
+            en: |-
+                express oneself through acts
+    -   ieml: "wa.t.-"
+        translations:
+            fr: |-
+                prendre des risques
+            en: |-
+                take risks
+    -   ieml: "wa.k.-"
+        translations:
+            fr: |-
+                agir pour la société | pour la communauté
+            en: |-
+                act for the sake of society | of community
+    -   ieml: "wa.m.-"
+        translations:
+            fr: |-
+                sublimer ses émotions
+            en: |-
+                sublimate one's emotions
+    -   ieml: "wa.n.-"
+        translations:
+            fr: |-
+                cultiver sa motivation
+            en: |-
+                cultivate one's motivation
+    -   ieml: "wa.d.-"
+        translations:
+            fr: |-
+                expérimenter
+            en: |-
+                experiment
+    -   ieml: "wa.f.-"
+        translations:
+            fr: |-
+                cultiver son énergie physique
+            en: |-
+                cultivate one's physical energy
+    -   ieml: "wa.l.-"
+        translations:
+            fr: |-
+                étendre la portée de son action
+            en: |-
+                increase one's range of action
+    -   ieml: "wu.s.-"
+        translations:
+            fr: |-
+                développer la sensibilité intellectuelle
+            en: |-
+                develop intellectual sensitivity
+    -   ieml: "wu.b.-"
+        translations:
+            fr: |-
+                développer la sensibilité poétique
+            en: |-
+                develop poetic sensitivity
+    -   ieml: "wu.t.-"
+        translations:
+            fr: |-
+                comprendre les causes
+            en: |-
+                understand causes
+    -   ieml: "wu.k.-"
+        translations:
+            fr: |-
+                être sensible aux rapports humains
+            en: |-
+                be sensitive to human relations
+    -   ieml: "wu.m.-"
+        translations:
+            fr: |-
+                exprimer ses émotions
+            en: |-
+                express one's emotions
+    -   ieml: "wu.n.-"
+        translations:
+            fr: |-
+                cultiver la clarté du sens
+            en: |-
+                cultivate clarity of meaning
+    -   ieml: "wu.d.-"
+        translations:
+            fr: |-
+                observer
+            en: |-
+                observe
+    -   ieml: "wu.f.-"
+        translations:
+            fr: |-
+                s'immerger dans les sensations
+            en: |-
+                immerse oneself in sensations
+    -   ieml: "wu.l.-"
+        translations:
+            fr: |-
+                étendre sa vue d'ensemble
+            en: |-
+                extend one's overall view
+    -   ieml: "we.s.-"
+        translations:
+            fr: |-
+                cultiver l'équilibre intellectuel
+            en: |-
+                cultivate intellectual equilibrium
+    -   ieml: "we.b.-"
+        translations:
+            fr: |-
+                cultiver le système d'information
+            en: |-
+                cultivate the information system
+    -   ieml: "we.t.-"
+        translations:
+            fr: |-
+                régler son emploi du temps
+            en: |-
+                manage one's timetable
+    -   ieml: "we.k.-"
+        translations:
+            fr: |-
+                constituer des liens sociaux
+            en: |-
+                set up social bonds
+    -   ieml: "we.m.-"
+        translations:
+            fr: |-
+                cultiver l'équilibre émotionnel
+            en: |-
+                cultivate emotional equilibrium
+    -   ieml: "we.n.-"
+        translations:
+            fr: |-
+                accepter le jugement des pairs
+            en: |-
+                accept the judgement of peers
+    -   ieml: "we.d.-"
+        translations:
+            fr: |-
+                adopter un système de mesure
+            en: |-
+                adopt a measurement system
+    -   ieml: "we.f.-"
+        translations:
+            fr: |-
+                satisfaire ses besoins primaires
+            en: |-
+                satisfy one's primary needs
+    -   ieml: "we.l.-"
+        translations:
+            fr: |-
+                augmenter sa capacité de travail
+            en: |-
+                increase one's working capacity
+Paradigms:
+    -   ieml: "U:O:.s.-"
+        translations:
+            fr: |-
+                ouverture intellectuelle virtuelle
+            en: |-
+                virtual intellectual openness
+    -   ieml: "U:O:.b.-"
+        translations:
+            fr: |-
+                jeux virtuels de langage
+            en: |-
+                virtual language games
+    -   ieml: "U:O:.t.-"
+        translations:
+            fr: |-
+                maîtrise virtuelle du temps
+            en: |-
+                virtual mastering of time
+    -   ieml: "U:O:.k.-"
+        translations:
+            fr: |-
+                générosité virtuelle
+            en: |-
+                virtual generosity
+    -   ieml: "U:O:.m.-"
+        translations:
+            fr: |-
+                fournir des ressources à l'action en virtualisant les émotions
+            en: |-
+                provide resources for action by virtualizing emotions
+    -   ieml: "U:O:.n.-"
+        translations:
+            fr: |-
+                résonance virtuelle avec le cosmos
+            en: |-
+                virtual resonance with the cosmos
+    -   ieml: "U:O:.d.-"
+        translations:
+            fr: |-
+                fournir des ressources à  l'action par la quête virtuelle de vérité
+            en: |-
+                provide resources for action through a virtual quest for truth
+    -   ieml: "U:O:.f.-"
+        translations:
+            fr: |-
+                rapport virtuel au corps
+            en: |-
+                virtual relation to the body
+    -   ieml: "U:O:.l.-"
+        translations:
+            fr: |-
+                extension de l'espace virtuel
+            en: |-
+                extension of the virtual space
+    -   ieml: "A:O:.s.-"
+        translations:
+            fr: |-
+                ouverture intellectuelle actuelle
+            en: |-
+                actual intellectual openness
+    -   ieml: "A:O:.b.-"
+        translations:
+            fr: |-
+                jeux actuels de langage
+            en: |-
+                actual language games
+    -   ieml: "A:O:.t.-"
+        translations:
+            fr: |-
+                maîtrise actuelle du temps
+            en: |-
+                actual mastering of time
+    -   ieml: "A:O:.k.-"
+        translations:
+            fr: |-
+                générosité actuelle
+            en: |-
+                actual generosity
+    -   ieml: "A:O:.m.-"
+        translations:
+            fr: |-
+                fournir des ressources à  l'action en actualisant les émotions
+            en: |-
+                provide resources for action by actualizing emotions
+    -   ieml: "A:O:.n.-"
+        translations:
+            fr: |-
+                résonance actuelle avec le cosmos
+            en: |-
+                actual resonance with the cosmos
+    -   ieml: "A:O:.d.-"
+        translations:
+            fr: |-
+                fournir des ressources à  l'action par la quête actuelle de vérité
+            en: |-
+                provide resources for action through an actual quest of truth
+    -   ieml: "A:O:.f.-"
+        translations:
+            fr: |-
+                rapport actuel au corps
+            en: |-
+                actual relation to the body
+    -   ieml: "A:O:.l.-"
+        translations:
+            fr: |-
+                extension de l'espace actuel
+            en: |-
+                extension of the actual space
+    -   ieml: "O:U:.s.-"
+        translations:
+            fr: |-
+                ouverture intellectuelle au virtuel
+            en: |-
+                intellectual openness to the virtual
+    -   ieml: "O:U:.t.-"
+        translations:
+            fr: |-
+                maîtrise du temps virtuel
+            en: |-
+                mastering virtual time
+    -   ieml: "O:U:.k.-"
+        translations:
+            fr: |-
+                générosité pour le virtuel
+            en: |-
+                generosity for the virtual
+    -   ieml: "O:U:.m.-"
+        translations:
+            fr: |-
+                fournir des ressources à l'action par la fluidité virtuelle des émotions
+            en: |-
+                provide resources for action through the virtual fluidity of emotions
+    -   ieml: "O:U:.n.-"
+        translations:
+            fr: |-
+                résonance avec le cosmos virtuel
+            en: |-
+                resonance with the virtual cosmos
+    -   ieml: "O:U:.d.-"
+        translations:
+            fr: |-
+                fournir des ressources à  l'action par la quête de vérité virtuelle
+            en: |-
+                provide resources for action through a quest of virtual truth
+    -   ieml: "O:U:.f.-"
+        translations:
+            fr: |-
+                relation au corps virtuel
+            en: |-
+                relation to the virtual body
+    -   ieml: "O:U:.l.-"
+        translations:
+            fr: |-
+                extension virtuelle de l'espace
+            en: |-
+                virtual extension of the space
+    -   ieml: "O:A:.s.-"
+        translations:
+            fr: |-
+                ouverture intellectuelle à l'actuel
+            en: |-
+                intellectual openness to the actual
+    -   ieml: "O:A:.t.-"
+        translations:
+            fr: |-
+                maîtrise du temps actuel
+            en: |-
+                mastering actual time
+    -   ieml: "O:A:.k.-"
+        translations:
+            fr: |-
+                générosité pour l'actuel
+            en: |-
+                generosity for the actual
+    -   ieml: "O:A:.m.-"
+        translations:
+            fr: |-
+                fournir des ressources à l'action par la fluidité actuelle des émotions
+            en: |-
+                provide resources for action through the actual fluidity of emotions
+    -   ieml: "O:A:.n.-"
+        translations:
+            fr: |-
+                résonance avec le cosmos actuel
+            en: |-
+                resonance with the actual cosmos
+    -   ieml: "O:A:.d.-"
+        translations:
+            fr: |-
+                fournir des ressources à  l'action par la quête de vérité actuelle
+            en: |-
+                provide resources for action through a quest of actual truth
+    -   ieml: "O:A:.f.-"
+        translations:
+            fr: |-
+                relation au corps actuel
+            en: |-
+                relation to the actual body
+    -   ieml: "O:A:.l.-"
+        translations:
+            fr: |-
+                extension actuelle de l'espace
+            en: |-
+                actual extension of the space
+    -   ieml: "wo.S:M:.-"
+        translations:
+            fr: |-
+                cultiver la variation de l'expérience du signe
+            en: |-
+                cultivate the variation of sign experience
+    -   ieml: "wo.B:M:.-"
+        translations:
+            fr: |-
+                cultiver la variation de l'expérience de l'être
+            en: |-
+                cultivate the variation of being experience
+    -   ieml: "wo.T:M:.-"
+        translations:
+            fr: |-
+                cultiver la variation de l'expérience de la chose
+            en: |-
+                cultivate the variation of thing experience
+    -   ieml: "wo.M:S:.-"
+        translations:
+            fr: |-
+                cultiver le signe de la variation de l'expérience
+            en: |-
+                cultivate the sign of experience variation
+    -   ieml: "wo.M:B:.-"
+        translations:
+            fr: |-
+                cultiver l'être de la variation de l'expérience
+            en: |-
+                cultivate the being of experience variation
+    -   ieml: "wo.M:T:.-"
+        translations:
+            fr: |-
+                cultiver la chose de la variation de l'expérience
+            en: |-
+                cultivate the thing of experience variation
+    -   ieml: "wa.S:M:.-"
+        translations:
+            fr: |-
+                cultiver la force de l'action du signe
+            en: |-
+                cultivate the strength of the action of sign
+    -   ieml: "wa.B:M:.-"
+        translations:
+            fr: |-
+                cultiver la force de l'action de l'être
+            en: |-
+                cultivate the strength of the action of being
+    -   ieml: "wa.T:M:.-"
+        translations:
+            fr: |-
+                cultiver la force de l'action de la chose
+            en: |-
+                cultivate the strength of the action of thing
+    -   ieml: "wa.M:S:.-"
+        translations:
+            fr: |-
+                cultiver le signe de la force de l'action
+            en: |-
+                cultivate the sign of action strength
+    -   ieml: "wa.M:B:.-"
+        translations:
+            fr: |-
+                cultiver l'être de la force de l'action
+            en: |-
+                cultivate the being of action strength
+    -   ieml: "wa.M:T:.-"
+        translations:
+            fr: |-
+                cultiver la chose de la force de l'action
+            en: |-
+                cultivate the thing of action strength
+    -   ieml: "wu.S:M:.-"
+        translations:
+            fr: |-
+                cultiver la subtilité de la perception du signe
+            en: |-
+                cultivate the subtlety of sign perception
+    -   ieml: "wu.B:M:.-"
+        translations:
+            fr: |-
+                cultiver la subtilité de la perception de l'être
+            en: |-
+                cultivate the subtlety of being perception
+    -   ieml: "wu.T:M:.-"
+        translations:
+            fr: |-
+                cultiver la subtilité de la perception de la chose
+            en: |-
+                cultivate the subtlety of thing perception
+    -   ieml: "wu.M:S:.-"
+        translations:
+            fr: |-
+                cultiver le signe subtil de la perception
+            en: |-
+                cultivate the subtle sign of perception
+    -   ieml: "wu.M:B:.-"
+        translations:
+            fr: |-
+                cultiver l'être subtil de la perception
+            en: |-
+                cultivate the subtle being of perception
+    -   ieml: "wu.M:T:.-"
+        translations:
+            fr: |-
+                cultiver la chose subtile de la perception
+            en: |-
+                cultivate the subtle thing of perception
+    -   ieml: "we.S:M:.-"
+        translations:
+            fr: |-
+                cultiver un équilibre durable du signe
+            en: |-
+                cultivate a sustainable balance of sign
+    -   ieml: "we.B:M:.-"
+        translations:
+            fr: |-
+                cultiver un équilibre durable de l'être
+            en: |-
+                cultivate a sustainable balance of being
+    -   ieml: "we.T:M:.-"
+        translations:
+            fr: |-
+                cultiver un équilibre durable de la chose
+            en: |-
+                cultivate a sustainable balance of thing
+    -   ieml: "we.M:S:.-"
+        translations:
+            fr: |-
+                cultiver le signe de l'équilibre
+            en: |-
+                cultivate the sign of balance
+    -   ieml: "we.M:B:.-"
+        translations:
+            fr: |-
+                cultiver l'être de l'équilibre
+            en: |-
+                cultivate the being of balance
+    -   ieml: "we.M:T:.-"
+        translations:
+            fr: |-
+                cultiver la chose de l'équilibre
+            en: |-
+                cultivate the thing of balance
+    -   ieml: "O:O:.s.-"
+        translations:
+            fr: |-
+                ouverture intellectuelle
+            en: |-
+                intellectual openness
+    -   ieml: "O:O:.b.-"
+        translations:
+            fr: |-
+                jeux de langage
+            en: |-
+                language-games
+    -   ieml: "O:O:.t.-"
+        translations:
+            fr: |-
+                maîtrise du temps
+            en: |-
+                time mastering
+    -   ieml: "O:O:.k.-"
+        translations:
+            fr: |-
+                générosité
+            en: |-
+                generosity
+    -   ieml: "O:O:.m.-"
+        translations:
+            fr: |-
+                fluidité émotionnelle
+            en: |-
+                emotional fluidity
+    -   ieml: "O:O:.n.-"
+        translations:
+            fr: |-
+                résonance avec le cosmos
+            en: |-
+                tuning to the cosmos
+    -   ieml: "O:O:.d.-"
+        translations:
+            fr: |-
+                quête de vérité
+            en: |-
+                quest for truth
+    -   ieml: "O:O:.f.-"
+        translations:
+            fr: |-
+                rapport au corps
+            en: |-
+                relation to the body
+    -   ieml: "O:O:.l.-"
+        translations:
+            fr: |-
+                extension spatiale
+            en: |-
+                spatial extension
+    -   ieml: "wo.M:M:.-"
+        translations:
+            fr: |-
+                variation de l'expérience
+            en: |-
+                experience variation
+    -   ieml: "wa.M:M:.-"
+        translations:
+            fr: |-
+                force de l'action
+            en: |-
+                strength of action
+    -   ieml: "wu.M:M:.-"
+        translations:
+            fr: |-
+                subtilité de la perception
+            en: |-
+                subtlety of perception
+    -   ieml: "we.M:M:.-"
+        translations:
+            fr: |-
+                équilibre durable
+            en: |-
+                sustainable equilibrium

@@ -1,0 +1,184 @@
+RootParadigm:
+    ieml: "t.-x.-s.y.-'wa.e.-M:M:.-',O:.-',_"
+    translations:
+        fr: |-
+            compétences en curation de données, litéracie numérique: dialectiques
+        en: |-
+            skills in data curation, digital literacy: dialectics
+    inhibitions: []
+Semes:
+    -   ieml: "t.-x.-s.y.-'wa.e.-s.-',U:.-',_"
+        translations:
+            fr: |-
+                gestion de l'attention: prioriser les sujets
+            en: |-
+                attention management: prioritize topics
+    -   ieml: "t.-x.-s.y.-'wa.e.-s.-',A:.-',_"
+        translations:
+            fr: |-
+                gestion de l'attention: choisir les sources
+            en: |-
+                attention management: select the sources
+    -   ieml: "t.-x.-s.y.-'wa.e.-b.-',U:.-',_"
+        translations:
+            fr: |-
+                interprétation: production d'hypothèses
+            en: |-
+                interpretation: hypothesis production
+    -   ieml: "t.-x.-s.y.-'wa.e.-b.-',A:.-',_"
+        translations:
+            fr: |-
+                interprétation: analyse des données
+            en: |-
+                interpretation: data analysis
+    -   ieml: "t.-x.-s.y.-'wa.e.-t.-',U:.-',_"
+        translations:
+            fr: |-
+                gestion de la mémoire: maintien de la catégorisation
+            en: |-
+                memory management: categorization maintenance
+    -   ieml: "t.-x.-s.y.-'wa.e.-t.-',A:.-',_"
+        translations:
+            fr: |-
+                gestion de la mémoire: choisir et maintenir une base de données en ligne
+            en: |-
+                memory management: select and maintain an online database
+    -   ieml: "t.-x.-s.y.-'wa.e.-k.-',U:.-',_"
+        translations:
+            fr: |-
+                critique externe: diversifier les sources
+            en: |-
+                external critique: diversify the sources
+    -   ieml: "t.-x.-s.y.-'wa.e.-k.-',A:.-',_"
+        translations:
+            fr: |-
+                critique externe: croiser les données
+            en: |-
+                external critique: cross-check the data
+    -   ieml: "t.-x.-s.y.-'wa.e.-m.-',U:.-',_"
+        translations:
+            fr: |-
+                critique interne: identifier les catégories d'une source
+            en: |-
+                internal critique: identify the source's categories
+    -   ieml: "t.-x.-s.y.-'wa.e.-m.-',A:.-',_"
+        translations:
+            fr: |-
+                critique interne: identifier les récits, les théories d'une source
+            en: |-
+                internal critique: identify the narratives, the theories of a source
+    -   ieml: "t.-x.-s.y.-'wa.e.-n.-',U:.-',_"
+        translations:
+            fr: |-
+                critique pragmatique: évaluer la transparence d'une source
+            en: |-
+                pragmatic critique: assess the transparency of a source
+    -   ieml: "t.-x.-s.y.-'wa.e.-n.-',A:.-',_"
+        translations:
+            fr: |-
+                critique pragmatique: identifier l'agenda d'une source
+            en: |-
+                pragmatic critique: identify the agenda of a source
+    -   ieml: "t.-x.-s.y.-'wa.e.-d.-',U:.-',_"
+        translations:
+            fr: |-
+                communication stigmergique: conscience de la communauté globale
+            en: |-
+                stigmergic communication: awareness of the global community
+    -   ieml: "t.-x.-s.y.-'wa.e.-d.-',A:.-',_"
+        translations:
+            fr: |-
+                communication stimergique: conscience de la communauté | du contexte local
+            en: |-
+                stigmergic communication: consciousness of the local community | context
+    -   ieml: "t.-x.-s.y.-'wa.e.-f.-',U:.-',_"
+        translations:
+            fr: |-
+                liberté: responsabilité des actes accomplis en ligne | dans le monde numérique
+            en: |-
+                freedom: responsibility of actions performed online | in the digital world
+    -   ieml: "t.-x.-s.y.-'wa.e.-f.-',A:.-',_"
+        translations:
+            fr: |-
+                liberté: usage des pouvoirs du citoyen numérique
+            en: |-
+                freedom: using netizen's powers
+    -   ieml: "t.-x.-s.y.-'wa.e.-l.-',U:.-',_"
+        translations:
+            fr: |-
+                apprentissage collaboratif: externaliser la connaissance tacite
+            en: |-
+                collaborative learning: externalize tacit knowledge
+    -   ieml: "t.-x.-s.y.-'wa.e.-l.-',A:.-',_"
+        translations:
+            fr: |-
+                apprentissage collaboratif: intégrer la connaissance explicite
+            en: |-
+                collaborative learning: internalize explicit knowledge
+Paradigms:
+    -   ieml: "t.-x.-s.y.-'wa.e.-s.-',O:.-',_"
+        translations:
+            fr: |-
+                gestion de l'attention (littéracie numérique)
+            en: |-
+                awareness management (digital literacy)
+    -   ieml: "t.-x.-s.y.-'wa.e.-b.-',O:.-',_"
+        translations:
+            fr: |-
+                interprétation (littéracie numérique, curation de données)
+            en: |-
+                interpretation (digital literacy, data curation)
+    -   ieml: "t.-x.-s.y.-'wa.e.-t.-',O:.-',_"
+        translations:
+            fr: |-
+                gestion de la mémoire (curation de données)
+            en: |-
+                memory management (data curation)
+    -   ieml: "t.-x.-s.y.-'wa.e.-k.-',O:.-',_"
+        translations:
+            fr: |-
+                critique externe des sources
+            en: |-
+                external critique of the sources
+    -   ieml: "t.-x.-s.y.-'wa.e.-m.-',O:.-',_"
+        translations:
+            fr: |-
+                critique interne des sources
+            en: |-
+                internal critique of sources
+    -   ieml: "t.-x.-s.y.-'wa.e.-n.-',O:.-',_"
+        translations:
+            fr: |-
+                critique pragmatique des sources
+            en: |-
+                pragmatic critique of the sources
+    -   ieml: "t.-x.-s.y.-'wa.e.-d.-',O:.-',_"
+        translations:
+            fr: |-
+                communication stigmergique (dans une collectivité, par l'intermédiaire d'une mémoire commune)
+            en: |-
+                stigmergic communication (in a community, by the way of a common memory)
+    -   ieml: "t.-x.-s.y.-'wa.e.-f.-',O:.-',_"
+        translations:
+            fr: |-
+                liberté dans le monde numérique
+            en: |-
+                freedom in the digital world
+    -   ieml: "t.-x.-s.y.-'wa.e.-l.-',O:.-',_"
+        translations:
+            fr: |-
+                cycle d'apprentissage collaboratif
+            en: |-
+                collaborative learning cycle
+    -   ieml: "t.-x.-s.y.-'wa.e.-M:M:.-',U:.-',_"
+        translations:
+            fr: |-
+                litéracie numérique: moments virtuels
+            en: |-
+                digital literacy: virtual moments
+    -   ieml: "t.-x.-s.y.-'wa.e.-M:M:.-',A:.-',_"
+        translations:
+            fr: |-
+                litéracie numérique: moments actuels
+            en: |-
+                digital literacy, actual moments

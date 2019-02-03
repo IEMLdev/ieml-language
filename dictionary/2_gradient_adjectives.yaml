@@ -1,0 +1,148 @@
+RootParadigm:
+    ieml: "p.E:F:M:.-"
+    translations:
+        fr: |-
+            adjectifs de gradient
+        en: |-
+            gradient adjectives
+    inhibitions: []
+Semes:
+    -   ieml: "p.E:U:S:.-"
+        translations:
+            fr: |-
+                mauvais, méchant
+            en: |-
+                bad
+    -   ieml: "p.E:U:B:.-"
+        translations:
+            fr: |-
+                de qualité moyenne
+            en: |-
+                middle quality
+    -   ieml: "p.E:U:T:.-"
+        translations:
+            fr: |-
+                bon
+            en: |-
+                good
+    -   ieml: "p.E:A:S:.-"
+        translations:
+            fr: |-
+                petit
+            en: |-
+                small
+    -   ieml: "p.E:A:B:.-"
+        translations:
+            fr: |-
+                de taille moyenne
+            en: |-
+                middle sized
+    -   ieml: "p.E:A:T:.-"
+        translations:
+            fr: |-
+                grand
+            en: |-
+                large
+    -   ieml: "p.E:S:S:.-"
+        translations:
+            fr: |-
+                impossible
+            en: |-
+                impossible
+    -   ieml: "p.E:S:B:.-"
+        translations:
+            fr: |-
+                occasionnel, intermittent, contingent
+            en: |-
+                occasional, intermittent, contingent
+    -   ieml: "p.E:S:T:.-"
+        translations:
+            fr: |-
+                éternel, constant
+            en: |-
+                eternal, everlasting
+    -   ieml: "p.E:B:S:.-"
+        translations:
+            fr: |-
+                rare
+            en: |-
+                rare
+    -   ieml: "p.E:B:B:.-"
+        translations:
+            fr: |-
+                regulier
+            en: |-
+                regular
+    -   ieml: "p.E:B:T:.-"
+        translations:
+            fr: |-
+                fréquent
+            en: |-
+                frequent
+    -   ieml: "p.E:T:S:.-"
+        translations:
+            fr: |-
+                inexistant
+            en: |-
+                non existant
+    -   ieml: "p.E:T:B:.-"
+        translations:
+            fr: |-
+                existant
+            en: |-
+                existing
+    -   ieml: "p.E:T:T:.-"
+        translations:
+            fr: |-
+                omnipresent, partout distribué
+            en: |-
+                omnipresent, distributed all over
+Paradigms:
+    -   ieml: "p.E:U:M:.-"
+        translations:
+            fr: |-
+                adjectifs de gradient qualitatifs
+            en: |-
+                qualitative gradient adjective
+    -   ieml: "p.E:A:M:.-"
+        translations:
+            fr: |-
+                adjectifs de gradient (taille)
+            en: |-
+                Gradient adjectives (size)
+    -   ieml: "p.E:S:M:.-"
+        translations:
+            fr: |-
+                distribution dans le temps (adjectif de gradient)
+            en: |-
+                time distribution (gradient distribution)
+    -   ieml: "p.E:B:M:.-"
+        translations:
+            fr: |-
+                fréquence (adjectifs de gradient)
+            en: |-
+                frequency (gradient adjective)
+    -   ieml: "p.E:T:M:.-"
+        translations:
+            fr: |-
+                distribution dans l'espace (adjectif de gradient)
+            en: |-
+                space distribution (gradient adjective)
+    -   ieml: "p.E:F:S:.-"
+        translations:
+            fr: |-
+                moins (adjectif de gradient)
+            en: |-
+                less (gradient adjective)
+    -   ieml: "p.E:F:B:.-"
+        translations:
+            fr: |-
+                medium (adjectif de gradient)
+            en: |-
+                medium (gradient adjective)
+    -   ieml: "p.E:F:T:.-"
+        translations:
+            fr: |-
+                plus (adjectif de gradient)
+            en: |-
+                more (gradient adjective)

@@ -1,0 +1,214 @@
+RootParadigm:
+    ieml: "s.M:O:.O:O:.-"
+    translations:
+        fr: |-
+            noétique
+        en: |-
+            noetic
+    inhibitions: []
+Semes:
+    -   ieml: "s.j.wo.-"
+        translations:
+            fr: |-
+                catégorie sémantique
+            en: |-
+                semantic category
+    -   ieml: "s.j.wa.-"
+        translations:
+            fr: |-
+                expression d'un énoncé
+            en: |-
+                expression of a statement
+    -   ieml: "s.j.wu.-"
+        translations:
+            fr: |-
+                essence singulière
+            en: |-
+                singular essence
+    -   ieml: "s.j.we.-"
+        translations:
+            fr: |-
+                sens référentiel d'un énoncé
+            en: |-
+                referential meaning of a statement
+    -   ieml: "s.g.wo.-"
+        translations:
+            fr: |-
+                forme logique
+            en: |-
+                logical form
+    -   ieml: "s.g.wa.-"
+        translations:
+            fr: |-
+                croyance motivant un énoncé
+            en: |-
+                belief motivating a statement
+    -   ieml: "s.g.wu.-"
+        translations:
+            fr: |-
+                existence individuelle
+            en: |-
+                individual existence
+    -   ieml: "s.g.we.-"
+        translations:
+            fr: |-
+                valeur de vérité d'un énoncé
+            en: |-
+                truth value of a statement
+    -   ieml: "s.h.wo.-"
+        translations:
+            fr: |-
+                tropisme émotionnel
+            en: |-
+                emotional tropism
+    -   ieml: "s.h.wa.-"
+        translations:
+            fr: |-
+                choix de performance
+            en: |-
+                choice of a performance
+    -   ieml: "s.h.wu.-"
+        translations:
+            fr: |-
+                qualité objective
+            en: |-
+                objective quality
+    -   ieml: "s.h.we.-"
+        translations:
+            fr: |-
+                pertinence d'une performance
+            en: |-
+                relevance of a performance
+    -   ieml: "s.c.wo.-"
+        translations:
+            fr: |-
+                force émotionnelle
+            en: |-
+                emotional strength
+    -   ieml: "s.c.wa.-"
+        translations:
+            fr: |-
+                accomplissement d'une performance
+            en: |-
+                enaction of a performance
+    -   ieml: "s.c.wu.-"
+        translations:
+            fr: |-
+                importance objective
+            en: |-
+                objective importance
+    -   ieml: "s.c.we.-"
+        translations:
+            fr: |-
+                bonheur d'une performance
+            en: |-
+                felicity of a performance
+    -   ieml: "s.p.wo.-"
+        translations:
+            fr: |-
+                perception modale
+            en: |-
+                modal perception
+    -   ieml: "s.p.wa.-"
+        translations:
+            fr: |-
+                projection conditionnelle
+            en: |-
+                conditional projection
+    -   ieml: "s.p.wu.-"
+        translations:
+            fr: |-
+                modalité phénoménale
+            en: |-
+                phenomenal modality
+    -   ieml: "s.p.we.-"
+        translations:
+            fr: |-
+                détermination conditionnelle
+            en: |-
+                conditional determination
+    -   ieml: "s.x.wo.-"
+        translations:
+            fr: |-
+                perception figurale
+            en: |-
+                figural perception
+    -   ieml: "s.x.wa.-"
+        translations:
+            fr: |-
+                projection causale
+            en: |-
+                causal projection
+    -   ieml: "s.x.wu.-"
+        translations:
+            fr: |-
+                figure phénoménale
+            en: |-
+                phenomenal figure
+    -   ieml: "s.x.we.-"
+        translations:
+            fr: |-
+                détermination causale
+            en: |-
+                causal determination
+Paradigms:
+    -   ieml: "s.j.O:O:.-"
+        translations:
+            fr: |-
+                raison essentielle
+            en: |-
+                essential reason
+    -   ieml: "s.g.O:O:.-"
+        translations:
+            fr: |-
+                raison existentielle
+            en: |-
+                existential reason
+    -   ieml: "s.h.O:O:.-"
+        translations:
+            fr: |-
+                jugement qualitatif
+            en: |-
+                qualitative judgement
+    -   ieml: "s.c.O:O:.-"
+        translations:
+            fr: |-
+                jugement quantitatif
+            en: |-
+                quantitative judgement
+    -   ieml: "s.p.O:O:.-"
+        translations:
+            fr: |-
+                imagination modale
+            en: |-
+                modal imagination
+    -   ieml: "s.x.O:O:.-"
+        translations:
+            fr: |-
+                imagination figurale
+            en: |-
+                figural imagination
+    -   ieml: "s.M:O:.wo.-"
+        translations:
+            fr: |-
+                analyse des idées
+            en: |-
+                ideas analysis
+    -   ieml: "s.M:O:.wa.-"
+        translations:
+            fr: |-
+                analyse des actes
+            en: |-
+                acts analysis
+    -   ieml: "s.M:O:.wu.-"
+        translations:
+            fr: |-
+                analyse des objets
+            en: |-
+                objects analysis
+    -   ieml: "s.M:O:.we.-"
+        translations:
+            fr: |-
+                analyse des faits
+            en: |-
+                facts analysis

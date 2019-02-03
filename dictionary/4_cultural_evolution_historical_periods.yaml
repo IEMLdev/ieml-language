@@ -1,0 +1,256 @@
+RootParadigm:
+    ieml: "M:O:.-'F:.-'k.o.-t.o.-',"
+    translations:
+        fr: |-
+            évolution culturelle | périodes historiques
+        en: |-
+            cultural evolution | historical periods
+    inhibitions: []
+Semes:
+    -   ieml: "j.-'U:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                connaissance narrative | rituelle
+            en: |-
+                narrative | ritual knowledge
+    -   ieml: "j.-'A:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                connaissance systématique
+            en: |-
+                systematic knowledge
+    -   ieml: "j.-'S:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                connaissance philosophique
+            en: |-
+                philosophical knowledge
+    -   ieml: "j.-'B:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                sciences de la nature
+            en: |-
+                natural sciences
+    -   ieml: "j.-'T:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                sciences de l'humanité
+            en: |-
+                scientific humanities
+    -   ieml: "g.-'U:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                immersion | initiation
+            en: |-
+                immersion | initiation
+    -   ieml: "g.-'A:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                éducation scribale
+            en: |-
+                scribal education
+    -   ieml: "g.-'S:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                éducation libérale
+            en: |-
+                liberal education
+    -   ieml: "g.-'B:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                éducation obligatoire
+            en: |-
+                mandatory education
+    -   ieml: "g.-'T:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                apprentissage social permanent
+            en: |-
+                life long social learning
+    -   ieml: "h.-'U:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                shamanisme
+            en: |-
+                shamanism
+    -   ieml: "h.-'A:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                temple | polythéisme
+            en: |-
+                temple | polytheism
+    -   ieml: "h.-'S:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                religion universelle
+            en: |-
+                universal religions
+    -   ieml: "h.-'B:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                réforme | idéologie séculière
+            en: |-
+                reform | counter reform
+    -   ieml: "h.-'T:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                religion du futur
+            en: |-
+                future religion
+    -   ieml: "c.-'U:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                tribu
+            en: |-
+                tribe
+    -   ieml: "c.-'A:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                palais | état
+            en: |-
+                palace | state
+    -   ieml: "c.-'S:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                cité | empire
+            en: |-
+                city | empire
+    -   ieml: "c.-'B:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                état nation
+            en: |-
+                nation state
+    -   ieml: "c.-'T:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                état en essaim
+            en: |-
+                swarm state
+    -   ieml: "p.-'U:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                chasse | cueillette | domestication des plantes et animaux
+            en: |-
+                hunting | gathering | domestication of plants and animals
+    -   ieml: "p.-'A:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                agriculture à grande échelle (révolution néolithique)
+            en: |-
+                large scale farming (neolithic revolution)
+    -   ieml: "p.-'S:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                monnaie | révolution commerciale
+            en: |-
+                money | trade revolution
+    -   ieml: "p.-'B:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                révolution industrielle
+            en: |-
+                industrial revolution
+    -   ieml: "p.-'T:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                économie de l'information
+            en: |-
+                information economy
+    -   ieml: "x.-'U:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                premiers outils
+            en: |-
+                first tools
+    -   ieml: "x.-'A:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                technologies scribales (roue, métallurgie, architecture, irrigation...)
+            en: |-
+                scribal technologies (metallurgy, architecture, irrigation...)
+    -   ieml: "x.-'S:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                outils et machines complexes
+            en: |-
+                complex tools and machines
+    -   ieml: "x.-'B:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                techniques des révolutions industrielles
+            en: |-
+                industrial revolutions technologies
+    -   ieml: "x.-'T:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                électro-nano-bio technologies
+            en: |-
+                electro-nano-bio technologies
+Paradigms:
+    -   ieml: "j.-'F:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                mutation épistémique
+            en: |-
+                epistemic mutation
+    -   ieml: "g.-'F:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                mutation éducative
+            en: |-
+                education mutation
+    -   ieml: "h.-'F:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                mutation religieuse
+            en: |-
+                religious mutation
+    -   ieml: "c.-'F:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                mutation politique
+            en: |-
+                political mutation
+    -   ieml: "p.-'F:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                mutation économique
+            en: |-
+                economic mutation
+    -   ieml: "x.-'F:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                mutation technique
+            en: |-
+                technical mutation
+    -   ieml: "M:O:.-'U:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                régime d'oralité primaire
+            en: |-
+                primary orality regime
+    -   ieml: "M:O:.-'A:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                régime scribal
+            en: |-
+                scribal regime
+    -   ieml: "M:O:.-'S:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                régime lettré
+            en: |-
+                literate regime
+    -   ieml: "M:O:.-'B:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                régime typographique
+            en: |-
+                typographic regime
+    -   ieml: "M:O:.-'T:.-'k.o.-t.o.-',"
+        translations:
+            fr: |-
+                regime algorithmique
+            en: |-
+                algorithmic regime

@@ -1,0 +1,120 @@
+RootParadigm:
+    ieml: "I:"
+    translations:
+        fr: |-
+            information, dialectiques vide/forme et monade/pentade
+        en: |-
+            information, emptiness/form and monad/pentad dialectics
+    inhibitions: []
+    comments:
+        fr: |-
+            "I" l'information, comprend les six éléments ou primitives sémantiques d'IEML (E, U, A, S, B, T). Il se décompose en vide (E) et plein (F = U+A+S+B+T) c'est-à-dire en opposition d'une monade (le vide E) et d'une "pentade" (les cinq éléments U, A, S, B, T). Le vide représente le silence, le bruit ou le chaos. Il contraste avec le plein qui représente la forme, le pattern ou le signal.
+        en: |-
+            "I" the information, encompasses the six elements or semantic primitives of IEML (E, U, A, S, B, T). It can be decomposed into emptiness (E) and fullness (F = U+A+S+B+T) i.e. into an opposition of a monad (the void E) with a pentad (the five elements U, A, S, B, T). Emptiness represents silence, noise or chaos. It contrasts with fullness that represents the form, the pattern or the signal.
+Semes:
+    -   ieml: "E:"
+        translations:
+            fr: |-
+                vide, illusion, monade
+            en: |-
+                emptiness, illusion, monad
+        comments:
+            fr: |-
+                Le vide *E* exprime l'absence, la vacuité, le zéro, le silence, la fiction, etc. En IEML, tous les auxiliaires commencent par la lettre *E*.
+            en: |-
+                Emptiness expresses the absence, void, zero, silence, fiction, etc. In IEML, all auxiliaries begin by the letter *E*.
+    -   ieml: "U:"
+        translations:
+            fr: |-
+                virtuel
+            en: |-
+                virtual
+        comments:
+            fr: |-
+                *U* Le virtuel dénote le potentiel, l'âme, l'abstrait, l'immateriel ou la dimension transcendante de l'expérience humaine. Le virtuel n'a pas d'adresse spatio-temporelle.
+            en: |-
+                *U* The virtual denotes the potential, the soul, the abstract, the immaterial or the transcendental dimension of human experience. The virtual has no spatio-temporal address.
+    -   ieml: "A:"
+        translations:
+            fr: |-
+                actuel
+            en: |-
+                actual
+        comments:
+            fr: |-
+                L'actuel "A" représente la réalité effective, le corps, ce qui est concret, tangible, matériel ou immanent. Ce qui est actuel possède une adresse spatio-temporel.
+            en: |-
+                The actual represents the effectiveness, the body, what is concrete, tangible, material or an immanent aspect of reality. What is actual has a spatio-temporal address.
+    -   ieml: "S:"
+        translations:
+            fr: |-
+                signe
+            en: |-
+                sign
+        comments:
+            fr: |-
+                Un signe est une entité ou un événement qui signifie quelque chose pour quelqu'un. Par extension, la primitive sémantique "S" pointe vers des symboles, documents, langues, representations, concepts, et tout ce qui est sémantiquement proche d'un code, d'un message ou d'une connaissance.
+            en: |-
+                A sign is an entity or an event that means something for someone. By extension, the semantic primitive "S" points to symbols, documents, languages, representations, concepts, and anything that is semantically close to a code, message or knowledge.
+    -   ieml: "B:"
+        translations:
+            fr: |-
+                être
+            en: |-
+                being
+        comments:
+            fr: |-
+                Un être (B) est un sujet ou un interprétant. Ce peut être un humain, un groupe, un animal, une machine, n'importe quelle entité ou processus capable d'auto-référence et d'interprétation. Par extension, "B" réfère à l'intériorité psychique, l'esprit, la capacité de concevoir ou d'interpréter. Sont apparentées à l'être: les intentions, les émotions, les personnes et leurs relations, les communautés, sociétés et valeurs.
+            en: |-
+                A being is a subject or an interpreter. It can be a human, a group, an animal, a machine or whatever entity or process endowed with self-reference and interpretation. By extension, &quot;B&quot; refers to psychic interiority, the mind, the ability to conceive or interpret, intentions, emotions, people, their relationships, communities, societies and values.
+    -   ieml: "T:"
+        translations:
+            fr: |-
+                chose
+            en: |-
+                thing
+        comments:
+            fr: |-
+                Etiquetée par un signe, une *chose* est souvent appelée son objet ou son référent. Par extension, la chose "T" désigne ce dont on parle, des objets (abstraits or concrets) ou des éléments contextuels. "T" réfère aussi aux corps, outils, technologies, équipements matériels, capacités, pouvoirs, et à l'efficacité.
+            en: |-
+                A thing, labeled by a sign, is often called the object or the referent. By extension, thing "T" categorizes what we are talking about, objects (abstract or concrete), contextual elements. It also refers to bodies, tools, technology, material equipment, empowerment, power, and efficiency.
+Paradigms:
+    -   ieml: "O:"
+        translations:
+            fr: |-
+                processus, verbe, dyade
+            en: |-
+                process, verb, dyad
+        comments:
+            fr: |-
+                L’indétermination abstraite du virtuel s’oppose à la délimitation concrète de l’actuel. L’actuel possède une adresse spatio-temporelle, il est situé dans le temps séquentiel et dans l’espace physique tridimensionnel (par exemple telle décision de justice, prise par tel tribunal, tel jour) tandis qu’on ne peut assigner d’adresse spatio-temporelle précise au virtuel (où se trouve l’idée de justice?). Néanmoins l’idée générale et l’acte concret se présupposent mutuellement. La justice, concept pratique par excellence, possède une phase virtuelle et une phase actuelle qui sont relatives l’une à l’autre : la décision répond à l’idée, l’idée mène à la décision. Deux formes différentes se contiennent, se succèdent et se co-produisent, comme la graine virtuelle et l’arbre actuel.
+                Au-delà des oppositions particulières du ciel et de la terre, du yang et du yin, de l'âme et du corps, et ainsi de suite, notre lettre "O" = U+A représente la "Dyade" ou symétrie binaire entre deux concepts complémentaires. 
+                En IEML chaque *verbe* commence par "U" ou "A".
+            en: |-
+                The abstract indeterminacy of the virtual is opposed to the concrete delimitation of the actual. The actual has a spatio-temporal address, it is located in sequential time and three-dimensional physical space (for example: a decision of justice is taken by such a court, on a specific day), whereas one cannot assign a precise spatio-temporal address to the virtual (for example: where does the idea of justice resides?). In a virtual/actual dialectic, two different kinds of realities follow one another and co-produce each other, like in the example of the virtuality of a seed that can produce an actual tree. 
+                Beyond the oppositions of heaven and earth, yang and yin, body and soul, and so on, our "O" = U+A represents the "Dyad" or binary symmetry between two complementary concepts. 
+                In IEML every *verb* begins by "U" or "A".
+    -   ieml: "M:"
+        translations:
+            fr: |-
+                représentation, nom, triade
+            en: |-
+                representation, noun, triad
+        comments:
+            fr: |-
+                M correspond à la triade sémiotique (le signe S, l'être ou l'interprétant B et la chose, l'objet ou le référent T). En plus de cette signification particulière M se réfère à n'importe quelle symétrie triadique entre concepts comme, par exemple, le passé, le présent et le futur dans les [conjugaisons](https://intlekt.io/?comments=E%3A.-M%3A.O%3AM%3A.-t.-%27).
+                A partir d'une tradition qui commence à Aristote avec Aristotle son traité *Sur l'interpretation* le Prince des philosophes est le premier à distinguer entre le symbole écrit ou parlé (signe), l'état d'esprit d'un sujet (être) et l'objet dénoté par le discours (chose). Cette conceptualisation tripartite initiale fut développée par les philosophes latins du Moyen-Age sous les noms de: vox (signe), conceptus (être) and res (chose). Plus tard, le même triangle sémiotique fut raffiné par Charles S. Peirce, un philosophe Américain du 19e siècle, qui a distingué la fondation du signe, l'interprétant et l'objet.
+            en: |-
+                M corresponds to the semiotic triad (sign S, being or interpreter B and thing, object or referent T). In addition to this particular meaning M refers to any triadic symmetry between concepts like, for example, past, present, future in [conjugations](https://intlekt.io/?comments=E%3A.-M%3A.O%3AM%3A.-t.-%27).
+                From a tradition beginning with Aristotle with his treatise called *On interpretation* the Prince of philosophers is the first to distinguish between the written or spoken symbol (sign), the state of mind of a subject (being) and the thing denoted by a speech (thing). This initial tripartite concept was further developed by Latin philosophers of the Middle Ages under the concepts of: vox (sign), conceptus (being) and res (thing). Later, the same semiotic triangle was refined by Charles S. Peirce, an American philosopher of the 19th century, who differentiated the foundation of the sign, the interpretant, and the object.
+    -   ieml: "F:"
+        translations:
+            fr: |-
+                plénitude | forme | pentade | dialectique dyade/triade
+            en: |-
+                fullness | form | pentad | dyad/pentad dialectic
+        comments:
+            fr: |-
+                Le plein F s'oppose au vide E à l'intérieur du paradigme de l'information I
+            en: |-
+                The full F is opposed to the void E within the information paradigm I

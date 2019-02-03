@@ -1,0 +1,274 @@
+RootParadigm:
+    ieml: "t.i.-s.i.-'i.B:.-+u.M:.-O:.-'O:O:.-',"
+    translations:
+        fr: |-
+            genres de véhicules
+        en: |-
+            kinds of vehicles
+    inhibitions: ['father-mode']
+Semes:
+    -   ieml: "t.i.-s.i.-'u.S:.-U:.-'wo.-',"
+        translations:
+            fr: |-
+                avion non piloté de l'intérieur (drone)
+            en: |-
+                unmanned plane (drone)
+    -   ieml: "t.i.-s.i.-'u.S:.-U:.-'wa.-',"
+        translations:
+            fr: |-
+                avion piloté de l'intérieur
+            en: |-
+                manned plane
+    -   ieml: "t.i.-s.i.-'u.S:.-U:.-'wu.-',"
+        translations:
+            fr: |-
+                avion cargo
+            en: |-
+                freight plane
+    -   ieml: "t.i.-s.i.-'u.S:.-U:.-'we.-',"
+        translations:
+            fr: |-
+                avion pour passagers
+            en: |-
+                plane for passengers
+    -   ieml: "t.i.-s.i.-'u.S:.-A:.-'wo.-',"
+        translations:
+            fr: |-
+                hélicoptère non-piloté de l'intérieur (drone)
+            en: |-
+                unmanned helicopter (drone)
+    -   ieml: "t.i.-s.i.-'u.S:.-A:.-'wa.-',"
+        translations:
+            fr: |-
+                hélicoptère piloté de l'intérieur
+            en: |-
+                manned helicopter
+    -   ieml: "t.i.-s.i.-'u.S:.-A:.-'wu.-',"
+        translations:
+            fr: |-
+                hélicoptère cargo
+            en: |-
+                freight helicopter
+    -   ieml: "t.i.-s.i.-'u.S:.-A:.-'we.-',"
+        translations:
+            fr: |-
+                hélicoptère avec passagers
+            en: |-
+                helicopter with passengers
+    -   ieml: "t.i.-s.i.-'u.B:.-U:.-'wo.-',"
+        translations:
+            fr: |-
+                bateau sans équipage
+            en: |-
+                unmanned ship
+    -   ieml: "t.i.-s.i.-'u.B:.-U:.-'wa.-',"
+        translations:
+            fr: |-
+                bateau avec équipage
+            en: |-
+                manned ship
+    -   ieml: "t.i.-s.i.-'u.B:.-U:.-'wu.-',"
+        translations:
+            fr: |-
+                bateau cargo
+            en: |-
+                cargo ship
+    -   ieml: "t.i.-s.i.-'u.B:.-U:.-'we.-',"
+        translations:
+            fr: |-
+                bateau pour passagers
+            en: |-
+                ship for passengers
+    -   ieml: "t.i.-s.i.-'u.B:.-A:.-'wo.-',"
+        translations:
+            fr: |-
+                sous-marin sans équipage (drone)
+            en: |-
+                unmanned submarine
+    -   ieml: "t.i.-s.i.-'u.B:.-A:.-'wa.-',"
+        translations:
+            fr: |-
+                sous-marin avec équipage
+            en: |-
+                manned submarine
+    -   ieml: "t.i.-s.i.-'u.B:.-A:.-'wu.-',"
+        translations:
+            fr: |-
+                sous-marin cargo
+            en: |-
+                freight submarine
+    -   ieml: "t.i.-s.i.-'u.B:.-A:.-'we.-',"
+        translations:
+            fr: |-
+                sous-marin pour passagers
+            en: |-
+                submarine for passengers
+    -   ieml: "t.i.-s.i.-'u.T:.-U:.-'wo.-',"
+        translations:
+            fr: |-
+                véhicule de surface sans conducteur
+            en: |-
+                unmanned surface vehicle
+    -   ieml: "t.i.-s.i.-'u.T:.-U:.-'wa.-',"
+        translations:
+            fr: |-
+                véhicule de surface avec conducteur
+            en: |-
+                manned surface vehicle
+    -   ieml: "t.i.-s.i.-'u.T:.-U:.-'wu.-',"
+        translations:
+            fr: |-
+                véhicule de surface cargo
+            en: |-
+                freight surface vehicle
+    -   ieml: "t.i.-s.i.-'u.T:.-U:.-'we.-',"
+        translations:
+            fr: |-
+                véhicule de surface pour passagers
+            en: |-
+                surface vehicle for passengers
+    -   ieml: "t.i.-s.i.-'u.T:.-A:.-'wo.-',"
+        translations:
+            fr: |-
+                véhicule souterrain sans équipage
+            en: |-
+                unmanned underground vehicule
+    -   ieml: "t.i.-s.i.-'u.T:.-A:.-'wa.-',"
+        translations:
+            fr: |-
+                véhicule souterrain avec équipage
+            en: |-
+                manned underground vehicle
+    -   ieml: "t.i.-s.i.-'u.T:.-A:.-'wu.-',"
+        translations:
+            fr: |-
+                véhicule cargo sous-terrain
+            en: |-
+                underground freight vehicle
+    -   ieml: "t.i.-s.i.-'u.T:.-A:.-'we.-',"
+        translations:
+            fr: |-
+                véhicule souterrain pour passagers (metro)
+            en: |-
+                underground vehicle for passengers (metro)
+    -   ieml: "t.i.-s.i.-'i.B:.-U:.-'wo.-',"
+        translations:
+            fr: |-
+                satellite sans équipage
+            en: |-
+                unmanned satellite
+    -   ieml: "t.i.-s.i.-'i.B:.-U:.-'wa.-',"
+        translations:
+            fr: |-
+                satellite avec équipage
+            en: |-
+                manned satellite
+    -   ieml: "t.i.-s.i.-'i.B:.-U:.-'wu.-',"
+        translations:
+            fr: |-
+                satellite cargo
+            en: |-
+                freight satellite
+    -   ieml: "t.i.-s.i.-'i.B:.-U:.-'we.-',"
+        translations:
+            fr: |-
+                satellite avec passagers
+            en: |-
+                satellite with passengers
+    -   ieml: "t.i.-s.i.-'i.B:.-A:.-'wo.-',"
+        translations:
+            fr: |-
+                fusée sans équipage
+            en: |-
+                unmanned rocket
+    -   ieml: "t.i.-s.i.-'i.B:.-A:.-'wa.-',"
+        translations:
+            fr: |-
+                fusée avec équipage
+            en: |-
+                manned rocket
+    -   ieml: "t.i.-s.i.-'i.B:.-A:.-'wu.-',"
+        translations:
+            fr: |-
+                fusée cargo
+            en: |-
+                freight rocket
+    -   ieml: "t.i.-s.i.-'i.B:.-A:.-'we.-',"
+        translations:
+            fr: |-
+                fusée avec passagers
+            en: |-
+                rocket with passengers
+Paradigms:
+    -   ieml: "t.i.-s.i.-'u.S:.-U:.-'O:O:.-',"
+        translations:
+            fr: |-
+                avion
+            en: |-
+                plane
+    -   ieml: "t.i.-s.i.-'u.S:.-A:.-'O:O:.-',"
+        translations:
+            fr: |-
+                hélicoptère
+            en: |-
+                helicopter
+    -   ieml: "t.i.-s.i.-'u.B:.-U:.-'O:O:.-',"
+        translations:
+            fr: |-
+                bateau
+            en: |-
+                ship
+    -   ieml: "t.i.-s.i.-'u.B:.-A:.-'O:O:.-',"
+        translations:
+            fr: |-
+                sous-marin
+            en: |-
+                submarine
+    -   ieml: "t.i.-s.i.-'u.T:.-U:.-'O:O:.-',"
+        translations:
+            fr: |-
+                véhicule de surface
+            en: |-
+                surface vehicle
+    -   ieml: "t.i.-s.i.-'u.T:.-A:.-'O:O:.-',"
+        translations:
+            fr: |-
+                véhicule souterrain
+            en: |-
+                underground vehicle
+    -   ieml: "t.i.-s.i.-'i.B:.-U:.-'O:O:.-',"
+        translations:
+            fr: |-
+                satellite
+            en: |-
+                satellite
+    -   ieml: "t.i.-s.i.-'i.B:.-A:.-'O:O:.-',"
+        translations:
+            fr: |-
+                fusée
+            en: |-
+                rocket
+    -   ieml: "t.i.-s.i.-'i.B:.-+u.M:.-O:.-'wo.-',"
+        translations:
+            fr: |-
+                drone | véhicule sans conducteur embarqué
+            en: |-
+                drone | unmanned vehicle
+    -   ieml: "t.i.-s.i.-'i.B:.-+u.M:.-O:.-'wa.-',"
+        translations:
+            fr: |-
+                véhicule piloté de l'intérieur
+            en: |-
+                manned vehicle
+    -   ieml: "t.i.-s.i.-'i.B:.-+u.M:.-O:.-'wu.-',"
+        translations:
+            fr: |-
+                véhicule cargo
+            en: |-
+                freight vehicle
+    -   ieml: "t.i.-s.i.-'i.B:.-+u.M:.-O:.-'we.-',"
+        translations:
+            fr: |-
+                véhicule pour passagers
+            en: |-
+                vehicle for passengers

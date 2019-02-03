@@ -1,0 +1,44 @@
+Words:
+  - ieml: "[([t.o.-n.o.-j.-']+[E:.-A:.h.-+O:.S:+T:U:.-t.o.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "Temporalité: date relative"
+      en:
+
+  - ieml: "[([t.o.-n.o.-j.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "journée"
+      en:
+        - "day"
+  - ieml: "[([E:.-A:.j.-t.o.-']+[t.o.-n.o.-j.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "aujourd'hui"
+      en:
+        - "today"
+  - ieml: "[([E:.-A:.h.-t.o.-']+[t.o.-n.o.-j.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "aujourd'hui"
+      en:
+        - "today"
+  - ieml: "[([E:.-A:.p.-t.o.-']+[t.o.-n.o.-j.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "hier"
+      en:
+        - "yesterday"
+  - ieml: "[([E:.-U:.j.-t.o.-']+[E:.-A:.j.-t.o.-']+[t.o.-n.o.-j.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "après-demain"
+      en:
+        - "the day after tomorrow"
+  - ieml: "[([E:.-U:.p.-t.o.-']+[E:.-A:.p.-t.o.-']+[t.o.-n.o.-j.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "avant-hier"
+      en:
+        - "the day before yesterday"
+

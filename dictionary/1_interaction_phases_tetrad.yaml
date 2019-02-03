@@ -1,0 +1,64 @@
+RootParadigm:
+    ieml: "O:O:."
+    translations:
+        fr: |-
+            phases de l'interaction | tétrade
+        en: |-
+            interaction phases | tetrad
+    inhibitions: []
+    comments:
+        en: |-
+            In order to understand O x O we have to think about the basic sensorimotor cycle. Let's begin with the inner sanctum of personal existence that does not manifest externally: to exist. Then, from this virtual place, we act. As a result, our actual environment is transformed and a new reality appears or happens. Finally, from the actuality of external happening, we perceive back to our inner existence. Note the two intertwined oppositions : 
+            • wa act (in –> out) / wu perceive (out –> in) 
+            • wo exist (in –> in) / we appear (out –> out)
+            wo wa wu we can be used to model any quaternary semantic symmetry. They can also be used to « verbify » nominal semes when creating new words.
+Semes:
+    -   ieml: "wo."
+        translations:
+            fr: |-
+                exister, devenir
+            en: |-
+                exist, begin
+    -   ieml: "wa."
+        translations:
+            fr: |-
+                agir
+            en: |-
+                act
+    -   ieml: "wu."
+        translations:
+            fr: |-
+                percevoir
+            en: |-
+                perceive
+    -   ieml: "we."
+        translations:
+            fr: |-
+                apparaître, arriver
+            en: |-
+                appear, happen
+Paradigms:
+    -   ieml: "U:O:."
+        translations:
+            fr: |-
+                à partir de l'actant
+            en: |-
+                from the actant
+    -   ieml: "A:O:."
+        translations:
+            fr: |-
+                à  partir de l'inter-actant
+            en: |-
+                from the inter-actant
+    -   ieml: "O:U:."
+        translations:
+            fr: |-
+                générer vers le virtuel
+            en: |-
+                generate toward the virtual
+    -   ieml: "O:A:."
+        translations:
+            fr: |-
+                vers l'interactant
+            en: |-
+                toward the interactant

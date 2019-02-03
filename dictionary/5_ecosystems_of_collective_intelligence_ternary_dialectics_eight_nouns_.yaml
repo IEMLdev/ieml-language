@@ -1,0 +1,172 @@
+RootParadigm:
+    ieml: "s.o.-k.o.-'M:O:.-',M:.-',_"
+    translations:
+        fr: |-
+            écosystèmes de l'intelligence collective: dialectiques ternaires (dix-huit noms)
+        en: |-
+            ecosystems of collective intelligence: ternary dialectics (eight nouns)
+    inhibitions: []
+Semes:
+    -   ieml: "s.o.-k.o.-'j.-',S:.-',_"
+        translations:
+            fr: |-
+                étude et pratique des sciences
+            en: |-
+                study and practise of sciences
+    -   ieml: "s.o.-k.o.-'j.-',B:.-',_"
+        translations:
+            fr: |-
+                étude et pratique des arts
+            en: |-
+                study and practise of arts
+    -   ieml: "s.o.-k.o.-'j.-',T:.-',_"
+        translations:
+            fr: |-
+                étude et pratique des sagesses
+            en: |-
+                study and practice of wisdoms
+    -   ieml: "s.o.-k.o.-'g.-',S:.-',_"
+        translations:
+            fr: |-
+                étude et perfectionnement de la création de contenu
+            en: |-
+                study and improvement of content creation
+    -   ieml: "s.o.-k.o.-'g.-',B:.-',_"
+        translations:
+            fr: |-
+                étude et perfectionnement de la communication
+            en: |-
+                study and improvement of communication
+    -   ieml: "s.o.-k.o.-'g.-',T:.-',_"
+        translations:
+            fr: |-
+                maîtrise et développement des médias
+            en: |-
+                mastery and development of media
+    -   ieml: "s.o.-k.o.-'h.-',S:.-',_"
+        translations:
+            fr: |-
+                exercice et raffinement de la gouvernance
+            en: |-
+                exercise and refinement of governance
+    -   ieml: "s.o.-k.o.-'h.-',B:.-',_"
+        translations:
+            fr: |-
+                respect et raffinement des valeurs
+            en: |-
+                respect and refinement of values
+    -   ieml: "s.o.-k.o.-'h.-',T:.-',_"
+        translations:
+            fr: |-
+                respect et raffinement des droits et obligations
+            en: |-
+                respect and refinement of rights and obligations
+    -   ieml: "s.o.-k.o.-'c.-',S:.-',_"
+        translations:
+            fr: |-
+                interprétation and développement des rôles sociaux
+            en: |-
+                playing and developing social roles
+    -   ieml: "s.o.-k.o.-'c.-',B:.-',_"
+        translations:
+            fr: |-
+                maintien et développement de la confiance
+            en: |-
+                maintaining and building trust
+    -   ieml: "s.o.-k.o.-'c.-',T:.-',_"
+        translations:
+            fr: |-
+                maintien et développement des connexions sociales
+            en: |-
+                maintaining and developing social connections
+    -   ieml: "s.o.-k.o.-'p.-',S:.-',_"
+        translations:
+            fr: |-
+                maintien et développement des compétences
+            en: |-
+                skills maintenance and development
+    -   ieml: "s.o.-k.o.-'p.-',B:.-',_"
+        translations:
+            fr: |-
+                maintien et renforcement du moral
+            en: |-
+                maintaining and strengthening morale
+    -   ieml: "s.o.-k.o.-'p.-',T:.-',_"
+        translations:
+            fr: |-
+                rassemblement et utilisation des ressources
+            en: |-
+                collection and use of resources
+    -   ieml: "s.o.-k.o.-'x.-',S:.-',_"
+        translations:
+            fr: |-
+                maintien et développement des techniques
+            en: |-
+                technology maintenance and development
+    -   ieml: "s.o.-k.o.-'x.-',B:.-',_"
+        translations:
+            fr: |-
+                entretien et amélioration de la santé publique
+            en: |-
+                maintenance and improvement of public health
+    -   ieml: "s.o.-k.o.-'x.-',T:.-',_"
+        translations:
+            fr: |-
+                maintien et amélioration de l'environnement bio-physique
+            en: |-
+                maintenance and improvement of the bio-physical environment
+Paradigms:
+    -   ieml: "s.o.-k.o.-'j.-',M:.-',_"
+        translations:
+            fr: |-
+                réseaux de connaissances, écosystèmes d'idées
+            en: |-
+                knowledge networks, ideas ecosystem
+    -   ieml: "s.o.-k.o.-'g.-',M:.-',_"
+        translations:
+            fr: |-
+                réseaux d'information, écosystème de messages et de documents
+            en: |-
+                information network, ecosystem of messages and documents
+    -   ieml: "s.o.-k.o.-'h.-',M:.-',_"
+        translations:
+            fr: |-
+                réseau de volontés, disposition éthique, écosystème de subjectivités
+            en: |-
+                network of wills, ethical disposition, ecosystem of subjectivities
+    -   ieml: "s.o.-k.o.-'c.-',M:.-',_"
+        translations:
+            fr: |-
+                réseau social, écosystème de relations interpersonnelles
+            en: |-
+                social network, ecosystem of interpersonal relations
+    -   ieml: "s.o.-k.o.-'p.-',M:.-',_"
+        translations:
+            fr: |-
+                réseau de forces, écosystème de pouvoirs
+            en: |-
+                network of strengths, ecosystem of powers
+    -   ieml: "s.o.-k.o.-'x.-',M:.-',_"
+        translations:
+            fr: |-
+                réseau de corps, écosystème biophysique
+            en: |-
+                network of bodies, biophysical ecosytem
+    -   ieml: "s.o.-k.o.-'M:O:.-',S:.-',_"
+        translations:
+            fr: |-
+                moments formels ou abstraits de l'intelligence collective
+            en: |-
+                formal or abstract moments of collective intelligence
+    -   ieml: "s.o.-k.o.-'M:O:.-',B:.-',_"
+        translations:
+            fr: |-
+                moments subjectifs et affectifs de l'intelligence collective
+            en: |-
+                subjective and affective moments of collective intelligence
+    -   ieml: "s.o.-k.o.-'M:O:.-',T:.-',_"
+        translations:
+            fr: |-
+                moments pratiques et objectifs de l'intelligence collective
+            en: |-
+                practical and objective moments of collective intelligence

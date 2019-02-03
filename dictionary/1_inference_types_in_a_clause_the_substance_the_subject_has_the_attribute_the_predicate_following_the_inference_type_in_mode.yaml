@@ -1,0 +1,76 @@
+RootParadigm:
+    ieml: "E:M:O:."
+    translations:
+        fr: |-
+            types d'inférence | dans une clause: la substance (le sujet) possède l'attribut (le prédicat) selon le type d'inférence en mode
+        en: |-
+            inference types | in a clause: the substance (the subject) has the attribute (the predicate) following the inference type in mode
+    inhibitions: ['father-attribute', 'father-mode']
+Semes:
+    -   ieml: "E:S:U:."
+        translations:
+            fr: |-
+                possibilité
+            en: |-
+                possibility
+    -   ieml: "E:S:A:."
+        translations:
+            fr: |-
+                condition (en rôle de mode: l'attribut est une condition de la substance)
+            en: |-
+                condition (in mode rôle: the attribute is a condition of the substance)
+    -   ieml: "E:B:U:."
+        translations:
+            fr: |-
+                par probabilité | la substance (le sujet) a probablement l'attribut (le prédicat)
+            en: |-
+                by probability | the substance (the subject) has probably the attribute (the predicate)
+    -   ieml: "E:B:A:."
+        translations:
+            fr: |-
+                par autorité
+            en: |-
+                by authority
+    -   ieml: "E:T:U:."
+        translations:
+            fr: |-
+                par nécessité logique | par déduction
+            en: |-
+                by logical necessity | by deduction
+    -   ieml: "E:T:A:."
+        translations:
+            fr: |-
+                par expérience | à partir des faits
+            en: |-
+                by experience | from the facts
+Paradigms:
+    -   ieml: "E:S:O:."
+        translations:
+            fr: |-
+                construction hypothétique | si
+            en: |-
+                hypothetic construction | if
+    -   ieml: "E:B:O:."
+        translations:
+            fr: |-
+                croyance
+            en: |-
+                belief
+    -   ieml: "E:T:O:."
+        translations:
+            fr: |-
+                conclusion | alors | donc
+            en: |-
+                conclusion | then | therefore
+    -   ieml: "E:M:U:."
+        translations:
+            fr: |-
+                peut inférentiel
+            en: |-
+                inferential may
+    -   ieml: "E:M:A:."
+        translations:
+            fr: |-
+                doit inférentiel
+            en: |-
+                inferential must

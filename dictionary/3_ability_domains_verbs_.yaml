@@ -1,0 +1,292 @@
+RootParadigm:
+    ieml: "O:.-M:M:.e.-'"
+    translations:
+        fr: |-
+            domaines d'habileté (verbes)
+        en: |-
+            ability domains (verbs)
+    inhibitions: []
+Semes:
+    -   ieml: "U:.-s.e.-'"
+        translations:
+            fr: |-
+                systèmes symboliques (maîtriser les)
+            en: |-
+                symbolic systems (master)
+    -   ieml: "U:.-b.e.-'"
+        translations:
+            fr: |-
+                logique (maîtriser la conversation rationnelle)
+            en: |-
+                logic (mastering rational conversation)
+    -   ieml: "U:.-t.e.-'"
+        translations:
+            fr: |-
+                maîtriser le logos, le pathos et l'éthos
+            en: |-
+                mastering logos, pathos and ethos
+    -   ieml: "U:.-k.e.-'"
+        translations:
+            fr: |-
+                aspiration à l'auto-développement (acquérir)
+            en: |-
+                aspiration to self-development (gain)
+    -   ieml: "U:.-m.e.-'"
+        translations:
+            fr: |-
+                maîtriser les conventions sociales
+            en: |-
+                mastering social conventions
+    -   ieml: "U:.-n.e.-'"
+        translations:
+            fr: |-
+                vision (acquérir)
+            en: |-
+                vision (gain)
+    -   ieml: "U:.-d.e.-'"
+        translations:
+            fr: |-
+                perfectionner les habiletés sensibles
+            en: |-
+                improve sensorial abilities
+    -   ieml: "U:.-f.e.-'"
+        translations:
+            fr: |-
+                maîtriser les outils
+            en: |-
+                master the tools
+    -   ieml: "U:.-l.e.-'"
+        translations:
+            fr: |-
+                maîtriser les réseaux
+            en: |-
+                master the networks
+    -   ieml: "A:.-s.e.-'"
+        translations:
+            fr: |-
+                corpus (maîtriser le)
+            en: |-
+                corpus (master the)
+    -   ieml: "A:.-b.e.-'"
+        translations:
+            fr: |-
+                analytique (maîtriser la catégorisation)
+            en: |-
+                analytics (mastering categorization)
+    -   ieml: "A:.-t.e.-'"
+        translations:
+            fr: |-
+                maîtriser les cinq parties de la rhétorique
+            en: |-
+                mastering the five parts of rhetorics
+    -   ieml: "A:.-k.e.-'"
+        translations:
+            fr: |-
+                autonomie affective (acquérir)
+            en: |-
+                affective autonomy (gain)
+    -   ieml: "A:.-m.e.-'"
+        translations:
+            fr: |-
+                respect de l'interlocuteur (acquérir)
+            en: |-
+                respect for the interlocutor (gain)
+    -   ieml: "A:.-n.e.-'"
+        translations:
+            fr: |-
+                inspirer (acquérir la capacité d')
+            en: |-
+                inspire (gain the ability to)
+    -   ieml: "A:.-d.e.-'"
+        translations:
+            fr: |-
+                perfectionner les capacités motrices
+            en: |-
+                improve motor abilities
+    -   ieml: "A:.-f.e.-'"
+        translations:
+            fr: |-
+                maîtriser les transformations
+            en: |-
+                master the transformations
+    -   ieml: "A:.-l.e.-'"
+        translations:
+            fr: |-
+                maîtriser les machines
+            en: |-
+                mastering the machines
+Paradigms:
+    -   ieml: "O:.-s.e.-'"
+        translations:
+            fr: |-
+                maîtrise du code (acquérir)
+            en: |-
+                mastering of the code (gain)
+    -   ieml: "O:.-b.e.-'"
+        translations:
+            fr: |-
+                raisonnement (acquérir)
+            en: |-
+                reasoning (gain)
+    -   ieml: "O:.-t.e.-'"
+        translations:
+            fr: |-
+                persuasion (acquérir)
+            en: |-
+                persuasion (gain)
+    -   ieml: "O:.-k.e.-'"
+        translations:
+            fr: |-
+                maîtrise de soi (acquérir)
+            en: |-
+                self-control (gain)
+    -   ieml: "O:.-m.e.-'"
+        translations:
+            fr: |-
+                maîtrise de la négociation (acquérir)
+            en: |-
+                mastering negotiation (gain)
+    -   ieml: "O:.-n.e.-'"
+        translations:
+            fr: |-
+                capacité de diriger (acquérir)
+            en: |-
+                ability to lead (gain)
+    -   ieml: "O:.-d.e.-'"
+        translations:
+            fr: |-
+                perfectionner la sensorimotricité
+            en: |-
+                improve sensori-motor abilities
+    -   ieml: "O:.-f.e.-'"
+        translations:
+            fr: |-
+                capacités technique (acquérir)
+            en: |-
+                technical (gain)
+    -   ieml: "O:.-l.e.-'"
+        translations:
+            fr: |-
+                habileté en ingénierie (acquérir)
+            en: |-
+                engineering abilities (gain)
+    -   ieml: "U:.-S:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir les compétences virtuelles du trivium du signe
+            en: |-
+                gain the virtual skills of the trivium of sign
+    -   ieml: "U:.-B:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir les compétences virtuelles du trivium de l'être
+            en: |-
+                gain the virtual skills of the trivium of being
+    -   ieml: "U:.-T:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir les compétences virtuelles du trivium de la chose
+            en: |-
+                gain the virtual skills of the trivium of thing
+    -   ieml: "U:.-M:S:.e.-'"
+        translations:
+            fr: |-
+                apprendre la grammaire virtuelle du trivium généralisé
+            en: |-
+                learn the virtual grammar of the generalized trivium
+    -   ieml: "U:.-M:B:.e.-'"
+        translations:
+            fr: |-
+                apprendre la dialectique virtuelle du trivium généralisé
+            en: |-
+                learn the virtual dialectic of the generalized trivium
+    -   ieml: "U:.-M:T:.e.-'"
+        translations:
+            fr: |-
+                apprendre la rhétorique virtuelle du trivium généralisé
+            en: |-
+                learn the virtual rhetoric of the generalized trivium
+    -   ieml: "A:.-S:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir les compétences actuelles du trivium du signe
+            en: |-
+                gain the actual skills of the trivium of sign
+    -   ieml: "A:.-B:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir les compétences actuelles du trivium de l'être
+            en: |-
+                gain the actual skills of the trivium of being
+    -   ieml: "A:.-T:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir les compétences actuelles du trivium de la chose
+            en: |-
+                gain the actual skills of the trivium of thing
+    -   ieml: "A:.-M:S:.e.-'"
+        translations:
+            fr: |-
+                apprendre la grammaire actuelle du trivium généralisé
+            en: |-
+                learn the actual grammar of the generalized trivium
+    -   ieml: "A:.-M:B:.e.-'"
+        translations:
+            fr: |-
+                apprendre la dialectique actuelle du trivium généralisé
+            en: |-
+                learn the actual dialectic of the generalized trivium
+    -   ieml: "A:.-M:T:.e.-'"
+        translations:
+            fr: |-
+                apprendre la rhétorique actuelle du trivium généralisé
+            en: |-
+                learn the actual rhetoric of the generalized trivium
+    -   ieml: "O:.-S:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir le trivium du signe
+            en: |-
+                gain the trivium of the sign
+    -   ieml: "O:.-B:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir le trivium de l'être
+            en: |-
+                gain the trivium of being
+    -   ieml: "O:.-T:M:.e.-'"
+        translations:
+            fr: |-
+                acquérir le trivium de la chose
+            en: |-
+                gain the trivium of the thing
+    -   ieml: "O:.-M:S:.e.-'"
+        translations:
+            fr: |-
+                apprendre la grammaire du trivium généralisé
+            en: |-
+                learn the grammar of the generalized trivium
+    -   ieml: "O:.-M:B:.e.-'"
+        translations:
+            fr: |-
+                apprendre la dialectique du trivium généralisé
+            en: |-
+                learn the dialectic of the generalized trivium
+    -   ieml: "O:.-M:T:.e.-'"
+        translations:
+            fr: |-
+                apprendre la rhétorique du trivium généralisé
+            en: |-
+                learn the rhetoric of the generalized trivium
+    -   ieml: "U:.-M:M:.e.-'"
+        translations:
+            fr: |-
+                habileté virtuelle (acquérir)
+            en: |-
+                virtual ability (gain)
+    -   ieml: "A:.-M:M:.e.-'"
+        translations:
+            fr: |-
+                habileté actuelle (acquérir)
+            en: |-
+                actual ability (gain)

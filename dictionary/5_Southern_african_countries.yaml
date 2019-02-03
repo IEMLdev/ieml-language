@@ -1,0 +1,100 @@
+RootParadigm:
+    ieml: "n.-S:.U:.-'T:.-'B:.-',M:.-',M:.-',_"
+    translations:
+        fr: |-
+            Pays d'Afrique australe
+        en: |-
+            Southern african countries
+    inhibitions: ['father-attribute', 'father-mode']
+Semes:
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',S:.-',S:.-',_"
+        translations:
+            fr: |-
+                Gabon, Congo (Brazzaville), Guinée équatoriale
+            en: |-
+                Gabon, Congo (Brazzaville), Equatorial Guinea
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',S:.-',B:.-',_"
+        translations:
+            fr: |-
+                République démocratique du Congo (Kinshasa)
+            en: |-
+                Democratic Republic of the Congo (Kinshasa)
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',S:.-',T:.-',_"
+        translations:
+            fr: |-
+                Burundi, Kenya, Ouganda, Rwanda, Tanzanie
+            en: |-
+                Burundi, Kenya, Ouganda, Rwanda, Tanzania
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',B:.-',S:.-',_"
+        translations:
+            fr: |-
+                Angola
+            en: |-
+                Angola
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',B:.-',B:.-',_"
+        translations:
+            fr: |-
+                Zambie, Zimbabwe
+            en: |-
+                Zambia, Zimbabwe
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',B:.-',T:.-',_"
+        translations:
+            fr: |-
+                Malawi, Mozambique; îles: Comores, Madagascar, Maurice, Réunion
+            en: |-
+                Malawi, Mozambique; îles: Comores, Madagascar, Mauritius, Reunion
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',T:.-',S:.-',_"
+        translations:
+            fr: |-
+                Namibie
+            en: |-
+                Namibia
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',T:.-',B:.-',_"
+        translations:
+            fr: |-
+                Botswana
+            en: |-
+                Botswana
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',T:.-',T:.-',_"
+        translations:
+            fr: |-
+                Afrique du Sud, Lesotho, Swaziland
+            en: |-
+                South Africa, Lesotho, Swaziland
+Paradigms:
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',S:.-',M:.-',_"
+        translations:
+            fr: |-
+                Afrique équatoriale
+            en: |-
+                Equatorial Africa
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',B:.-',M:.-',_"
+        translations:
+            fr: |-
+                Afrique tropicale sud
+            en: |-
+                Tropical south Africa
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',T:.-',M:.-',_"
+        translations:
+            fr: |-
+                Pointe sud de l'Afrique
+            en: |-
+                Southern tip of Africa
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',M:.-',S:.-',_"
+        translations:
+            fr: |-
+                Afrique australe tournée vers l'Atlantique
+            en: |-
+                Southern Africa looking to the Atlantic
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',M:.-',B:.-',_"
+        translations:
+            fr: |-
+                Pays du centre de l'Afrique Australe
+            en: |-
+                Countries from the center of southern Africa
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',M:.-',T:.-',_"
+        translations:
+            fr: |-
+                Afrique Australe tournée vers l'océan indien
+            en: |-
+                Southern Africa looking to the indian ocean

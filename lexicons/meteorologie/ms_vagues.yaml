@@ -1,0 +1,43 @@
+Words:
+  - ieml: "[([n.i.-s.i.-t.u.-']+[l.-y.-'E:U:.n.-l.-'E:U:.b.-l.-',]+[E:.T:.h.-',+l.-y.-'E:U:.n.-l.-'E:U:.s.-l.-',]+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_+n.-T:.A:.-+S:+T:.U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "Météorologie: vagues"
+      en:
+
+  - ieml: "[([n.i.-s.i.-t.u.-']+[l.-y.-'E:U:.n.-l.-'E:U:.b.-l.-',])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "onde"
+      en:
+        - "wave"
+  - ieml: "[([n.-T:.A:.-']+[n.i.-s.i.-t.u.-']+[l.-y.-'E:U:.n.-l.-'E:U:.b.-l.-',])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "vague (eau)"
+      en:
+        - "wave (water)"
+  - ieml: "[([n.-S:.U:.-']+[n.i.-s.i.-t.u.-']+[l.-y.-'E:U:.n.-l.-'E:U:.s.-l.-',]+[l.-y.-'E:U:.n.-l.-'E:U:.b.-l.-',])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "glissement de terrain"
+      en:
+        - "landslide"
+  - ieml: "[([E:.T:.h.-]+[n.-T:.U:.-']+[n.i.-s.i.-t.u.-']+[l.-y.-'E:U:.n.-l.-'E:U:.b.-l.-',])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "front (système atmosphérique)"
+        - "arête (système atmosphérique)"
+        - "onde (système atmosphérique)"
+      en:
+        - "front (atmospheric system)"
+        - "edge (atmospheric system)"
+        - "ridge (atmospheric system)"
+        - "wave (atmospheric system)"
+  - ieml: "[([n.i.-s.i.-t.u.-']+[l.-y.-'E:U:.n.-l.-'E:U:.s.-l.-',]+[l.-y.-'E:U:.n.-l.-'E:U:.b.-l.-',]+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "avalanche"
+      en:
+        - "avalanche"
+

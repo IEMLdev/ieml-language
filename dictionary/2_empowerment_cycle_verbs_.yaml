@@ -1,0 +1,478 @@
+RootParadigm:
+    ieml: "O:M:.O:O:.-"
+    translations:
+        fr: |-
+            cycle du gain en puissance (verbes)
+        en: |-
+            empowerment cycle (verbs)
+    inhibitions: ['father-attribute']
+Semes:
+    -   ieml: "y.wo.-"
+        translations:
+            fr: |-
+                assumer la responsabilité personnelle d'une oeuvre
+            en: |-
+                assume the personal responsibility of a work
+    -   ieml: "y.wa.-"
+        translations:
+            fr: |-
+                assumer une identité corporative
+            en: |-
+                assume a corporate identity
+    -   ieml: "y.wu.-"
+        translations:
+            fr: |-
+                assumer son identité personnelle
+            en: |-
+                assume one's personal identity
+    -   ieml: "y.we.-"
+        translations:
+            fr: |-
+                assumer une tradition | une identité familiale
+            en: |-
+                assume a family tradition | identity
+    -   ieml: "o.wo.-"
+        translations:
+            fr: |-
+                utiliser les lois sur la propriété intellectuelle
+            en: |-
+                use intellectual property law
+    -   ieml: "o.wa.-"
+        translations:
+            fr: |-
+                utiliser le droit administratif | commercial
+            en: |-
+                use administrative | commercial law
+    -   ieml: "o.wu.-"
+        translations:
+            fr: |-
+                utiliser le droit pénal
+            en: |-
+                use criminal law
+    -   ieml: "o.we.-"
+        translations:
+            fr: |-
+                utiliser le droit de la famille
+            en: |-
+                use family law
+    -   ieml: "e.wo.-"
+        translations:
+            fr: |-
+                exploiter un talent
+            en: |-
+                exploit a talent
+    -   ieml: "e.wa.-"
+        translations:
+            fr: |-
+                posséder un capital
+            en: |-
+                own a capital
+    -   ieml: "e.wu.-"
+        translations:
+            fr: |-
+                surveiller | organiser la transparence
+            en: |-
+                keep watch | organize transparency
+    -   ieml: "e.we.-"
+        translations:
+            fr: |-
+                contrôler la reproduction
+            en: |-
+                control birth
+    -   ieml: "u.wo.-"
+        translations:
+            fr: |-
+                publier | exposer une oeuvre originale
+            en: |-
+                publish | exhibit an original work
+    -   ieml: "u.wa.-"
+        translations:
+            fr: |-
+                mettre en marché
+            en: |-
+                marketing
+    -   ieml: "u.wu.-"
+        translations:
+            fr: |-
+                s'exprimer dans les médias
+            en: |-
+                express oneself in the media
+    -   ieml: "u.we.-"
+        translations:
+            fr: |-
+                fonder une famille
+            en: |-
+                start a family
+    -   ieml: "a.wo.-"
+        translations:
+            fr: |-
+                créer une œuvre scientifique | artistique
+            en: |-
+                create a scientific | artistic work
+    -   ieml: "a.wa.-"
+        translations:
+            fr: |-
+                créer une entreprise
+            en: |-
+                create a company
+    -   ieml: "a.wu.-"
+        translations:
+            fr: |-
+                mener une action politique
+            en: |-
+                lead a political action
+    -   ieml: "a.we.-"
+        translations:
+            fr: |-
+                s'entraider | aider sa famille
+            en: |-
+                help each other | help family
+    -   ieml: "i.wo.-"
+        translations:
+            fr: |-
+                équiper une activité scientifique | artistique
+            en: |-
+                equip a scientific | artistic activity
+    -   ieml: "i.wa.-"
+        translations:
+            fr: |-
+                équiper une entreprise | une activité économique
+            en: |-
+                equip a company | an economic activity
+    -   ieml: "i.wu.-"
+        translations:
+            fr: |-
+                équiper un territoire | une collectivité locale
+            en: |-
+                equip a territory | a local community
+    -   ieml: "i.we.-"
+        translations:
+            fr: |-
+                équiper un ménage
+            en: |-
+                equip a household
+Paradigms:
+    -   ieml: "y.U:O:.-"
+        translations:
+            fr: |-
+                assumer son chemin
+            en: |-
+                assume one's path
+    -   ieml: "y.A:O:.-"
+        translations:
+            fr: |-
+                assumer ses racines
+            en: |-
+                assume one's roots
+    -   ieml: "y.O:U:.-"
+        translations:
+            fr: |-
+                assumer une identité individuelle
+            en: |-
+                assume an individual identity
+    -   ieml: "y.O:A:.-"
+        translations:
+            fr: |-
+                assumer une identité collective
+            en: |-
+                assume a collective identity
+    -   ieml: "o.U:O:.-"
+        translations:
+            fr: |-
+                régler les relations mixtes
+            en: |-
+                rule mixed relations
+    -   ieml: "o.A:O:.-"
+        translations:
+            fr: |-
+                régler les relations interpersonnelles
+            en: |-
+                rule interpersonal relations
+    -   ieml: "o.O:U:.-"
+        translations:
+            fr: |-
+                régler les relations entre acteurs
+            en: |-
+                rule the relations between actors
+    -   ieml: "o.O:A:.-"
+        translations:
+            fr: |-
+                régler les relations entre rôles
+            en: |-
+                rule the relations between roles
+    -   ieml: "e.U:O:.-"
+        translations:
+            fr: |-
+                contrôle economique
+            en: |-
+                economic control
+    -   ieml: "e.A:O:.-"
+        translations:
+            fr: |-
+                contrôle physique
+            en: |-
+                physical control
+    -   ieml: "e.O:U:.-"
+        translations:
+            fr: |-
+                contrôle indirect
+            en: |-
+                indirect control
+    -   ieml: "e.O:A:.-"
+        translations:
+            fr: |-
+                contrôle direct
+            en: |-
+                direct control
+    -   ieml: "u.U:O:.-"
+        translations:
+            fr: |-
+                exposer quelque chose
+            en: |-
+                expose something
+    -   ieml: "u.A:O:.-"
+        translations:
+            fr: |-
+                s'exposer
+            en: |-
+                expose oneself
+    -   ieml: "u.O:U:.-"
+        translations:
+            fr: |-
+                exposer le virtuel
+            en: |-
+                expose the virtual
+    -   ieml: "u.O:A:.-"
+        translations:
+            fr: |-
+                exposer l'actuel
+            en: |-
+                expose the actual
+    -   ieml: "a.U:O:.-"
+        translations:
+            fr: |-
+                créer de la richesse
+            en: |-
+                create some wealth
+    -   ieml: "a.A:O:.-"
+        translations:
+            fr: |-
+                créer la société
+            en: |-
+                create the society
+    -   ieml: "a.O:U:.-"
+        translations:
+            fr: |-
+                créer virtuellement
+            en: |-
+                create virtually
+    -   ieml: "a.O:A:.-"
+        translations:
+            fr: |-
+                créer actuellement
+            en: |-
+                create actually
+    -   ieml: "i.U:O:.-"
+        translations:
+            fr: |-
+                équiper une communauté virtuelle
+            en: |-
+                equip a virtual community
+    -   ieml: "i.A:O:.-"
+        translations:
+            fr: |-
+                équiper une communauté actuelle
+            en: |-
+                equip a actual community
+    -   ieml: "i.O:U:.-"
+        translations:
+            fr: |-
+                équiper la vie culturelle
+            en: |-
+                equip cultural life
+    -   ieml: "i.O:A:.-"
+        translations:
+            fr: |-
+                équiper la reproduction concrète
+            en: |-
+                equip concrete reproduction
+    -   ieml: "O:S:.wo.-"
+        translations:
+            fr: |-
+                gagner en puissance créative selon le signe
+            en: |-
+                gain in creative power according to the sign
+    -   ieml: "O:S:.wa.-"
+        translations:
+            fr: |-
+                gagner en puissance économique selon le signe
+            en: |-
+                gain in economic power according to the sign
+    -   ieml: "O:S:.wu.-"
+        translations:
+            fr: |-
+                gagner en puissance citoyenne selon le signe
+            en: |-
+                gain in citizen empowerment according to the sign
+    -   ieml: "O:S:.we.-"
+        translations:
+            fr: |-
+                gagner en puissance familiale selon le signe
+            en: |-
+                gain in family empowerment according to the sign
+    -   ieml: "O:B:.wo.-"
+        translations:
+            fr: |-
+                gagner en puissance créative selon l'être
+            en: |-
+                gain in creative power according to the being
+    -   ieml: "O:B:.wa.-"
+        translations:
+            fr: |-
+                gagner en puissance économique selon l'être
+            en: |-
+                gain in economic power according to the being
+    -   ieml: "O:B:.wu.-"
+        translations:
+            fr: |-
+                gagner en puissance citoyenne selon l'être
+            en: |-
+                gain in citizen empowerment according to being
+    -   ieml: "O:B:.we.-"
+        translations:
+            fr: |-
+                gagner en puissance familiale selon l'être
+            en: |-
+                gain in family empowerment according to the being
+    -   ieml: "O:T:.wo.-"
+        translations:
+            fr: |-
+                gagner en puissance créative selon la chose
+            en: |-
+                gain in creative power according to the thing
+    -   ieml: "O:T:.wa.-"
+        translations:
+            fr: |-
+                gagner en puissance économique selon la chose
+            en: |-
+                gain in economic power according to the thing
+    -   ieml: "O:T:.wu.-"
+        translations:
+            fr: |-
+                gagner en puissance citoyenne selon la chose
+            en: |-
+                gain in citizen empowerment according to the thing
+    -   ieml: "O:T:.we.-"
+        translations:
+            fr: |-
+                gagner en puissance familiale selon la chose
+            en: |-
+                gain in family empowerment according to the thing
+    -   ieml: "U:M:.wo.-"
+        translations:
+            fr: |-
+                gagner en puissance créative virtuelle
+            en: |-
+                gain in virtual creative power
+    -   ieml: "U:M:.wa.-"
+        translations:
+            fr: |-
+                gagner en puissance économique virtuelle
+            en: |-
+                gain in virtual economic power
+    -   ieml: "U:M:.wu.-"
+        translations:
+            fr: |-
+                gagner en puissance citoyenne virtuelle
+            en: |-
+                gain in virtual citizen empowerment
+    -   ieml: "U:M:.we.-"
+        translations:
+            fr: |-
+                gagner en puissance familiale virtuelle
+            en: |-
+                gain in virtual family empowerment
+    -   ieml: "A:M:.wo.-"
+        translations:
+            fr: |-
+                gagner en puissance créative actuelle
+            en: |-
+                gain in actual creative power
+    -   ieml: "A:M:.wa.-"
+        translations:
+            fr: |-
+                gagner en puissance économique actuelle
+            en: |-
+                gain in actual economic power
+    -   ieml: "A:M:.wu.-"
+        translations:
+            fr: |-
+                gagner en puissance citoyenne actuelle
+            en: |-
+                gain in actual citizen empowermrnt
+    -   ieml: "A:M:.we.-"
+        translations:
+            fr: |-
+                gagner en puissance familiale actuelle
+            en: |-
+                gain in actual family empowerment
+    -   ieml: "y.O:O:.-"
+        translations:
+            fr: |-
+                assumer une identité
+            en: |-
+                assume an identity
+    -   ieml: "o.O:O:.-"
+        translations:
+            fr: |-
+                utiliser le droit
+            en: |-
+                use law
+    -   ieml: "e.O:O:.-"
+        translations:
+            fr: |-
+                contrôler
+            en: |-
+                control
+    -   ieml: "u.O:O:.-"
+        translations:
+            fr: |-
+                exposer
+            en: |-
+                exhibit
+    -   ieml: "a.O:O:.-"
+        translations:
+            fr: |-
+                créer | initier
+            en: |-
+                create | initiate
+    -   ieml: "i.O:O:.-"
+        translations:
+            fr: |-
+                équiper
+            en: |-
+                equip
+    -   ieml: "O:M:.wo.-"
+        translations:
+            fr: |-
+                gagner en puissance créative
+            en: |-
+                gain in creative power
+    -   ieml: "O:M:.wa.-"
+        translations:
+            fr: |-
+                gagner en puissance économique
+            en: |-
+                gain in economic power
+    -   ieml: "O:M:.wu.-"
+        translations:
+            fr: |-
+                gagner en puissance citoyenne
+            en: |-
+                gain in citizen empowerment
+    -   ieml: "O:M:.we.-"
+        translations:
+            fr: |-
+                gagner en puissance familiale
+            en: |-
+                gain in family empowerment

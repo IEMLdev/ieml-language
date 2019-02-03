@@ -1,0 +1,111 @@
+RootParadigm:
+    ieml: "M:U:.U:M:.d.-"
+    translations:
+        fr: |-
+            anthropologie philosophique
+        en: |-
+            philosophical anthropology
+    inhibitions: []
+    comments:
+        fr: |-
+            Ce paradigme &amp;amp;amp;quot;anthropologie philosophique&amp;amp;amp;quot; fonctionne avec le paradigme de la couche suivante [anthropologie philosophique: dialectiques](https://intlekt.io/?comments=M%3AU%3A.U%3AM%3A.d.-O%3A.-%27).
+            Les trois rangées représentent les formes de connaissances (j. = idée), les formes de subjectivité (h. = sujet) et les formes d&amp;amp;#x27;objectivité (p. = objet).
+            Les trois colonnes représentent les trois &amp;amp;quot;moments&amp;amp;quot; des formes : intérieur, interactif et extérieur.
+            On peut voir dans [anthropologie philosophique: dialectiques](https://intlekt.io/?comments=M%3AU%3A.U%3AM%3A.d.-O%3A.-%27) que chacun des neuf sèmes s&amp;#x27;organise lui-même en une dialectique virtuel / actuel
+        en: |-
+            This &quot;philosophical anthropology&quot; paradigm works with the paradigm of the following layer: [philosophical anthropology: dialectics] (https://intlekt.io/?comments=M%3AU%3A.U%3AM%3A.d.-O%3A.-%27).
+            The three rows represent forms of knowledge (j. = idea), forms of subjectivity (h. = subject) and forms of objectivity (p. = object).
+            The three columns represent the three &quot;moments&quot; of the forms: internal or inside, interactive and external or .
+            We can see in [philosophical anthropology: dialectics] (https://intlekt.io/https://intlekt.io/?comments=M%3AU%3A.U%3AM%3A.d.-O%3A.-%27) that each of the nine systems organizes itself into a virtual / actual dialectic.
+Semes:
+    -   ieml: "j.y.d.-"
+        translations:
+            fr: |-
+                connaissance théorique
+            en: |-
+                theoretical knowledge
+    -   ieml: "j.o.d.-"
+        translations:
+            fr: |-
+                connaissance herméneutique
+            en: |-
+                hermeneutical knowledge
+    -   ieml: "j.e.d.-"
+        translations:
+            fr: |-
+                connaissance esthétique
+            en: |-
+                aesthetic knowledge
+    -   ieml: "h.y.d.-"
+        translations:
+            fr: |-
+                subjectivité à la première personne
+            en: |-
+                subjectivity at the first person
+    -   ieml: "h.o.d.-"
+        translations:
+            fr: |-
+                subjectivité à la deuxième personne
+            en: |-
+                subjectivity at the second person
+    -   ieml: "h.e.d.-"
+        translations:
+            fr: |-
+                subjectivité à la troisième personne
+            en: |-
+                subjectivity at the third person
+    -   ieml: "p.y.d.-"
+        translations:
+            fr: |-
+                objectivité logique
+            en: |-
+                logical objectivity
+    -   ieml: "p.o.d.-"
+        translations:
+            fr: |-
+                objectivité causale
+            en: |-
+                causal objectivity
+    -   ieml: "p.e.d.-"
+        translations:
+            fr: |-
+                objectivité réelle
+            en: |-
+                real objectivity
+Paradigms:
+    -   ieml: "j.U:M:.d.-"
+        translations:
+            fr: |-
+                épistémologie, formes de connaissance
+            en: |-
+                epistemology, forms of knowledge
+    -   ieml: "h.U:M:.d.-"
+        translations:
+            fr: |-
+                éthique, formes subjectives
+            en: |-
+                ethics, subjective forms
+    -   ieml: "p.U:M:.d.-"
+        translations:
+            fr: |-
+                ontologie, formes objectives
+            en: |-
+                ontology, objective forms
+    -   ieml: "M:U:.y.d.-"
+        translations:
+            fr: |-
+                moment intérieur
+            en: |-
+                inside moment
+    -   ieml: "M:U:.o.d.-"
+        translations:
+            fr: |-
+                moment interactif
+            en: |-
+                interactive moment
+    -   ieml: "M:U:.e.d.-"
+        translations:
+            fr: |-
+                moment extérieur
+            en: |-
+                outside moment

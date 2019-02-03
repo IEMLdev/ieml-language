@@ -1,0 +1,196 @@
+RootParadigm:
+    ieml: "E:F:M:."
+    translations:
+        fr: |-
+            adverbes de gradient | en mode de topic ou de clause
+        en: |-
+            gradient adverb | in topic or clause mode
+    inhibitions: ['father-attribute', 'father-mode']
+Semes:
+    -   ieml: "E:U:S:."
+        translations:
+            fr: |-
+                moins bon, pire | en mode de clause: la substance est pire que l'attribut, ou bien la substance a un pire attribut que... (la comparaison se construit avec E:.U:.g.- en mode, dans une seconde clause ayant la même substance)
+            en: |-
+                less good, worse | in clause mode: the substance is worse than the attribute, or else the substance has a worse attribute than (the comparison is built with E:.U:.g.- in mode, in a second clause with the same substance)
+    -   ieml: "E:U:B:."
+        translations:
+            fr: |-
+                aussi bon | en mode de clause: la substance est aussi bonne que l'attribut, ou bien la substance a un aussi bon attribut que... (la comparaison se construit avec E:.A:.g.- en mode dans une seconde clause ayant la même substance)
+            en: |-
+                as good | in clause mode: the substance is as good as the attribute, or else the substance has an attribute that is as good as...  (the comparison is built with E:.A:.g.- in mode in a second clause with the same substance)
+    -   ieml: "E:U:T:."
+        translations:
+            fr: |-
+                meilleur | en mode de clause: la substance est meilleure que l'attribut, ou bien la substance a un meilleur attribut que... (la comparaison se construit avec E:.U:.g.- en mode, dans une seconde clause ayant la même substance)
+            en: |-
+                better | in clause mode: the substance is better than the attribute, or else the substance has a better attribute than... (the comparison is built with E:.U:.g.- in mode, in a second clause with the same substance)
+    -   ieml: "E:A:S:."
+        translations:
+            fr: |-
+                peu, moins | en mode de clause: il y a moins de substance que d'attribut, ou bien la substance a moins d'attribut que... (la comparaison se construit avec E:.U:.g.- en mode, dans une seconde clause ayant la même substance)
+            en: |-
+                less, a few, slightly | in clause mode: there is less substance than attribute, or the substance has less attribute than... (the comparison is built with E:.U:.g.- in mode, in a second clause with the same substance)
+    -   ieml: "E:A:B:."
+        translations:
+            fr: |-
+                quantité moyenne | en mode de clause: il y a autant de substance que d'attribut, ou bien la substance a autant d'attribut que... (la comparaison se construit avec E:.A:.g.- en mode, dans une seconde clause ayant la même substance)
+            en: |-
+                medium quantity | in clause mode: there is as much the substance as attribute, or the substance has as much attribute as... (the comparison is built with E:.A:.g.- in mode, in a second clause with the same substance)
+    -   ieml: "E:A:T:."
+        translations:
+            fr: |-
+                beaucoup, très, plus | en mode de clause: il y a plus de substance que d'attribut, ou bien la substance a plus d'attribut que... (la comparaison se construit avec E:.U:.g.- en mode, dans une seconde clause ayant la même substance)
+            en: |-
+                a lot, very, more | in clause mode: there is more substance than attribute, or the substance has more attribute than... (the comparison is built with E:.U:.g.- in mode, in a second clause with the same substance)
+    -   ieml: "E:S:S:."
+        translations:
+            fr: |-
+                jamais
+            en: |-
+                never
+    -   ieml: "E:S:B:."
+        translations:
+            fr: |-
+                parfois
+            en: |-
+                sometimes
+    -   ieml: "E:S:T:."
+        translations:
+            fr: |-
+                toujours
+            en: |-
+                always
+    -   ieml: "E:B:S:."
+        translations:
+            fr: |-
+                rarement, occurence isolée
+            en: |-
+                rarely, isolated occurrence
+    -   ieml: "E:B:B:."
+        translations:
+            fr: |-
+                généralement | régulièrement
+            en: |-
+                usually | regularly
+    -   ieml: "E:B:T:."
+        translations:
+            fr: |-
+                souvent
+            en: |-
+                often
+    -   ieml: "E:T:S:."
+        translations:
+            fr: |-
+                nulle part
+            en: |-
+                nowhere
+    -   ieml: "E:T:B:."
+        translations:
+            fr: |-
+                quelque part, dans une zone, un endroit
+            en: |-
+                somewhere, in a zone, a place
+    -   ieml: "E:T:T:."
+        translations:
+            fr: |-
+                partout
+            en: |-
+                everywhere
+Paradigms:
+    -   ieml: "E:O:S:."
+        translations:
+            fr: |-
+                moins comparatif
+            en: |-
+                comparative minus
+    -   ieml: "E:O:B:."
+        translations:
+            fr: |-
+                medium comparatif
+            en: |-
+                comparative medium
+    -   ieml: "E:O:T:."
+        translations:
+            fr: |-
+                plus comparatif
+            en: |-
+                comparative plus
+    -   ieml: "E:U:M:."
+        translations:
+            fr: |-
+                variation qualitative | comparaison qualitative
+            en: |-
+                qualitative variation | qualitative comparison
+    -   ieml: "E:A:M:."
+        translations:
+            fr: |-
+                variation quantitative | comparaison quantitative
+            en: |-
+                quantitative variation | quantitative comparaison
+    -   ieml: "E:S:M:."
+        translations:
+            fr: |-
+                distribution dans le temps | la substance arrive dans l'attribut selon le mode
+            en: |-
+                time distribution | the substance happens in the attribute according to the mode
+    -   ieml: "E:B:M:."
+        translations:
+            fr: |-
+                distribution de fréquence | la substance arrive dans l'attribut selon le mode
+            en: |-
+                frequency distribution | the substance happens in the attribute according to the mode
+    -   ieml: "E:T:M:."
+        translations:
+            fr: |-
+                distribution dans l'espace | la substance est dans l'attribut selon le mode
+            en: |-
+                space distribution | the substance is located in the attribute according to the mode
+    -   ieml: "E:M:S:."
+        translations:
+            fr: |-
+                moins distributif
+            en: |-
+                distributive minus
+    -   ieml: "E:M:B:."
+        translations:
+            fr: |-
+                medium distributif
+            en: |-
+                distributive medium
+    -   ieml: "E:M:T:."
+        translations:
+            fr: |-
+                plus distributif
+            en: |-
+                distributive plus
+    -   ieml: "E:F:S:."
+        translations:
+            fr: |-
+                moins
+            en: |-
+                less
+    -   ieml: "E:F:B:."
+        translations:
+            fr: |-
+                medium (gradient)
+            en: |-
+                medium (gradient)
+    -   ieml: "E:F:T:."
+        translations:
+            fr: |-
+                plus
+            en: |-
+                more
+    -   ieml: "E:O:M:."
+        translations:
+            fr: |-
+                variation (adverbes de)
+            en: |-
+                variation (adverbs of)
+    -   ieml: "E:M:M:."
+        translations:
+            fr: |-
+                distribution (adverbes de)
+            en: |-
+                distribution (adverbs of)

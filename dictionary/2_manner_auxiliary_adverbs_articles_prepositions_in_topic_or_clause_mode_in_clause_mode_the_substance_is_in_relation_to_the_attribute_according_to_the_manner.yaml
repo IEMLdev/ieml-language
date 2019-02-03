@@ -1,0 +1,208 @@
+RootParadigm:
+    ieml: "E:.O:.M:O:.-"
+    translations:
+        fr: |-
+            auxiliaires de manière (adverbes, articles, prépositions) | en mode de topic ou de clause | en mode de clause: la substance est en relation avec l'attribut selon la manière
+        en: |-
+            manner auxiliary (adverbs, articles, prepositions) | in topic or clause mode | in clause mode: the substance is in relation to the attribute according to the manner
+    inhibitions: ['father-attribute', 'father-mode', 'father-substance']
+Semes:
+    -   ieml: "E:.U:.j.-"
+        translations:
+            fr: |-
+                par contraste, mais, pourtant, au contraire, par contre, en revanche
+            en: |-
+                in contrast, but, and yet, on the contrary
+    -   ieml: "E:.U:.g.-"
+        translations:
+            fr: |-
+                autrement, différemment | par rapport à, en comparaison de
+            en: |-
+                in another way, in a different way | in relation to, in comparison with
+    -   ieml: "E:.U:.h.-"
+        translations:
+            fr: |-
+                en évitant | en tournant le dos à
+            en: |-
+                avoiding | turning one's back on
+    -   ieml: "E:.U:.c.-"
+        translations:
+            fr: |-
+                anti | contre | opposition
+            en: |-
+                anti | against | opposition
+    -   ieml: "E:.U:.p.-"
+        translations:
+            fr: |-
+                indéfini | un | quelque
+            en: |-
+                indefinite | a | some
+    -   ieml: "E:.U:.x.-"
+        translations:
+            fr: |-
+                sans
+            en: |-
+                without
+    -   ieml: "E:.A:.j.-"
+        translations:
+            fr: |-
+                par analogie | d'une manière semblable | comme
+            en: |-
+                by analogy | in a similar manner | as
+    -   ieml: "E:.A:.g.-"
+        translations:
+            fr: |-
+                de la même manière | identiquement
+            en: |-
+                in the same way | identically
+    -   ieml: "E:.A:.h.-"
+        translations:
+            fr: |-
+                en cherchant | vers
+            en: |-
+                seeking | heading towards
+    -   ieml: "E:.A:.c.-"
+        translations:
+            fr: |-
+                pro | pour | adhésion
+            en: |-
+                pro | for | support
+    -   ieml: "E:.A:.p.-"
+        translations:
+            fr: |-
+                défini | le
+            en: |-
+                definite | the
+    -   ieml: "E:.A:.x.-"
+        translations:
+            fr: |-
+                avec
+            en: |-
+                with
+Paradigms:
+    -   ieml: "E:.U:.S:O:.-"
+        translations:
+            fr: |-
+                comparaison négative
+            en: |-
+                negative comparison
+    -   ieml: "E:.U:.B:O:.-"
+        translations:
+            fr: |-
+                orientation négative
+            en: |-
+                negative orientation
+    -   ieml: "E:.U:.T:O:.-"
+        translations:
+            fr: |-
+                définition négative
+            en: |-
+                negative definition
+    -   ieml: "E:.A:.S:O:.-"
+        translations:
+            fr: |-
+                comparaison positive
+            en: |-
+                positive comparison
+    -   ieml: "E:.A:.B:O:.-"
+        translations:
+            fr: |-
+                orientation positive
+            en: |-
+                positive orientation
+    -   ieml: "E:.A:.T:O:.-"
+        translations:
+            fr: |-
+                définition positive
+            en: |-
+                positive definition
+    -   ieml: "E:.O:.j.-"
+        translations:
+            fr: |-
+                manière de ressemblance
+            en: |-
+                manner of resemblance
+    -   ieml: "E:.O:.g.-"
+        translations:
+            fr: |-
+                manière d'identité
+            en: |-
+                manner of relationship
+    -   ieml: "E:.O:.h.-"
+        translations:
+            fr: |-
+                manière de tropisme
+            en: |-
+                manner of tropism
+    -   ieml: "E:.O:.c.-"
+        translations:
+            fr: |-
+                manière de choix
+            en: |-
+                manner of choice
+    -   ieml: "E:.O:.p.-"
+        translations:
+            fr: |-
+                manière de définition
+            en: |-
+                manner of definition
+    -   ieml: "E:.O:.x.-"
+        translations:
+            fr: |-
+                manière de présence
+            en: |-
+                manner of presence
+    -   ieml: "E:.U:.M:U:.-"
+        translations:
+            fr: |-
+                négativité virtuelle
+            en: |-
+                virtual negativity
+    -   ieml: "E:.U:.M:A:.-"
+        translations:
+            fr: |-
+                négativité actuelle
+            en: |-
+                actual negativity
+    -   ieml: "E:.A:.M:U:.-"
+        translations:
+            fr: |-
+                positivité virtuelle
+            en: |-
+                virtual positivity
+    -   ieml: "E:.A:.M:A:.-"
+        translations:
+            fr: |-
+                positivité actuelle
+            en: |-
+                actual positivity
+    -   ieml: "E:.O:.S:O:.-"
+        translations:
+            fr: |-
+                mode de comparaison
+            en: |-
+                manner of comparison
+    -   ieml: "E:.O:.B:O:.-"
+        translations:
+            fr: |-
+                mode d'orientation
+            en: |-
+                manner of orientation
+    -   ieml: "E:.O:.T:O:.-"
+        translations:
+            fr: |-
+                mode d'existence
+            en: |-
+                manner of existence
+    -   ieml: "E:.U:.M:O:.-"
+        translations:
+            fr: |-
+                manière négative
+            en: |-
+                negative manner
+    -   ieml: "E:.A:.M:O:.-"
+        translations:
+            fr: |-
+                manière positive
+            en: |-
+                positive manner

@@ -1,0 +1,130 @@
+RootParadigm:
+    ieml: "E:.-O:.M:O:.-t.o.-'"
+    translations:
+        fr: |-
+            auxiliaires de relations temporelles, temps
+        en: |-
+            temporal relations auxiliaries, time
+    inhibitions: ['father-attribute']
+Semes:
+    -   ieml: "E:.-U:.j.-t.o.-'"
+        translations:
+            fr: |-
+                après la date de reférence, plus tard, futur absolu parfait
+            en: |-
+                after the referenced date, later, absolute perfect future
+    -   ieml: "E:.-U:.g.-t.o.-'"
+        translations:
+            fr: |-
+                en cours après la date de référence, plus tard, futur absolu imparfait
+            en: |-
+                ongoing after the referenced date, later, imperfect absolute future
+    -   ieml: "E:.-U:.h.-t.o.-'"
+        translations:
+            fr: |-
+                à la même date, en même temps que, pendant la date ou période de référence (parfait)
+            en: |-
+                at the same referenced date or time, meanwhile (perfect)
+    -   ieml: "E:.-U:.c.-t.o.-'"
+        translations:
+            fr: |-
+                pendant la période de référence, en même temps que (imparfait)
+            en: |-
+                during the referenced time, period, era | at the same time (imperfect)
+    -   ieml: "E:.-U:.p.-t.o.-'"
+        translations:
+            fr: |-
+                avant la date de référence, plus tôt, tôt, dans un passé absolu parfait
+            en: |-
+                before the referenced date, earlier, early, in a perfect absolute past
+    -   ieml: "E:.-U:.x.-t.o.-'"
+        translations:
+            fr: |-
+                s'étant déroulé avant la date de référence (dans son passé), plus tôt
+            en: |-
+                ongoing before the referenced date (in its past), earlier, early
+    -   ieml: "E:.-A:.j.-t.o.-'"
+        translations:
+            fr: |-
+                dans l'avenir, à une certaine date, plus tard, demain, futur relatif parfait,
+            en: |-
+                in the future, at a certain date, later, tomorrow, perfect relative future
+    -   ieml: "E:.-A:.g.-t.o.-'"
+        translations:
+            fr: |-
+                dans le futur, dans l'avenir, plus tard, pendant un certain temps (imparfait)
+            en: |-
+                in the future, later, for a certain time (imperfect)
+    -   ieml: "E:.-A:.h.-t.o.-'"
+        translations:
+            fr: |-
+                maintenant, aujourd'hui, de nos jours (parfait)
+            en: |-
+                now, today, nowadays (perfect)
+    -   ieml: "E:.-A:.c.-t.o.-'"
+        translations:
+            fr: |-
+                se passe maintenant, présentement en cours (imparfait)
+            en: |-
+                happening now, ongoing, under way, nowadays (imperfect)
+    -   ieml: "E:.-A:.p.-t.o.-'"
+        translations:
+            fr: |-
+                à une date passée, plus tôt, hier, avant (par rapport à maintenant)
+            en: |-
+                in a past date, earlier, yesterday, before (from now)
+    -   ieml: "E:.-A:.x.-t.o.-'"
+        translations:
+            fr: |-
+                s'est déroulé dans le passé, plus tôt (par rapport à maintenant)
+            en: |-
+                duration has taken place in the past, earlier (from now)
+Paradigms:
+    -   ieml: "E:.-O:.j.-t.o.-'"
+        translations:
+            fr: |-
+                postérieur dans le temps, parfait
+            en: |-
+                posterior in time, perfect
+    -   ieml: "E:.-O:.g.-t.o.-'"
+        translations:
+            fr: |-
+                postérieur dans le temps, imparfait
+            en: |-
+                posterior in time, imperfect
+    -   ieml: "E:.-O:.h.-t.o.-'"
+        translations:
+            fr: |-
+                simultané, parfait
+            en: |-
+                simultaneous, perfect
+    -   ieml: "E:.-O:.c.-t.o.-'"
+        translations:
+            fr: |-
+                simultané, imparfait
+            en: |-
+                simultaneous, imperfect
+    -   ieml: "E:.-O:.p.-t.o.-'"
+        translations:
+            fr: |-
+                antérieur dans le temps, parfait
+            en: |-
+                anterior in time, perfect
+    -   ieml: "E:.-O:.x.-t.o.-'"
+        translations:
+            fr: |-
+                antérieur dans le temps, imparfait
+            en: |-
+                anterior in time, imperfect
+    -   ieml: "E:.-U:.M:O:.-t.o.-'"
+        translations:
+            fr: |-
+                relation temporelle absolue (par rapport à une date fixe)
+            en: |-
+                absolute temporal relation (from a fixed date)
+    -   ieml: "E:.-A:.M:O:.-t.o.-'"
+        translations:
+            fr: |-
+                relation temporelle relative (par rapport à un "maintenant")
+            en: |-
+                relative temporal relation (from "now")

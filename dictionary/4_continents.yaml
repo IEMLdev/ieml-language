@@ -1,0 +1,124 @@
+RootParadigm:
+    ieml: "n.-S:.U:.-'s.-S:.U:.-'l.-S:.O:.-',+n.-S:.U:.-'M:.-'M:.-',"
+    translations:
+        fr: |-
+            continents
+        en: |-
+            continents
+    inhibitions: []
+Semes:
+    -   ieml: "n.-S:.U:.-'S:.-'S:.-',"
+        translations:
+            fr: |-
+                Amérique du nord
+            en: |-
+                north America
+    -   ieml: "n.-S:.U:.-'S:.-'B:.-',"
+        translations:
+            fr: |-
+                Europe
+            en: |-
+                Europe
+    -   ieml: "n.-S:.U:.-'S:.-'T:.-',"
+        translations:
+            fr: |-
+                Asie du nord
+            en: |-
+                northern Asia
+    -   ieml: "n.-S:.U:.-'s.-S:.U:.-'l.-S:.U:.-',"
+        translations:
+            fr: |-
+                Arctique
+            en: |-
+                Arctic
+    -   ieml: "n.-S:.U:.-'s.-S:.U:.-'l.-S:.A:.-',"
+        translations:
+            fr: |-
+                Antarctique
+            en: |-
+                Antarctic
+    -   ieml: "n.-S:.U:.-'B:.-'S:.-',"
+        translations:
+            fr: |-
+                Amérique centrale
+            en: |-
+                central America
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',"
+        translations:
+            fr: |-
+                Afrique du nord
+            en: |-
+                north Africa
+    -   ieml: "n.-S:.U:.-'B:.-'T:.-',"
+        translations:
+            fr: |-
+                Asie du sud
+            en: |-
+                southern Asia
+    -   ieml: "n.-S:.U:.-'T:.-'S:.-',"
+        translations:
+            fr: |-
+                Amérique du sud
+            en: |-
+                south America
+    -   ieml: "n.-S:.U:.-'T:.-'B:.-',"
+        translations:
+            fr: |-
+                Afrique australe
+            en: |-
+                southern Africa
+    -   ieml: "n.-S:.U:.-'T:.-'T:.-',"
+        translations:
+            fr: |-
+                Océanie
+            en: |-
+                Oceania
+Paradigms:
+    -   ieml: "n.-S:.U:.-'s.-S:.U:.-'l.-S:.O:.-',"
+        translations:
+            fr: |-
+                pôles
+            en: |-
+                poles
+    -   ieml: "n.-S:.U:.-'S:.-'M:.-',"
+        translations:
+            fr: |-
+                zones continentales nord
+            en: |-
+                northern continental areas
+    -   ieml: "n.-S:.U:.-'B:.-'M:.-',"
+        translations:
+            fr: |-
+                zones continentales centrales
+            en: |-
+                central continental areas
+    -   ieml: "n.-S:.U:.-'T:.-'M:.-',"
+        translations:
+            fr: |-
+                zones continentales sud
+            en: |-
+                southern continental area
+    -   ieml: "n.-S:.U:.-'M:.-'S:.-',"
+        translations:
+            fr: |-
+                continents ouest
+            en: |-
+                western continents
+    -   ieml: "n.-S:.U:.-'M:.-'B:.-',"
+        translations:
+            fr: |-
+                continents centraux
+            en: |-
+                central continents
+    -   ieml: "n.-S:.U:.-'M:.-'T:.-',"
+        translations:
+            fr: |-
+                continents est
+            en: |-
+                eastern continents
+    -   ieml: "n.-S:.U:.-'M:.-'M:.-',"
+        translations:
+            fr: |-
+                zones continentales
+            en: |-
+                continental zones

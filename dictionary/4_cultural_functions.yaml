@@ -1,0 +1,370 @@
+RootParadigm:
+    ieml: "M:O:.-'O:M:.-'n.o.-s.o.-',"
+    translations:
+        fr: |-
+            fonctions culturelles
+        en: |-
+            cultural functions
+    inhibitions: []
+Semes:
+    -   ieml: "j.-'y.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                paradigmes (histoire des sciences), règles épistémiques, canons esthétiques
+            en: |-
+                paradigms (history of science) epistemic rules, aesthetic canons
+    -   ieml: "j.-'o.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                communauté compétente pour décider du vrai, du beau, de la valeur d'une oeuvre de l'esprit
+            en: |-
+                community competent enough to decide what is true, beautiful, what is the value of a work of the mind
+    -   ieml: "j.-'e.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                corpus scientifique et artistique de référence
+            en: |-
+                scientific and artistic corpus used as a reference
+    -   ieml: "j.-'u.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                créateur d'oeuvres de l'esprit, artiste
+            en: |-
+                creator of works of the mind, artist
+    -   ieml: "j.-'a.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                amateur d'oeuvres de l'esprit
+            en: |-
+                amateur, fan of works of the mind
+    -   ieml: "j.-'i.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                conservateur (curateur) d'oeuvres de l'esprit
+            en: |-
+                curator of works of the mind
+    -   ieml: "g.-'y.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement symbolique de la communication, systèmes de signes disponibles
+            en: |-
+                symbolic environment of the communication, available sign systems
+    -   ieml: "g.-'o.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement rituel de la communication, type de participation collective des personnes (implication des corps)
+            en: |-
+                ritual communication environment, kind of collective personal participation (bodily involvement)
+    -   ieml: "g.-'e.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement matériel de la communication, bâtiment, scène, décor
+            en: |-
+                material environment of communication, building, scene, stage, decor
+    -   ieml: "g.-'u.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                "récitation", processus d'émission d'une oeuvre de l'esprit (littéraire, dramatique, cinématographique, musicale...)
+            en: |-
+                "recitation", process of emission of a work of the mind (literature, theatre, film, music...)
+    -   ieml: "g.-'a.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                discussion d'une oeuvre de l'esprit
+            en: |-
+                discussion of a work of the mind
+    -   ieml: "g.-'i.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                mémorisation, souvenir d'une oeuvre de l'esprit
+            en: |-
+                remembering, memories of a work of the mind
+    -   ieml: "h.-'y.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                enseignements spirituels
+            en: |-
+                spiritual teachings
+    -   ieml: "h.-'o.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                règles régissant une communauté spirituelle: identités, fonctions...
+            en: |-
+                rules organizing a spiritual community: identities, functions...
+    -   ieml: "h.-'e.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                réalité ultime selon une communauté spirituelle: Dieu, divinités, Nature de Bouddha, Esprit, Humanité, Nature, etc.
+            en: |-
+                ultimate reality according to a spiritual community: God, Divinities, Buddha nature, Mind, Humanity, Nature, etc.
+    -   ieml: "h.-'u.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                sacrifiant
+            en: |-
+                sacrificing
+    -   ieml: "h.-'a.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                sacrifié
+            en: |-
+                sacrified
+    -   ieml: "h.-'i.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                sacrificateur | prêtre
+            en: |-
+                performing a sacrifice | priest
+    -   ieml: "c.-'y.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                pouvoir législatif
+            en: |-
+                legislative power
+    -   ieml: "c.-'o.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                pouvoir judiciaire
+            en: |-
+                judiciary power
+    -   ieml: "c.-'e.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                pouvoir executif
+            en: |-
+                executive power
+    -   ieml: "c.-'u.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                relations de droit | coutume
+            en: |-
+                law | custom relationships
+    -   ieml: "c.-'a.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                relations de confiance
+            en: |-
+                trust relationships
+    -   ieml: "c.-'i.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                relations de force
+            en: |-
+                force relationships
+    -   ieml: "p.-'y.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                valeur, réputation d'un bien, d'un capital, d'un actif
+            en: |-
+                value, reputation of a good, a capital, an asset
+    -   ieml: "p.-'o.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                propriété d'un bien, d'un capital, d'un actif
+            en: |-
+                property of a good, a capital, an asset
+    -   ieml: "p.-'e.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                utilité d'un bien, d'un capital, d'un actif
+            en: |-
+                usefulness of a good, a capital, an asset
+    -   ieml: "p.-'u.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                expert, rôle de spécialiste (en relation avec une division du travail)
+            en: |-
+                expert, specialist role (in relation with a division of labour)
+    -   ieml: "p.-'a.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                coopérateur, rôle de coopération (en relation avec une division du travail)
+            en: |-
+                cooperator, cooperation role (in relation to a division of labor)
+    -   ieml: "p.-'i.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                serviteur, rôle d'accomplissement réel, efficacité du service
+            en: |-
+                servant, achiever role, real accomplishment, efficiency of the service
+    -   ieml: "x.-'y.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement de comptabilité: monnaie, techniques comptables...
+            en: |-
+                accountancy environment, currency, accountancy technologies...
+    -   ieml: "x.-'o.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement de contractualisation: droit commercial, droit du travail...
+            en: |-
+                contractualisation environment: commercial law, labour laws...
+    -   ieml: "x.-'e.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement de production: état des infrastructures et des techniques, sources d'énergies disponibles...
+            en: |-
+                production environment: state of infrastructures and technologies, available energy sources...
+    -   ieml: "x.-'u.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                consommation
+            en: |-
+                consumption
+    -   ieml: "x.-'a.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                distribution, échange
+            en: |-
+                distribution, exchange
+    -   ieml: "x.-'i.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                production
+            en: |-
+                production
+Paradigms:
+    -   ieml: "j.-'U:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                régulation des oeuvres de l'esprit
+            en: |-
+                regulation of the works of the mind
+    -   ieml: "j.-'A:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                rôles de la vie intellectuelle et artistique
+            en: |-
+                roles of the intellectual and artistic life
+    -   ieml: "g.-'U:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement de transmission
+            en: |-
+                transmission environment
+    -   ieml: "g.-'A:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                cycle de transmission
+            en: |-
+                transmission cycle
+    -   ieml: "h.-'U:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                religion: régulation du sacré
+            en: |-
+                religion: regulation of the sacred
+    -   ieml: "h.-'A:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                religion: fonction sacrificielle, rôles du sacrifice
+            en: |-
+                religion: sacrificial function, rôles du sacrifice
+    -   ieml: "c.-'U:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                fonction gouvernementale, rôles de gouvernement, pouvoirs politiques
+            en: |-
+                governmental function, government roles, political powers
+    -   ieml: "c.-'A:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                relations sociales
+            en: |-
+                social relations
+    -   ieml: "p.-'U:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                facteurs définissant un capital, un bien économique, un actif
+            en: |-
+                factors defining a capital, an economic good, an asset
+    -   ieml: "p.-'A:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                rôles ou facteurs du travail
+            en: |-
+                roles or factors of work | labour
+    -   ieml: "x.-'U:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                environnement, moyens de la vie économique
+            en: |-
+                environment, means of the economic life
+    -   ieml: "x.-'A:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                cycle de la vie économique
+            en: |-
+                economic life cycle
+    -   ieml: "j.-'O:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                facteurs de la vie intellectuelle et esthétique
+            en: |-
+                factors of the intellectual and aesthetic life
+    -   ieml: "g.-'O:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                fonctions de transmission des oeuvres de l'esprit
+            en: |-
+                transmission functions of the works of the mind
+    -   ieml: "h.-'O:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                fonctions sacrificielles et religieuses
+            en: |-
+                sacrificial and religious functions
+    -   ieml: "c.-'O:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                fonctions socio-politiques
+            en: |-
+                socio-political functions
+    -   ieml: "p.-'O:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                dialectique du capital et du travail, des biens et des services (économie)
+            en: |-
+                dialectic of capital and labour, of goods and services (economy)
+    -   ieml: "x.-'O:M:.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                phases et moyens des circuits économiques
+            en: |-
+                phases and means of economic circuits
+    -   ieml: "M:O:.-'y.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                cadres sémiotiques
+            en: |-
+                semiotic frameworks
+    -   ieml: "M:O:.-'o.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                cadres relationnels
+            en: |-
+                relational framework
+    -   ieml: "M:O:.-'e.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                cadre de réalisation
+            en: |-
+                realization framework
+    -   ieml: "M:O:.-'u.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                contenus sémiotiques
+            en: |-
+                semiotic contents
+    -   ieml: "M:O:.-'a.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                contenu relationnel
+            en: |-
+                relational content
+    -   ieml: "M:O:.-'i.-'n.o.-s.o.-',"
+        translations:
+            fr: |-
+                contenu de réalisation
+            en: |-
+                content of realization

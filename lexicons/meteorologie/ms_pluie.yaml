@@ -1,0 +1,92 @@
+Words:
+  - ieml: "[([d.-S:.U:.-'+T:.E:A:S:+T:.-']+[s.-S:.U:.-'+p.E:S:B:.-+S:.E:A:S:+T:.-']+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "Météorologie: pluie"
+      en:
+
+  - ieml: "[([l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "pluie"
+      en:
+        - "rain"
+  - ieml: "[([T:.E:A:S:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "bruine"
+      en:
+        - "drizzle"
+  - ieml: "[([T:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "forte pluie"
+      en:
+        - "heavy rain"
+  - ieml: "[([S:.E:A:S:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "averse"
+      en:
+        - "downpour"
+  - ieml: "[([S:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "longue pluie"
+      en:
+        - "long rain"
+  - ieml: "[([p.E:S:B:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "pluie occasionnelle"
+      en:
+        - "occasional rain"
+  - ieml: "[([S:.E:A:S:.-]+[T:.E:A:S:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "courte bruine"
+      en:
+        - "short drizzle"
+  - ieml: "[([S:.E:A:T:.-]+[T:.E:A:S:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "bruine continue"
+      en:
+        - "continuous drizzle"
+  - ieml: "[([T:.E:A:S:.-]+[p.E:S:B:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "bruine intermittente"
+      en:
+        - "intermittent drizzle"
+  - ieml: "[([S:.E:A:S:.-]+[T:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "brève averse violente"
+      en:
+        - "brief heavy downpour"
+  - ieml: "[([S:.E:A:T:.-]+[T:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "forte pluie persistante"
+      en:
+        - "persistent heavy rain"
+  - ieml: "[([T:.E:A:T:.-]+[p.E:S:B:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "forte pluie intermittentes"
+      en:
+        - "heavy intermittent rain"
+  - ieml: "[([s.-S:.U:.-']+[d.-S:.U:.-']+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "pluie verglaçante"
+      en:
+        - "freezing rain"
+  - ieml: "[([T:.E:A:S:.-]+[s.-S:.U:.-']+[d.-S:.U:.-']+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "bruine verglaçante"
+      en:
+        - "freezing drizzle"
+

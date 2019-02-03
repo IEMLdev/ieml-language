@@ -1,0 +1,148 @@
+RootParadigm:
+    ieml: "b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+    translations:
+        fr: |-
+            partie des instruments de musique, orchestre, lutherie: résonateurs
+        en: |-
+            parts of musical instruments, orchestra, lutherie: resonators
+    inhibitions: []
+Semes:
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                tuyau de verre ou de céramique
+            en: |-
+                resonator made of glass or ceramic
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                tuyau de bois ou de matière végétale
+            en: |-
+                pipe made of wood or other vegetal matter
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                tuyau de métal
+            en: |-
+                metallic pipe
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                gorge utilisée comme résonateur
+            en: |-
+                throat used as a resonator
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                tuyau fait de matière animale (os, corne...)
+            en: |-
+                pipe made of animal matter (bone, horn...)
+    -   ieml: "b.i.-n.i.-'l.o.-n.o.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                murs d'argile, de brique, de pierre ou de verre
+            en: |-
+                walls made of clay, brick, stone or glass
+    -   ieml: "b.i.-n.i.-'l.o.-n.o.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                mur ou revêtement de bois
+            en: |-
+                wall or coating made of wood
+    -   ieml: "b.i.-n.i.-'l.o.-n.o.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                mur ou revêtement de métal
+            en: |-
+                metallic wall or coating
+    -   ieml: "b.i.-n.i.-'l.o.-n.o.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                mur de gens
+            en: |-
+                wall of people
+    -   ieml: "b.i.-n.i.-'l.o.-n.o.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                mur ou revêtement fait de matière animale (cuir...)
+            en: |-
+                wall or coating made of animal matter (leather...)
+    -   ieml: "b.i.-n.i.-'l.i.-t.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                caisse de résonance en terre
+            en: |-
+                sound box made of clay
+    -   ieml: "b.i.-n.i.-'l.i.-t.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                caisse de résonance en bois
+            en: |-
+                sound box made of wood
+    -   ieml: "b.i.-n.i.-'l.i.-t.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                caisse de résonance en métal
+            en: |-
+                sound box made of metal
+    -   ieml: "b.i.-n.i.-'l.i.-t.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                la poitrine comme caisse de résonance
+            en: |-
+                human chest as a sound box
+    -   ieml: "b.i.-n.i.-'l.i.-t.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                caisse de résonance en matière animale (os, peau...)
+            en: |-
+                sound box made of animal matter (bone, skin...)
+Paradigms:
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'n.-S:.U:.-',"
+        translations:
+            fr: |-
+                résonateur en terre
+            en: |-
+                resonator made of earth
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'n.-B:.U:.-',"
+        translations:
+            fr: |-
+                résonateur en bois
+            en: |-
+                resonator made of wood
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'n.-B:.A:.-',"
+        translations:
+            fr: |-
+                résonateur en métal
+            en: |-
+                resonator made of metal
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'n.o.-n.o.-',"
+        translations:
+            fr: |-
+                résonateur de chair
+            en: |-
+                fleshy resonator
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'f.o.-f.o.-',"
+        translations:
+            fr: |-
+                résonateur en matière animale
+            en: |-
+                resonator made of animal matter
+    -   ieml: "b.i.-n.i.-'b.i.-l.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                tuyau
+            en: |-
+                pipe
+    -   ieml: "b.i.-n.i.-'l.o.-n.o.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                murs, architecture acoustique
+            en: |-
+                walls, acoustic architecture
+    -   ieml: "b.i.-n.i.-'l.i.-t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',"
+        translations:
+            fr: |-
+                caisse de résonance
+            en: |-
+                sound box

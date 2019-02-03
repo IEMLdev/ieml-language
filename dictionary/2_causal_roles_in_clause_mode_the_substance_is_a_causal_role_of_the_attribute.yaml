@@ -1,0 +1,280 @@
+RootParadigm:
+    ieml: "E:.M:.M:O:.-"
+    translations:
+        fr: |-
+            rôles causaux | en mode de clause, la substance est un role causal de l'attribut
+        en: |-
+            causal roles | in clause mode: the substance is a causal role of the attribute
+    inhibitions: ['father-attribute', 'father-mode', 'father-substance']
+Semes:
+    -   ieml: "E:.S:.j.-"
+        translations:
+            fr: |-
+                ensemble
+            en: |-
+                set
+    -   ieml: "E:.S:.g.-"
+        translations:
+            fr: |-
+                élément
+            en: |-
+                element
+    -   ieml: "E:.S:.h.-"
+        translations:
+            fr: |-
+                variable
+            en: |-
+                variable
+    -   ieml: "E:.S:.c.-"
+        translations:
+            fr: |-
+                opérateur
+            en: |-
+                operator
+    -   ieml: "E:.S:.p.-"
+        translations:
+            fr: |-
+                tout
+            en: |-
+                whole
+    -   ieml: "E:.S:.x.-"
+        translations:
+            fr: |-
+                partie
+            en: |-
+                part
+    -   ieml: "E:.B:.j.-"
+        translations:
+            fr: |-
+                mutation
+            en: |-
+                mutation
+    -   ieml: "E:.B:.g.-"
+        translations:
+            fr: |-
+                séléction
+            en: |-
+                selection
+    -   ieml: "E:.B:.h.-"
+        translations:
+            fr: |-
+                opérande
+            en: |-
+                operand
+    -   ieml: "E:.B:.c.-"
+        translations:
+            fr: |-
+                opération
+            en: |-
+                operation
+    -   ieml: "E:.B:.p.-"
+        translations:
+            fr: |-
+                patient
+            en: |-
+                patient
+    -   ieml: "E:.B:.x.-"
+        translations:
+            fr: |-
+                agent
+            en: |-
+                agent
+    -   ieml: "E:.T:.j.-"
+        translations:
+            fr: |-
+                forme | structure (cause)
+            en: |-
+                form | structure (cause)
+    -   ieml: "E:.T:.g.-"
+        translations:
+            fr: |-
+                matière | matériau (cause)
+            en: |-
+                matter | material (cause)
+    -   ieml: "E:.T:.h.-"
+        translations:
+            fr: |-
+                système
+            en: |-
+                system
+    -   ieml: "E:.T:.c.-"
+        translations:
+            fr: |-
+                état d'un système
+            en: |-
+                state of a system
+    -   ieml: "E:.T:.p.-"
+        translations:
+            fr: |-
+                finalité | but d'une action
+            en: |-
+                finality | of an action
+    -   ieml: "E:.T:.x.-"
+        translations:
+            fr: |-
+                moyen | instrument d'une action
+            en: |-
+                mean | instrument of an action
+Paradigms:
+    -   ieml: "E:.S:.S:O:.-"
+        translations:
+            fr: |-
+                rôle ensembliste
+            en: |-
+                set-element role
+    -   ieml: "E:.S:.B:O:.-"
+        translations:
+            fr: |-
+                rôle fonctionnel
+            en: |-
+                functional role
+    -   ieml: "E:.S:.T:O:.-"
+        translations:
+            fr: |-
+                rôle méréologique
+            en: |-
+                mereological role
+    -   ieml: "E:.B:.S:O:.-"
+        translations:
+            fr: |-
+                rôle évolutif
+            en: |-
+                evolutionary role
+    -   ieml: "E:.B:.B:O:.-"
+        translations:
+            fr: |-
+                rôle opératoire
+            en: |-
+                operational role
+    -   ieml: "E:.B:.T:O:.-"
+        translations:
+            fr: |-
+                rôle d'action
+            en: |-
+                action role
+    -   ieml: "E:.T:.S:O:.-"
+        translations:
+            fr: |-
+                relation matière-forme
+            en: |-
+                matter-form relationship
+    -   ieml: "E:.T:.B:O:.-"
+        translations:
+            fr: |-
+                relation système-état
+            en: |-
+                system-state relationship
+    -   ieml: "E:.T:.T:O:.-"
+        translations:
+            fr: |-
+                relation fin-moyen
+            en: |-
+                mean-end relationship
+    -   ieml: "E:.S:.M:U:.-"
+        translations:
+            fr: |-
+                spécification virtualisante
+            en: |-
+                virtualizing specification
+    -   ieml: "E:.S:.M:A:.-"
+        translations:
+            fr: |-
+                spécification actualisante
+            en: |-
+                actualising specification
+    -   ieml: "E:.B:.M:U:.-"
+        translations:
+            fr: |-
+                cause virtualisante
+            en: |-
+                virtualising cause
+    -   ieml: "E:.B:.M:A:.-"
+        translations:
+            fr: |-
+                cause actualisante
+            en: |-
+                actualizing cause
+    -   ieml: "E:.T:.M:U:.-"
+        translations:
+            fr: |-
+                réalisation virtuelle
+            en: |-
+                virtual realization
+    -   ieml: "E:.T:.M:A:.-"
+        translations:
+            fr: |-
+                réalisation actuelle
+            en: |-
+                actual realization
+    -   ieml: "E:.M:.j.-"
+        translations:
+            fr: |-
+                cause formelle virtuelle
+            en: |-
+                virtual formal cause
+    -   ieml: "E:.M:.g.-"
+        translations:
+            fr: |-
+                cause formelle actuelle
+            en: |-
+                actual formal cause
+    -   ieml: "E:.M:.h.-"
+        translations:
+            fr: |-
+                cause systémique virtuelle
+            en: |-
+                virtual systemic cause
+    -   ieml: "E:.M:.c.-"
+        translations:
+            fr: |-
+                cause systémique actuelle
+            en: |-
+                actual systemic cause
+    -   ieml: "E:.M:.p.-"
+        translations:
+            fr: |-
+                cause existentielle virtuelle
+            en: |-
+                virtual existential cause
+    -   ieml: "E:.M:.x.-"
+        translations:
+            fr: |-
+                cause existentielle actuelle
+            en: |-
+                actual existential cause
+    -   ieml: "E:.S:.M:O:.-"
+        translations:
+            fr: |-
+                cause spécifiante
+            en: |-
+                specifying cause
+    -   ieml: "E:.B:.M:O:.-"
+        translations:
+            fr: |-
+                cause interactive
+            en: |-
+                interactive cause
+    -   ieml: "E:.T:.M:O:.-"
+        translations:
+            fr: |-
+                cause réalisante
+            en: |-
+                realizing cause
+    -   ieml: "E:.M:.S:O:.-"
+        translations:
+            fr: |-
+                cause formelle | rôle formel
+            en: |-
+                formal cause | formal role
+    -   ieml: "E:.M:.B:O:.-"
+        translations:
+            fr: |-
+                cause systémique
+            en: |-
+                systemic cause
+    -   ieml: "E:.M:.T:O:.-"
+        translations:
+            fr: |-
+                cause existentielle
+            en: |-
+                existential cause

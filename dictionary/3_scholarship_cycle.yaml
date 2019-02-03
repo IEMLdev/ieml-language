@@ -1,0 +1,154 @@
+RootParadigm:
+    ieml: "h.y.-wu.O:O:.t.-E:.-+S:M:.e.-'"
+    translations:
+        fr: |-
+            cycle scolaire
+        en: |-
+            scholarship cycle
+    inhibitions: []
+Semes:
+    -   ieml: "h.y.-wu.wo.t.-'"
+        translations:
+            fr: |-
+                école primaire
+            en: |-
+                primary school
+    -   ieml: "h.y.-wu.wo.t.-s.e.-'"
+        translations:
+            fr: |-
+                premier cycle de l'école primaire
+            en: |-
+                first cycle of primary school
+    -   ieml: "h.y.-wu.wo.t.-b.e.-'"
+        translations:
+            fr: |-
+                second cycle de l'école primaire
+            en: |-
+                second cycle of primary school
+    -   ieml: "h.y.-wu.wo.t.-t.e.-'"
+        translations:
+            fr: |-
+                troisième cycle de l'école primaire
+            en: |-
+                third cycle of the secondary school
+    -   ieml: "h.y.-wu.wa.t.-'"
+        translations:
+            fr: |-
+                école secondaire
+            en: |-
+                secondary school
+    -   ieml: "h.y.-wu.wa.t.-s.e.-'"
+        translations:
+            fr: |-
+                premier cycle de l'école secondaire
+            en: |-
+                first cycle of secondary school
+    -   ieml: "h.y.-wu.wa.t.-b.e.-'"
+        translations:
+            fr: |-
+                second cycle de l'école secondaire
+            en: |-
+                second cycle of the secondary school
+    -   ieml: "h.y.-wu.wa.t.-t.e.-'"
+        translations:
+            fr: |-
+                troisième cycle de l'école secondaire
+            en: |-
+                third cycle of secondary school
+    -   ieml: "h.y.-wu.wu.t.-'"
+        translations:
+            fr: |-
+                institution d'éducation supérieure, université
+            en: |-
+                higher education institution, university
+    -   ieml: "h.y.-wu.wu.t.-s.e.-'"
+        translations:
+            fr: |-
+                cycle de bacalauréat, de licence
+            en: |-
+                bac, graduation cycle, college
+    -   ieml: "h.y.-wu.wu.t.-b.e.-'"
+        translations:
+            fr: |-
+                cycle de maîtrise universitaire
+            en: |-
+                master cycle (higher education)
+    -   ieml: "h.y.-wu.wu.t.-t.e.-'"
+        translations:
+            fr: |-
+                doctorat
+            en: |-
+                doctorate
+    -   ieml: "h.y.-wu.we.t.-'"
+        translations:
+            fr: |-
+                apprentissage professionnel
+            en: |-
+                professional learning, apprenticeship
+    -   ieml: "h.y.-wu.we.t.-s.e.-'"
+        translations:
+            fr: |-
+                compagnonnage, début
+            en: |-
+                companionship, begining
+    -   ieml: "h.y.-wu.we.t.-b.e.-'"
+        translations:
+            fr: |-
+                maîtrise pratique
+            en: |-
+                practical mastering
+    -   ieml: "h.y.-wu.we.t.-t.e.-'"
+        translations:
+            fr: |-
+                expertise pratique
+            en: |-
+                practical expertise
+Paradigms:
+    -   ieml: "h.y.-wu.wo.t.-E:.-+S:M:.e.-'"
+        translations:
+            fr: |-
+                cycle primaire (enfant)
+            en: |-
+                cycle secondaire (children)
+    -   ieml: "h.y.-wu.wa.t.-E:.-+S:M:.e.-'"
+        translations:
+            fr: |-
+                cycle secondaire (adolescent)
+            en: |-
+                secondary cycle (teen)
+    -   ieml: "h.y.-wu.wu.t.-E:.-+S:M:.e.-'"
+        translations:
+            fr: |-
+                cycle supérieur (adulte)
+            en: |-
+                superior cycle (adult)
+    -   ieml: "h.y.-wu.we.t.-E:.-+S:M:.e.-'"
+        translations:
+            fr: |-
+                cycle professionnel
+            en: |-
+                professional cycle
+    -   ieml: "h.y.-wu.O:O:.t.-'"
+        translations:
+            fr: |-
+                type d'école
+            en: |-
+                kind of school
+    -   ieml: "h.y.-wu.O:O:.t.-s.e.-'"
+        translations:
+            fr: |-
+                premier cycle
+            en: |-
+                first cycle
+    -   ieml: "h.y.-wu.O:O:.t.-b.e.-'"
+        translations:
+            fr: |-
+                second cycle
+            en: |-
+                second cycle
+    -   ieml: "h.y.-wu.O:O:.t.-t.e.-'"
+        translations:
+            fr: |-
+                troisième cycle
+            en: |-
+                third cycle

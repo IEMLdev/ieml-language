@@ -1,0 +1,48 @@
+Words:
+  - ieml: "[([k.a.-k.a.-']+[l.o.-k.o.-']+[t.i.-l.i.-'+p.E:A:M:.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "Géographie humaine: territoires politiques"
+      en:
+
+  - ieml: "[([p.E:A:S:.-]+[k.a.-k.a.-']+[l.o.-k.o.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "petite unité territoriale"
+        - "comté"
+        - "département"
+      en:
+        - "small territorial unit"
+        - "county"
+        - "department"
+  - ieml: "[([p.E:A:B:.-]+[k.a.-k.a.-']+[l.o.-k.o.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "région (territoire)"
+        - "province (territoire)"
+        - "état (territoire) d'un pays fedéral"
+        - "lander"
+      en:
+        - "region (territory)"
+        - "province (territory)"
+        - "state (territory) of a federal country"
+        - "lander"
+  - ieml: "[([p.E:A:T:.-]+[k.a.-k.a.-']+[l.o.-k.o.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "pays (territoire)"
+        - "pays fédéral (territoire)"
+      en:
+        - "country (territory)"
+        - "federal country (territory)"
+  - ieml: "[([t.i.-l.i.-']+[k.a.-k.a.-']+[l.o.-k.o.-'])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "municipalité"
+        - "agglomération"
+        - "zone metropolitaine"
+      en:
+        - "municipality"
+        - "city area"
+        - "metropolitan area"
+

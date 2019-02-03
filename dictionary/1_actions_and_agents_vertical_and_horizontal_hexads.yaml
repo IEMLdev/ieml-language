@@ -1,0 +1,199 @@
+RootParadigm:
+    ieml: "O:M:.+M:O:."
+    translations:
+        fr: |-
+            actions et agents | hexades verticale et horizontale
+        en: |-
+            actions and agents | vertical and horizontal hexads
+    inhibitions: []
+    comments:
+        en: |-
+            O x M generates verbs representing six kinds of actions.
+            Note the system of analogies between actions and actors: each actor is semantically connected to the action that results from an inverse multiplication: idea/know, message/say, subject/want, individual/commit, object/can, body/do. Beyond the six actions and six actors, the letters coming respectively from O\otimesM and M\otimesO can also be used to represent dialectics or symmetries of six concepts: hexads.
+Semes:
+    -   ieml: "y."
+        translations:
+            fr: |-
+                savoir
+            en: |-
+                know
+    -   ieml: "o."
+        translations:
+            fr: |-
+                vouloir
+            en: |-
+                want
+    -   ieml: "e."
+        translations:
+            fr: |-
+                pouvoir
+            en: |-
+                can
+    -   ieml: "u."
+        translations:
+            fr: |-
+                dire
+            en: |-
+                say
+    -   ieml: "a."
+        translations:
+            fr: |-
+                s'engager
+            en: |-
+                be commited
+    -   ieml: "i."
+        translations:
+            fr: |-
+                faire
+            en: |-
+                do
+    -   ieml: "j."
+        translations:
+            fr: |-
+                idée
+            en: |-
+                idea
+        comments:
+            fr: |-
+                **j** idée. 
+                + L'idée **j** est un agent signifiant (**S** en substance) et virtuel (**U** en attribut).
+                + L'idée produit ou transforme l&#x27;action de connaître. Elle est produite ou transformée par cette action.
+                + L'idée est le contenu du message **g** qui la porte.
+    -   ieml: "g."
+        translations:
+            fr: |-
+                message
+            en: |-
+                message
+        comments:
+            fr: |-
+                **g** message
+                + Le message **g** est un agent signifiant (**S** en substance) actuel (**A** en attribut)
+                + Le message est produit ou transformé par l'action de communiquer **u**. Il produit ou transforme la communication.
+    -   ieml: "h."
+        translations:
+            fr: |-
+                sujet
+            en: |-
+                subject
+    -   ieml: "c."
+        translations:
+            fr: |-
+                individu
+            en: |-
+                individual
+    -   ieml: "p."
+        translations:
+            fr: |-
+                objet
+            en: |-
+                object
+    -   ieml: "x."
+        translations:
+            fr: |-
+                corps
+            en: |-
+                body
+Paradigms:
+    -   ieml: "O:S:."
+        translations:
+            fr: |-
+                actions signifiantes
+            en: |-
+                signifying actions
+    -   ieml: "O:B:."
+        translations:
+            fr: |-
+                actions personnelles
+            en: |-
+                personal actions
+    -   ieml: "O:T:."
+        translations:
+            fr: |-
+                actions effectives
+            en: |-
+                effective actions
+    -   ieml: "S:O:."
+        translations:
+            fr: |-
+                agents signifiants
+            en: |-
+                signifying agents
+        comments:
+            en: |-
+                S x O shows two types of actors related to sign: ideas in the virtual realm and messages in the actual realm.
+    -   ieml: "B:O:."
+        translations:
+            fr: |-
+                agents personnels
+            en: |-
+                personal agents
+        comments:
+            en: |-
+                B x O displays two types of actors related to being: subjects, or abstract forms of subjectivity, on the virtual side and existing individuals on the actual side.
+    -   ieml: "T:O:."
+        translations:
+            fr: |-
+                agents effectifs
+            en: |-
+                effective agents
+        comments:
+            en: |-
+                T x O illustrates two types of actors related to thing: objects, references and forms of objectivity in the virtual column and bodies or material things in the virtual column.
+    -   ieml: "U:M:."
+        translations:
+            fr: |-
+                actions virtuelles
+            en: |-
+                virtual actions
+        comments:
+            fr: |-
+                U x M montre les trois modalités verbales virtuelles: savoir (relié au signe), vouloir (relié à l'être) et pouvoir (relié à la chose).
+            en: |-
+                U x M shows three virtual verbal modalities: know (related to sign), want (related to being) and can (related to thing).
+    -   ieml: "A:M:."
+        translations:
+            fr: |-
+                actions actuelles
+            en: |-
+                actions virtuelles
+        comments:
+            en: |-
+                A x M expresses three actual manifest actions: saying or expressing (using signs to communicate), committing (oneself to someone) and doing (things in the material world).
+    -   ieml: "M:U:."
+        translations:
+            fr: |-
+                agents virtuels
+            en: |-
+                virtual agents
+    -   ieml: "M:A:."
+        translations:
+            fr: |-
+                agents actuels
+            en: |-
+                actual agents
+    -   ieml: "O:M:."
+        translations:
+            fr: |-
+                actions
+            en: |-
+                actions
+        comments:
+            fr: |-
+                O x M génère des verbes représentant six types d'actions.
+                Notez le système d'analogies entre les actions et les acteurs : chaque acteur est sémantiquement connecté à l'action qui résulte d'une multiplication inverse : idée/savoir, message/dire, sujet/vouloir, individu/s'engager, objet/pouvoir, corps/faire. Au-delà des six actions et des six acteurs, les lettres provenant respectivement de O x M et M x O peuvent également être utilisées pour représenter n'importe quelle dialectique ou symétrie de six concepts : hexades.
+                Cliquez sur les têtes de rangée "actions virtuelles" et "actions actuelles" pour avoir plus d'explications.
+            en: |-
+                O x M generates verbs representing six kinds of actions
+                Note the system of analogies between actions and actors: each actor is semantically connected to the action that results from an inverse multiplication: idea/know, message/say, subject/want, individual/commit, object/can, body/do. Beyond the six actions and six actors, the letters coming respectively from O x M and M x O can also be used to represent dialectics or symmetries of six concepts: hexads.
+                Click on the "virtual actions" and "actual actions" row headers for more explanations.
+    -   ieml: "M:O:."
+        translations:
+            fr: |-
+                agents
+            en: |-
+                agents
+        comments:
+            en: |-
+                M x O generates nouns representing six kinds of actors or agents. 
+                Note the system of analogies between actions and agents: each actor is semantically connected to the action that results from an inverse multiplication: idea/know, message/say, subject/want, individual/commit, object/can, body/do. Beyond the six actions and six actors, the letters coming respectively from O\otimesM and M\otimesO can also be used to represent dialectics or symmetries of six concepts: hexads.

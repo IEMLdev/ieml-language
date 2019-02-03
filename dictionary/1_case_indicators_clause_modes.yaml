@@ -1,0 +1,52 @@
+RootParadigm:
+    ieml: "E:E:F:."
+    translations:
+        fr: |-
+            indicateurs de cas | modes de clause
+        en: |-
+            case indicators | clause modes
+    inhibitions: ['father-attribute', 'father-mode']
+Semes:
+    -   ieml: "E:E:U:."
+        translations:
+            fr: |-
+                attribut du nom, copule | en mode: relation entre un nom-substance en rôle de sujet et un nom-attribut en rôle de prédicat
+            en: |-
+                attribute of the noun, copula | in mode: relation between a noun-substance in a role of subject and a noun-attribute in a role of predicate
+    -   ieml: "E:E:A:."
+        translations:
+            fr: |-
+                génitif, de | en mode: relation entre un nom-substance en rôle de propriétaire ou de tout et un nom-attribut en rôle de propriété ou de partie
+            en: |-
+                genitive, of | in mode: relation between a noun-substance in a role of owner or whole and a noun-attribute in a role of property or part
+    -   ieml: "E:E:S:."
+        translations:
+            fr: |-
+                nominatif | en mode: relation entre un verbe-substance et un nom-attribut en rôle d'agent
+            en: |-
+                nominative | in mode: relation between a verb-substance and a noun-attribute in a role of agent
+    -   ieml: "E:E:B:."
+        translations:
+            fr: |-
+                datif, à | en mode: relation entre un verbe-substance et un nom-attribut en rôle de bénéficiaire
+            en: |-
+                dative, to | in mode: relation between a verb-substance and a noun-attribute in beneficiary role
+    -   ieml: "E:E:T:."
+        translations:
+            fr: |-
+                accusatif | relation entre un verbe et un nom en rôle d'objet
+            en: |-
+                accusative | relation between a verb and a noun in a role of object
+Paradigms:
+    -   ieml: "E:E:O:."
+        translations:
+            fr: |-
+                indicateurs de cas pour clauses nominales
+            en: |-
+                case indicators for noun clauses
+    -   ieml: "E:E:M:."
+        translations:
+            fr: |-
+                indicateurs de cas pour clauses verbales
+            en: |-
+                case indicators for verb clauses

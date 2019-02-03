@@ -1,0 +1,232 @@
+RootParadigm:
+    ieml: "s.O:O:.-F:.-'"
+    translations:
+        fr: |-
+            cognition symbolique
+        en: |-
+            symbolic cognition
+    inhibitions: ['associated', 'crossed', 'father-attribute', 'opposed', 'twin']
+Semes:
+    -   ieml: "s.wo.-U:.-'"
+        translations:
+            fr: |-
+                continuum de conscience
+            en: |-
+                consciousness continuum
+    -   ieml: "s.wo.-A:.-'"
+        translations:
+            fr: |-
+                écosystème d'idées (d'un sujet)
+            en: |-
+                ideas ecosystem (of a subject)
+    -   ieml: "s.wo.-S:.-'"
+        translations:
+            fr: |-
+                auto-analyse
+            en: |-
+                self-analysis
+    -   ieml: "s.wo.-B:.-'"
+        translations:
+            fr: |-
+                auto-synthèse
+            en: |-
+                self-synthesis
+    -   ieml: "s.wo.-T:.-'"
+        translations:
+            fr: |-
+                auto-compréhension
+            en: |-
+                self-understanding
+    -   ieml: "s.wa.-U:.-'"
+        translations:
+            fr: |-
+                jeux de langage
+            en: |-
+                language games
+    -   ieml: "s.wa.-A:.-'"
+        translations:
+            fr: |-
+                communauté de participants à un jeu de langage
+            en: |-
+                community of language game players
+    -   ieml: "s.wa.-S:.-'"
+        translations:
+            fr: |-
+                concepts
+            en: |-
+                concepts
+    -   ieml: "s.wa.-B:.-'"
+        translations:
+            fr: |-
+                affects
+            en: |-
+                affects
+    -   ieml: "s.wa.-T:.-'"
+        translations:
+            fr: |-
+                percepts
+            en: |-
+                percepts
+    -   ieml: "s.wu.-U:.-'"
+        translations:
+            fr: |-
+                intellections des relations
+            en: |-
+                intellection of relations
+    -   ieml: "s.wu.-A:.-'"
+        translations:
+            fr: |-
+                intuitions des relations
+            en: |-
+                intuitions of relations
+    -   ieml: "s.wu.-S:.-'"
+        translations:
+            fr: |-
+                symboles
+            en: |-
+                symbols
+    -   ieml: "s.wu.-B:.-'"
+        translations:
+            fr: |-
+                interprétants
+            en: |-
+                interpreters
+    -   ieml: "s.wu.-T:.-'"
+        translations:
+            fr: |-
+                références
+            en: |-
+                references
+    -   ieml: "s.we.-U:.-'"
+        translations:
+            fr: |-
+                signifiés
+            en: |-
+                signifieds
+    -   ieml: "s.we.-A:.-'"
+        translations:
+            fr: |-
+                signifiants
+            en: |-
+                signifiers
+    -   ieml: "s.we.-S:.-'"
+        translations:
+            fr: |-
+                code symbolique
+            en: |-
+                symbolic code
+    -   ieml: "s.we.-B:.-'"
+        translations:
+            fr: |-
+                mobilisation des signes
+            en: |-
+                signs mobilisation
+    -   ieml: "s.we.-T:.-'"
+        translations:
+            fr: |-
+                support des signes
+            en: |-
+                signs support
+Paradigms:
+    -   ieml: "s.wo.-O:.-'"
+        translations:
+            fr: |-
+                processus de réflexion (cognition)
+            en: |-
+                reflection process (cognition)
+    -   ieml: "s.wa.-O:.-'"
+        translations:
+            fr: |-
+                contexte des idées
+            en: |-
+                ideas context
+    -   ieml: "s.wu.-O:.-'"
+        translations:
+            fr: |-
+                sens
+            en: |-
+                meaning
+    -   ieml: "s.we.-O:.-'"
+        translations:
+            fr: |-
+                messages
+            en: |-
+                messages
+    -   ieml: "s.wo.-M:.-'"
+        translations:
+            fr: |-
+                processus de subjectivation
+            en: |-
+                subjectivation process
+    -   ieml: "s.wa.-M:.-'"
+        translations:
+            fr: |-
+                contenu des idées
+            en: |-
+                ideas content
+    -   ieml: "s.wu.-M:.-'"
+        translations:
+            fr: |-
+                signification
+            en: |-
+                signification
+    -   ieml: "s.we.-M:.-'"
+        translations:
+            fr: |-
+                médias
+            en: |-
+                media
+    -   ieml: "s.O:O:.-U:.-'"
+        translations:
+            fr: |-
+                virtualités cognitives
+            en: |-
+                cognitive virtualities
+    -   ieml: "s.O:O:.-A:.-'"
+        translations:
+            fr: |-
+                actualités cognitives
+            en: |-
+                cognitive actualities
+    -   ieml: "s.O:O:.-S:.-'"
+        translations:
+            fr: |-
+                signes cognitifs
+            en: |-
+                cognitive signs
+    -   ieml: "s.O:O:.-B:.-'"
+        translations:
+            fr: |-
+                êtres cognitifs
+            en: |-
+                cognitive beings
+    -   ieml: "s.O:O:.-T:.-'"
+        translations:
+            fr: |-
+                choses cognitives
+            en: |-
+                cognitive things
+    -   ieml: "s.wo.-F:.-'"
+        translations:
+            fr: |-
+                intelligence réflexive
+            en: |-
+                reflexive intelligence
+    -   ieml: "s.wa.-F:.-'"
+        translations:
+            fr: |-
+                communication des idées
+            en: |-
+                communication of ideas
+    -   ieml: "s.wu.-F:.-'"
+        translations:
+            fr: |-
+                système de concepts (sensorium)
+            en: |-
+                system of concepts (sensorium)
+    -   ieml: "s.we.-F:.-'"
+        translations:
+            fr: |-
+                système de symboles
+            en: |-
+                system of symbols

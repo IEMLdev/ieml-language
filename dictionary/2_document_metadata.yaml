@@ -1,0 +1,111 @@
+RootParadigm:
+    ieml: "E:.O:.E:T:.+I:.-"
+    translations:
+        fr: |-
+            métadonnées documentaires
+        en: |-
+            document metadata
+    inhibitions: ['father-mode']
+    comments:
+        fr: |-
+            Ce paradigme n'est pas utilisé pour décrire le *contenu* d'un document ou d'un ensemble de données mais pour exprimer la nature ou l'identité des données elles-mêmes. Il comprend les catégories les plus importantes du Dublin Core. En d'autres termes, il ne s'agit pas d'une table de métadonnées sémantiques, mais d'une table de métadonnées traditionnelles comme celles qui sont utilisées par les spécialistes de l'information ou les bibliothécaires. Par exemple E:U:A:. ne signifie pas que le document concerne une image mais que *c'est* une image. La deuxième ligne doit être utilisée avec les littéraux de l'IEML pour compléter l'information.
+        en: |-
+            This paradigm is not used to describe the *content* of a document or dataset but to express the nature or identity of the data itself. It includes the most important categories of the Dublin Core. In other words, it is not a table of semantic metadata but a table of traditional metadata like those that are used by information scientists or library scientists. For example E:U:A:. does not mean that the document is about an image but that *it is* an image. The second row must be used with IEML literals to complete the information.
+Semes:
+    -   ieml: "E:.U:.-"
+        translations:
+            fr: |-
+                métadonnées: nombres, mesures, statistiques...
+            en: |-
+                metadata: numbers, measurements, statistics...
+    -   ieml: "E:.U:.E:T:.-"
+        translations:
+            fr: |-
+                métadonnées: texte, texte illustré
+            en: |-
+                metadata: text, illustrated text
+    -   ieml: "E:.U:.U:.-"
+        translations:
+            fr: |-
+                métadonnées: image fixe, photo, dessin, icône, emoji...
+            en: |-
+                metadata: still image, picture, drawing, icon, emoji...
+    -   ieml: "E:.U:.A:.-"
+        translations:
+            fr: |-
+                métadonnées: image animée, vidéo, film...
+            en: |-
+                metadata: moving image, video, film...
+    -   ieml: "E:.U:.S:.-"
+        translations:
+            fr: |-
+                métadonnées: son, parole, podcast, musique, chanson...
+            en: |-
+                metadata: sound, talk, podcast, music, song...
+    -   ieml: "E:.U:.B:.-"
+        translations:
+            fr: |-
+                métadonnées: multimedia interactif, jeu, réalité virtuelle...
+            en: |-
+                metadata: interactive multimedia, game, virtual reality...
+    -   ieml: "E:.U:.T:.-"
+        translations:
+            fr: |-
+                métadonnées: programme, application, service informatique
+            en: |-
+                metadata: program, application, computing service
+    -   ieml: "E:.A:.-"
+        translations:
+            fr: |-
+                métadonnées: auteurs, contributeurs...
+            en: |-
+                metadata: authors, contributors...
+    -   ieml: "E:.A:.E:T:.-"
+        translations:
+            fr: |-
+                métadonnées: maison d'édition, journal...
+            en: |-
+                metadata: publishing house, journal...
+    -   ieml: "E:.A:.U:.-"
+        translations:
+            fr: |-
+                métadonnées: date de publication, version...
+            en: |-
+                metadata: date of publication, version
+    -   ieml: "E:.A:.A:.-"
+        translations:
+            fr: |-
+                métadonnées: droits, licence...
+            en: |-
+                metadata: rights, license
+    -   ieml: "E:.A:.S:.-"
+        translations:
+            fr: |-
+                métadonnées: langue naturelle
+            en: |-
+                metadata: natural language
+    -   ieml: "E:.A:.B:.-"
+        translations:
+            fr: |-
+                métadonnées: format de fichier
+            en: |-
+                metadata: file's format
+    -   ieml: "E:.A:.T:.-"
+        translations:
+            fr: |-
+                métadonnées: taille du fichier
+            en: |-
+                metadata: size of the file
+Paradigms:
+    -   ieml: "E:.U:.E:T:.+I:.-"
+        translations:
+            fr: |-
+                métadonnées: nature des données
+            en: |-
+                metadata: nature of data
+    -   ieml: "E:.A:.E:T:.+I:.-"
+        translations:
+            fr: |-
+                métadonnées: identité des données
+            en: |-
+                metadata: identity of data

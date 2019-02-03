@@ -1,0 +1,100 @@
+RootParadigm:
+    ieml: "n.-S:.U:.-'B:.-'B:.-',M:.-',M:.-',_"
+    translations:
+        fr: |-
+            Pays d'Afrique du nord et du centre
+        en: |-
+            Countries of northern and central Africa
+    inhibitions: ['father-attribute', 'father-mode']
+Semes:
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',S:.-',S:.-',_"
+        translations:
+            fr: |-
+                Maroc
+            en: |-
+                Morroco
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',S:.-',B:.-',_"
+        translations:
+            fr: |-
+                Algérie, Tunisie
+            en: |-
+                Algeria, Tunisia
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',S:.-',T:.-',_"
+        translations:
+            fr: |-
+                Libye, Egypte
+            en: |-
+                Libya, Egypt
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',B:.-',S:.-',_"
+        translations:
+            fr: |-
+                Sahara occidental, Mauritanie
+            en: |-
+                Western Sahara, Mauritania
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',B:.-',B:.-',_"
+        translations:
+            fr: |-
+                Mali, Niger, Tchad
+            en: |-
+                Mali, Niger, Tchad
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',B:.-',T:.-',_"
+        translations:
+            fr: |-
+                Érythrée, Soudan
+            en: |-
+                Eritrea, Soudan
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',T:.-',S:.-',_"
+        translations:
+            fr: |-
+                Bénin, Burkina Faso, Côte d'Ivoire, Gambie, Ghana, Guinée Bissau, Guinée, Libéria, Sénégal, Sierra Leone, Togo
+            en: |-
+                Benin, Burkina Faso, Ivory Coast, Gambia, Ghana, Guinea Bissau, Guinea, Liberia, Senegal, Sierra Leone, Togo
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',T:.-',B:.-',_"
+        translations:
+            fr: |-
+                Cameroun, Nigeria, République centrafricaine, Soudan du Sud
+            en: |-
+                Cameroun, Nigeria, Central African Republic, South Soudan
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',T:.-',T:.-',_"
+        translations:
+            fr: |-
+                Djibouti, Ethiopie, Somalie (corne de l'Afrique)
+            en: |-
+                Djibouti, Ethiopia, Somalia (horn of Africa)
+Paradigms:
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',S:.-',M:.-',_"
+        translations:
+            fr: |-
+                Pays d'Afrique du Nord avec une côte sur la mer Méditerranée
+            en: |-
+                North african countries with a coast on the mediterranean sea
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',B:.-',M:.-',_"
+        translations:
+            fr: |-
+                Pays d'Afrique bordant au Sud le désert du Sahara
+            en: |-
+                North african countries located on the southern part of the Sahara desert
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',T:.-',M:.-',_"
+        translations:
+            fr: |-
+                Afrique tropicale humide au sud de la savane, corne de l'Afrique
+            en: |-
+                Tropical rainy Africa at the south of savannah, horn of Africa
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',M:.-',S:.-',_"
+        translations:
+            fr: |-
+                Pays d'Afrique du nord et du centre à l'ouest du continent, bordant l'océan Atlantique
+            en: |-
+                Countries of northern and southern Africa on the western part of the continent, bordering the Atlantic ocean
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',M:.-',B:.-',_"
+        translations:
+            fr: |-
+                Pays d'Afrique du nord et du centre, zone médiane
+            en: |-
+                Countries of northern and central Africa, median area
+    -   ieml: "n.-S:.U:.-'B:.-'B:.-',M:.-',T:.-',_"
+        translations:
+            fr: |-
+                Afrique du nord et du centre: partie orientale, faisant face à la mer rouge et à l'océan indien
+            en: |-
+                North and central Africa, oriental part, facing the red sea and the indian ocean

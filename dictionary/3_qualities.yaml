@@ -1,0 +1,502 @@
+RootParadigm:
+    ieml: "M:M:.-M:.O:.-'"
+    translations:
+        fr: |-
+            qualités
+        en: |-
+            qualities
+    inhibitions: ['father-attribute', 'father-mode', 'father-substance']
+Semes:
+    -   ieml: "s.-S:.U:.-'"
+        translations:
+            fr: |-
+                froid
+            en: |-
+                cold
+    -   ieml: "s.-S:.A:.-'"
+        translations:
+            fr: |-
+                chaud
+            en: |-
+                hot
+    -   ieml: "s.-B:.U:.-'"
+        translations:
+            fr: |-
+                croissant | augmentant
+            en: |-
+                growing | increasing | waxing
+    -   ieml: "s.-B:.A:.-'"
+        translations:
+            fr: |-
+                décroissant | diminuant
+            en: |-
+                decreasing | diminishing | waning
+    -   ieml: "s.-T:.U:.-'"
+        translations:
+            fr: |-
+                sec
+            en: |-
+                dry
+    -   ieml: "s.-T:.A:.-'"
+        translations:
+            fr: |-
+                humide
+            en: |-
+                wet
+    -   ieml: "b.-S:.U:.-'"
+        translations:
+            fr: |-
+                forme visuelle
+            en: |-
+                visual form | shape
+    -   ieml: "b.-S:.A:.-'"
+        translations:
+            fr: |-
+                couleur
+            en: |-
+                color
+    -   ieml: "b.-B:.U:.-'"
+        translations:
+            fr: |-
+                netteté
+            en: |-
+                neatness
+    -   ieml: "b.-B:.A:.-'"
+        translations:
+            fr: |-
+                flou
+            en: |-
+                fuzziness
+    -   ieml: "b.-T:.U:.-'"
+        translations:
+            fr: |-
+                lumineux
+            en: |-
+                luminous
+    -   ieml: "b.-T:.A:.-'"
+        translations:
+            fr: |-
+                sombre
+            en: |-
+                dark
+    -   ieml: "t.-S:.U:.-'"
+        translations:
+            fr: |-
+                hiver
+            en: |-
+                winter
+    -   ieml: "t.-S:.A:.-'"
+        translations:
+            fr: |-
+                été
+            en: |-
+                summer
+    -   ieml: "t.-B:.U:.-'"
+        translations:
+            fr: |-
+                printemps
+            en: |-
+                spring season
+    -   ieml: "t.-B:.A:.-'"
+        translations:
+            fr: |-
+                automne
+            en: |-
+                autumn | fall season
+    -   ieml: "t.-T:.U:.-'"
+        translations:
+            fr: |-
+                saison sèche
+            en: |-
+                dry season
+    -   ieml: "t.-T:.A:.-'"
+        translations:
+            fr: |-
+                saison pluvieuse
+            en: |-
+                rainy season
+    -   ieml: "k.-S:.U:.-'"
+        translations:
+            fr: |-
+                bruit auditif
+            en: |-
+                auditive noise
+    -   ieml: "k.-S:.A:.-'"
+        translations:
+            fr: |-
+                signal auditif
+            en: |-
+                auditive signal
+    -   ieml: "k.-B:.U:.-'"
+        translations:
+            fr: |-
+                aigu
+            en: |-
+                high-pitched
+    -   ieml: "k.-B:.A:.-'"
+        translations:
+            fr: |-
+                grave
+            en: |-
+                low-pitched
+    -   ieml: "k.-T:.U:.-'"
+        translations:
+            fr: |-
+                faible volume sonore | faible, léger
+            en: |-
+                low sound volume | weak, light
+    -   ieml: "k.-T:.A:.-'"
+        translations:
+            fr: |-
+                fort volume sonore | fort, lourd
+            en: |-
+                hight sound volume, loud | strong, heavy
+    -   ieml: "m.-S:.U:.-'"
+        translations:
+            fr: |-
+                peur
+            en: |-
+                fear
+    -   ieml: "m.-S:.A:.-'"
+        translations:
+            fr: |-
+                surprise | étonnement
+            en: |-
+                surprise | wonder
+    -   ieml: "m.-B:.U:.-'"
+        translations:
+            fr: |-
+                désir
+            en: |-
+                desire
+    -   ieml: "m.-B:.A:.-'"
+        translations:
+            fr: |-
+                colère
+            en: |-
+                anger
+    -   ieml: "m.-T:.U:.-'"
+        translations:
+            fr: |-
+                joie
+            en: |-
+                joy
+    -   ieml: "m.-T:.A:.-'"
+        translations:
+            fr: |-
+                tristesse
+            en: |-
+                sadness
+    -   ieml: "n.-S:.U:.-'"
+        translations:
+            fr: |-
+                terre
+            en: |-
+                earth
+    -   ieml: "n.-S:.A:.-'"
+        translations:
+            fr: |-
+                feu
+            en: |-
+                fire
+    -   ieml: "n.-B:.U:.-'"
+        translations:
+            fr: |-
+                bois, matière végétale, textile naturel, papier
+            en: |-
+                wood, vegetal matter, natural textile, paper
+    -   ieml: "n.-B:.A:.-'"
+        translations:
+            fr: |-
+                métal
+            en: |-
+                metal
+    -   ieml: "n.-T:.U:.-'"
+        translations:
+            fr: |-
+                air | vent | gaz
+            en: |-
+                air | wind | gas
+    -   ieml: "n.-T:.A:.-'"
+        translations:
+            fr: |-
+                eau
+            en: |-
+                water
+    -   ieml: "d.-S:.U:.-'"
+        translations:
+            fr: |-
+                dur | rigide
+            en: |-
+                hard | rigid
+    -   ieml: "d.-S:.A:.-'"
+        translations:
+            fr: |-
+                mou | souple
+            en: |-
+                soft | supple
+    -   ieml: "d.-B:.U:.-'"
+        translations:
+            fr: |-
+                rugueux
+            en: |-
+                rough
+    -   ieml: "d.-B:.A:.-'"
+        translations:
+            fr: |-
+                lisse
+            en: |-
+                smooth
+    -   ieml: "d.-T:.U:.-'"
+        translations:
+            fr: |-
+                craquant
+            en: |-
+                crisp
+    -   ieml: "d.-T:.A:.-'"
+        translations:
+            fr: |-
+                visqueux | gluant
+            en: |-
+                viscous | slimy
+    -   ieml: "f.-S:.U:.-'"
+        translations:
+            fr: |-
+                salé
+            en: |-
+                salty
+    -   ieml: "f.-S:.A:.-'"
+        translations:
+            fr: |-
+                sucré
+            en: |-
+                sweet
+    -   ieml: "f.-B:.U:.-'"
+        translations:
+            fr: |-
+                acide
+            en: |-
+                sour | acidic
+    -   ieml: "f.-B:.A:.-'"
+        translations:
+            fr: |-
+                amer
+            en: |-
+                bitter
+    -   ieml: "f.-T:.U:.-'"
+        translations:
+            fr: |-
+                goût piquant
+            en: |-
+                spicy
+    -   ieml: "f.-T:.A:.-'"
+        translations:
+            fr: |-
+                fade
+            en: |-
+                bland
+    -   ieml: "l.-S:.U:.-'"
+        translations:
+            fr: |-
+                nord
+            en: |-
+                north
+    -   ieml: "l.-S:.A:.-'"
+        translations:
+            fr: |-
+                sud
+            en: |-
+                south
+    -   ieml: "l.-B:.U:.-'"
+        translations:
+            fr: |-
+                est
+            en: |-
+                east
+    -   ieml: "l.-B:.A:.-'"
+        translations:
+            fr: |-
+                ouest
+            en: |-
+                west
+    -   ieml: "l.-T:.U:.-'"
+        translations:
+            fr: |-
+                zénith, ciel
+            en: |-
+                zenith, sky
+    -   ieml: "l.-T:.A:.-'"
+        translations:
+            fr: |-
+                nadir
+            en: |-
+                nadir
+Paradigms:
+    -   ieml: "s.-S:.O:.-'"
+        translations:
+            fr: |-
+                température
+            en: |-
+                temperature
+    -   ieml: "s.-B:.O:.-'"
+        translations:
+            fr: |-
+                croissant/décroissant
+            en: |-
+                increasing/decreasing
+    -   ieml: "s.-T:.O:.-'"
+        translations:
+            fr: |-
+                humidité
+            en: |-
+                humidity
+    -   ieml: "n.-S:.O:.-'"
+        translations:
+            fr: |-
+                éléments du nord et du sud
+            en: |-
+                north and south elements
+    -   ieml: "n.-B:.O:.-'"
+        translations:
+            fr: |-
+                éléments de l'est et de l'ouest
+            en: |-
+                east and west elements
+    -   ieml: "n.-T:.O:.-'"
+        translations:
+            fr: |-
+                éléments du haut et du bas
+            en: |-
+                elements of low and high
+    -   ieml: "l.-S:.O:.-'"
+        translations:
+            fr: |-
+                axe nord-sud
+            en: |-
+                north-south axis
+    -   ieml: "l.-B:.O:.-'"
+        translations:
+            fr: |-
+                axe est-ouest
+            en: |-
+                east-west axis
+    -   ieml: "l.-T:.O:.-'"
+        translations:
+            fr: |-
+                axe haut-bas
+            en: |-
+                high-low axis
+    -   ieml: "n.-M:.U:.-'"
+        translations:
+            fr: |-
+                éléments nord-est-haut
+            en: |-
+                north-east-high elements
+    -   ieml: "n.-M:.A:.-'"
+        translations:
+            fr: |-
+                éléments sud-ouest-bas
+            en: |-
+                south-west-low elements
+    -   ieml: "l.-M:.U:.-'"
+        translations:
+            fr: |-
+                montée transversale nord-est
+            en: |-
+                transverse north-east rise
+    -   ieml: "l.-M:.A:.-'"
+        translations:
+            fr: |-
+                descente transversale sud-ouest
+            en: |-
+                transverse south-west descent
+    -   ieml: "s.-M:.O:.-'"
+        translations:
+            fr: |-
+                qualités élémentaires
+            en: |-
+                elementary qualities
+    -   ieml: "b.-M:.O:.-'"
+        translations:
+            fr: |-
+                qualités visuelles
+            en: |-
+                visual qualities
+    -   ieml: "t.-M:.O:.-'"
+        translations:
+            fr: |-
+                saisons
+            en: |-
+                seasons
+    -   ieml: "k.-M:.O:.-'"
+        translations:
+            fr: |-
+                qualités auditives, force
+            en: |-
+                auditory qualities, strength
+    -   ieml: "m.-M:.O:.-'"
+        translations:
+            fr: |-
+                émotions
+            en: |-
+                emotions
+    -   ieml: "n.-M:.O:.-'"
+        translations:
+            fr: |-
+                éléments
+            en: |-
+                elements
+    -   ieml: "d.-M:.O:.-'"
+        translations:
+            fr: |-
+                textures
+            en: |-
+                textures
+    -   ieml: "f.-M:.O:.-'"
+        translations:
+            fr: |-
+                goûts
+            en: |-
+                tastes
+    -   ieml: "l.-M:.O:.-'"
+        translations:
+            fr: |-
+                directions spatiales
+            en: |-
+                spatial directions
+    -   ieml: "M:M:.-S:.U:.-'"
+        translations:
+            fr: |-
+                qualités septentrionales
+            en: |-
+                northern qualities
+    -   ieml: "M:M:.-S:.A:.-'"
+        translations:
+            fr: |-
+                qualités australes
+            en: |-
+                southern qualities
+    -   ieml: "M:M:.-B:.U:.-'"
+        translations:
+            fr: |-
+                qualités orientales
+            en: |-
+                eastern qualities
+    -   ieml: "M:M:.-B:.A:.-'"
+        translations:
+            fr: |-
+                qualités occidentales
+            en: |-
+                western qualities
+    -   ieml: "M:M:.-T:.U:.-'"
+        translations:
+            fr: |-
+                qualités des hauteurs
+            en: |-
+                highness qualities
+    -   ieml: "M:M:.-T:.A:.-'"
+        translations:
+            fr: |-
+                qualités des profondeurs
+            en: |-
+                deepness qualities

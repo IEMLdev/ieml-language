@@ -1,0 +1,334 @@
+RootParadigm:
+    ieml: "f.o.-f.o.-',n.i.-f.i.-',M:O:.-O:.-',_+f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_"
+    translations:
+        fr: |-
+            parties du corps
+        en: |-
+            body parts
+    inhibitions: ['father-mode']
+Semes:
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',j.-U:.-',_"
+        translations:
+            fr: |-
+                épaule
+            en: |-
+                shoulder
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',j.-A:.-',_"
+        translations:
+            fr: |-
+                aine
+            en: |-
+                groin
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',g.-U:.-',_"
+        translations:
+            fr: |-
+                bras (entre le coude et l'épaule)
+            en: |-
+                arm
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',g.-A:.-',_"
+        translations:
+            fr: |-
+                cuisse
+            en: |-
+                thigh
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',h.-U:.-',_"
+        translations:
+            fr: |-
+                coude
+            en: |-
+                elbow
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',h.-A:.-',_"
+        translations:
+            fr: |-
+                genou
+            en: |-
+                knee
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',c.-U:.-',_"
+        translations:
+            fr: |-
+                avant-bras
+            en: |-
+                forearm
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',c.-A:.-',_"
+        translations:
+            fr: |-
+                mollet, jaret
+            en: |-
+                shank
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',p.-U:.-',_"
+        translations:
+            fr: |-
+                poignet
+            en: |-
+                wrist
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',p.-A:.-',_"
+        translations:
+            fr: |-
+                cheville
+            en: |-
+                ankle
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',x.-U:.-',_"
+        translations:
+            fr: |-
+                main
+            en: |-
+                hand
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',x.-A:.-',_"
+        translations:
+            fr: |-
+                pied
+            en: |-
+                foot
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.t.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                front
+            en: |-
+                forehead
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.t.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                tempes
+            en: |-
+                temples
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.t.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                crâne
+            en: |-
+                skull, cranium
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.n.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                nez
+            en: |-
+                nose
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.n.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                yeux, oeil
+            en: |-
+                eye, eyes
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.n.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                oreille
+            en: |-
+                ear
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.l.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                bouche
+            en: |-
+                mouth
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.l.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                joue
+            en: |-
+                cheek
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.l.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                cou
+            en: |-
+                neck
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.t.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                poitrine: entre le plexus et le cou
+            en: |-
+                chest: between the plexus and the neck
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.t.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                côtes
+            en: |-
+                ribs
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.t.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                haut du dos
+            en: |-
+                top of the back
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.n.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                ventre: entre le plexus et le nombril
+            en: |-
+                Belly: between the plexus and the navel
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.n.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                flanc
+            en: |-
+                flank
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.n.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                bas du dos
+            en: |-
+                lower back
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                bas-ventre: sous le nombril
+            en: |-
+                lower belly, lower abdomen: under the navel
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                hanches
+            en: |-
+                hips
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                derrière, cul
+            en: |-
+                behind, ass
+Paradigms:
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',j.-O:.-',_"
+        translations:
+            fr: |-
+                première articulation du membre
+            en: |-
+                first joint of the limb
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',g.-O:.-',_"
+        translations:
+            fr: |-
+                premier segment du membre
+            en: |-
+                first segment of the limb
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',h.-O:.-',_"
+        translations:
+            fr: |-
+                deuxième articulation du membre
+            en: |-
+                second joint of the limb
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',c.-O:.-',_"
+        translations:
+            fr: |-
+                deuxième segment du membre
+            en: |-
+                second segment of the limb
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',p.-O:.-',_"
+        translations:
+            fr: |-
+                troisième articulation du membre
+            en: |-
+                third joint of the limb
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',x.-O:.-',_"
+        translations:
+            fr: |-
+                troisième segment (extrémité) du membre
+            en: |-
+                third segment (end) of the limb
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.t.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                haut de la tête
+            en: |-
+                top of the head
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.n.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                partie médiane de la tête
+            en: |-
+                median part of the head
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.l.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                bas de la tête
+            en: |-
+                bottom of the head
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                face, centre de la tête
+            en: |-
+                face, center of the head
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                côté de la tête
+            en: |-
+                side of the head
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                arrière de la tête
+            en: |-
+                back of the head
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.t.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                haut du tronc
+            en: |-
+                top of the trunk
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.n.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                milieu du tronc
+            en: |-
+                middle of the trunk
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                bas du tronc
+            en: |-
+                bottom of the trunk
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.t.-l.-',_"
+        translations:
+            fr: |-
+                partie avant du tronc
+            en: |-
+                front part of the trunk
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.n.-l.-',_"
+        translations:
+            fr: |-
+                côtés du tronc
+            en: |-
+                sides of the trunk
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.l.-l.-',_"
+        translations:
+            fr: |-
+                arrière du tronc
+            en: |-
+                back of the trunk
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',M:O:.-U:.-',_"
+        translations:
+            fr: |-
+                bras, membre supérieur
+            en: |-
+                arm, superior limb
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',M:O:.-A:.-',_"
+        translations:
+            fr: |-
+                jambe, membre inférieur
+            en: |-
+                leg, inferior limb
+    -   ieml: "f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                Parties du corps: la tête
+            en: |-
+                Body parts: head
+    -   ieml: "f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                Parties du corps: le tronc
+            en: |-
+                Body parts: trunk
+    -   ieml: "f.o.-f.o.-',n.i.-f.i.-',M:O:.-O:.-',_"
+        translations:
+            fr: |-
+                Parties du corps: membres
+            en: |-
+                body parts: limbs
+    -   ieml: "f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_"
+        translations:
+            fr: |-
+                Parties du corps: la tête et le tronc
+            en: |-
+                Body parts: head and trunk

@@ -1,0 +1,132 @@
+RootParadigm:
+    ieml: "M:M:."
+    translations:
+        fr: |-
+            dimensions de l'interaction | ennéade
+        en: |-
+            dimensions of interaction | ennead
+    inhibitions: ['opposed', 'twin']
+    comments:
+        fr: |-
+            Dimensionsde l'interaction or "dimensions interdépendentes of l'expérience humaine". Cliquez sur les neuf lettres pour obtenir des explications.
+        en: |-
+            Dimensions of interaction or "interdependent dimensions of human experience". Click on the letters to get explanations.
+Semes:
+    -   ieml: "s."
+        translations:
+            fr: |-
+                réflexion
+            en: |-
+                reflection
+        comments:
+            en: |-
+                Signs and symbols fuel the power of the mind to reflect, understand, form judgments and generate further symbols. By combining signs, you obtain deduction, induction, interpretation and imagination. The idealist traditions that include Plato, Plotinus or Berkeley, as well as a large part of the major meditational philosophies, are all based primarily on the act of reflection.
+    -   ieml: "b."
+        translations:
+            fr: |-
+                langage
+            en: |-
+                language
+        comments:
+            en: |-
+                Signs lead to communication. A message sent to a subject who makes sense of it. The philosophy of language and the philosophy of communication both focus on speech, its powers, its limits and the media it bathes in.
+    -   ieml: "t."
+        translations:
+            fr: |-
+                mémoire
+            en: |-
+                memory
+        comments:
+            en: |-
+                With the gesture of inscription, a sign is reified into a thing. Without any means of recording, there is no memory and therefore no notion of time, history or evolution. Likewise, the great universal religious traditions based on sacred books fall under this archetype.
+    -   ieml: "k."
+        translations:
+            fr: |-
+                société
+            en: |-
+                society
+        comments:
+            en: |-
+                A community self-organizes itself through symbolic systems. As citizens, we commit ourselves to promises and contracts. We obey the law. The members of a clan may have a totemic animal. We fight under the same flag. We exchange economic goods by agreeing upon their value. Our obligations and conventions tie us by sharing of symbols. Sociology highlights these essential symbolic functions that constitute society.
+    -   ieml: "m."
+        translations:
+            fr: |-
+                affect
+            en: |-
+                affect
+        comments:
+            en: |-
+                Beings orient themselves towards other beings. Desire, love, hatred, fear, indifference or compassion, are all emotions that circulate amongst them. Pious people, poets, artists, and comedians know about the centrality of emotions in human life. Psychoanalysis, a large part of clinical psychology, and plain common sense insist upon the importance of affective links.
+    -   ieml: "n."
+        translations:
+            fr: |-
+                monde
+            en: |-
+                world
+        comments:
+            en: |-
+                Human beings express themselves in their physical environment. They inhabit it, they work in it using tools, they name things and endow them with value, creating an ordered world, a cosmos. Anthropology, law, and other aspects of social sciences and humanities have underlined the relevance of this archetype.
+    -   ieml: "d."
+        translations:
+            fr: |-
+                vérité
+            en: |-
+                truth
+        comments:
+            en: |-
+                A message contains a representation of reality. A discourse is true if it is a correct description of a state of things. Traditions concerned with logical and analytical philosophies are primarily interested in the notion of truth and the problems of reference. Likewise, epistemology and cognitive sciences place the construction of true belief, or knowledge, at the foundation of their approach.
+    -   ieml: "f."
+        translations:
+            fr: |-
+                vie
+            en: |-
+                life
+        comments:
+            en: |-
+                Matter becomes animated. Living creatures are embodied. Eating and drinking are amongst the most obvious ways by which a thing is transformed into being. Phenomenological schools insist on the subject's experience of life. Empirical, biological and medical traditions find their concepts in the living body and its functions.
+    -   ieml: "l."
+        translations:
+            fr: |-
+                espace
+            en: |-
+                space
+        comments:
+            en: |-
+                A point relates to other points. Geometrical and physical spaces are constructed on relations and proximities. Geometers, topologists, atomists, materialists and physicists base their concepts on space.
+Paradigms:
+    -   ieml: "S:M:."
+        translations:
+            fr: |-
+                devenir du signe
+            en: |-
+                becoming of the sign
+    -   ieml: "B:M:."
+        translations:
+            fr: |-
+                devenir de l'être
+            en: |-
+                becoming of the being
+    -   ieml: "T:M:."
+        translations:
+            fr: |-
+                devenir de la chose
+            en: |-
+                becoming of the thing
+    -   ieml: "M:S:."
+        translations:
+            fr: |-
+                devenir signe
+            en: |-
+                becoming sign
+    -   ieml: "M:B:."
+        translations:
+            fr: |-
+                devenir être
+            en: |-
+                becoming being
+    -   ieml: "M:T:."
+        translations:
+            fr: |-
+                devenir chose
+            en: |-
+                becoming thing

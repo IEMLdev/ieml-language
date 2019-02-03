@@ -1,0 +1,184 @@
+RootParadigm:
+    ieml: "M:U:.U:M:.d.-O:.-'"
+    translations:
+        fr: |-
+            anthropologie philosophique: dialectiques
+        en: |-
+            philosophical anthropology: dialectics
+    inhibitions: []
+Semes:
+    -   ieml: "j.y.d.-U:.-'"
+        translations:
+            fr: |-
+                image intuitive, modèle mental
+            en: |-
+                intuitive image, mental model
+    -   ieml: "j.y.d.-A:.-'"
+        translations:
+            fr: |-
+                expression symbolique, texte
+            en: |-
+                symbolic expression, text
+    -   ieml: "j.o.d.-U:.-'"
+        translations:
+            fr: |-
+                lecture, interprétation
+            en: |-
+                reading, interpretation
+    -   ieml: "j.o.d.-A:.-'"
+        translations:
+            fr: |-
+                traduction, acte locutoire
+            en: |-
+                translation, locutory act
+    -   ieml: "j.e.d.-U:.-'"
+        translations:
+            fr: |-
+                forme sensible
+            en: |-
+                expérience sensorimotrice
+    -   ieml: "j.e.d.-A:.-'"
+        translations:
+            fr: |-
+                expérience sensorimotrice
+            en: |-
+                sensorimotor experience
+    -   ieml: "h.y.d.-U:.-'"
+        translations:
+            fr: |-
+                système de valeurs ou de priorités, axiologie
+            en: |-
+                value or priority system, axiology
+    -   ieml: "h.y.d.-A:.-'"
+        translations:
+            fr: |-
+                règle, loi, jeu
+            en: |-
+                rule, law, game
+    -   ieml: "h.o.d.-U:.-'"
+        translations:
+            fr: |-
+                intention, stratégie
+            en: |-
+                intention, strategies
+    -   ieml: "h.o.d.-A:.-'"
+        translations:
+            fr: |-
+                coup, acte illocutoire
+            en: |-
+                move, illocutory act
+    -   ieml: "h.e.d.-U:.-'"
+        translations:
+            fr: |-
+                role
+            en: |-
+                role
+    -   ieml: "h.e.d.-A:.-'"
+        translations:
+            fr: |-
+                acteur, actant
+            en: |-
+                actor
+    -   ieml: "p.y.d.-U:.-'"
+        translations:
+            fr: |-
+                essence, propriété logique
+            en: |-
+                essence, logical property
+    -   ieml: "p.y.d.-A:.-'"
+        translations:
+            fr: |-
+                ensemble
+            en: |-
+                set
+    -   ieml: "p.o.d.-U:.-'"
+        translations:
+            fr: |-
+                système causal
+            en: |-
+                causal system
+    -   ieml: "p.o.d.-A:.-'"
+        translations:
+            fr: |-
+                événement, acte perlocutoire
+            en: |-
+                event, perlocutory act
+    -   ieml: "p.e.d.-U:.-'"
+        translations:
+            fr: |-
+                système de relations
+            en: |-
+                system of relations
+    -   ieml: "p.e.d.-A:.-'"
+        translations:
+            fr: |-
+                individu réel
+            en: |-
+                real individual
+Paradigms:
+    -   ieml: "j.y.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de la connaissance théorique
+            en: |-
+                theoretical knowledge dialectic
+    -   ieml: "j.o.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de la connaissance herméneutique
+            en: |-
+                hermeneutical knowledge dialectics
+    -   ieml: "j.e.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de la connaissance esthétique
+            en: |-
+                aesthetic knowledge dialectic
+    -   ieml: "h.y.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de la subjectivité à la première personne
+            en: |-
+                subjectivity at the first person: dialectic
+    -   ieml: "h.o.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de la subjectivité à la deuxième personne
+            en: |-
+                subjectivity at the second person: dialectic
+    -   ieml: "h.e.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de la subjectivité à la troisième personne
+            en: |-
+                subjectivity at the third person: dialectic
+    -   ieml: "p.y.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de l'objectivité logique
+            en: |-
+                dialectic of logical objectivity
+    -   ieml: "p.o.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de l'objectivité causale
+            en: |-
+                dialectic of causal objectivity
+    -   ieml: "p.e.d.-O:.-'"
+        translations:
+            fr: |-
+                dialectique de l'objectivité réelle
+            en: |-
+                dialectic of real objectivity
+    -   ieml: "M:U:.U:M:.d.-U:.-'"
+        translations:
+            fr: |-
+                moment virtuel
+            en: |-
+                moment actuel
+    -   ieml: "M:U:.U:M:.d.-A:.-'"
+        translations:
+            fr: |-
+                moment actuel
+            en: |-
+                actual moment

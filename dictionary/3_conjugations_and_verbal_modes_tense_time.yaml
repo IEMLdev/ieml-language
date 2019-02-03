@@ -1,0 +1,424 @@
+RootParadigm:
+    ieml: "E:.-F:.O:M:.-t.-'"
+    translations:
+        fr: |-
+            conjugaisons et modes verbaux, temps
+        en: |-
+            conjugations and verbal modes, tense, time
+    inhibitions: ['father-attribute', 'father-substance']
+Semes:
+    -   ieml: "E:.-U:.y.-t.-'"
+        translations:
+            fr: |-
+                connu
+            en: |-
+                known
+    -   ieml: "E:.-U:.o.-t.-'"
+        translations:
+            fr: |-
+                voulu
+            en: |-
+                wanted
+    -   ieml: "E:.-U:.e.-t.-'"
+        translations:
+            fr: |-
+                capable | habilité
+            en: |-
+                able | enabled
+    -   ieml: "E:.-U:.u.-t.-'"
+        translations:
+            fr: |-
+                exprimé
+            en: |-
+                expressed
+    -   ieml: "E:.-U:.a.-t.-'"
+        translations:
+            fr: |-
+                engagé
+            en: |-
+                committed
+    -   ieml: "E:.-U:.i.-t.-'"
+        translations:
+            fr: |-
+                devant être fait
+            en: |-
+                must be done
+    -   ieml: "E:.-A:.y.-t.-'"
+        translations:
+            fr: |-
+                connaissant
+            en: |-
+                knowing
+    -   ieml: "E:.-A:.o.-t.-'"
+        translations:
+            fr: |-
+                voulant
+            en: |-
+                willing
+    -   ieml: "E:.-A:.e.-t.-'"
+        translations:
+            fr: |-
+                capacitant | habilitant
+            en: |-
+                abling | enabling
+    -   ieml: "E:.-A:.u.-t.-'"
+        translations:
+            fr: |-
+                exprimant
+            en: |-
+                expressing
+    -   ieml: "E:.-A:.a.-t.-'"
+        translations:
+            fr: |-
+                engageant
+            en: |-
+                committing
+    -   ieml: "E:.-A:.i.-t.-'"
+        translations:
+            fr: |-
+                devant faire
+            en: |-
+                must do
+    -   ieml: "E:.-S:.y.-t.-'"
+        translations:
+            fr: |-
+                connaître au futur
+            en: |-
+                will know
+    -   ieml: "E:.-S:.o.-t.-'"
+        translations:
+            fr: |-
+                vouloir au futur
+            en: |-
+                will want
+    -   ieml: "E:.-S:.e.-t.-'"
+        translations:
+            fr: |-
+                pouvoir au futur
+            en: |-
+                will be able
+    -   ieml: "E:.-S:.u.-t.-'"
+        translations:
+            fr: |-
+                exprimer au futur
+            en: |-
+                will express
+    -   ieml: "E:.-S:.a.-t.-'"
+        translations:
+            fr: |-
+                s'engager au futur
+            en: |-
+                will commit
+    -   ieml: "E:.-S:.i.-t.-'"
+        translations:
+            fr: |-
+                devoir faire au futur
+            en: |-
+                future must do
+    -   ieml: "E:.-B:.y.-t.-'"
+        translations:
+            fr: |-
+                connaître maintenant
+            en: |-
+                know now
+    -   ieml: "E:.-B:.o.-t.-'"
+        translations:
+            fr: |-
+                vouloir maintenant
+            en: |-
+                want now
+    -   ieml: "E:.-B:.e.-t.-'"
+        translations:
+            fr: |-
+                pouvoir maintenant
+            en: |-
+                can now
+    -   ieml: "E:.-B:.u.-t.-'"
+        translations:
+            fr: |-
+                exprimer maintenant
+            en: |-
+                express now
+    -   ieml: "E:.-B:.a.-t.-'"
+        translations:
+            fr: |-
+                s'engager maintenant
+            en: |-
+                commit now
+    -   ieml: "E:.-B:.i.-t.-'"
+        translations:
+            fr: |-
+                devoir faire maintenant
+            en: |-
+                must do now
+    -   ieml: "E:.-T:.y.-t.-'"
+        translations:
+            fr: |-
+                connaître au passé
+            en: |-
+                knowing in the past
+    -   ieml: "E:.-T:.o.-t.-'"
+        translations:
+            fr: |-
+                vouloir au passé
+            en: |-
+                want in the past
+    -   ieml: "E:.-T:.e.-t.-'"
+        translations:
+            fr: |-
+                pouvoir au passé
+            en: |-
+                can in the past
+    -   ieml: "E:.-T:.u.-t.-'"
+        translations:
+            fr: |-
+                exprimer au passé
+            en: |-
+                express in the past
+    -   ieml: "E:.-T:.a.-t.-'"
+        translations:
+            fr: |-
+                s'engager au passé
+            en: |-
+                commit in the past
+    -   ieml: "E:.-T:.i.-t.-'"
+        translations:
+            fr: |-
+                devoir faire au passé
+            en: |-
+                past must do
+Paradigms:
+    -   ieml: "E:.-U:.O:S:.-t.-'"
+        translations:
+            fr: |-
+                voix passive selon le signe
+            en: |-
+                passive voice according to sign
+    -   ieml: "E:.-U:.O:B:.-t.-'"
+        translations:
+            fr: |-
+                voix passive selon l'être
+            en: |-
+                passive voice according to being
+    -   ieml: "E:.-U:.O:T:.-t.-'"
+        translations:
+            fr: |-
+                voix passive selon la chose
+            en: |-
+                passive voice according to thing
+    -   ieml: "E:.-A:.O:S:.-t.-'"
+        translations:
+            fr: |-
+                voix active selon le signe
+            en: |-
+                active voice according to sign
+    -   ieml: "E:.-A:.O:B:.-t.-'"
+        translations:
+            fr: |-
+                voix active selon l'être
+            en: |-
+                active voice according to being
+    -   ieml: "E:.-A:.O:T:.-t.-'"
+        translations:
+            fr: |-
+                voix active selon la chose
+            en: |-
+                active voice according to thing
+    -   ieml: "E:.-S:.O:S:.-t.-'"
+        translations:
+            fr: |-
+                futur selon le signe
+            en: |-
+                future according to sign
+    -   ieml: "E:.-S:.O:B:.-t.-'"
+        translations:
+            fr: |-
+                futur selon l'être
+            en: |-
+                future according to being
+    -   ieml: "E:.-S:.O:T:.-t.-'"
+        translations:
+            fr: |-
+                futur selon la chose
+            en: |-
+                future according to thing
+    -   ieml: "E:.-B:.O:S:.-t.-'"
+        translations:
+            fr: |-
+                présent selon le signe
+            en: |-
+                present according to sign
+    -   ieml: "E:.-B:.O:B:.-t.-'"
+        translations:
+            fr: |-
+                présent selon l'être
+            en: |-
+                present according to being
+    -   ieml: "E:.-B:.O:T:.-t.-'"
+        translations:
+            fr: |-
+                présent selon la chose
+            en: |-
+                present according to thing
+    -   ieml: "E:.-T:.O:S:.-t.-'"
+        translations:
+            fr: |-
+                passé selon le signe
+            en: |-
+                past according to sign
+    -   ieml: "E:.-T:.O:B:.-t.-'"
+        translations:
+            fr: |-
+                passé selon l'être
+            en: |-
+                past according to being
+    -   ieml: "E:.-T:.O:T:.-t.-'"
+        translations:
+            fr: |-
+                passé selon la chose
+            en: |-
+                past according to thing
+    -   ieml: "E:.-U:.U:M:.-t.-'"
+        translations:
+            fr: |-
+                voix passive virtuelle
+            en: |-
+                virtual passive voice
+    -   ieml: "E:.-U:.A:M:.-t.-'"
+        translations:
+            fr: |-
+                voix passive actuelle
+            en: |-
+                actual passive voice
+    -   ieml: "E:.-A:.U:M:.-t.-'"
+        translations:
+            fr: |-
+                voix active virtuelle
+            en: |-
+                virtual active voice
+    -   ieml: "E:.-A:.A:M:.-t.-'"
+        translations:
+            fr: |-
+                voix active actuelle
+            en: |-
+                actual active voice
+    -   ieml: "E:.-S:.U:M:.-t.-'"
+        translations:
+            fr: |-
+                futur virtuel
+            en: |-
+                virtual future
+    -   ieml: "E:.-B:.U:M:.-t.-'"
+        translations:
+            fr: |-
+                présent virtuel
+            en: |-
+                virtual present
+    -   ieml: "E:.-B:.A:M:.-t.-'"
+        translations:
+            fr: |-
+                présent actuel
+            en: |-
+                actual present
+    -   ieml: "E:.-T:.U:M:.-t.-'"
+        translations:
+            fr: |-
+                passé virtuel
+            en: |-
+                virtual past
+    -   ieml: "E:.-T:.A:M:.-t.-'"
+        translations:
+            fr: |-
+                passé actuel
+            en: |-
+                actual past
+    -   ieml: "E:.-F:.y.-t.-'"
+        translations:
+            fr: |-
+                mode cognitif
+            en: |-
+                cognitive mood
+    -   ieml: "E:.-F:.o.-t.-'"
+        translations:
+            fr: |-
+                mode optatif
+            en: |-
+                optative mood
+    -   ieml: "E:.-F:.e.-t.-'"
+        translations:
+            fr: |-
+                mode abilitatif
+            en: |-
+                abilitative mood
+    -   ieml: "E:.-F:.u.-t.-'"
+        translations:
+            fr: |-
+                mode expressif
+            en: |-
+                expressive mood
+    -   ieml: "E:.-F:.a.-t.-'"
+        translations:
+            fr: |-
+                mode promissif
+            en: |-
+                promisive mood
+    -   ieml: "E:.-F:.i.-t.-'"
+        translations:
+            fr: |-
+                mode impératif
+            en: |-
+                imperative mood
+    -   ieml: "E:.-U:.O:M:.-t.-'"
+        translations:
+            fr: |-
+                voix passive
+            en: |-
+                passive voice
+    -   ieml: "E:.-A:.O:M:.-t.-'"
+        translations:
+            fr: |-
+                voix active
+            en: |-
+                active voice
+    -   ieml: "E:.-S:.O:M:.-t.-'"
+        translations:
+            fr: |-
+                temps futur
+            en: |-
+                future tense
+    -   ieml: "E:.-B:.O:M:.-t.-'"
+        translations:
+            fr: |-
+                temps présent
+            en: |-
+                present tense
+    -   ieml: "E:.-T:.O:M:.-t.-'"
+        translations:
+            fr: |-
+                temps passé
+            en: |-
+                past tense
+    -   ieml: "E:.-O:.O:M:.-t.-'"
+        translations:
+            fr: |-
+                diathèse | voix grammaticale
+            en: |-
+                diathesis | grammatical voice
+    -   ieml: "E:.-F:.U:M:.-t.-'"
+        translations:
+            fr: |-
+                mode déclaratif
+            en: |-
+                declarative mood
+    -   ieml: "E:.-F:.A:M:.-t.-'"
+        translations:
+            fr: |-
+                mode performatif
+            en: |-
+                performative mood
+    -   ieml: "E:.-M:.O:M:.-t.-'"
+        translations:
+            fr: |-
+                temps | quand
+            en: |-
+                tense | time | when

@@ -1,0 +1,329 @@
+RootParadigm:
+    ieml: "O:O:.f.F:.-"
+    translations:
+        fr: |-
+            contrôler l'expérience sensori-motrice
+        en: |-
+            control sensori-motor experience
+    inhibitions: ['father-attribute', 'father-mode', 'father-substance']
+    comments:
+        fr: |-
+            Les quatre rangées représentent différents types d'actions: 
+            1) créer, moduler, manipuler
+            2) afficher, diffuser
+            3) sentir, reconnaître
+            4) interrompre, isoler
+            Les cinq colonnes représentent différents types d'expérience
+            1) auditive
+            2) tactile
+            3) visuelle
+            4) gustative, olfactive
+            5) motrice
+        en: |-
+            The four rows represent different types of actions: 
+            1) create, modulate, manipulate
+            2) display, broadcast
+            3) feel, recognize
+            4) interrupt, insulate
+            The five columns represent different types of experience
+            1) auditory
+            2) tactile
+            3) visual
+            4) gustatory, olfactory
+            5) motor
+Semes:
+    -   ieml: "wo.f.U:.-"
+        translations:
+            fr: |-
+                créer des formes sonores
+            en: |-
+                create sound forms
+    -   ieml: "wo.f.A:.-"
+        translations:
+            fr: |-
+                faire une pression
+            en: |-
+                make a pressure
+    -   ieml: "wo.f.S:.-"
+        translations:
+            fr: |-
+                former une image visuelle (taille | figure | couleur)
+            en: |-
+                shape a visual image (size | figure | color)
+    -   ieml: "wo.f.B:.-"
+        translations:
+            fr: |-
+                créer un goût | une odeur, cuisiner | brasser, mener des processus chimiques
+            en: |-
+                create a taste | a smell, cook | brew, lead chemical processes
+    -   ieml: "wo.f.T:.-"
+        translations:
+            fr: |-
+                manipuler l'orientation | la position dans l'espace
+            en: |-
+                manipulate the orientation | the position in space
+    -   ieml: "wa.f.U:.-"
+        translations:
+            fr: |-
+                diffuser | exhiber la voix & le son
+            en: |-
+                broadcast | display voice & sound
+    -   ieml: "wa.f.A:.-"
+        translations:
+            fr: |-
+                exhiber une signature | une trace | une empreinte
+            en: |-
+                display a signature | track | footprint
+    -   ieml: "wa.f.S:.-"
+        translations:
+            fr: |-
+                afficher | diffuser une image visuelle
+            en: |-
+                display | broadcast a visual image
+    -   ieml: "wa.f.B:.-"
+        translations:
+            fr: |-
+                diffuser un goût | une odeur
+            en: |-
+                display a smell | a taste
+    -   ieml: "wa.f.T:.-"
+        translations:
+            fr: |-
+                afficher un mouvement | conduire | danser
+            en: |-
+                display a movement | drive | dance
+    -   ieml: "wu.f.U:.-"
+        translations:
+            fr: |-
+                entendre | reconnaître des formes acoustiques
+            en: |-
+                hear | recognize auditive forms
+    -   ieml: "wu.f.A:.-"
+        translations:
+            fr: |-
+                toucher | reconnaître une forme tactile
+            en: |-
+                touch | recognize a tactile form
+    -   ieml: "wu.f.S:.-"
+        translations:
+            fr: |-
+                voir | reconnaître une forme visuelle
+            en: |-
+                see | recognize a visual form
+    -   ieml: "wu.f.B:.-"
+        translations:
+            fr: |-
+                sentir | goûter | reconnaître des formes chimiques
+            en: |-
+                smell | taste | recognize chemical forms
+    -   ieml: "wu.f.T:.-"
+        translations:
+            fr: |-
+                interagir | reconnaître des formes de mouvement et de résistance
+            en: |-
+                interact | recognize forms of movement and resistance
+    -   ieml: "we.f.U:.-"
+        translations:
+            fr: |-
+                faire silence | isoler du son
+            en: |-
+                make silence | insulate from sound
+    -   ieml: "we.f.A:.-"
+        translations:
+            fr: |-
+                isoler | protéger du contact
+            en: |-
+                insulate | protect from contact
+    -   ieml: "we.f.S:.-"
+        translations:
+            fr: |-
+                cacher | protéger de la vue
+            en: |-
+                hide | protect from sight
+    -   ieml: "we.f.B:.-"
+        translations:
+            fr: |-
+                isoler chimiquement
+            en: |-
+                chemically insulate
+    -   ieml: "we.f.T:.-"
+        translations:
+            fr: |-
+                poser des fondations | poser une base immuable, isoler du mouvement
+            en: |-
+                create foundations | an unmovable base, insulate from movement
+Paradigms:
+    -   ieml: "U:O:.f.U:.-"
+        translations:
+            fr: |-
+                créer et diffuser du son
+            en: |-
+                create and broadcast sound
+    -   ieml: "U:O:.f.A:.-"
+        translations:
+            fr: |-
+                former et exhiber la pression
+            en: |-
+                shape and show the pressure
+    -   ieml: "U:O:.f.S:.-"
+        translations:
+            fr: |-
+                former et afficher une image
+            en: |-
+                shape and display an image
+    -   ieml: "U:O:.f.B:.-"
+        translations:
+            fr: |-
+                créer et diffuser un goût | une odeur
+            en: |-
+                create and display a taste | a smell
+    -   ieml: "U:O:.f.T:.-"
+        translations:
+            fr: |-
+                manipuler et afficher un mouvement
+            en: |-
+                manipulate and display a movement
+    -   ieml: "A:O:.f.U:.-"
+        translations:
+            fr: |-
+                entendre et couper le son
+            en: |-
+                hear and cut off the sound
+    -   ieml: "A:O:.f.A:.-"
+        translations:
+            fr: |-
+                toucher et protéger du contact
+            en: |-
+                touch and protect from contact
+    -   ieml: "A:O:.f.S:.-"
+        translations:
+            fr: |-
+                voir et cacher une image
+            en: |-
+                see and hide an image
+    -   ieml: "A:O:.f.B:.-"
+        translations:
+            fr: |-
+                sentir et isoler une forme chimique
+            en: |-
+                sense and insulate a chemical form
+    -   ieml: "A:O:.f.T:.-"
+        translations:
+            fr: |-
+                reconnaître et stopper un mouvement
+            en: |-
+                recognize and stop a movement
+    -   ieml: "O:U:.f.U:.-"
+        translations:
+            fr: |-
+                créer et reconnaître des formes sonores
+            en: |-
+                create and recognize sound forms
+    -   ieml: "O:U:.f.A:.-"
+        translations:
+            fr: |-
+                former et reconnaître une forme tactile
+            en: |-
+                shape and recognize a tactile form
+    -   ieml: "O:U:.f.S:.-"
+        translations:
+            fr: |-
+                former et voir une image
+            en: |-
+                shape and see an image
+    -   ieml: "O:U:.f.B:.-"
+        translations:
+            fr: |-
+                créer et sentir un goût | une odeur
+            en: |-
+                create and sense a taste | a smell
+    -   ieml: "O:U:.f.T:.-"
+        translations:
+            fr: |-
+                provoquer et reconnaître un mouvement
+            en: |-
+                provoke and recognize a movement
+    -   ieml: "O:A:.f.U:.-"
+        translations:
+            fr: |-
+                diffuser et couper le son
+            en: |-
+                broadcast and cut off the sound
+    -   ieml: "O:A:.f.A:.-"
+        translations:
+            fr: |-
+                montrer et couper le contact
+            en: |-
+                show and cut off contact
+    -   ieml: "O:A:.f.S:.-"
+        translations:
+            fr: |-
+                afficher et cacher une image visuelle
+            en: |-
+                display and hide a visual image
+    -   ieml: "O:A:.f.B:.-"
+        translations:
+            fr: |-
+                diffuser et bloquer une expérience gustative | olfactive
+            en: |-
+                display and block a gustative | olfactive experience
+    -   ieml: "O:A:.f.T:.-"
+        translations:
+            fr: |-
+                afficher et stopper un mouvement
+            en: |-
+                display and stop a movement
+    -   ieml: "O:O:.f.U:.-"
+        translations:
+            fr: |-
+                contrôler l'expérience auditive
+            en: |-
+                control auditory experience
+    -   ieml: "O:O:.f.A:.-"
+        translations:
+            fr: |-
+                contrôler l'expérience tactile
+            en: |-
+                control tactile experience
+    -   ieml: "O:O:.f.S:.-"
+        translations:
+            fr: |-
+                contrôler l'expérience visuelle
+            en: |-
+                control visual experience
+    -   ieml: "O:O:.f.B:.-"
+        translations:
+            fr: |-
+                contrôler la sensation chimique
+            en: |-
+                control the chemical sensation
+    -   ieml: "O:O:.f.T:.-"
+        translations:
+            fr: |-
+                contrôler l'expérience motrice
+            en: |-
+                control motor experience
+    -   ieml: "wo.f.F:.-"
+        translations:
+            fr: |-
+                moduler les phénomènes
+            en: |-
+                modulate phenomena
+    -   ieml: "wa.f.F:.-"
+        translations:
+            fr: |-
+                exposer la sensori-motricité
+            en: |-
+                display sensorimotricity
+    -   ieml: "wu.f.F:.-"
+        translations:
+            fr: |-
+                sentir | reconnaître les formes
+            en: |-
+                feel | recognize shapes
+    -   ieml: "we.f.F:.-"
+        translations:
+            fr: |-
+                interrompre la sensori-motricité
+            en: |-
+                shut off sensorimotricity

@@ -1,0 +1,58 @@
+RootParadigm:
+    ieml: "E:O:O:."
+    translations:
+        fr: |-
+            constructions logiques | modes de topic ou de clause
+        en: |-
+            logical constructions | mode of a topic or a clause
+    inhibitions: ['father-attribute', 'father-mode']
+Semes:
+    -   ieml: "E:U:U:."
+        translations:
+            fr: |-
+                construction interrogative | mode interrogatif d'un topic verbal ou d'une clause
+            en: |-
+                interrogative construction | interrogative mode for a verbal topic or a clause
+    -   ieml: "E:U:A:."
+        translations:
+            fr: |-
+                construction négative | mode négatif d'un topic verbal ou d'une clause
+            en: |-
+                negative construction | negative mode for a verbal topic or a clause
+    -   ieml: "E:A:U:."
+        translations:
+            fr: |-
+                construction entre guillemets | en mode de clause ou de topic-racine d'une phrase
+            en: |-
+                construction between quotation marks | in the mode of a topic, a clause, the root-topic of a phrase
+    -   ieml: "E:A:A:."
+        translations:
+            fr: |-
+                construction affirmative | en mode d'un topic ou d'une clause
+            en: |-
+                affirmative construction | in the mode of a topic or a clause
+Paradigms:
+    -   ieml: "E:U:O:."
+        translations:
+            fr: |-
+                mode déconstructif
+            en: |-
+                deconstructive mode
+    -   ieml: "E:A:O:."
+        translations:
+            fr: |-
+                mode constructif
+            en: |-
+                constructive mode
+    -   ieml: "E:O:U:."
+        translations:
+            fr: |-
+                peut logique
+            en: |-
+                logical may
+    -   ieml: "E:O:A:."
+        translations:
+            fr: |-
+                doit logique
+            en: |-
+                logical must

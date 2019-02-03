@@ -1,0 +1,45 @@
+RootParadigm:
+    ieml: "t.o.-n.o.-M:O:.-'"
+    translations:
+        fr: |-
+            unités de temps du calendrier
+        en: |-
+            calendar time units
+    inhibitions: ['father-mode']
+Semes:
+    -   ieml: "t.o.-n.o.-j.-'"
+        translations:
+            fr: |-
+                journée
+            en: |-
+                day
+    -   ieml: "t.o.-n.o.-g.-'"
+        translations:
+            fr: |-
+                semaine
+            en: |-
+                week
+    -   ieml: "t.o.-n.o.-h.-'"
+        translations:
+            fr: |-
+                mois
+            en: |-
+                month
+    -   ieml: "t.o.-n.o.-c.-'"
+        translations:
+            fr: |-
+                année
+            en: |-
+                year
+    -   ieml: "t.o.-n.o.-p.-'"
+        translations:
+            fr: |-
+                siècle
+            en: |-
+                century
+    -   ieml: "t.o.-n.o.-x.-'"
+        translations:
+            fr: |-
+                millénaire
+            en: |-
+                millennium

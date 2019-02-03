@@ -1,0 +1,37 @@
+Words:
+  - ieml: "[([t.o.-]+[S:.E:A:M:.-])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "Temporalité: durée"
+      en:
+
+  - ieml: "[([t.o.-])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "moment opportun | occasion, évolution, valeur du temps"
+      en:
+        - "right moment | good timing, evolution, value of time"
+  - ieml: "[([S:.E:A:S:.-]+[t.o.-])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "bref (durée)"
+        - "de courte durée"
+      en:
+        - "short (duration)"
+  - ieml: "[([S:.E:A:B:.-]+[t.o.-])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "de durée moyenne"
+      en:
+        - "of medium duration"
+  - ieml: "[([S:.E:A:T:.-]+[t.o.-])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "persistant"
+        - "permanent"
+        - "de longue durée"
+      en:
+        - "persistant"
+        - "long lasting"
+        - "permanent"
+

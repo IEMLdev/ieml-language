@@ -1,0 +1,68 @@
+RootParadigm:
+    ieml: "E:U:U:.M:M:.-"
+    translations:
+        fr: |-
+            questions: pronoms interrogatifs et/ou relatifs
+        en: |-
+            questions: interrogative and/or relative pronouns
+    inhibitions: []
+    comments:
+        fr: |-
+            Ce paradigme de pronoms interrogatifs où relatifs est construit à partir de E:U:U:. (construction interrogative) en substance et M:M:. (enneade, dimensions interdépendentes de l'expérience humaine) en attribut.
+        en: |-
+            This paradigm of interrogative or relative pronouns is built from E:U:U:. (interrogative construction) in substance and M:M:. (enneade, interdependent dimensions of human experience) in attribute role.
+Semes:
+    -   ieml: "E:U:U:.s.-"
+        translations:
+            fr: |-
+                pourquoi, selon quel enchaînement de causes et d'effets?
+            en: |-
+                why, according to what chain of causes and effects?
+    -   ieml: "E:U:U:.b.-"
+        translations:
+            fr: |-
+                dans quelle langue ou système de signes?
+            en: |-
+                in what language or sign system?
+    -   ieml: "E:U:U:.t.-"
+        translations:
+            fr: |-
+                quand, à quel moment?
+            en: |-
+                when, at what time?
+    -   ieml: "E:U:U:.k.-"
+        translations:
+            fr: |-
+                pour qui, dans quelle communauté?
+            en: |-
+                for whom, in which community?
+    -   ieml: "E:U:U:.m.-"
+        translations:
+            fr: |-
+                pourquoi, selon quelle intention ou passion?
+            en: |-
+                why, according to what intention or passion?
+    -   ieml: "E:U:U:.n.-"
+        translations:
+            fr: |-
+                qui, quel acteur ou individu?
+            en: |-
+                who, what actor or individual?
+    -   ieml: "E:U:U:.d.-"
+        translations:
+            fr: |-
+                quoi, quelle essence ou référence?
+            en: |-
+                what essence or reference?
+    -   ieml: "E:U:U:.f.-"
+        translations:
+            fr: |-
+                comment, sous quelle forme?
+            en: |-
+                how, in what form?
+    -   ieml: "E:U:U:.l.-"
+        translations:
+            fr: |-
+                où, en quel lieu?
+            en: |-
+                where, in what place?

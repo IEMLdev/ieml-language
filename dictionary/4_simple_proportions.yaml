@@ -1,0 +1,39 @@
+RootParadigm:
+    ieml: "s.o.-l.o.-'F:.-',"
+    translations:
+        fr: |-
+            simples proportions
+        en: |-
+            simple proportions
+    inhibitions: ['father-attribute']
+Semes:
+    -   ieml: "s.o.-l.o.-'U:.-',"
+        translations:
+            fr: |-
+                un sixième
+            en: |-
+                one sixth
+    -   ieml: "s.o.-l.o.-'A:.-',"
+        translations:
+            fr: |-
+                un cinquième
+            en: |-
+                one fifth
+    -   ieml: "s.o.-l.o.-'S:.-',"
+        translations:
+            fr: |-
+                un quart
+            en: |-
+                one quarter, one fourth
+    -   ieml: "s.o.-l.o.-'B:.-',"
+        translations:
+            fr: |-
+                un tiers
+            en: |-
+                one third
+    -   ieml: "s.o.-l.o.-'T:.-',"
+        translations:
+            fr: |-
+                un demi, la moitié
+            en: |-
+                one half

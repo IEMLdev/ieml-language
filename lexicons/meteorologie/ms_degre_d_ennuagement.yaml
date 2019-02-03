@@ -1,0 +1,52 @@
+Words:
+  - ieml: "[([E:A:M:.]+[E:.T:.c.-]+[p.E:T:M:.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "Météorologie: degré d'ennuagement"
+      en:
+
+  - ieml: "[([E:.T:.c.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "état du ciel"
+        - "degré d'ennuagement"
+      en:
+        - "sky condition"
+        - "degree of cloudiness"
+  - ieml: "[([E:.T:.c.-]+[p.E:T:S:.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "beau temps clair"
+      en:
+        - "clear sky"
+  - ieml: "[([E:.T:.c.-]+[p.E:T:B:.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "nuageux"
+      en:
+        - "cloudy weather"
+  - ieml: "[([E:.T:.c.-]+[p.E:T:T:.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "ciel couvert"
+      en:
+        - "covered weather"
+  - ieml: "[([E:A:S:.]+[E:.T:.c.-]+[p.E:T:B:.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "quelques nuages"
+      en:
+        - "a few clouds"
+  - ieml: "[([E:A:B:.]+[E:.T:.c.-]+[p.E:T:B:.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "beaucoup de nuages"
+      en:
+        - "scattered"
+  - ieml: "[([E:A:T:.]+[E:.T:.c.-]+[p.E:T:B:.-]+[b.i.-s.i.-']+[l.-T:.U:.-',n.-T:.A:.-',s.u.-l.u.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "presque entièrement couvert"
+      en:
+        - "broken"
+

@@ -1,0 +1,1210 @@
+RootParadigm:
+    ieml: "M:M:.a.-M:M:.a.-E:.-+f.o.-'"
+    translations:
+        fr: |-
+            fonctions et acteurs sociaux
+        en: |-
+            social actors and functions
+    inhibitions: []
+Semes:
+    -   ieml: "s.a.-s.a.-'"
+        translations:
+            fr: |-
+                ordre symbolique
+            en: |-
+                symbolic order
+    -   ieml: "s.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                philosophe
+            en: |-
+                philosopher
+    -   ieml: "s.a.-b.a.-'"
+        translations:
+            fr: |-
+                rôle
+            en: |-
+                role
+    -   ieml: "s.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                acteur | comédien
+            en: |-
+                actor | comdedian
+    -   ieml: "s.a.-t.a.-'"
+        translations:
+            fr: |-
+                donnée
+            en: |-
+                data
+    -   ieml: "s.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                informaticien
+            en: |-
+                computer scientist
+    -   ieml: "s.a.-k.a.-'"
+        translations:
+            fr: |-
+                parlement
+            en: |-
+                parliament
+    -   ieml: "s.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                politicien
+            en: |-
+                politician
+    -   ieml: "s.a.-m.a.-'"
+        translations:
+            fr: |-
+                mariage
+            en: |-
+                marriage
+    -   ieml: "s.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                époux
+            en: |-
+                spouse
+    -   ieml: "s.a.-n.a.-'"
+        translations:
+            fr: |-
+                avancée
+            en: |-
+                advance
+    -   ieml: "s.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                précurseur
+            en: |-
+                precursor
+    -   ieml: "s.a.-d.a.-'"
+        translations:
+            fr: |-
+                conseil personnel
+            en: |-
+                personal advice
+    -   ieml: "s.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                mentor
+            en: |-
+                mentor
+    -   ieml: "s.a.-f.a.-'"
+        translations:
+            fr: |-
+                psychothérapie
+            en: |-
+                psychotherapy
+    -   ieml: "s.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                psychologue
+            en: |-
+                psychologist
+    -   ieml: "s.a.-l.a.-'"
+        translations:
+            fr: |-
+                innovation
+            en: |-
+                innovation
+    -   ieml: "s.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                innovateur
+            en: |-
+                innovator
+    -   ieml: "b.a.-s.a.-'"
+        translations:
+            fr: |-
+                lecture
+            en: |-
+                reading
+    -   ieml: "b.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                lecteur
+            en: |-
+                reader
+    -   ieml: "b.a.-b.a.-'"
+        translations:
+            fr: |-
+                littérature
+            en: |-
+                literature
+    -   ieml: "b.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                auteur
+            en: |-
+                author
+    -   ieml: "b.a.-t.a.-'"
+        translations:
+            fr: |-
+                comptes
+            en: |-
+                accounts
+    -   ieml: "b.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                comptable
+            en: |-
+                accountant
+    -   ieml: "b.a.-k.a.-'"
+        translations:
+            fr: |-
+                action politique
+            en: |-
+                political action
+    -   ieml: "b.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                activiste
+            en: |-
+                activist
+    -   ieml: "b.a.-m.a.-'"
+        translations:
+            fr: |-
+                érotisme
+            en: |-
+                erotism
+    -   ieml: "b.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                amant
+            en: |-
+                lover
+    -   ieml: "b.a.-n.a.-'"
+        translations:
+            fr: |-
+                accusation
+            en: |-
+                accusation
+    -   ieml: "b.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                procureur
+            en: |-
+                prosecutor
+    -   ieml: "b.a.-d.a.-'"
+        translations:
+            fr: |-
+                publicité
+            en: |-
+                advertisement
+    -   ieml: "b.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                publicitaire
+            en: |-
+                advertiser
+    -   ieml: "b.a.-f.a.-'"
+        translations:
+            fr: |-
+                soin médical
+            en: |-
+                medical care
+    -   ieml: "b.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                infirmier | soignant
+            en: |-
+                nurse | caregiver
+    -   ieml: "b.a.-l.a.-'"
+        translations:
+            fr: |-
+                transport
+            en: |-
+                transportation
+    -   ieml: "b.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                transporteur
+            en: |-
+                carrier
+    -   ieml: "t.a.-s.a.-'"
+        translations:
+            fr: |-
+                traduction
+            en: |-
+                translation
+    -   ieml: "t.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                traducteur
+            en: |-
+                translator
+    -   ieml: "t.a.-b.a.-'"
+        translations:
+            fr: |-
+                édition | publication
+            en: |-
+                editing | publishing
+    -   ieml: "t.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                éditeur
+            en: |-
+                editor | publisher
+    -   ieml: "t.a.-t.a.-'"
+        translations:
+            fr: |-
+                fondation
+            en: |-
+                foundation
+    -   ieml: "t.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                fondateur
+            en: |-
+                founder
+    -   ieml: "t.a.-k.a.-'"
+        translations:
+            fr: |-
+                fonction publique
+            en: |-
+                public service
+    -   ieml: "t.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                fonctionnaire
+            en: |-
+                public servant
+    -   ieml: "t.a.-m.a.-'"
+        translations:
+            fr: |-
+                ascendance
+            en: |-
+                ancestry
+    -   ieml: "t.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                ancêtre
+            en: |-
+                ancestor
+    -   ieml: "t.a.-n.a.-'"
+        translations:
+            fr: |-
+                loi
+            en: |-
+                law
+    -   ieml: "t.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                législateur
+            en: |-
+                legislator
+    -   ieml: "t.a.-d.a.-'"
+        translations:
+            fr: |-
+                investissement
+            en: |-
+                investment
+    -   ieml: "t.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                investisseur
+            en: |-
+                investor
+    -   ieml: "t.a.-f.a.-'"
+        translations:
+            fr: |-
+                pharmacie
+            en: |-
+                pharmacy
+    -   ieml: "t.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                pharmacien
+            en: |-
+                pharmacist
+    -   ieml: "t.a.-l.a.-'"
+        translations:
+            fr: |-
+                archive
+            en: |-
+                archive
+    -   ieml: "t.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                archiviste
+            en: |-
+                archivist
+    -   ieml: "k.a.-s.a.-'"
+        translations:
+            fr: |-
+                diplomatie
+            en: |-
+                diplomacy
+    -   ieml: "k.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                diplomate
+            en: |-
+                diplomat
+    -   ieml: "k.a.-b.a.-'"
+        translations:
+            fr: |-
+                spectacle
+            en: |-
+                show
+    -   ieml: "k.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                spectateur
+            en: |-
+                spectator
+    -   ieml: "k.a.-t.a.-'"
+        translations:
+            fr: |-
+                administration | bureau
+            en: |-
+                administration | office
+    -   ieml: "k.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                secrétaire
+            en: |-
+                secretary
+    -   ieml: "k.a.-k.a.-'"
+        translations:
+            fr: |-
+                cité | unité politique
+            en: |-
+                city | political unit
+    -   ieml: "k.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                citoyen
+            en: |-
+                citizen
+    -   ieml: "k.a.-m.a.-'"
+        translations:
+            fr: |-
+                fraternité
+            en: |-
+                fraternity
+    -   ieml: "k.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                frère | soeur
+            en: |-
+                brother | sister
+    -   ieml: "k.a.-n.a.-'"
+        translations:
+            fr: |-
+                tribunal
+            en: |-
+                tribunal
+    -   ieml: "k.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                juré
+            en: |-
+                jury
+    -   ieml: "k.a.-d.a.-'"
+        translations:
+            fr: |-
+                vente
+            en: |-
+                sale
+    -   ieml: "k.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                vendeur
+            en: |-
+                vendor
+    -   ieml: "k.a.-f.a.-'"
+        translations:
+            fr: |-
+                repas
+            en: |-
+                meal
+    -   ieml: "k.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                pourvoyeur
+            en: |-
+                provider
+    -   ieml: "k.a.-l.a.-'"
+        translations:
+            fr: |-
+                syndicat
+            en: |-
+                trade union
+    -   ieml: "k.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                syndiqué
+            en: |-
+                unionized
+    -   ieml: "m.a.-s.a.-'"
+        translations:
+            fr: |-
+                médiation
+            en: |-
+                mediation
+    -   ieml: "m.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                médiateur
+            en: |-
+                mediator
+    -   ieml: "m.a.-b.a.-'"
+        translations:
+            fr: |-
+                jeu
+            en: |-
+                game
+    -   ieml: "m.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                joueur
+            en: |-
+                player
+    -   ieml: "m.a.-t.a.-'"
+        translations:
+            fr: |-
+                contrat
+            en: |-
+                contract
+    -   ieml: "m.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                notaire
+            en: |-
+                notary
+    -   ieml: "m.a.-k.a.-'"
+        translations:
+            fr: |-
+                voisinage
+            en: |-
+                neighborhood
+    -   ieml: "m.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                voisin
+            en: |-
+                neighbor
+    -   ieml: "m.a.-m.a.-'"
+        translations:
+            fr: |-
+                famille
+            en: |-
+                family
+    -   ieml: "m.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                familier
+            en: |-
+                familiar
+    -   ieml: "m.a.-n.a.-'"
+        translations:
+            fr: |-
+                cause (objet d'engagement)
+            en: |-
+                cause (object of engagement)
+    -   ieml: "m.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                bénévole
+            en: |-
+                volunteer
+    -   ieml: "m.a.-d.a.-'"
+        translations:
+            fr: |-
+                partenariat
+            en: |-
+                partnership
+    -   ieml: "m.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                partenaire
+            en: |-
+                partner
+    -   ieml: "m.a.-f.a.-'"
+        translations:
+            fr: |-
+                aide
+            en: |-
+                help
+    -   ieml: "m.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                aidant
+            en: |-
+                helper
+    -   ieml: "m.a.-l.a.-'"
+        translations:
+            fr: |-
+                fabrication
+            en: |-
+                manufacturing
+    -   ieml: "m.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                ouvrier | travailleur(euse) manuel(le)
+            en: |-
+                blue-collar worker | handy (wo)man
+    -   ieml: "n.a.-s.a.-'"
+        translations:
+            fr: |-
+                majorité (civique)
+            en: |-
+                majority (civic)
+    -   ieml: "n.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                adulte
+            en: |-
+                adult
+    -   ieml: "n.a.-b.a.-'"
+        translations:
+            fr: |-
+                nouvelle
+            en: |-
+                news
+    -   ieml: "n.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                journaliste
+            en: |-
+                journalist
+    -   ieml: "n.a.-t.a.-'"
+        translations:
+            fr: |-
+                procès
+            en: |-
+                trial
+    -   ieml: "n.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                avocat
+            en: |-
+                lawyer
+    -   ieml: "n.a.-k.a.-'"
+        translations:
+            fr: |-
+                réforme
+            en: |-
+                reform
+    -   ieml: "n.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                réformateur
+            en: |-
+                reformer
+    -   ieml: "n.a.-m.a.-'"
+        translations:
+            fr: |-
+                homme
+            en: |-
+                man
+    -   ieml: "n.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                père
+            en: |-
+                father
+    -   ieml: "n.a.-n.a.-'"
+        translations:
+            fr: |-
+                communauté spirituelle
+            en: |-
+                spiritual community
+    -   ieml: "n.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                guide spirituel
+            en: |-
+                spiritual guide
+    -   ieml: "n.a.-d.a.-'"
+        translations:
+            fr: |-
+                achat
+            en: |-
+                purchase
+    -   ieml: "n.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                client
+            en: |-
+                customer
+    -   ieml: "n.a.-f.a.-'"
+        translations:
+            fr: |-
+                maladie
+            en: |-
+                illness
+    -   ieml: "n.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                médecin
+            en: |-
+                physician
+    -   ieml: "n.a.-l.a.-'"
+        translations:
+            fr: |-
+                ordre public
+            en: |-
+                public order
+    -   ieml: "n.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                policier
+            en: |-
+                police officer
+    -   ieml: "d.a.-s.a.-'"
+        translations:
+            fr: |-
+                études
+            en: |-
+                studies
+    -   ieml: "d.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                étudiant
+            en: |-
+                student
+    -   ieml: "d.a.-b.a.-'"
+        translations:
+            fr: |-
+                spectacle (production de)
+            en: |-
+                show production
+    -   ieml: "d.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                producteur
+            en: |-
+                producer
+    -   ieml: "d.a.-t.a.-'"
+        translations:
+            fr: |-
+                épargne
+            en: |-
+                savings
+    -   ieml: "d.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                banquier
+            en: |-
+                banker
+    -   ieml: "d.a.-k.a.-'"
+        translations:
+            fr: |-
+                inspection
+            en: |-
+                inspection
+    -   ieml: "d.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                inspecteur
+            en: |-
+                inspector
+    -   ieml: "d.a.-m.a.-'"
+        translations:
+            fr: |-
+                descendance
+            en: |-
+                descendants
+    -   ieml: "d.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                enfant
+            en: |-
+                child
+    -   ieml: "d.a.-n.a.-'"
+        translations:
+            fr: |-
+                témoignage
+            en: |-
+                testimony
+    -   ieml: "d.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                témoin
+            en: |-
+                witness
+    -   ieml: "d.a.-d.a.-'"
+        translations:
+            fr: |-
+                invention
+            en: |-
+                invention
+    -   ieml: "d.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                inventeur
+            en: |-
+                inventor
+    -   ieml: "d.a.-f.a.-'"
+        translations:
+            fr: |-
+                leçon, cours
+            en: |-
+                lesson, course
+    -   ieml: "d.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                enseignant
+            en: |-
+                teacher
+    -   ieml: "d.a.-l.a.-'"
+        translations:
+            fr: |-
+                renseignement | accumulation de données
+            en: |-
+                intelligence | data gathering
+    -   ieml: "d.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                espion | agent de renseignement
+            en: |-
+                spy | intelligence agent
+    -   ieml: "f.a.-s.a.-'"
+        translations:
+            fr: |-
+                consultation
+            en: |-
+                consultation
+    -   ieml: "f.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                consultant
+            en: |-
+                consultant
+    -   ieml: "f.a.-b.a.-'"
+        translations:
+            fr: |-
+                concert
+            en: |-
+                concert
+    -   ieml: "f.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                musicien
+            en: |-
+                musician
+    -   ieml: "f.a.-t.a.-'"
+        translations:
+            fr: |-
+                assurance
+            en: |-
+                insurance
+    -   ieml: "f.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                assureur
+            en: |-
+                insurance broker
+    -   ieml: "f.a.-k.a.-'"
+        translations:
+            fr: |-
+                accueil | hospitalité
+            en: |-
+                welcome | hospitality
+    -   ieml: "f.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                hôte
+            en: |-
+                host
+    -   ieml: "f.a.-m.a.-'"
+        translations:
+            fr: |-
+                femme
+            en: |-
+                woman
+    -   ieml: "f.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                mère
+            en: |-
+                mother
+    -   ieml: "f.a.-n.a.-'"
+        translations:
+            fr: |-
+                protection sociale
+            en: |-
+                social protection
+    -   ieml: "f.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                travailleur social
+            en: |-
+                social worker
+    -   ieml: "f.a.-d.a.-'"
+        translations:
+            fr: |-
+                réparation
+            en: |-
+                repair
+    -   ieml: "f.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                technicien
+            en: |-
+                technician
+    -   ieml: "f.a.-f.a.-'"
+        translations:
+            fr: |-
+                culture | élevage
+            en: |-
+                growing | farming
+    -   ieml: "f.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                cultivateur | éleveur
+            en: |-
+                farmer
+    -   ieml: "f.a.-l.a.-'"
+        translations:
+            fr: |-
+                désastre
+            en: |-
+                disaster
+    -   ieml: "f.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                secouriste
+            en: |-
+                rescuer
+    -   ieml: "l.a.-s.a.-'"
+        translations:
+            fr: |-
+                management | gestion (activité du manager ou gestionnaire)
+            en: |-
+                management (manager's activity)
+    -   ieml: "l.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                manager
+            en: |-
+                manager
+    -   ieml: "l.a.-b.a.-'"
+        translations:
+            fr: |-
+                renom
+            en: |-
+                renown
+    -   ieml: "l.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                relations publiques (spécialiste des)
+            en: |-
+                public relations specialist
+    -   ieml: "l.a.-t.a.-'"
+        translations:
+            fr: |-
+                atlas
+            en: |-
+                atlas
+    -   ieml: "l.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                cartographe
+            en: |-
+                cartographer
+    -   ieml: "l.a.-k.a.-'"
+        translations:
+            fr: |-
+                armée
+            en: |-
+                army
+    -   ieml: "l.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                officier
+            en: |-
+                officer
+    -   ieml: "l.a.-m.a.-'"
+        translations:
+            fr: |-
+                alliance
+            en: |-
+                alliance
+    -   ieml: "l.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                allié
+            en: |-
+                ally
+    -   ieml: "l.a.-n.a.-'"
+        translations:
+            fr: |-
+                défense
+            en: |-
+                defense
+    -   ieml: "l.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                défenseur
+            en: |-
+                defender
+    -   ieml: "l.a.-d.a.-'"
+        translations:
+            fr: |-
+                compagnie | entreprise
+            en: |-
+                company | business
+    -   ieml: "l.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                entrepreneur
+            en: |-
+                entrepreneur
+    -   ieml: "l.a.-f.a.-'"
+        translations:
+            fr: |-
+                environnement naturel
+            en: |-
+                natural environment
+    -   ieml: "l.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                écologiste | environnementaliste
+            en: |-
+                ecologist | environmentalist
+    -   ieml: "l.a.-l.a.-'"
+        translations:
+            fr: |-
+                guerre
+            en: |-
+                war
+    -   ieml: "l.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                guerrier
+            en: |-
+                warrior
+Paradigms:
+    -   ieml: "s.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                interprétation en substance
+            en: |-
+                interpretation in substance
+    -   ieml: "s.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                interprète en substance
+            en: |-
+                interpreter in substance
+    -   ieml: "b.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                récit en substance
+            en: |-
+                story in substance
+    -   ieml: "b.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                conteur en substance
+            en: |-
+                storyteller in substance
+    -   ieml: "t.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                inscription en substance
+            en: |-
+                registration in substance
+    -   ieml: "t.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                scribe en substance
+            en: |-
+                scribe in substance
+    -   ieml: "k.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                unité sociale en substance
+            en: |-
+                social unity in substance
+    -   ieml: "k.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                chef en substance
+            en: |-
+                chief in substance
+    -   ieml: "m.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                chaleur affective en substance
+            en: |-
+                affective warmth in substance
+    -   ieml: "m.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                parent en substance
+            en: |-
+                parent in substance
+    -   ieml: "n.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                responsabilité en substance
+            en: |-
+                responsibility in substance
+    -   ieml: "n.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                juge en substance
+            en: |-
+                judge in substance
+    -   ieml: "d.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                recherche en substance
+            en: |-
+                research in substance
+    -   ieml: "d.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                chercheur en substance
+            en: |-
+                researcher in substance
+    -   ieml: "f.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                soin en substance
+            en: |-
+                care in substance
+    -   ieml: "f.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                guérisseur en substance
+            en: |-
+                healer in substance
+    -   ieml: "l.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                protection en substance
+            en: |-
+                protection in substance
+    -   ieml: "l.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                gardien en substance
+            en: |-
+                guardian in substance
+    -   ieml: "M:M:.a.-s.a.-'"
+        translations:
+            fr: |-
+                interprétation en attribut
+            en: |-
+                interpretation in attribute
+    -   ieml: "M:M:.a.-s.a.-f.o.-'"
+        translations:
+            fr: |-
+                interprète en attribut
+            en: |-
+                interpreter in attribute
+    -   ieml: "M:M:.a.-b.a.-'"
+        translations:
+            fr: |-
+                récit en attribut
+            en: |-
+                story in attribute
+    -   ieml: "M:M:.a.-b.a.-f.o.-'"
+        translations:
+            fr: |-
+                conteur en attribut
+            en: |-
+                storyteller in attribute
+    -   ieml: "M:M:.a.-t.a.-'"
+        translations:
+            fr: |-
+                inscription en attribut
+            en: |-
+                registration in attribute
+    -   ieml: "M:M:.a.-t.a.-f.o.-'"
+        translations:
+            fr: |-
+                scribe en attribut
+            en: |-
+                scribe in attribute
+    -   ieml: "M:M:.a.-k.a.-'"
+        translations:
+            fr: |-
+                unité sociale en attribut
+            en: |-
+                social unity in attribute
+    -   ieml: "M:M:.a.-k.a.-f.o.-'"
+        translations:
+            fr: |-
+                chef en attribut
+            en: |-
+                chief in attribute
+    -   ieml: "M:M:.a.-m.a.-'"
+        translations:
+            fr: |-
+                chaleur affective en attribut
+            en: |-
+                affective warmth in attribute
+    -   ieml: "M:M:.a.-m.a.-f.o.-'"
+        translations:
+            fr: |-
+                parent en attribut
+            en: |-
+                parent in attribute
+    -   ieml: "M:M:.a.-n.a.-'"
+        translations:
+            fr: |-
+                responsabilité en attribut
+            en: |-
+                responsibility in attribute
+    -   ieml: "M:M:.a.-n.a.-f.o.-'"
+        translations:
+            fr: |-
+                juge en attribut
+            en: |-
+                judge in attribute
+    -   ieml: "M:M:.a.-d.a.-'"
+        translations:
+            fr: |-
+                recherche en attribut
+            en: |-
+                research in attribute
+    -   ieml: "M:M:.a.-d.a.-f.o.-'"
+        translations:
+            fr: |-
+                chercheur en attribut
+            en: |-
+                researcher in attribute
+    -   ieml: "M:M:.a.-f.a.-'"
+        translations:
+            fr: |-
+                soin en attribut
+            en: |-
+                care in attribute
+    -   ieml: "M:M:.a.-f.a.-f.o.-'"
+        translations:
+            fr: |-
+                guérisseur en attribut
+            en: |-
+                healer in attribute
+    -   ieml: "M:M:.a.-l.a.-'"
+        translations:
+            fr: |-
+                protection en attribut
+            en: |-
+                protection in attribute
+    -   ieml: "M:M:.a.-l.a.-f.o.-'"
+        translations:
+            fr: |-
+                gardien en attribut
+            en: |-
+                guardian in attribute
+    -   ieml: "M:M:.a.-M:M:.a.-'"
+        translations:
+            fr: |-
+                fonctions sociales
+            en: |-
+                social functions
+    -   ieml: "M:M:.a.-M:M:.a.-f.o.-'"
+        translations:
+            fr: |-
+                rôles sociaux
+            en: |-
+                social rôles

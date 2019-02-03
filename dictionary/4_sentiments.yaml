@@ -1,0 +1,598 @@
+RootParadigm:
+    ieml: "m.-M:.O:.-'m.-M:.O:.-'E:A:S:+T:.-',"
+    translations:
+        fr: |-
+            sentiments
+        en: |-
+            sentiments
+    inhibitions: []
+Semes:
+    -   ieml: "m.-S:.U:.-'m.-S:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                inquiétude
+            en: |-
+                concern
+    -   ieml: "m.-S:.U:.-'m.-S:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                terreur, épouvante
+            en: |-
+                terror, dread
+    -   ieml: "m.-S:.U:.-'m.-S:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère surprise apeurée
+            en: |-
+                light frightened surprise
+    -   ieml: "m.-S:.U:.-'m.-S:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                angoisse
+            en: |-
+                anguish
+    -   ieml: "m.-S:.U:.-'m.-B:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                attitude d'ouverture
+            en: |-
+                openness
+    -   ieml: "m.-S:.U:.-'m.-B:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                trac, anxiété, nervosité
+            en: |-
+                trac, nervousness, anxiety
+    -   ieml: "m.-S:.U:.-'m.-B:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                plainte
+            en: |-
+                complain
+    -   ieml: "m.-S:.U:.-'m.-B:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                aggressivité, attitude menaçante
+            en: |-
+                aggressiveness, threatening attitude
+    -   ieml: "m.-S:.U:.-'m.-T:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                attitude prudente
+            en: |-
+                cautious attitude
+    -   ieml: "m.-S:.U:.-'m.-T:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                timidité
+            en: |-
+                shyness
+    -   ieml: "m.-S:.U:.-'m.-T:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                attitude réservée
+            en: |-
+                reserved attitude
+    -   ieml: "m.-S:.U:.-'m.-T:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                honte
+            en: |-
+                shame
+    -   ieml: "m.-S:.A:.-'m.-S:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                doute, scepticisme
+            en: |-
+                doubt, scepticism
+    -   ieml: "m.-S:.A:.-'m.-S:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                indécision, paralysie
+            en: |-
+                indecision, paralysis
+    -   ieml: "m.-S:.A:.-'m.-S:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                accroissement de l'attention, de l'intérêt
+            en: |-
+                increased attention | interest
+    -   ieml: "m.-S:.A:.-'m.-S:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                étonnement, stupéfaction
+            en: |-
+                astonishment, shock
+    -   ieml: "m.-S:.A:.-'m.-B:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                attitude d'approbation, "j'aime"
+            en: |-
+                approving attitude, "I like"
+    -   ieml: "m.-S:.A:.-'m.-B:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                coup de coeur, coup de foudre
+            en: |-
+                love at first sight
+    -   ieml: "m.-S:.A:.-'m.-B:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                attitude de défi
+            en: |-
+                defiance
+    -   ieml: "m.-S:.A:.-'m.-B:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                sentiment d'être offensé
+            en: |-
+                feeling of being offended
+    -   ieml: "m.-S:.A:.-'m.-T:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                salutation, plaisir de rencontrer quelqu'un
+            en: |-
+                greeting, "hi", happiness to meet someone
+    -   ieml: "m.-S:.A:.-'m.-T:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                gratitude, merci, attitude reconnaissante
+            en: |-
+                gratitude, thanks
+    -   ieml: "m.-S:.A:.-'m.-T:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                tristesse due à l'éloignement, à la séparation
+            en: |-
+                sadness caused by distance, separation
+    -   ieml: "m.-S:.A:.-'m.-T:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                deuil, tristesse due à la mort d'un être cher
+            en: |-
+                grief, mourning, sadness due to the death of a loved one
+    -   ieml: "m.-B:.U:.-'m.-S:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                souci
+            en: |-
+                worry
+    -   ieml: "m.-B:.U:.-'m.-S:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                attente anxieuse
+            en: |-
+                anxious wait
+    -   ieml: "m.-B:.U:.-'m.-S:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                bonne impression
+            en: |-
+                good impression
+    -   ieml: "m.-B:.U:.-'m.-S:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                forte impression
+            en: |-
+                strong impression
+    -   ieml: "m.-B:.U:.-'m.-B:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                attraction
+            en: |-
+                attraction
+    -   ieml: "m.-B:.U:.-'m.-B:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                passion, désir violent
+            en: |-
+                passion, violent desire
+    -   ieml: "m.-B:.U:.-'m.-B:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                humiliation
+            en: |-
+                humiliation
+    -   ieml: "m.-B:.U:.-'m.-B:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                ressentiment, rancoeur
+            en: |-
+                resentment, rancor
+    -   ieml: "m.-B:.U:.-'m.-T:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                flirt
+            en: |-
+                flirting attitude
+    -   ieml: "m.-B:.U:.-'m.-T:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                sentiment amoureux
+            en: |-
+                romantic feeling
+    -   ieml: "m.-B:.U:.-'m.-T:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                sentiment d'exclusion
+            en: |-
+                feeling of exclusion
+    -   ieml: "m.-B:.U:.-'m.-T:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                coeur brisé, sentiment de trahison
+            en: |-
+                broken heart, feeling of betrayal
+    -   ieml: "m.-B:.A:.-'m.-S:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                mouvement de recul
+            en: |-
+                recoil
+    -   ieml: "m.-B:.A:.-'m.-S:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                dégoût, répulsion
+            en: |-
+                disgust, repulsion
+    -   ieml: "m.-B:.A:.-'m.-S:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                opposition
+            en: |-
+                opposition
+    -   ieml: "m.-B:.A:.-'m.-S:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                indignation
+            en: |-
+                indignation, outrage
+    -   ieml: "m.-B:.A:.-'m.-B:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                ardeur compétitive
+            en: |-
+                competitive zeal
+    -   ieml: "m.-B:.A:.-'m.-B:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                jalousie, envie
+            en: |-
+                jealousy, envy
+    -   ieml: "m.-B:.A:.-'m.-B:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                répulsion
+            en: |-
+                repulsion
+    -   ieml: "m.-B:.A:.-'m.-B:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                haine
+            en: |-
+                hate
+    -   ieml: "m.-B:.A:.-'m.-T:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                moquerie, dérision
+            en: |-
+                mockery, derision
+    -   ieml: "m.-B:.A:.-'m.-T:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                rire satanique, joie méchante
+            en: |-
+                satanic laugh, wicked joy
+    -   ieml: "m.-B:.A:.-'m.-T:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                protestation, reproche
+            en: |-
+                protestation, reproach
+    -   ieml: "m.-B:.A:.-'m.-T:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                sentiment vengeur
+            en: |-
+                vengeful feeling
+    -   ieml: "m.-T:.U:.-'m.-S:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                confiance
+            en: |-
+                confidence
+    -   ieml: "m.-T:.U:.-'m.-S:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                espoir
+            en: |-
+                hopeful expectation
+    -   ieml: "m.-T:.U:.-'m.-S:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                appréciation
+            en: |-
+                appreciation
+    -   ieml: "m.-T:.U:.-'m.-S:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                félicitations
+            en: |-
+                congratulations
+    -   ieml: "m.-T:.U:.-'m.-B:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                sourire amical
+            en: |-
+                friendly smile
+    -   ieml: "m.-T:.U:.-'m.-B:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                bonheur
+            en: |-
+                happiness
+    -   ieml: "m.-T:.U:.-'m.-B:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                fièreté
+            en: |-
+                pride
+    -   ieml: "m.-T:.U:.-'m.-B:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                sentiment de triomphe, arrogance
+            en: |-
+                sense of triumph, arrogance
+    -   ieml: "m.-T:.U:.-'m.-T:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                amusement
+            en: |-
+                amusement, entertainment
+    -   ieml: "m.-T:.U:.-'m.-T:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                rire joyeux
+            en: |-
+                merry laughter
+    -   ieml: "m.-T:.U:.-'m.-T:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                sentiment d'être touché, ému
+            en: |-
+                feeling of being touched, moved
+    -   ieml: "m.-T:.U:.-'m.-T:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                pardon
+            en: |-
+                forgiveness
+    -   ieml: "m.-T:.A:.-'m.-S:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                ennui
+            en: |-
+                boredom
+    -   ieml: "m.-T:.A:.-'m.-S:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                désespoir
+            en: |-
+                despear, hopelesness
+    -   ieml: "m.-T:.A:.-'m.-S:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                mauvaise impression
+            en: |-
+                bad impression
+    -   ieml: "m.-T:.A:.-'m.-S:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                déception, désillusion
+            en: |-
+                disappointment, disillusionment
+    -   ieml: "m.-T:.A:.-'m.-B:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                nostalgie
+            en: |-
+                nostalgia
+    -   ieml: "m.-T:.A:.-'m.-B:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                regret
+            en: |-
+                regret
+    -   ieml: "m.-T:.A:.-'m.-B:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                aigreur
+            en: |-
+                sourness
+    -   ieml: "m.-T:.A:.-'m.-B:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                amertume
+            en: |-
+                bitterness
+    -   ieml: "m.-T:.A:.-'m.-T:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                sentiments confus, ambivalence
+            en: |-
+                mixed feelings, ambivalence
+    -   ieml: "m.-T:.A:.-'m.-T:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                déchirement, dilemme
+            en: |-
+                heartbreak, dilemma
+    -   ieml: "m.-T:.A:.-'m.-T:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                dépression, spleen, mélancolie
+            en: |-
+                depression, spleen, mélancholy
+    -   ieml: "m.-T:.A:.-'m.-T:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                larmes
+            en: |-
+                tears
+Paradigms:
+    -   ieml: "m.-S:.U:.-'m.-M:.O:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère peur en substance
+            en: |-
+                light fear in substance
+    -   ieml: "m.-S:.U:.-'m.-M:.O:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande peur en substance
+            en: |-
+                great fear in substance
+    -   ieml: "m.-S:.A:.-'m.-M:.O:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère surprise en substance
+            en: |-
+                light surprise in substance
+    -   ieml: "m.-S:.A:.-'m.-M:.O:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande surprise en substance
+            en: |-
+                great surprise in substance
+    -   ieml: "m.-B:.U:.-'m.-M:.O:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                désir naissant en substance
+            en: |-
+                nascent desire in substance
+    -   ieml: "m.-B:.U:.-'m.-M:.O:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grand désir en substance
+            en: |-
+                great desire in substance
+    -   ieml: "m.-B:.A:.-'m.-M:.O:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère irritation en substance
+            en: |-
+                light irritation in substance
+    -   ieml: "m.-B:.A:.-'m.-M:.O:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande colère en substance
+            en: |-
+                great anger in substance
+    -   ieml: "m.-T:.U:.-'m.-M:.O:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                joie légère en substance
+            en: |-
+                light joy in substance
+    -   ieml: "m.-T:.U:.-'m.-M:.O:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande joie en substance
+            en: |-
+                great joy in substance
+    -   ieml: "m.-T:.A:.-'m.-M:.O:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère tristesse en substance
+            en: |-
+                light sadness in substance
+    -   ieml: "m.-T:.A:.-'m.-M:.O:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande tristesse en substance
+            en: |-
+                great sadness in substance
+    -   ieml: "m.-M:.O:.-'m.-S:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère peur en attribut
+            en: |-
+                light fear in attribute
+    -   ieml: "m.-M:.O:.-'m.-S:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande peur en attribut
+            en: |-
+                great fear in attribute
+    -   ieml: "m.-M:.O:.-'m.-S:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère surprise en attribut
+            en: |-
+                light surprise in attribute
+    -   ieml: "m.-M:.O:.-'m.-S:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande surprise en attribut
+            en: |-
+                great surprise in attribute
+    -   ieml: "m.-M:.O:.-'m.-B:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                désir naissant en attribut
+            en: |-
+                nascent desire in attribute
+    -   ieml: "m.-M:.O:.-'m.-B:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grand désir en attribut
+            en: |-
+                great desire in attribute
+    -   ieml: "m.-M:.O:.-'m.-B:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère irritation en attribut
+            en: |-
+                light irritation in attribute
+    -   ieml: "m.-M:.O:.-'m.-B:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande colère en attribut
+            en: |-
+                great anger in attribute
+    -   ieml: "m.-M:.O:.-'m.-T:.U:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                joie légère en attribut
+            en: |-
+                light joy in attribute
+    -   ieml: "m.-M:.O:.-'m.-T:.U:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande joie en attribut
+            en: |-
+                great joy in attribute
+    -   ieml: "m.-M:.O:.-'m.-T:.A:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                légère tristesse en attribut
+            en: |-
+                light sadness in attribute
+    -   ieml: "m.-M:.O:.-'m.-T:.A:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                grande tristesse en attribut
+            en: |-
+                great sadness in attribute
+    -   ieml: "m.-M:.O:.-'m.-M:.O:.-'E:A:S:.-',"
+        translations:
+            fr: |-
+                sentiments à l'état naissant
+            en: |-
+                nascent sentiments
+    -   ieml: "m.-M:.O:.-'m.-M:.O:.-'E:A:T:.-',"
+        translations:
+            fr: |-
+                sentiments forts
+            en: |-
+                strong sentiments

@@ -1,0 +1,154 @@
+RootParadigm:
+    ieml: "B:.S:.n.-B:S:+T:.-n.T:.A:.-+n.S:+B:.U:.-'+B:.B:.n.-B:S:+T:.-u.M:.-'"
+    translations:
+        fr: |-
+            animaux et végétaux
+        en: |-
+            animals and vegetals
+    inhibitions: []
+Semes:
+    -   ieml: "B:.S:.n.-k.-n.S:.U:.-'"
+        translations:
+            fr: |-
+                plante cultivée pour l'alimentation, la gastronomie, le textile, la médecine, l'ornementation...
+            en: |-
+                plant cultivated for food, gastronomy, textile, medicine, ornamentation ...
+    -   ieml: "B:.S:.n.-k.-n.B:.U:.-'"
+        translations:
+            fr: |-
+                arbre cultivé pour ses fruits, son bois, son écorce, sa sève, ses fleurs...
+            en: |-
+                Tree cultivated for its fruits, its wood, its bark, its sap, its flowers ...
+    -   ieml: "B:.S:.n.-k.-n.T:.A:.-'"
+        translations:
+            fr: |-
+                plantes aquatiques domestiques (algues, planctons, bactéries)
+            en: |-
+                domestic aquatic plant (seaweed, plankton, bactéria)
+    -   ieml: "B:.S:.n.-n.-n.S:.U:.-'"
+        translations:
+            fr: |-
+                herbe, arbuste sauvage, broussaille
+            en: |-
+                wild grass, shrub, bush
+    -   ieml: "B:.S:.n.-n.-n.B:.U:.-'"
+        translations:
+            fr: |-
+                arbre sauvage
+            en: |-
+                wild tree
+    -   ieml: "B:.S:.n.-n.-n.T:.A:.-'"
+        translations:
+            fr: |-
+                plante aquatique sauvage (algues, plancton, bactéries)
+            en: |-
+                wild aquatic plant (seaweed, plankton, bacteria)
+    -   ieml: "B:.B:.n.-k.-u.S:.-'"
+        translations:
+            fr: |-
+                animaux volants domestiques (volaille, abeille...)
+            en: |-
+                domestic flying animal (poultry, bee...)
+    -   ieml: "B:.B:.n.-k.-u.B:.-'"
+        translations:
+            fr: |-
+                animal aquatique domestique, poisson, crustacé, mollusque....
+            en: |-
+                domestic aquatic animal, fish, crustacea, mollusk...
+    -   ieml: "B:.B:.n.-k.-u.T:.-'"
+        translations:
+            fr: |-
+                animal terrestre domestique (chien, chat, cheval, vache|boeuf, mouton, chèvre, cochon...)
+            en: |-
+                domestic ground animal (dog, cat, horse, caw|bull, sheep, pig, goat...)
+    -   ieml: "B:.B:.n.-n.-u.S:.-'"
+        translations:
+            fr: |-
+                animal volant sauvage (oiseau, chauve-souris, insecte volant...)
+            en: |-
+                wild flying animal (bird, bat, flying insect...)
+    -   ieml: "B:.B:.n.-n.-u.B:.-'"
+        translations:
+            fr: |-
+                animal aquatique sauvage, poisson, crustacée, mollusque, plancton
+            en: |-
+                wild aquatic animal, fish, crustacea, mollusk, plankton
+    -   ieml: "B:.B:.n.-n.-u.T:.-'"
+        translations:
+            fr: |-
+                animal terrestre sauvage
+            en: |-
+                wild ground animal
+Paradigms:
+    -   ieml: "B:.S:.n.-B:S:+T:.-n.S:.U:.-'"
+        translations:
+            fr: |-
+                plante terrestre, herbe
+            en: |-
+                ground plant, grass
+    -   ieml: "B:.S:.n.-B:S:+T:.-n.B:.U:.-'"
+        translations:
+            fr: |-
+                arbre
+            en: |-
+                tree
+    -   ieml: "B:.S:.n.-B:S:+T:.-n.T:.A:.-'"
+        translations:
+            fr: |-
+                plante aquatique
+            en: |-
+                aquatic plant
+    -   ieml: "B:.B:.n.-B:S:+T:.-u.S:.-'"
+        translations:
+            fr: |-
+                animal volant, oiseau
+            en: |-
+                flying animal, bird
+    -   ieml: "B:.B:.n.-B:S:+T:.-u.B:.-'"
+        translations:
+            fr: |-
+                animal aquatique, poisson
+            en: |-
+                aquatic animal, fish
+    -   ieml: "B:.B:.n.-B:S:+T:.-u.T:.-'"
+        translations:
+            fr: |-
+                animal terrestre
+            en: |-
+                ground animal
+    -   ieml: "B:.S:.n.-k.-n.T:.A:.-+n.S:+B:.U:.-'"
+        translations:
+            fr: |-
+                plantes domestiques
+            en: |-
+                domestic plants
+    -   ieml: "B:.S:.n.-n.-n.T:.A:.-+n.S:+B:.U:.-'"
+        translations:
+            fr: |-
+                plantes sauvages
+            en: |-
+                wild plants
+    -   ieml: "B:.B:.n.-k.-u.M:.-'"
+        translations:
+            fr: |-
+                animaux domestiques
+            en: |-
+                domestic animals
+    -   ieml: "B:.B:.n.-n.-u.M:.-'"
+        translations:
+            fr: |-
+                animaux sauvages
+            en: |-
+                wild animals
+    -   ieml: "B:.S:.n.-B:S:+T:.-n.T:.A:.-+n.S:+B:.U:.-'"
+        translations:
+            fr: |-
+                végétal, plante
+            en: |-
+                plant
+    -   ieml: "B:.B:.n.-B:S:+T:.-u.M:.-'"
+        translations:
+            fr: |-
+                animal
+            en: |-
+                animal

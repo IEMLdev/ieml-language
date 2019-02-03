@@ -1,0 +1,179 @@
+RootParadigm:
+    ieml: "M:.I:.n.-"
+    translations:
+        fr: |-
+            niveaux de la nature
+        en: |-
+            nature's levels
+    inhibitions: ['opposed', 'twin']
+    comments:
+        fr: |-
+            Les niveaux de la nature sont représentés dans les six colonnes, la première étant complètement abstraite. La deuxième colonne représente le niveau quantique-relativiste. Les niveaux suivants représentent les règnes traditionnels qui se partagent la nature : minéral, végétal, animal et humain.
+            Les niveaux sont identifiés par leurs codes d'écriture/lecture (première ligne).  Ils fonctionnent selon leurs processus générateurs (deuxième ligne) et les formes émergentes spécifiques de chaque niveau sont représentées sur la troisième ligne.
+        en: |-
+            Nature's levels are represented in the six columns, the first one being completely abstract. The second column represents the quantic-relativistic level. The next levels represent the traditional realms that divide nature: mineral, vegetal, animal and human.
+            The levels are identified by their writing/reading codes (first row).  They function according to their generative processes (second row) and the emerging forms specific to each level are represented in the third row.
+Semes:
+    -   ieml: "S:.E:.n.-"
+        translations:
+            fr: |-
+                variables
+            en: |-
+                variables
+    -   ieml: "S:.U:.n.-"
+        translations:
+            fr: |-
+                quanta
+            en: |-
+                quanta
+    -   ieml: "S:.A:.n.-"
+        translations:
+            fr: |-
+                atomes
+            en: |-
+                atoms
+    -   ieml: "S:.S:.n.-"
+        translations:
+            fr: |-
+                ADN
+            en: |-
+                DNA
+    -   ieml: "S:.B:.n.-"
+        translations:
+            fr: |-
+                neurones
+            en: |-
+                neurons
+    -   ieml: "S:.T:.n.-"
+        translations:
+            fr: |-
+                symboles | codes culturels
+            en: |-
+                symbols | cultural codes
+    -   ieml: "B:.E:.n.-"
+        translations:
+            fr: |-
+                opérations
+            en: |-
+                operations
+    -   ieml: "B:.U:.n.-"
+        translations:
+            fr: |-
+                transformations irréversibles (masse-énergie-espace-temps)
+            en: |-
+                irreversible transformations (mass-energy-space-time)
+    -   ieml: "B:.A:.n.-"
+        translations:
+            fr: |-
+                liaisons-réactions
+            en: |-
+                bindings-reactions
+    -   ieml: "B:.S:.n.-"
+        translations:
+            fr: |-
+                organismes auto-reproducteurs, microbes, vie végétale
+            en: |-
+                self-replicating organisms, microbes, vegetal life
+    -   ieml: "B:.B:.n.-"
+        translations:
+            fr: |-
+                phénomènes (sensoriels, moteurs, affectifs), vie animale
+            en: |-
+                phenomena (sensorial, motor, affective), animal life
+    -   ieml: "B:.T:.n.-"
+        translations:
+            fr: |-
+                conscience réflexive, subjectivité humaine
+            en: |-
+                reflexive consciousness, human subjectivity
+    -   ieml: "T:.E:.n.-"
+        translations:
+            fr: |-
+                structures
+            en: |-
+                structures
+    -   ieml: "T:.U:.n.-"
+        translations:
+            fr: |-
+                systèmes physiques
+            en: |-
+                physical systems
+    -   ieml: "T:.A:.n.-"
+        translations:
+            fr: |-
+                écosystèmes moléculaires
+            en: |-
+                molecular ecosystems
+    -   ieml: "T:.S:.n.-"
+        translations:
+            fr: |-
+                écosystèmes biologiques
+            en: |-
+                biological ecosystems
+    -   ieml: "T:.B:.n.-"
+        translations:
+            fr: |-
+                écosystèmes sociaux (intra | inter espèces)
+            en: |-
+                social ecosystems (intra | inter species]
+    -   ieml: "T:.T:.n.-"
+        translations:
+            fr: |-
+                écosystèmes culturels (idées)
+            en: |-
+                cultural ecosystems (ideas)
+Paradigms:
+    -   ieml: "M:.E:.n.-"
+        translations:
+            fr: |-
+                niveau mathématique
+            en: |-
+                mathematic level
+    -   ieml: "M:.U:.n.-"
+        translations:
+            fr: |-
+                niveau énergétique
+            en: |-
+                energetic level
+    -   ieml: "M:.A:.n.-"
+        translations:
+            fr: |-
+                niveau minéral et moléculaire
+            en: |-
+                mineral and molecular level
+    -   ieml: "M:.S:.n.-"
+        translations:
+            fr: |-
+                niveau biologique (végétaux)
+            en: |-
+                biological level (vegetal)
+    -   ieml: "M:.B:.n.-"
+        translations:
+            fr: |-
+                niveau animal
+            en: |-
+                animal level
+    -   ieml: "M:.T:.n.-"
+        translations:
+            fr: |-
+                niveau culturel
+            en: |-
+                cultural level
+    -   ieml: "S:.I:.n.-"
+        translations:
+            fr: |-
+                code
+            en: |-
+                code
+    -   ieml: "B:.I:.n.-"
+        translations:
+            fr: |-
+                processus générateur
+            en: |-
+                generative process
+    -   ieml: "T:.I:.n.-"
+        translations:
+            fr: |-
+                formes émergentes
+            en: |-
+                emerging forms

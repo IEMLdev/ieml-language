@@ -1,0 +1,346 @@
+RootParadigm:
+    ieml: "O:O:.O:O:.t.-"
+    translations:
+        fr: |-
+            cycle de vie, cycle du temps
+        en: |-
+            life cycle, time cycle
+    inhibitions: ['associated', 'crossed', 'father-attribute', 'father-substance', 'opposed', 'twin']
+Semes:
+    -   ieml: "wo.wo.t.-"
+        translations:
+            fr: |-
+                être initié
+            en: |-
+                be initiated
+    -   ieml: "wo.wa.t.-"
+        translations:
+            fr: |-
+                célébrer
+            en: |-
+                celebrate
+    -   ieml: "wo.wu.t.-"
+        translations:
+            fr: |-
+                s'habituer
+            en: |-
+                get used
+    -   ieml: "wo.we.t.-"
+        translations:
+            fr: |-
+                déplorer la perte
+            en: |-
+                mourn
+    -   ieml: "wa.wo.t.-"
+        translations:
+            fr: |-
+                s'éveiller
+            en: |-
+                wake up
+    -   ieml: "wa.wa.t.-"
+        translations:
+            fr: |-
+                s'activer
+            en: |-
+                strive
+    -   ieml: "wa.wu.t.-"
+        translations:
+            fr: |-
+                se restaurer | se distraire
+            en: |-
+                eat | rest | entertain oneself
+    -   ieml: "wa.we.t.-"
+        translations:
+            fr: |-
+                s'endormir
+            en: |-
+                fall asleep
+    -   ieml: "wu.wo.t.-"
+        translations:
+            fr: |-
+                être un enfant, un bébé
+            en: |-
+                be a child, a baby
+    -   ieml: "wu.wa.t.-"
+        translations:
+            fr: |-
+                être jeune
+            en: |-
+                be young
+    -   ieml: "wu.wu.t.-"
+        translations:
+            fr: |-
+                être mûr
+            en: |-
+                be mature
+    -   ieml: "wu.we.t.-"
+        translations:
+            fr: |-
+                vieillir
+            en: |-
+                grow old
+    -   ieml: "we.wo.t.-"
+        translations:
+            fr: |-
+                naître
+            en: |-
+                be born
+    -   ieml: "we.wa.t.-"
+        translations:
+            fr: |-
+                faire l'amour | concevoir
+            en: |-
+                make love | conceive
+    -   ieml: "we.wu.t.-"
+        translations:
+            fr: |-
+                donner naissance
+            en: |-
+                give birth
+    -   ieml: "we.we.t.-"
+        translations:
+            fr: |-
+                mourir
+            en: |-
+                die
+Paradigms:
+    -   ieml: "wo.U:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase croissante du cycle symbolique
+            en: |-
+                going through the waxing phase of the symbolic cycle
+    -   ieml: "wo.A:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase décroissante du cycle symbolique
+            en: |-
+                going through the waning phase of the symbolic cycle
+    -   ieml: "wo.O:U:.t.-"
+        translations:
+            fr: |-
+                commencer une phase du cycle symbolique
+            en: |-
+                begin a phase of the symbolic cycle
+    -   ieml: "wo.O:A:.t.-"
+        translations:
+            fr: |-
+                terminer une phase du cycle symbolique
+            en: |-
+                end a phase of the symbolic phase
+    -   ieml: "wa.U:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase croissante du cycle quotidien
+            en: |-
+                going through the waxing phase of the daily cycle
+    -   ieml: "wa.A:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase décroissante du cycle quotidien
+            en: |-
+                going through the waning phase of the daily cycle
+    -   ieml: "wa.O:U:.t.-"
+        translations:
+            fr: |-
+                commencer une phase du cycle quotidien
+            en: |-
+                begin a phase of the daily cycle
+    -   ieml: "wa.O:A:.t.-"
+        translations:
+            fr: |-
+                terminer une phase du cycle quotidien
+            en: |-
+                end a phase of the daily cycle
+    -   ieml: "U:O:.wo.t.-"
+        translations:
+            fr: |-
+                commencer la phase croissante des cycles symbolique et quotidien
+            en: |-
+                begin the waxing phase of the symbolic and daily cycles
+    -   ieml: "U:O:.wa.t.-"
+        translations:
+            fr: |-
+                terminer la phase croissante des cycles symbolique et quotidien
+            en: |-
+                end the waxing phase of the symbolic and daily cycles
+    -   ieml: "U:O:.wu.t.-"
+        translations:
+            fr: |-
+                commencer la phase décroissante des cycles symbolique et quotidien
+            en: |-
+                begin the waning phase of the symbolic and daily cycles
+    -   ieml: "U:O:.we.t.-"
+        translations:
+            fr: |-
+                terminer la phase décroissante des cycles symbolique et quotidien
+            en: |-
+                end the waning phase of the symbolic and daily cycles
+    -   ieml: "wu.U:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase croissante du cycle des âges
+            en: |-
+                going through the waxing phase of the age cycle
+    -   ieml: "wu.A:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase décroissante du cycle des âges
+            en: |-
+                going through the waning phase of the age cycle
+    -   ieml: "wu.O:U:.t.-"
+        translations:
+            fr: |-
+                commencer une phase du cycle des âges
+            en: |-
+                begin a phase of the age cycle
+    -   ieml: "wu.O:A:.t.-"
+        translations:
+            fr: |-
+                terminer une phase du cycle des âges
+            en: |-
+                end a phase of the age cycle
+    -   ieml: "we.U:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase croissante du cycle reproducteur
+            en: |-
+                going through the waxing phase of the reproductive cycle
+    -   ieml: "we.A:O:.t.-"
+        translations:
+            fr: |-
+                traverser la phase décroissante du cycle reproducteur
+            en: |-
+                going through the waning phase of the reproductive cycle
+    -   ieml: "we.O:U:.t.-"
+        translations:
+            fr: |-
+                commencer une phase du cycle reproducteur
+            en: |-
+                begin a phase of the reproductive cycle
+    -   ieml: "we.O:A:.t.-"
+        translations:
+            fr: |-
+                terminer une phase du cycle reproducteur
+            en: |-
+                end a phase of the reproductive cycle
+    -   ieml: "A:O:.wo.t.-"
+        translations:
+            fr: |-
+                commencer la phase croissante des cycles des âges et reproducteur
+            en: |-
+                begin the waxing phase of the age and reproductive cycles
+    -   ieml: "A:O:.wa.t.-"
+        translations:
+            fr: |-
+                terminer la phase croissante des cycles des âges et reproducteur
+            en: |-
+                end the waxing phase of the age and reproductive cycles
+    -   ieml: "A:O:.wu.t.-"
+        translations:
+            fr: |-
+                commencer la phase décroissante des cycles des âges et reproducteur
+            en: |-
+                begin the waning phase of the age and reproductive cycles
+    -   ieml: "A:O:.we.t.-"
+        translations:
+            fr: |-
+                terminer la phase décroissante des cycles des âges et reproducteur
+            en: |-
+                end the waning phase of the age and reproductive cycle
+    -   ieml: "O:U:.wo.t.-"
+        translations:
+            fr: |-
+                commencer la phase croissante des cycles symbolique et des âges
+            en: |-
+                begin the waxing phase of the symbolic and age cycles
+    -   ieml: "O:U:.wa.t.-"
+        translations:
+            fr: |-
+                terminer la phase croissante des cycles symbolique et des âges
+            en: |-
+                end the waxing phase of the symbolic and age cycles
+    -   ieml: "O:U:.wu.t.-"
+        translations:
+            fr: |-
+                commencer la phase décroissante des cycles symbolique et des âges
+            en: |-
+                begin the waning phase of the symbolic and age cycles
+    -   ieml: "O:U:.we.t.-"
+        translations:
+            fr: |-
+                terminer la phase décroissante des cycles symbolique et des âges
+            en: |-
+                end the waning phase of the symbolic and age cycles
+    -   ieml: "O:A:.wo.t.-"
+        translations:
+            fr: |-
+                commencer la phase croissante des cycles quotidien et reproducteur
+            en: |-
+                begin the waxing phase of the daily and reproductive cycles
+    -   ieml: "O:A:.wa.t.-"
+        translations:
+            fr: |-
+                terminer la phase croissante des cycles quotidien et reproducteur
+            en: |-
+                end the waxing phase of the daily and reproductive cycles
+    -   ieml: "O:A:.wu.t.-"
+        translations:
+            fr: |-
+                commencer la phase décroissante des cycles quotidien et reproducteur
+            en: |-
+                begin the waning phase of the daily and reproductive cycles
+    -   ieml: "O:A:.we.t.-"
+        translations:
+            fr: |-
+                terminer la phase décroissante des cycles quotidien et reproducteur
+            en: |-
+                end the waning phase of the daily and reproductive cycles
+    -   ieml: "wo.O:O:.t.-"
+        translations:
+            fr: |-
+                traverser le cycle symbolique
+            en: |-
+                go through the symbolic cycle
+    -   ieml: "wa.O:O:.t.-"
+        translations:
+            fr: |-
+                traverser le cycle quotidien
+            en: |-
+                go through the daily cycle
+    -   ieml: "wu.O:O:.t.-"
+        translations:
+            fr: |-
+                traverser le cycle des âges
+            en: |-
+                go through the age cycle
+    -   ieml: "we.O:O:.t.-"
+        translations:
+            fr: |-
+                traverser le cycle reproducteur
+            en: |-
+                go through the reproductive cycle
+    -   ieml: "O:O:.wo.t.-"
+        translations:
+            fr: |-
+                germer
+            en: |-
+                sprout
+    -   ieml: "O:O:.wa.t.-"
+        translations:
+            fr: |-
+                fleurir
+            en: |-
+                flourish
+    -   ieml: "O:O:.wu.t.-"
+        translations:
+            fr: |-
+                porter fruit
+            en: |-
+                bear fruit
+    -   ieml: "O:O:.we.t.-"
+        translations:
+            fr: |-
+                décliner
+            en: |-
+                wane

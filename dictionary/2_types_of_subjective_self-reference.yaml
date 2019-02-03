@@ -1,0 +1,76 @@
+RootParadigm:
+    ieml: "h.O:M:.m.-"
+    translations:
+        fr: |-
+            types d'auto-référence subjective
+        en: |-
+            types of subjective self-reference
+    inhibitions: ['father-attribute']
+Semes:
+    -   ieml: "h.y.m.-"
+        translations:
+            fr: |-
+                introversion, autisme
+            en: |-
+                introversion, autism
+    -   ieml: "h.o.m.-"
+        translations:
+            fr: |-
+                interversion, sociabilité
+            en: |-
+                interversion, sociability
+    -   ieml: "h.e.m.-"
+        translations:
+            fr: |-
+                extraversion, narcissisme
+            en: |-
+                extraversion, narcissism
+    -   ieml: "h.u.m.-"
+        translations:
+            fr: |-
+                moi fragmenté, schizophrénie
+            en: |-
+                fragmented self, schizophrenia
+    -   ieml: "h.a.m.-"
+        translations:
+            fr: |-
+                moi intégré, individuation ouverte
+            en: |-
+                integer self, open individuation
+    -   ieml: "h.i.m.-"
+        translations:
+            fr: |-
+                moi fusionné, paranoïa
+            en: |-
+                merged self, paranoia
+Paradigms:
+    -   ieml: "h.O:S:.m.-"
+        translations:
+            fr: |-
+                absence au monde
+            en: |-
+                absence from the world
+    -   ieml: "h.O:B:.m.-"
+        translations:
+            fr: |-
+                présence à soi et au monde
+            en: |-
+                presence to self and the world
+    -   ieml: "h.O:T:.m.-"
+        translations:
+            fr: |-
+                absence à soi
+            en: |-
+                absence to oneself
+    -   ieml: "h.U:M:.m.-"
+        translations:
+            fr: |-
+                tropisme inter-subjectif
+            en: |-
+                inter-subjective tropism
+    -   ieml: "h.A:M:.m.-"
+        translations:
+            fr: |-
+                intégration du moi
+            en: |-
+                integration of the self

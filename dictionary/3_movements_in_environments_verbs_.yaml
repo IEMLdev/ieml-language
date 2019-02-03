@@ -1,0 +1,94 @@
+RootParadigm:
+    ieml: "i.B:.-+u.M:.-O:.-'"
+    translations:
+        fr: |-
+            mouvements et milieux (verbes)
+        en: |-
+            movements in environments (verbs)
+    inhibitions: []
+Semes:
+    -   ieml: "u.S:.-U:.-'"
+        translations:
+            fr: |-
+                voler comme un oiseau
+            en: |-
+                fly like a bird
+    -   ieml: "u.S:.-A:.-'"
+        translations:
+            fr: |-
+                voler comme un insecte
+            en: |-
+                fly like an insect
+    -   ieml: "u.B:.-U:.-'"
+        translations:
+            fr: |-
+                nager sur l'eau | flotter
+            en: |-
+                swim on the water | float
+    -   ieml: "u.B:.-A:.-'"
+        translations:
+            fr: |-
+                nager sous l'eau
+            en: |-
+                swim under water
+    -   ieml: "u.T:.-U:.-'"
+        translations:
+            fr: |-
+                marcher-ramper-rouler à la surface
+            en: |-
+                walk-crawl-roll on the surface
+    -   ieml: "u.T:.-A:.-'"
+        translations:
+            fr: |-
+                marcher-ramper-rouler sous la surface
+            en: |-
+                walk-crawl-roll underground
+    -   ieml: "i.B:.-U:.-'"
+        translations:
+            fr: |-
+                naviguer dans l'espace
+            en: |-
+                navigate in outer space
+    -   ieml: "i.B:.-A:.-'"
+        translations:
+            fr: |-
+                s'arracher à la gravité
+            en: |-
+                brake away from gravity
+Paradigms:
+    -   ieml: "u.S:.-O:.-'"
+        translations:
+            fr: |-
+                voler | se mouvoir dans l'air
+            en: |-
+                fly | move in the air
+    -   ieml: "u.B:.-O:.-'"
+        translations:
+            fr: |-
+                nager | se mouvoir dans l'eau
+            en: |-
+                swim | move in water
+    -   ieml: "u.T:.-O:.-'"
+        translations:
+            fr: |-
+                marcher-ramper-rouler | se mouvoir sur terre
+            en: |-
+                walk-crawl-roll | move on earth
+    -   ieml: "i.B:.-O:.-'"
+        translations:
+            fr: |-
+                voyager dans l'espace | se mouvoir dans le vide
+            en: |-
+                travel in space | move in the void
+    -   ieml: "i.B:.-+u.M:.-U:.-'"
+        translations:
+            fr: |-
+                mouvement haut
+            en: |-
+                top movement
+    -   ieml: "i.B:.-+u.M:.-A:.-'"
+        translations:
+            fr: |-
+                mouvement bas
+            en: |-
+                low motion

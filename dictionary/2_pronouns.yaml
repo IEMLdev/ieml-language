@@ -1,0 +1,381 @@
+RootParadigm:
+    ieml: "E:.F:.O:O:.-"
+    translations:
+        fr: |-
+            pronoms
+        en: |-
+            pronouns
+    inhibitions: ['father-attribute', 'father-mode']
+    comments:
+        fr: |-
+            Dans le cas où l'utilisateur veut exprimer plusieurs aspects (comme le masculin *et* le pluriel), il doit créer un caractère IEML en ajoutant deux ou plusieurs pronoms.
+        en: |-
+            In case the user wants to express several aspects (like masculine *and* plural) she needs to create an IEML character adding two or several pronouns.
+Semes:
+    -   ieml: "E:.U:.wo.-"
+        translations:
+            fr: |-
+                démonstratif singulier
+            en: |-
+                demonstrative singular
+    -   ieml: "E:.U:.wa.-"
+        translations:
+            fr: |-
+                démonstratif pluriel
+            en: |-
+                demonstrative plural
+    -   ieml: "E:.U:.wu.-"
+        translations:
+            fr: |-
+                démonstratif masculin
+            en: |-
+                demonstrative masculine
+    -   ieml: "E:.U:.we.-"
+        translations:
+            fr: |-
+                démonstratif féminin
+            en: |-
+                demonstrative feminine
+    -   ieml: "E:.A:.wo.-"
+        translations:
+            fr: |-
+                possessif singulier
+            en: |-
+                possessive singular
+    -   ieml: "E:.A:.wa.-"
+        translations:
+            fr: |-
+                possessif pluriel
+            en: |-
+                possessive plural
+    -   ieml: "E:.A:.wu.-"
+        translations:
+            fr: |-
+                possessif masculin
+            en: |-
+                possessive masculine
+    -   ieml: "E:.A:.we.-"
+        translations:
+            fr: |-
+                possessif féminin
+            en: |-
+                possessive feminine
+    -   ieml: "E:.S:.wo.-"
+        translations:
+            fr: |-
+                première personne singulier | je | moi
+            en: |-
+                first person singular | I | me
+    -   ieml: "E:.S:.wa.-"
+        translations:
+            fr: |-
+                première personne pluriel | nous
+            en: |-
+                first person plural | us
+    -   ieml: "E:.S:.wu.-"
+        translations:
+            fr: |-
+                première personne masculin
+            en: |-
+                first person masculine
+    -   ieml: "E:.S:.we.-"
+        translations:
+            fr: |-
+                première personne féminin
+            en: |-
+                first person feminine
+    -   ieml: "E:.B:.wo.-"
+        translations:
+            fr: |-
+                deuxième personne singulier
+            en: |-
+                second person singular
+    -   ieml: "E:.B:.wa.-"
+        translations:
+            fr: |-
+                deuxième personne pluriel
+            en: |-
+                second person plural
+    -   ieml: "E:.B:.wu.-"
+        translations:
+            fr: |-
+                deuxième personne masculin
+            en: |-
+                second person masculine
+    -   ieml: "E:.B:.we.-"
+        translations:
+            fr: |-
+                deuxième personne féminin
+            en: |-
+                second person feminine
+    -   ieml: "E:.T:.wo.-"
+        translations:
+            fr: |-
+                troisième personne singulier
+            en: |-
+                third person singular | it
+    -   ieml: "E:.T:.wa.-"
+        translations:
+            fr: |-
+                troisième personne plurielle
+            en: |-
+                third person plural
+    -   ieml: "E:.T:.wu.-"
+        translations:
+            fr: |-
+                troisième personne masculin
+            en: |-
+                third person masculine
+    -   ieml: "E:.T:.we.-"
+        translations:
+            fr: |-
+                troisième personne féminin
+            en: |-
+                third person feminine
+Paradigms:
+    -   ieml: "E:.U:.U:O:.-"
+        translations:
+            fr: |-
+                pronom démonstratif de nombre
+            en: |-
+                demonstrative pronoun of number
+    -   ieml: "E:.U:.A:O:.-"
+        translations:
+            fr: |-
+                pronom démonstratif de genre
+            en: |-
+                demonstrative pronoun of gender
+    -   ieml: "E:.U:.O:U:.-"
+        translations:
+            fr: |-
+                pronom démonstratif masculin singulier
+            en: |-
+                demonstrative pronoun masculine singular
+    -   ieml: "E:.U:.O:A:.-"
+        translations:
+            fr: |-
+                pronom démonstratif féminin pluriel
+            en: |-
+                demonstrative pronoun feminine plural
+    -   ieml: "E:.A:.U:O:.-"
+        translations:
+            fr: |-
+                pronom possessif de nombre
+            en: |-
+                possessive pronoun of number
+    -   ieml: "E:.A:.A:O:.-"
+        translations:
+            fr: |-
+                pronom possessif de genre
+            en: |-
+                possessive pronoun of gender
+    -   ieml: "E:.A:.O:U:.-"
+        translations:
+            fr: |-
+                pronom possessif masculin singulier
+            en: |-
+                possessive pronoun masculine singular
+    -   ieml: "E:.A:.O:A:.-"
+        translations:
+            fr: |-
+                pronom possessif féminin pluriel
+            en: |-
+                possessive pronoun feminine plural
+    -   ieml: "E:.O:.wo.-"
+        translations:
+            fr: |-
+                possessif | démonstratif singulier
+            en: |-
+                possessive | demonstrative singular
+    -   ieml: "E:.O:.wa.-"
+        translations:
+            fr: |-
+                possessif | démonstratif pluriel
+            en: |-
+                possessive | demonstrative plural
+    -   ieml: "E:.O:.wu.-"
+        translations:
+            fr: |-
+                possessif | demonstratif masculin
+            en: |-
+                possessive | demonstrative masculine
+    -   ieml: "E:.O:.we.-"
+        translations:
+            fr: |-
+                possessif | demonstratif féminin
+            en: |-
+                possessive | demonstrative feminine
+    -   ieml: "E:.S:.U:O:.-"
+        translations:
+            fr: |-
+                pronom de nombre à la première personne
+            en: |-
+                pronoun of number in the first person
+    -   ieml: "E:.S:.A:O:.-"
+        translations:
+            fr: |-
+                pronom de genre à la première personne
+            en: |-
+                pronoun of gender in the first person
+    -   ieml: "E:.S:.O:U:.-"
+        translations:
+            fr: |-
+                pronom à la première personne masculin singulier
+            en: |-
+                pronoun in the first person masculine singular
+    -   ieml: "E:.S:.O:A:.-"
+        translations:
+            fr: |-
+                pronom à la première personne du pluriel féminin
+            en: |-
+                pronoun at the first person plural feminine
+    -   ieml: "E:.B:.U:O:.-"
+        translations:
+            fr: |-
+                pronom de nombre à la deuxième personne
+            en: |-
+                pronoun of number in the second person
+    -   ieml: "E:.B:.A:O:.-"
+        translations:
+            fr: |-
+                pronom de genre à la seconde personne
+            en: |-
+                pronoun of gender in the second person
+    -   ieml: "E:.B:.O:U:.-"
+        translations:
+            fr: |-
+                pronom deuxième personne masculin singulier
+            en: |-
+                pronoun in the second person masculine singular
+    -   ieml: "E:.B:.O:A:.-"
+        translations:
+            fr: |-
+                pronom à la seconde deuxième personne féminin pluriel
+            en: |-
+                pronoun in the second person feminine plural
+    -   ieml: "E:.T:.U:O:.-"
+        translations:
+            fr: |-
+                pronom de nombre à la troisième personne
+            en: |-
+                pronoun of number in the third person
+    -   ieml: "E:.T:.A:O:.-"
+        translations:
+            fr: |-
+                pronom de genre à la troisième personne
+            en: |-
+                gender pronoun at the third person
+    -   ieml: "E:.T:.O:U:.-"
+        translations:
+            fr: |-
+                pronom à la troisième personne masculin singulier
+            en: |-
+                pronoun in the third person masculine singular
+    -   ieml: "E:.T:.O:A:.-"
+        translations:
+            fr: |-
+                pronom à la troisième personne féminin pluriel
+            en: |-
+                pronoun in the third person feminine plural
+    -   ieml: "E:.M:.wo.-"
+        translations:
+            fr: |-
+                pronom de personne singulier
+            en: |-
+                singular pronoun of person
+    -   ieml: "E:.M:.wa.-"
+        translations:
+            fr: |-
+                pronom de personne pluriel
+            en: |-
+                plural pronoun of person
+    -   ieml: "E:.M:.wu.-"
+        translations:
+            fr: |-
+                pronom de personne masculin
+            en: |-
+                masculine pronoun of person
+    -   ieml: "E:.M:.we.-"
+        translations:
+            fr: |-
+                pronom de personne féminin
+            en: |-
+                feminine pronoun of person
+    -   ieml: "E:.U:.O:O:.-"
+        translations:
+            fr: |-
+                pronom démonstratif
+            en: |-
+                demonstrative pronoun
+    -   ieml: "E:.A:.O:O:.-"
+        translations:
+            fr: |-
+                pronom possessif
+            en: |-
+                possessive pronoun
+    -   ieml: "E:.S:.O:O:.-"
+        translations:
+            fr: |-
+                pronom à la première personne
+            en: |-
+                pronoun in the first person
+    -   ieml: "E:.B:.O:O:.-"
+        translations:
+            fr: |-
+                pronom à la deuxième personne
+            en: |-
+                pronoun in the second person
+    -   ieml: "E:.T:.O:O:.-"
+        translations:
+            fr: |-
+                pronom à la troisième personne
+            en: |-
+                pronoun in the third person
+    -   ieml: "E:.F:.wo.-"
+        translations:
+            fr: |-
+                pronom singulier
+            en: |-
+                singular pronoun
+    -   ieml: "E:.F:.wa.-"
+        translations:
+            fr: |-
+                pronom pluriel
+            en: |-
+                plural pronoun
+    -   ieml: "E:.F:.wu.-"
+        translations:
+            fr: |-
+                pronom masculin
+            en: |-
+                masculine pronoun
+    -   ieml: "E:.F:.we.-"
+        translations:
+            fr: |-
+                pronom féminin
+            en: |-
+                feminine pronoun
+    -   ieml: "E:.O:.O:O:.-"
+        translations:
+            fr: |-
+                pronom démonstratif | possessif
+            en: |-
+                possessive | demonstrative pronoun
+    -   ieml: "E:.F:.U:O:.-"
+        translations:
+            fr: |-
+                nombre indifférent
+            en: |-
+                indifferent number
+    -   ieml: "E:.F:.A:O:.-"
+        translations:
+            fr: |-
+                genre neutre
+            en: |-
+                neutral gender
+    -   ieml: "E:.M:.O:O:.-"
+        translations:
+            fr: |-
+                pronom de personne (première, deuxième, troisième)
+            en: |-
+                pronoun of person (first, second, third)

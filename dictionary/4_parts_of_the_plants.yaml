@@ -1,0 +1,82 @@
+RootParadigm:
+    ieml: "B:.S:.n.-'we.O:O:.t.-'+E:.-T:.n.+f.-+U:.n.+S:+T:S:.-l.-',"
+    translations:
+        fr: |-
+            parties des plantes
+        en: |-
+            parts of the plants
+    inhibitions: []
+Semes:
+    -   ieml: "B:.S:.n.-'E:.-U:.s.-l.-',"
+        translations:
+            fr: |-
+                feuille
+            en: |-
+                leaf
+    -   ieml: "B:.S:.n.-'E:.-U:.n.-l.-',"
+        translations:
+            fr: |-
+                tige, tronc, branche
+            en: |-
+                stem, trunk, branch
+    -   ieml: "B:.S:.n.-'E:.-U:.d.-l.-',"
+        translations:
+            fr: |-
+                racine
+            en: |-
+                root
+    -   ieml: "B:.S:.n.-'E:.-T:.n.-l.-',"
+        translations:
+            fr: |-
+                écorce
+            en: |-
+                bark
+    -   ieml: "B:.S:.n.-'E:.-T:.f.-l.-',"
+        translations:
+            fr: |-
+                pulpe
+            en: |-
+                pulp
+    -   ieml: "B:.S:.n.-'we.wo.t.-',"
+        translations:
+            fr: |-
+                germe
+            en: |-
+                sprout, germ
+    -   ieml: "B:.S:.n.-'we.wa.t.-',"
+        translations:
+            fr: |-
+                fleur
+            en: |-
+                flower
+    -   ieml: "B:.S:.n.-'we.wu.t.-',"
+        translations:
+            fr: |-
+                fruit
+            en: |-
+                fruit
+    -   ieml: "B:.S:.n.-'we.we.t.-',"
+        translations:
+            fr: |-
+                graine
+            en: |-
+                seed
+Paradigms:
+    -   ieml: "B:.S:.n.-'E:.-T:.n.+f.-l.-',"
+        translations:
+            fr: |-
+                parties des plantes de l'extérieur à l'intérieur
+            en: |-
+                parts of the plants from the outside to the inside
+    -   ieml: "B:.S:.n.-'E:.-U:.n.+S:+T:S:.-l.-',"
+        translations:
+            fr: |-
+                parties des plantes de haut en bas
+            en: |-
+                parts of the plants from top to down
+    -   ieml: "B:.S:.n.-'we.O:O:.t.-',"
+        translations:
+            fr: |-
+                parties des plantes selon le cycle de vie
+            en: |-
+                parts of the plants according to the life cycle

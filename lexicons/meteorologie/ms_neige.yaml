@@ -1,0 +1,74 @@
+Words:
+  - ieml: "[([E:.S:.x.-+S:.E:A:S:.-+T:.E:A:T:.-]+[E:.-U:.d.-l.-'+p.E:A:S:.-']+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_]+[l.-T:.U:.-',n.-T:.A:.-',m.-B:.U:.-'m.-B:.U:.-'E:A:T:.-',+d.-S:.U:.-',_+t.o.-c.-'+k.i.-t.i.-t.u.-'+n.-T:.A:.-'+u.A:.-+a.S:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "Météorologie: neige"
+      en:
+
+  - ieml: "[([l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "neige"
+      en:
+        - "snow"
+  - ieml: "[([a.S:.-]+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "poudrerie"
+      en:
+        - "blowing snow"
+  - ieml: "[([t.o.-c.-']+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "neige fraîche"
+      en:
+        - "fresh snow"
+  - ieml: "[([k.i.-t.i.-t.u.-']+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "accumulation de neige"
+      en:
+        - "snow accumulation"
+  - ieml: "[([n.-T:.A:.-']+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "neige mouillée"
+      en:
+        - "slush"
+  - ieml: "[([l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_]+[l.-T:.U:.-',n.-T:.A:.-',m.-B:.U:.-'m.-B:.U:.-'E:A:T:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "blizzard"
+      en:
+        - "blizzard"
+  - ieml: "[([l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_]+[l.-T:.U:.-',n.-T:.A:.-',d.-S:.U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "grésil"
+      en:
+        - "ice pellets"
+  - ieml: "[([S:.E:A:S:.-]+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "brève chute de neige"
+      en:
+        - "short snow"
+  - ieml: "[([T:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "neige épaisse"
+      en:
+        - "heavy snow"
+  - ieml: "[([E:.S:.x.-]+[p.E:A:S:.-]+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "flocon"
+      en:
+        - "snowflake"
+  - ieml: "[([T:.E:A:T:.-]+[E:.-U:.d.-l.-']+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]"
+    translations:
+      fr:
+        - "forte chute de neige"
+      en:
+        - "heavy snowfall"
+

@@ -1,0 +1,51 @@
+RootParadigm:
+    ieml: "t.i.-d.i.-t.+M:O:.-'"
+    translations:
+        fr: |-
+            unités de temps chronométrées
+        en: |-
+            clock time units
+    inhibitions: ['father-mode']
+Semes:
+    -   ieml: "t.i.-d.i.-j.-'"
+        translations:
+            fr: |-
+                heure
+            en: |-
+                hour
+    -   ieml: "t.i.-d.i.-g.-'"
+        translations:
+            fr: |-
+                minute
+            en: |-
+                minute
+    -   ieml: "t.i.-d.i.-t.-'"
+        translations:
+            fr: |-
+                seconde
+            en: |-
+                second
+    -   ieml: "t.i.-d.i.-h.-'"
+        translations:
+            fr: |-
+                milliseconde
+            en: |-
+                millisecond
+    -   ieml: "t.i.-d.i.-c.-'"
+        translations:
+            fr: |-
+                microseconde
+            en: |-
+                microsecond
+    -   ieml: "t.i.-d.i.-p.-'"
+        translations:
+            fr: |-
+                nanoseconde
+            en: |-
+                nanosecond
+    -   ieml: "t.i.-d.i.-x.-'"
+        translations:
+            fr: |-
+                picoseconde
+            en: |-
+                picosecond

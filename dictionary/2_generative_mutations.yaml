@@ -1,0 +1,478 @@
+RootParadigm:
+    ieml: "M:O:.O:O:.-"
+    translations:
+        fr: |-
+            mutations génératives
+        en: |-
+            generative mutations
+    inhibitions: []
+Semes:
+    -   ieml: "j.wo.-"
+        translations:
+            fr: |-
+                tournant de la réflexion
+            en: |-
+                reflection turning point
+    -   ieml: "j.wa.-"
+        translations:
+            fr: |-
+                changement de justifications
+            en: |-
+                change of justifications
+    -   ieml: "j.wu.-"
+        translations:
+            fr: |-
+                nouvelle grille de perception
+            en: |-
+                new perception grid
+    -   ieml: "j.we.-"
+        translations:
+            fr: |-
+                adaptation | transfert culturel
+            en: |-
+                cultural adaptation | transfer
+    -   ieml: "g.wo.-"
+        translations:
+            fr: |-
+                initiation | nouveau nom
+            en: |-
+                initiation | new name
+    -   ieml: "g.wa.-"
+        translations:
+            fr: |-
+                rétroaction transformatrice
+            en: |-
+                transformative feedback
+    -   ieml: "g.wu.-"
+        translations:
+            fr: |-
+                'gestalt switch'
+            en: |-
+                gestalt switch
+    -   ieml: "g.we.-"
+        translations:
+            fr: |-
+                variation du contexte
+            en: |-
+                context variation
+    -   ieml: "h.wo.-"
+        translations:
+            fr: |-
+                conversion
+            en: |-
+                conversion
+    -   ieml: "h.wa.-"
+        translations:
+            fr: |-
+                recadrage de la situation
+            en: |-
+                situation reframing
+    -   ieml: "h.wu.-"
+        translations:
+            fr: |-
+                découverte existentielle
+            en: |-
+                existential discovery
+    -   ieml: "h.we.-"
+        translations:
+            fr: |-
+                retournement de situation
+            en: |-
+                situation reversa
+    -   ieml: "c.wo.-"
+        translations:
+            fr: |-
+                maturation personnelle
+            en: |-
+                personal maturation
+    -   ieml: "c.wa.-"
+        translations:
+            fr: |-
+                retournement d'alliance
+            en: |-
+                reversal of alliance
+    -   ieml: "c.wu.-"
+        translations:
+            fr: |-
+                transformation corporelle
+            en: |-
+                bodily transformation
+    -   ieml: "c.we.-"
+        translations:
+            fr: |-
+                événement familial
+            en: |-
+                family event
+    -   ieml: "p.wo.-"
+        translations:
+            fr: |-
+                transformation des intérêts | de l'attention
+            en: |-
+                shift of interests | attention
+    -   ieml: "p.wa.-"
+        translations:
+            fr: |-
+                changement d'objectif
+            en: |-
+                change of objective
+    -   ieml: "p.wu.-"
+        translations:
+            fr: |-
+                découverte objective
+            en: |-
+                objective discovery
+    -   ieml: "p.we.-"
+        translations:
+            fr: |-
+                conséquence irréversible
+            en: |-
+                irreversible consequence
+    -   ieml: "x.wo.-"
+        translations:
+            fr: |-
+                hasard transformateur
+            en: |-
+                transformative chance
+    -   ieml: "x.wa.-"
+        translations:
+            fr: |-
+                outil
+            en: |-
+                tool
+    -   ieml: "x.wu.-"
+        translations:
+            fr: |-
+                nouvel instrument d'observation
+            en: |-
+                new instrument of observation
+    -   ieml: "x.we.-"
+        translations:
+            fr: |-
+                mutation de l'environnement naturel
+            en: |-
+                mutation of natural environment
+Paradigms:
+    -   ieml: "j.U:O:.-"
+        translations:
+            fr: |-
+                changement virtuel de langage
+            en: |-
+                virtual language change
+    -   ieml: "j.A:O:.-"
+        translations:
+            fr: |-
+                changement actuel de langage
+            en: |-
+                actual language change
+    -   ieml: "j.O:U:.-"
+        translations:
+            fr: |-
+                changement de langage orienté abstrait
+            en: |-
+                abstract oriented change of language
+    -   ieml: "j.O:A:.-"
+        translations:
+            fr: |-
+                changement de langage orienté concret
+            en: |-
+                concrete oriented language change
+    -   ieml: "g.U:O:.-"
+        translations:
+            fr: |-
+                changement virtuel de message
+            en: |-
+                virtual message change
+    -   ieml: "g.A:O:.-"
+        translations:
+            fr: |-
+                changement actuel de message
+            en: |-
+                actual message change
+    -   ieml: "g.O:U:.-"
+        translations:
+            fr: |-
+                changement de message intérieur
+            en: |-
+                inside message change
+    -   ieml: "g.O:A:.-"
+        translations:
+            fr: |-
+                changement de message extérieur
+            en: |-
+                outside message change
+    -   ieml: "S:O:.wo.-"
+        translations:
+            fr: |-
+                mutation des possibles symboliques
+            en: |-
+                mutation of symbolic possibilities
+    -   ieml: "S:O:.wa.-"
+        translations:
+            fr: |-
+                mutation logique de l'action
+            en: |-
+                logical mutation of the action
+    -   ieml: "S:O:.wu.-"
+        translations:
+            fr: |-
+                mutation symbolique de la perception
+            en: |-
+                symbolic mutation of the perception
+    -   ieml: "S:O:.we.-"
+        translations:
+            fr: |-
+                mutation de l'environnement symbolique
+            en: |-
+                mutation of the symbolic environment
+    -   ieml: "h.U:O:.-"
+        translations:
+            fr: |-
+                changement virtuel de sens
+            en: |-
+                virtual change of meaning
+    -   ieml: "h.A:O:.-"
+        translations:
+            fr: |-
+                changement actuel de sens
+            en: |-
+                actual change of meaning
+    -   ieml: "h.O:U:.-"
+        translations:
+            fr: |-
+                changement de sens intérieur
+            en: |-
+                inside change of meaning
+    -   ieml: "h.O:A:.-"
+        translations:
+            fr: |-
+                changement de sens extérieur
+            en: |-
+                outside change of meaning
+    -   ieml: "c.U:O:.-"
+        translations:
+            fr: |-
+                changement personnel virtuel
+            en: |-
+                virtual personal change
+    -   ieml: "c.A:O:.-"
+        translations:
+            fr: |-
+                changement personnel actuel
+            en: |-
+                actual personal change
+    -   ieml: "c.O:U:.-"
+        translations:
+            fr: |-
+                changement personnel individuel
+            en: |-
+                individual personal change
+    -   ieml: "c.O:A:.-"
+        translations:
+            fr: |-
+                changement personnel orienté collectif
+            en: |-
+                collective oriented personal change
+    -   ieml: "B:O:.wo.-"
+        translations:
+            fr: |-
+                mutation des possibles personnels
+            en: |-
+                personal possibilities mutation
+    -   ieml: "B:O:.wa.-"
+        translations:
+            fr: |-
+                mutation psycho-sociale de l'action
+            en: |-
+                psycho-social mutation of the action
+    -   ieml: "B:O:.wu.-"
+        translations:
+            fr: |-
+                mutation personnelle de la perception
+            en: |-
+                personal mutation of the perception
+    -   ieml: "B:O:.we.-"
+        translations:
+            fr: |-
+                mutation de l'environnement social
+            en: |-
+                mutation of the social environment
+    -   ieml: "p.U:O:.-"
+        translations:
+            fr: |-
+                changement d'objet virtuel
+            en: |-
+                virtual object change
+    -   ieml: "p.A:O:.-"
+        translations:
+            fr: |-
+                changement d'objet actuel
+            en: |-
+                actual object change
+    -   ieml: "p.O:U:.-"
+        translations:
+            fr: |-
+                changement d'objet intérieur
+            en: |-
+                inside object change
+    -   ieml: "p.O:A:.-"
+        translations:
+            fr: |-
+                changement d'objet extérieur
+            en: |-
+                outside object change
+    -   ieml: "x.U:O:.-"
+        translations:
+            fr: |-
+                changement matériel orienté-cause
+            en: |-
+                cause-oriented material change
+    -   ieml: "x.A:O:.-"
+        translations:
+            fr: |-
+                changement matériel orienté-condition
+            en: |-
+                condition-oriented material change
+    -   ieml: "x.O:U:.-"
+        translations:
+            fr: |-
+                changement de virtualités matérielles
+            en: |-
+                material virtual change
+    -   ieml: "x.O:A:.-"
+        translations:
+            fr: |-
+                changement d'actualités matérielles
+            en: |-
+                actual material change
+    -   ieml: "T:O:.wo.-"
+        translations:
+            fr: |-
+                mutation des possibles objectifs
+            en: |-
+                mutation of objective possibilities
+    -   ieml: "T:O:.wa.-"
+        translations:
+            fr: |-
+                mutation objective de l'action
+            en: |-
+                objective mutation of the action
+    -   ieml: "T:O:.wu.-"
+        translations:
+            fr: |-
+                mutation objective de la perception
+            en: |-
+                objective mutation of the perception
+    -   ieml: "T:O:.we.-"
+        translations:
+            fr: |-
+                mutation de l'environnement objectif
+            en: |-
+                mutation of the objective environment
+    -   ieml: "M:U:.wo.-"
+        translations:
+            fr: |-
+                mutation virtuelle des possibles
+            en: |-
+                virtual mutation of possibilities
+    -   ieml: "M:U:.wa.-"
+        translations:
+            fr: |-
+                mutation des motifs de l'action
+            en: |-
+                mutation of grounds for action
+    -   ieml: "M:U:.wu.-"
+        translations:
+            fr: |-
+                mutation virtuelle de la perception
+            en: |-
+                virtual mutation of the perception
+    -   ieml: "M:U:.we.-"
+        translations:
+            fr: |-
+                mutation virtuelle de l'environnement
+            en: |-
+                virtual mutation of the environment
+    -   ieml: "M:A:.wo.-"
+        translations:
+            fr: |-
+                mutation actuelle des possibles
+            en: |-
+                actual mutation of possibilities
+    -   ieml: "M:A:.wa.-"
+        translations:
+            fr: |-
+                mutation des conditions de l'action
+            en: |-
+                mutation of the conditions for action
+    -   ieml: "M:A:.wu.-"
+        translations:
+            fr: |-
+                mutation actuelle de la perception
+            en: |-
+                actual mutation of the perception
+    -   ieml: "M:A:.we.-"
+        translations:
+            fr: |-
+                mutation actuelle de l'environnement
+            en: |-
+                actual mutation of the environment
+    -   ieml: "j.O:O:.-"
+        translations:
+            fr: |-
+                changement de langage
+            en: |-
+                language change
+    -   ieml: "g.O:O:.-"
+        translations:
+            fr: |-
+                changement de message
+            en: |-
+                message change
+    -   ieml: "h.O:O:.-"
+        translations:
+            fr: |-
+                changement de sens
+            en: |-
+                meaning change
+    -   ieml: "c.O:O:.-"
+        translations:
+            fr: |-
+                changement personnel
+            en: |-
+                personal change
+    -   ieml: "p.O:O:.-"
+        translations:
+            fr: |-
+                changement d'objet
+            en: |-
+                object change
+    -   ieml: "x.O:O:.-"
+        translations:
+            fr: |-
+                changement matériel
+            en: |-
+                material change
+    -   ieml: "M:O:.wo.-"
+        translations:
+            fr: |-
+                mutation des possibles
+            en: |-
+                mutation of possibilities
+    -   ieml: "M:O:.wa.-"
+        translations:
+            fr: |-
+                mutation de l'action
+            en: |-
+                action mutation
+    -   ieml: "M:O:.wu.-"
+        translations:
+            fr: |-
+                mutation de la perception
+            en: |-
+                perception mutation
+    -   ieml: "M:O:.we.-"
+        translations:
+            fr: |-
+                mutation de l'environnement
+            en: |-
+                environment mutation
