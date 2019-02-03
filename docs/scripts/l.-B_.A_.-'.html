@@ -1,0 +1,522 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            l.-B:.A:.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>ouest</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>west</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Seme</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>6</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/M_M_.-M_.O_.-'.html"> M:M:.-M:.O:.-' </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_M_.-M_.O_.-'.html"> M:M:.-M:.O:.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(1,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-16810929971">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-16810929971"
+                    aria-expanded="false"
+                    aria-controls="body-16810929971">
+                    <span> <span class="badge badge-pill badge-Light">5</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-16810929971"
+         class="collapse"
+         aria-labelledby="heading-16810929971"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-B_.O_.-'.html">l.-B:.O:.-'</a></td>
+                        <td data-fr="axe est-ouest" data-en="east-west axis" class="translation">axe est-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-M_.A_.-'.html">l.-M:.A:.-'</a></td>
+                        <td data-fr="descente transversale sud-ouest" data-en="transverse south-west descent" class="translation">descente transversale sud-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-M_.O_.-'.html">l.-M:.O:.-'</a></td>
+                        <td data-fr="directions spatiales" data-en="spatial directions" class="translation">directions spatiales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-B_.A_.-'.html">M:M:.-B:.A:.-'</a></td>
+                        <td data-fr="qualités occidentales" data-en="western qualities" class="translation">qualités occidentales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-M_.O_.-'.html">M:M:.-M:.O:.-'</a></td>
+                        <td data-fr="qualités" data-en="qualities" class="translation">qualités</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-42600654177">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-42600654177"
+                    aria-expanded="false"
+                    aria-controls="body-42600654177">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-42600654177"
+         class="collapse"
+         aria-labelledby="heading-42600654177"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/l..html">l.</a></td>
+                        <td data-fr="espace" data-en="space" class="translation">espace</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-53205398409">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-53205398409"
+                    aria-expanded="false"
+                    aria-controls="body-53205398409">
+                    <span> <span class="badge badge-pill badge-Light">2</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-53205398409"
+         class="collapse"
+         aria-labelledby="heading-53205398409"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/A_.html">A:</a></td>
+                        <td data-fr="actuel" data-en="actual" class="translation">actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.html">B:</a></td>
+                        <td data-fr="être" data-en="being" class="translation">être</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    
+
+<div class="card m-1">
+    <div class="card-header" id="heading-54869476792">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-54869476792"
+                    aria-expanded="false"
+                    aria-controls="body-54869476792">
+                    <span> <span class="badge badge-pill badge-Light">10</span> geographie/ms_directions_geographiques.yaml </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-54869476792"
+         class="collapse"
+         aria-labelledby="heading-54869476792"
+         data-parent="#words">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_49a4e9e82ef14da90b3bd3ee6445a2aba56ae70e1f4640bdde48dfc5.html">[([E:.-B:.n.-l.-']+[l.-S:.U:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="dans le nord-ouest" data-en="in the north-west" class="translation">dans le nord-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_6bf73026f53cc6f8152d5eff953e22f5f1a90c16f87b8003474c9c36.html">[([E:.-B:.n.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="dans le sud-ouest" data-en="in the south-west" class="translation">dans le sud-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_c63e7a1102ef035a961e0d37b96f42aa34b7859b16c4102043f49505.html">[([E:.-B:.n.-l.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="dans l'ouest" data-en="in the west" class="translation">dans l'ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_9e998861878ccb8bae1ac317471f125402f1323cec04cb4f2e54f41d.html">[([E:.-T:.s.-l.-']+[l.-S:.U:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="du nord-ouest" data-en="from the north-west" class="translation">du nord-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_778c07f2935fce5f721e42e5443ed8bb09f97884a47ffb54ea64b2bf.html">[([E:.-T:.s.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="du sud-ouest" data-en="from the south-west" class="translation">du sud-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_8ea26b0dc5d6bf74857fc656b44a99437b5f3b2a51a31283b5a68a9d.html">[([E:.-T:.s.-l.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="de l'ouest" data-en="from the west" class="translation">de l'ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_03841e63614b2227effa17dd2686c152dfdb1aa15d9ccb5338551448.html">[([E:.-T:.d.-l.-']+[l.-S:.U:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vers le nord-ouest" data-en="to the north-west" class="translation">vers le nord-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_c308b87c2e075b1cd3ab71eac292392b946aa0869fa9060f7e85dbc8.html">[([E:.-T:.d.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vers le sud-ouest" data-en="to the south-west" class="translation">vers le sud-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_a2c36bcb9d6c48189820d63914d0178ff39e1b2f6754ce455c9e906d.html">[([E:.-T:.d.-l.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vers l'ouest" data-en="to the west" class="translation">vers l'ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_78874d12ba7b1ad29489b9449bde66541793218646ee73c89ae749ac.html">[([l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="ouest" data-en="west" class="translation">ouest</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

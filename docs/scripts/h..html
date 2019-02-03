@@ -1,0 +1,864 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            h.
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>sujet</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>subject</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Seme</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>1</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>6</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/O_M_.+M_O_..html"> O:M:.+M:O:. </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/O_M_.+M_O_..html"> O:M:.+M:O:. </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(1,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-91831414455">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-91831414455"
+                    aria-expanded="false"
+                    aria-controls="body-91831414455">
+                    <span> <span class="badge badge-pill badge-Light">1</span> opposed </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-91831414455"
+         class="collapse"
+         aria-labelledby="heading-91831414455"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/o..html">o.</a></td>
+                        <td data-fr="vouloir" data-en="want" class="translation">vouloir</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-11029254296">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-11029254296"
+                    aria-expanded="false"
+                    aria-controls="body-11029254296">
+                    <span> <span class="badge badge-pill badge-Light">4</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-11029254296"
+         class="collapse"
+         aria-labelledby="heading-11029254296"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/B_O_..html">B:O:.</a></td>
+                        <td data-fr="agents personnels" data-en="personal agents" class="translation">agents personnels</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_U_..html">M:U:.</a></td>
+                        <td data-fr="agents virtuels" data-en="virtual agents" class="translation">agents virtuels</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_..html">M:O:.</a></td>
+                        <td data-fr="agents" data-en="agents" class="translation">agents</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.+M_O_..html">O:M:.+M:O:.</a></td>
+                        <td data-fr="actions et agents | hexades verticale et horizontale" data-en="actions and agents | vertical and horizontal hexads" class="translation">actions et agents | hexades verticale et horizontale</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-79745466987">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-79745466987"
+                    aria-expanded="false"
+                    aria-controls="body-79745466987">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-79745466987"
+         class="collapse"
+         aria-labelledby="heading-79745466987"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.html">B:</a></td>
+                        <td data-fr="être" data-en="being" class="translation">être</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-56303157480">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-56303157480"
+                    aria-expanded="false"
+                    aria-controls="body-56303157480">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-56303157480"
+         class="collapse"
+         aria-labelledby="heading-56303157480"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/U_.html">U:</a></td>
+                        <td data-fr="virtuel" data-en="virtual" class="translation">virtuel</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-70040542767">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-70040542767"
+                    aria-expanded="false"
+                    aria-controls="body-70040542767">
+                    <span> <span class="badge badge-pill badge-Light">35</span> child-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-70040542767"
+         class="collapse"
+         aria-labelledby="heading-70040542767"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/h.U_O_.-.html">h.U:O:.-</a></td>
+                        <td data-fr="changement virtuel de sens" data-en="virtual change of meaning" class="translation">changement virtuel de sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.A_O_.-.html">h.A:O:.-</a></td>
+                        <td data-fr="changement actuel de sens" data-en="actual change of meaning" class="translation">changement actuel de sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_U_.-.html">h.O:U:.-</a></td>
+                        <td data-fr="changement de sens intérieur" data-en="inside change of meaning" class="translation">changement de sens intérieur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_A_.-.html">h.O:A:.-</a></td>
+                        <td data-fr="changement de sens extérieur" data-en="outside change of meaning" class="translation">changement de sens extérieur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_S_.-.html">h.O:S:.-</a></td>
+                        <td data-fr="cadre sémantique abstrait" data-en="abstract semantic framework" class="translation">cadre sémantique abstrait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_S_.m.-.html">h.O:S:.m.-</a></td>
+                        <td data-fr="absence au monde" data-en="absence from the world" class="translation">absence au monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_B_.-.html">h.O:B:.-</a></td>
+                        <td data-fr="cadre sémantique affectif" data-en="affective semantic framework" class="translation">cadre sémantique affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_B_.m.-.html">h.O:B:.m.-</a></td>
+                        <td data-fr="présence à soi et au monde" data-en="presence to self and the world" class="translation">présence à soi et au monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_T_.-.html">h.O:T:.-</a></td>
+                        <td data-fr="cadre sémantique concret" data-en="concrete semantic framewo" class="translation">cadre sémantique concret</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_T_.m.-.html">h.O:T:.m.-</a></td>
+                        <td data-fr="absence à soi" data-en="absence to oneself" class="translation">absence à soi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.S_O_.-.html">h.S:O:.-</a></td>
+                        <td data-fr="transformation abstraite du sens" data-en="abstract transformation of the meaning" class="translation">transformation abstraite du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.B_O_.-.html">h.B:O:.-</a></td>
+                        <td data-fr="transformation subjective du sens" data-en="subjective transformation of the meaning" class="translation">transformation subjective du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.T_O_.-.html">h.T:O:.-</a></td>
+                        <td data-fr="transformation objective du sens" data-en="objective transformation of the meaning" class="translation">transformation objective du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.U_M_.-.html">h.U:M:.-</a></td>
+                        <td data-fr="cadre sémantique virtuel" data-en="virtual semantic framework" class="translation">cadre sémantique virtuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.U_M_.m.-.html">h.U:M:.m.-</a></td>
+                        <td data-fr="tropisme inter-subjectif" data-en="inter-subjective tropism" class="translation">tropisme inter-subjectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.U_M_.d.-.html">h.U:M:.d.-</a></td>
+                        <td data-fr="éthique, formes subjectives" data-en="ethics, subjective forms" class="translation">éthique, formes subjectives</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.A_M_.-.html">h.A:M:.-</a></td>
+                        <td data-fr="cadre sémantique actuel" data-en="actual semantic framework" class="translation">cadre sémantique actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.A_M_.m.-.html">h.A:M:.m.-</a></td>
+                        <td data-fr="intégration du moi" data-en="integration of the self" class="translation">intégration du moi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.S_M_.-.html">h.S:M:.-</a></td>
+                        <td data-fr="obstacle spirituel formel" data-en="formal spiritual obstacle" class="translation">obstacle spirituel formel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.B_M_.-.html">h.B:M:.-</a></td>
+                        <td data-fr="obstacle spirituel existentiel" data-en="existential spiritual obstacle" class="translation">obstacle spirituel existentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.T_M_.-.html">h.T:M:.-</a></td>
+                        <td data-fr="obstacle spirituel objectif" data-en="objective spiritual obstacle" class="translation">obstacle spirituel objectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_U_.-.html">h.M:U:.-</a></td>
+                        <td data-fr="transformation virtuelle du sens" data-en="virtual transformation of the meaning" class="translation">transformation virtuelle du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_A_.-.html">h.M:A:.-</a></td>
+                        <td data-fr="transformation actuelle du sens" data-en="actual transformation of the meaning" class="translation">transformation actuelle du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_S_.-.html">h.M:S:.-</a></td>
+                        <td data-fr="défaillance spirituelle dans la forme" data-en="spiritual failure in formal matters" class="translation">défaillance spirituelle dans la forme</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_B_.-.html">h.M:B:.-</a></td>
+                        <td data-fr="défaillance spirituelle dans l'intersubjectivité" data-en="spiritual failure in intersubjective matters" class="translation">défaillance spirituelle dans l'intersubjectivité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_T_.-.html">h.M:T:.-</a></td>
+                        <td data-fr="défaillance spirituelle dans l'objectivité" data-en="spiritual failure in objective matters" class="translation">défaillance spirituelle dans l'objectivité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_O_.-.html">h.O:O:.-</a></td>
+                        <td data-fr="changement de sens" data-en="meaning change" class="translation">changement de sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_M_.-.html">h.O:M:.-</a></td>
+                        <td data-fr="cadre sémantique" data-en="semantic process" class="translation">cadre sémantique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_M_.m.-.html">h.O:M:.m.-</a></td>
+                        <td data-fr="types d'auto-référence subjective" data-en="types of subjective self-reference" class="translation">types d'auto-référence subjective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_O_.-.html">h.M:O:.-</a></td>
+                        <td data-fr="sujet en substance" data-en="subject in substance" class="translation">sujet en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_M_.-.html">h.M:M:.-</a></td>
+                        <td data-fr="obstacle spirituel" data-en="spiritual obstacle" class="translation">obstacle spirituel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.-'U_M_.-'n.o.-s.o.-'_.html">h.-'U:M:.-'n.o.-s.o.-',</a></td>
+                        <td data-fr="religion: régulation du sacré" data-en="religion: regulation of the sacred" class="translation">religion: régulation du sacré</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.-'A_M_.-'n.o.-s.o.-'_.html">h.-'A:M:.-'n.o.-s.o.-',</a></td>
+                        <td data-fr="religion: fonction sacrificielle, rôles du sacrifice" data-en="religion: sacrificial function, rôles du sacrifice" class="translation">religion: fonction sacrificielle, rôles du sacrifice</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.-'F_.-'k.o.-t.o.-'_.html">h.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation religieuse" data-en="religious mutation" class="translation">mutation religieuse</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.-'O_M_.-'n.o.-s.o.-'_.html">h.-'O:M:.-'n.o.-s.o.-',</a></td>
+                        <td data-fr="fonctions sacrificielles et religieuses" data-en="sacrificial and religious functions" class="translation">fonctions sacrificielles et religieuses</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-28974620045">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-28974620045"
+                    aria-expanded="false"
+                    aria-controls="body-28974620045">
+                    <span> <span class="badge badge-pill badge-Light">24</span> child-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-28974620045"
+         class="collapse"
+         aria-labelledby="heading-28974620045"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/U_O_.h.-.html">U:O:.h.-</a></td>
+                        <td data-fr="questionner et approfondir le sens" data-en="question and deepen the meaning" class="translation">questionner et approfondir le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_O_.h.-.html">A:O:.h.-</a></td>
+                        <td data-fr="évaluer l'interprétation et unifier le sens" data-en="assess the interpretation and unify the meaning" class="translation">évaluer l'interprétation et unifier le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_U_.h.-.html">O:U:.h.-</a></td>
+                        <td data-fr="questionner le sens et évaluer l'interprétation" data-en="question the meaning and assess the interpretation" class="translation">questionner le sens et évaluer l'interprétation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_A_.h.-.html">O:A:.h.-</a></td>
+                        <td data-fr="approfondir et unifier le sens" data-en="deepen and unify the meaning" class="translation">approfondir et unifier le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.h.-.html">O:S:.h.-</a></td>
+                        <td data-fr="travailler l'interprétation selon le sign" data-en="work on the interpretation according to sign" class="translation">travailler l'interprétation selon le sign</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.h.-.html">O:B:.h.-</a></td>
+                        <td data-fr="travailler l'interprétation selon l'être" data-en="work on the interpretation according to being" class="translation">travailler l'interprétation selon l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.h.-.html">O:T:.h.-</a></td>
+                        <td data-fr="travailler l'interprétation selon la chose" data-en="work on the interpretation according to thing" class="translation">travailler l'interprétation selon la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_O_.h.-.html">S:O:.h.-</a></td>
+                        <td data-fr="transformation abstraite dans le sens" data-en="abstract transformation in the meaning" class="translation">transformation abstraite dans le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_O_.h.-.html">B:O:.h.-</a></td>
+                        <td data-fr="transformation subjective dans le sens" data-en="subjective transformation in the meaning" class="translation">transformation subjective dans le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_O_.h.-.html">T:O:.h.-</a></td>
+                        <td data-fr="transformation objective dans le sens" data-en="objective transformation in the meaning" class="translation">transformation objective dans le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.h.-.html">U:M:.h.-</a></td>
+                        <td data-fr="travailler l'interprétation virtuellement" data-en="work on the interpretation virtually" class="translation">travailler l'interprétation virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.h.-.html">A:M:.h.-</a></td>
+                        <td data-fr="travailler l'interprétation actuellement" data-en="work on the interpretation actually" class="translation">travailler l'interprétation actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_U_.h.-.html">M:U:.h.-</a></td>
+                        <td data-fr="transformation virtuelle dans le sens" data-en="virtual transformation in the meaning" class="translation">transformation virtuelle dans le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.h.-.html">M:A:.h.-</a></td>
+                        <td data-fr="transformation actuelle dans le sens" data-en="actual transformation in the meaning" class="translation">transformation actuelle dans le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_O_.h.-.html">O:O:.h.-</a></td>
+                        <td data-fr="gouverner le sens (de l'entreprise)" data-en="govern the meaning (of the enterprise)" class="translation">gouverner le sens (de l'entreprise)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.h.O_O_.-.html">s.h.O:O:.-</a></td>
+                        <td data-fr="jugement qualitatif" data-en="qualitative judgement" class="translation">jugement qualitatif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.h.-.html">O:M:.h.-</a></td>
+                        <td data-fr="travailler l'interprétation" data-en="work on the interpretation" class="translation">travailler l'interprétation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.h.-.html">M:O:.h.-</a></td>
+                        <td data-fr="sujet en attribut" data-en="subject in attribute" class="translation">sujet en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.h.-.html">M:M:.h.-</a></td>
+                        <td data-fr="création culturelle" data-en="cultural creation" class="translation">création culturelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-O_.h.-t.o.-'.html">E:.-O:.h.-t.o.-'</a></td>
+                        <td data-fr="simultané, parfait" data-en="simultaneous, perfect" class="translation">simultané, parfait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-h.-'.html">M:M:.-h.-'</a></td>
+                        <td data-fr="sacré, religion" data-en="sacred, religion" class="translation">sacré, religion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-h.-s.y.-'.html">M:M:.-h.-s.y.-'</a></td>
+                        <td data-fr="études du sacré | de la religion" data-en="sacred | religion studies" class="translation">études du sacré | de la religion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'h.-U_.-'M_.-'_.html">b.-S:.U:.-'h.-U:.-'M:.-',</a></td>
+                        <td data-fr="symétrie cinq" data-en="symmetry five" class="translation">symétrie cinq</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'h.-A_.-'M_.-'_.html">b.-S:.U:.-'h.-A:.-'M:.-',</a></td>
+                        <td data-fr="symétrie six" data-en="symmetry six" class="translation">symétrie six</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-83527616707">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-83527616707"
+                    aria-expanded="false"
+                    aria-controls="body-83527616707">
+                    <span> <span class="badge badge-pill badge-Light">3</span> child-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-83527616707"
+         class="collapse"
+         aria-labelledby="heading-83527616707"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.O_.h.-.html">E:.O:.h.-</a></td>
+                        <td data-fr="manière de tropisme" data-en="manner of tropism" class="translation">manière de tropisme</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.h.-.html">E:.M:.h.-</a></td>
+                        <td data-fr="cause systémique virtuelle" data-en="virtual systemic cause" class="translation">cause systémique virtuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_h.-O_.-'__.html">f.o.-f.o.-',n.i.-f.i.-',h.-O:.-',_</a></td>
+                        <td data-fr="deuxième articulation du membre" data-en="second joint of the limb" class="translation">deuxième articulation du membre</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1591 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            M:M:.O:O:.-
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>ressources du sens</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>resources of meaning</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">RootParadigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>36</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>0</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        Root paradigm
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_M_.O_O_.-.html"> M:M:.O:O:.- </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(9, 4)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:M:.O:O:.-</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-94845763811">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-94845763811"
+                    aria-expanded="false"
+                    aria-controls="body-94845763811">
+                    <span> <span class="badge badge-pill badge-Light">73</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-94845763811"
+         class="collapse"
+         aria-labelledby="heading-94845763811"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/s.U_O_.-.html">s.U:O:.-</a></td>
+                        <td data-fr="sources virtuelles du sens dans la pensée" data-en="virtual sources of meaning in thought" class="translation">sources virtuelles du sens dans la pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.A_O_.-.html">s.A:O:.-</a></td>
+                        <td data-fr="sources actuelles du sens dans la pensée" data-en="actual sources of meaning in thought" class="translation">sources actuelles du sens dans la pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_U_.-.html">s.O:U:.-</a></td>
+                        <td data-fr="sources du sens par le détachement" data-en="sources of meaning by detachment" class="translation">sources du sens par le détachement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_A_.-.html">s.O:A:.-</a></td>
+                        <td data-fr="sources du sens par la présence" data-en="sources of meaning by presence" class="translation">sources du sens par la présence</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.U_O_.-.html">b.U:O:.-</a></td>
+                        <td data-fr="sources virtuelles du sens dans la communication" data-en="virtual sources of meaning in communication" class="translation">sources virtuelles du sens dans la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.A_O_.-.html">b.A:O:.-</a></td>
+                        <td data-fr="sources actuelles du sens dans la communication" data-en="actual sources of meaning in communication" class="translation">sources actuelles du sens dans la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_U_.-.html">b.O:U:.-</a></td>
+                        <td data-fr="sources du sens par les affinités" data-en="sources of meaning through affinities" class="translation">sources du sens par les affinités</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_A_.-.html">b.O:A:.-</a></td>
+                        <td data-fr="sources du sens par le contexte commun" data-en="sources of meaning through common context" class="translation">sources du sens par le contexte commun</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.U_O_.-.html">t.U:O:.-</a></td>
+                        <td data-fr="sources virtuelles du sens dans la mémoire" data-en="virtual sources of meaning in memory" class="translation">sources virtuelles du sens dans la mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.A_O_.-.html">t.A:O:.-</a></td>
+                        <td data-fr="sources actuelles du sens dans la mémoire" data-en="actual sources of meaning in memory" class="translation">sources actuelles du sens dans la mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_U_.-.html">t.O:U:.-</a></td>
+                        <td data-fr="sources du sens dans les connections de la mémoire" data-en="sources of meaning in memory connections" class="translation">sources du sens dans les connections de la mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_A_.-.html">t.O:A:.-</a></td>
+                        <td data-fr="sources du sens dans les séries temporelles" data-en="sources of meaning in temporal series" class="translation">sources du sens dans les séries temporelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.U_O_.-.html">k.U:O:.-</a></td>
+                        <td data-fr="sources virtuelles du sens dans une communauté" data-en="virtual sources of meaning in a community" class="translation">sources virtuelles du sens dans une communauté</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.A_O_.-.html">k.A:O:.-</a></td>
+                        <td data-fr="sources actuelles du sens dans la communauté" data-en="actual sources of meaning in a community" class="translation">sources actuelles du sens dans la communauté</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_U_.-.html">k.O:U:.-</a></td>
+                        <td data-fr="sources du sens dans une communauté virtuelle" data-en="sources of meaning in a virtual community" class="translation">sources du sens dans une communauté virtuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_A_.-.html">k.O:A:.-</a></td>
+                        <td data-fr="sources du sens dans une communauté actuelle" data-en="sources of meaning in an actual community" class="translation">sources du sens dans une communauté actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.U_O_.-.html">m.U:O:.-</a></td>
+                        <td data-fr="sources du sens dans une émotion liée au virtuel" data-en="sources of meaning in a virtual-related emotion" class="translation">sources du sens dans une émotion liée au virtuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.A_O_.-.html">m.A:O:.-</a></td>
+                        <td data-fr="sources du sens dans une émotion liée à l'actuel" data-en="sources of meaning in an actual-related emotion" class="translation">sources du sens dans une émotion liée à l'actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_U_.-.html">m.O:U:.-</a></td>
+                        <td data-fr="sources du sens dans l'espérance" data-en="sources of meaning in hope" class="translation">sources du sens dans l'espérance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_A_.-.html">m.O:A:.-</a></td>
+                        <td data-fr="sources du sens dans le courage" data-en="sources of meaning in courage" class="translation">sources du sens dans le courage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.U_O_.-.html">n.U:O:.-</a></td>
+                        <td data-fr="sources virtuelles du sens par la relation au cosmos" data-en="virtual sources of meaning by relating to the cosmos" class="translation">sources virtuelles du sens par la relation au cosmos</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.A_O_.-.html">n.A:O:.-</a></td>
+                        <td data-fr="sources actuelles du sens par la relation au cosmos" data-en="actual sources of meaning by relating to the cosmos" class="translation">sources actuelles du sens par la relation au cosmos</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_U_.-.html">n.O:U:.-</a></td>
+                        <td data-fr="sources du sens par relation au Ciel" data-en="sources of meaning by relating to the Heavens" class="translation">sources du sens par relation au Ciel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_A_.-.html">n.O:A:.-</a></td>
+                        <td data-fr="sources du sens par relation à la Terre" data-en="sources of meaning by relating to the Earth" class="translation">sources du sens par relation à la Terre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.U_O_.-.html">d.U:O:.-</a></td>
+                        <td data-fr="sources du sens par une contrainte virtuelle" data-en="sources of meaning through a virtual constraint" class="translation">sources du sens par une contrainte virtuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.A_O_.-.html">d.A:O:.-</a></td>
+                        <td data-fr="sources du sens par une contrainte actuelle" data-en="sources of meaning through an actual constraint" class="translation">sources du sens par une contrainte actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_U_.-.html">d.O:U:.-</a></td>
+                        <td data-fr="sources du sens par une contrainte formelle" data-en="sources of meaning through a formal constraint" class="translation">sources du sens par une contrainte formelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_A_.-.html">d.O:A:.-</a></td>
+                        <td data-fr="sources du sens par une contrainte pratique" data-en="sources of meaning through a practical constraint" class="translation">sources du sens par une contrainte pratique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.U_O_.-.html">f.U:O:.-</a></td>
+                        <td data-fr="ressourcement du sens par l'exercice" data-en="resourcing of meaning by exercise" class="translation">ressourcement du sens par l'exercice</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.A_O_.-.html">f.A:O:.-</a></td>
+                        <td data-fr="ressourcement du sens par le plaisir" data-en="resourcing of meaning by enjoyment" class="translation">ressourcement du sens par le plaisir</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_U_.-.html">f.O:U:.-</a></td>
+                        <td data-fr="sources du sens dans l'activité interne" data-en="sources of meaning in internal activity" class="translation">sources du sens dans l'activité interne</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_A_.-.html">f.O:A:.-</a></td>
+                        <td data-fr="sources du sens dans l'activité externe" data-en="sources of meaning in external activity" class="translation">sources du sens dans l'activité externe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.U_O_.-.html">l.U:O:.-</a></td>
+                        <td data-fr="sources du sens dans la liberté virtuelle" data-en="sources of meaning in virtual freedom" class="translation">sources du sens dans la liberté virtuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.A_O_.-.html">l.A:O:.-</a></td>
+                        <td data-fr="sources du sens dans la liberté actuelle" data-en="sources of meaning in actual freedom" class="translation">sources du sens dans la liberté actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_U_.-.html">l.O:U:.-</a></td>
+                        <td data-fr="sources du sens dans la liberté formelle" data-en="sources of meaning in formal freedom" class="translation">sources du sens dans la liberté formelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_A_.-.html">l.O:A:.-</a></td>
+                        <td data-fr="sources du sens dans la liberté pratique" data-en="sources of meaning in practical freedom" class="translation">sources du sens dans la liberté pratique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.wo.-.html">S:M:.wo.-</a></td>
+                        <td data-fr="connexion intellectuelle" data-en="intellectual connexion" class="translation">connexion intellectuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.wa.-.html">S:M:.wa.-</a></td>
+                        <td data-fr="effort d'ouverture" data-en="effort to open up" class="translation">effort d'ouverture</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.wu.-.html">S:M:.wu.-</a></td>
+                        <td data-fr="épanouissement de complexité esthétique" data-en="blooming of aesthetic complexity" class="translation">épanouissement de complexité esthétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.we.-.html">S:M:.we.-</a></td>
+                        <td data-fr="culture stable" data-en="stable culture" class="translation">culture stable</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.wo.-.html">B:M:.wo.-</a></td>
+                        <td data-fr="direction spirituelle" data-en="spiritual direction" class="translation">direction spirituelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.wa.-.html">B:M:.wa.-</a></td>
+                        <td data-fr="effort existentiel" data-en="existential effort" class="translation">effort existentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.wu.-.html">B:M:.wu.-</a></td>
+                        <td data-fr="libération d'énergie esthétique" data-en="liberation of aesthetic energy" class="translation">libération d'énergie esthétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.we.-.html">B:M:.we.-</a></td>
+                        <td data-fr="société stable" data-en="stable society" class="translation">société stable</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.wo.-.html">T:M:.wo.-</a></td>
+                        <td data-fr="effort intellectuel" data-en="intellectual effort" class="translation">effort intellectuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.wa.-.html">T:M:.wa.-</a></td>
+                        <td data-fr="effort pratique" data-en="practical effort" class="translation">effort pratique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.wu.-.html">T:M:.wu.-</a></td>
+                        <td data-fr="recherche de l'équilibre esthétique" data-en="research of aesthetic balance" class="translation">recherche de l'équilibre esthétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.we.-.html">T:M:.we.-</a></td>
+                        <td data-fr="activité stable" data-en="stable activity" class="translation">activité stable</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.wo.-.html">M:S:.wo.-</a></td>
+                        <td data-fr="quête formelle" data-en="formal quest" class="translation">quête formelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.wa.-.html">M:S:.wa.-</a></td>
+                        <td data-fr="quête de justesse" data-en="quest for rightness" class="translation">quête de justesse</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.wu.-.html">M:S:.wu.-</a></td>
+                        <td data-fr="quête de formes esthétiques" data-en="quest for aesthetic forms" class="translation">quête de formes esthétiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.we.-.html">M:S:.we.-</a></td>
+                        <td data-fr="effort d'adaptation" data-en="effort to adapt" class="translation">effort d'adaptation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.wo.-.html">M:B:.wo.-</a></td>
+                        <td data-fr="quête du renouveau intellectuel" data-en="quest of intellectual renewal" class="translation">quête du renouveau intellectuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.wa.-.html">M:B:.wa.-</a></td>
+                        <td data-fr="quête de l'action décisive" data-en="quest for decisive action" class="translation">quête de l'action décisive</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.wu.-.html">M:B:.wu.-</a></td>
+                        <td data-fr="quête de résonance esthétique" data-en="quest for aesthetic resonance" class="translation">quête de résonance esthétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.we.-.html">M:B:.we.-</a></td>
+                        <td data-fr="effort de conformité" data-en="effort of compliance" class="translation">effort de conformité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.wo.-.html">M:T:.wo.-</a></td>
+                        <td data-fr="quête des profondeurs" data-en="quest of depths" class="translation">quête des profondeurs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.wa.-.html">M:T:.wa.-</a></td>
+                        <td data-fr="quête de l'opportunité" data-en="quest for opportunity" class="translation">quête de l'opportunité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.wu.-.html">M:T:.wu.-</a></td>
+                        <td data-fr="quête de création esthétique" data-en="quest for aesthetic creation" class="translation">quête de création esthétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.we.-.html">M:T:.we.-</a></td>
+                        <td data-fr="effort de continuité" data-en="effort of continuity" class="translation">effort de continuité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_O_.-.html">s.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans la pensée" data-en="sources of meaning in thought" class="translation">sources du sens dans la pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_O_.-.html">b.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans la communication" data-en="sources of meaning in communication" class="translation">sources du sens dans la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_O_.-.html">t.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans la mémoire" data-en="sources of meaning in memory" class="translation">sources du sens dans la mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_O_.-.html">k.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans la communauté" data-en="sources of meaning in community" class="translation">sources du sens dans la communauté</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_O_.-.html">m.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans l'émotion" data-en="sources of meaning in emotions" class="translation">sources du sens dans l'émotion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_O_.-.html">n.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans le rapport au cosmos" data-en="sources of meaning by relating to the cosmos" class="translation">sources du sens dans le rapport au cosmos</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_O_.-.html">d.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans la rigueur" data-en="sources of meaning in rigor" class="translation">sources du sens dans la rigueur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_O_.-.html">f.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans le corps" data-en="sources of meaning in the body" class="translation">sources du sens dans le corps</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_O_.-.html">l.O:O:.-</a></td>
+                        <td data-fr="sources du sens dans la liberté | la responsabilité" data-en="sources of meaning in liberty | responsibility" class="translation">sources du sens dans la liberté | la responsabilité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.wo.-.html">M:M:.wo.-</a></td>
+                        <td data-fr="sources intellectuelles du sens" data-en="intellectual sources of meaning" class="translation">sources intellectuelles du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.wa.-.html">M:M:.wa.-</a></td>
+                        <td data-fr="sources pratiques du sens" data-en="practical sources of meaning" class="translation">sources pratiques du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.wu.-.html">M:M:.wu.-</a></td>
+                        <td data-fr="sources esthétiques du sens" data-en="aesthetic sources of meaning" class="translation">sources esthétiques du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.we.-.html">M:M:.we.-</a></td>
+                        <td data-fr="sources du sens dans la durabilité" data-en="sources of meaning in sustainability" class="translation">sources du sens dans la durabilité</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-7472857526">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-7472857526"
+                    aria-expanded="false"
+                    aria-controls="body-7472857526">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-7472857526"
+         class="collapse"
+         aria-labelledby="heading-7472857526"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-35878797193">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-35878797193"
+                    aria-expanded="false"
+                    aria-controls="body-35878797193">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-35878797193"
+         class="collapse"
+         aria-labelledby="heading-35878797193"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_O_..html">O:O:.</a></td>
+                        <td data-fr="phases de l'interaction | tétrade" data-en="interaction phases | tetrad" class="translation">phases de l'interaction | tétrade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_M_.O_O_.-.html">M:M:.O:O:.-</a> ressources du sens</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="5" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.O_O_.-.html"> M:M:.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="ressources du sens"
+                data-en="resources of meaning">
+                ressources du sens
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.wo.-.html"> M:M:.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="sources intellectuelles du sens"
+                data-en="intellectual sources of meaning">
+                sources intellectuelles du sens
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.wa.-.html"> M:M:.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="sources pratiques du sens"
+                data-en="practical sources of meaning">
+                sources pratiques du sens
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.wu.-.html"> M:M:.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="sources esthétiques du sens"
+                data-en="aesthetic sources of meaning">
+                sources esthétiques du sens
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.we.-.html"> M:M:.we.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans la durabilité"
+                data-en="sources of meaning in sustainability">
+                sources du sens dans la durabilité
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.O_O_.-.html"> s.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans la pensée"
+                data-en="sources of meaning in thought">
+                sources du sens dans la pensée
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.wo.-.html"> s.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="méta-niveau"
+                data-en="meta-level">
+                méta-niveau
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.wa.-.html"> s.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="contexte"
+                data-en="context">
+                contexte
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.wu.-.html"> s.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="analyse des perceptions"
+                data-en="analysis of perceptions">
+                analyse des perceptions
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.we.-.html"> s.we.- </a>
+            <span class="translation table-cell"
+                data-fr="souci de l'environnemt"
+                data-en="concern for the environment">
+                souci de l'environnemt
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.O_O_.-.html"> b.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans la communication"
+                data-en="sources of meaning in communication">
+                sources du sens dans la communication
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.wo.-.html"> b.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="échange intellectuel"
+                data-en="intellectual exchange">
+                échange intellectuel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.wa.-.html"> b.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="négociation | coordination"
+                data-en="negotiation | coordination">
+                négociation | coordination
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.wu.-.html"> b.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="rencontre esthétique"
+                data-en="aesthetic encounter">
+                rencontre esthétique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.we.-.html"> b.we.- </a>
+            <span class="translation table-cell"
+                data-fr="climat médiatique"
+                data-en="media climate">
+                climat médiatique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.O_O_.-.html"> t.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans la mémoire"
+                data-en="sources of meaning in memory">
+                sources du sens dans la mémoire
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.wo.-.html"> t.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="lien | relation"
+                data-en="link | relationship">
+                lien | relation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.wa.-.html"> t.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="hasard | événements inattendus"
+                data-en="chance | unexpected events">
+                hasard | événements inattendus
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.wu.-.html"> t.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="fil conducteur"
+                data-en="connecting thread">
+                fil conducteur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.we.-.html"> t.we.- </a>
+            <span class="translation table-cell"
+                data-fr="régularité"
+                data-en="regularity">
+                régularité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.O_O_.-.html"> k.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans la communauté"
+                data-en="sources of meaning in community">
+                sources du sens dans la communauté
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.wo.-.html"> k.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="école de pensée"
+                data-en="school of thought">
+                école de pensée
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.wa.-.html"> k.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="communauté d'action"
+                data-en="community of action">
+                communauté d'action
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.wu.-.html"> k.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="communauté de goût"
+                data-en="community of taste">
+                communauté de goût
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.we.-.html"> k.we.- </a>
+            <span class="translation table-cell"
+                data-fr="communauté de résidence"
+                data-en="residential community">
+                communauté de résidence
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.O_O_.-.html"> m.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans l'émotion"
+                data-en="sources of meaning in emotions">
+                sources du sens dans l'émotion
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.wo.-.html"> m.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="appel de l'inconnu"
+                data-en="appeal of the unknown">
+                appel de l'inconnu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.wa.-.html"> m.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="audace"
+                data-en="audacity">
+                audace
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.wu.-.html"> m.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="joie de vivre"
+                data-en="zest for life">
+                joie de vivre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.we.-.html"> m.we.- </a>
+            <span class="translation table-cell"
+                data-fr="acceptation des contraintes"
+                data-en="acceptance of constraints">
+                acceptation des contraintes
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.O_O_.-.html"> n.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans le rapport au cosmos"
+                data-en="sources of meaning by relating to the cosmos">
+                sources du sens dans le rapport au cosmos
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.wo.-.html"> n.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="exercice spirituel"
+                data-en="spiritual exercise">
+                exercice spirituel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.wa.-.html"> n.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="sagesse pratique | prudence"
+                data-en="practical wisdom | prudence">
+                sagesse pratique | prudence
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.wu.-.html"> n.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="imagination créatrice"
+                data-en="creative imagination">
+                imagination créatrice
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.we.-.html"> n.we.- </a>
+            <span class="translation table-cell"
+                data-fr="racines culturelles"
+                data-en="cultural roots">
+                racines culturelles
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.O_O_.-.html"> d.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans la rigueur"
+                data-en="sources of meaning in rigor">
+                sources du sens dans la rigueur
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.wo.-.html"> d.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="contrainte intellectuelle"
+                data-en="intellectual constraint">
+                contrainte intellectuelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.wa.-.html"> d.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="contrainte éthique"
+                data-en="ethical constraint">
+                contrainte éthique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.wu.-.html"> d.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="contrainte esthétique"
+                data-en="aesthetic constraint">
+                contrainte esthétique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.we.-.html"> d.we.- </a>
+            <span class="translation table-cell"
+                data-fr="contrainte technique"
+                data-en="technical constraint">
+                contrainte technique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.O_O_.-.html"> f.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans le corps"
+                data-en="sources of meaning in the body">
+                sources du sens dans le corps
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.wo.-.html"> f.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="exercice intellectuel"
+                data-en="intellectual gymnastics">
+                exercice intellectuel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.wa.-.html"> f.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="activité physique"
+                data-en="physical activity">
+                activité physique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.wu.-.html"> f.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="éclat des perceptions"
+                data-en="brilliance of perceptions">
+                éclat des perceptions
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.we.-.html"> f.we.- </a>
+            <span class="translation table-cell"
+                data-fr="loisir | divertissement | récréation"
+                data-en="leisure | entertainment | recreation">
+                loisir | divertissement | récréation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.O_O_.-.html"> l.O:O:.- </a>
+            <span class="translation table-cell"
+                data-fr="sources du sens dans la liberté | la responsabilité"
+                data-en="sources of meaning in liberty | responsibility">
+                sources du sens dans la liberté | la responsabilité
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.wo.-.html"> l.wo.- </a>
+            <span class="translation table-cell"
+                data-fr="liberté de pensée"
+                data-en="freedom of thought">
+                liberté de pensée
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.wa.-.html"> l.wa.- </a>
+            <span class="translation table-cell"
+                data-fr="liberté de circulation"
+                data-en="freedom of movement">
+                liberté de circulation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.wu.-.html"> l.wu.- </a>
+            <span class="translation table-cell"
+                data-fr="liberté d'expression"
+                data-en="freedom of expression">
+                liberté d'expression
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.we.-.html"> l.we.- </a>
+            <span class="translation table-cell"
+                data-fr="liberté | responsabilité économique"
+                data-en="economic freedom | responsibility">
+                liberté | responsabilité économique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

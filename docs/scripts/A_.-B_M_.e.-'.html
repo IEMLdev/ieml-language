@@ -1,0 +1,517 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            A:.-B:M:.e.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>acquérir les compétences actuelles du trivium de l'être</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>gain the actual skills of the trivium of being</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-verb">Verb</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>3</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>5</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/A_.-M_M_.e.-'.html"> A:.-M:M:.e.-' </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/O_.-M_M_.e.-'.html"> O:.-M:M:.e.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>1</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(3,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table A:.-B:M:.e.-'</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-17901846500">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-17901846500"
+                    aria-expanded="false"
+                    aria-controls="body-17901846500">
+                    <span> <span class="badge badge-pill badge-Light">3</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-17901846500"
+         class="collapse"
+         aria-labelledby="heading-17901846500"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_.-B_M_.e.-'.html">O:.-B:M:.e.-'</a></td>
+                        <td data-fr="acquérir le trivium de l'être" data-en="gain the trivium of being" class="translation">acquérir le trivium de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_.-M_M_.e.-'.html">A:.-M:M:.e.-'</a></td>
+                        <td data-fr="habileté actuelle (acquérir)" data-en="actual ability (gain)" class="translation">habileté actuelle (acquérir)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_.-M_M_.e.-'.html">O:.-M:M:.e.-'</a></td>
+                        <td data-fr="domaines d'habileté (verbes)" data-en="ability domains (verbs)" class="translation">domaines d'habileté (verbes)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-5756940971">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-5756940971"
+                    aria-expanded="false"
+                    aria-controls="body-5756940971">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-5756940971"
+         class="collapse"
+         aria-labelledby="heading-5756940971"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/A_.html">A:</a></td>
+                        <td data-fr="actuel" data-en="actual" class="translation">actuel</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-92065852965">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-92065852965"
+                    aria-expanded="false"
+                    aria-controls="body-92065852965">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-92065852965"
+         class="collapse"
+         aria-labelledby="heading-92065852965"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.e.-.html">B:M:.e.-</a></td>
+                        <td data-fr="savoir faire portant sur les êtres" data-en="expertise on beings" class="translation">savoir faire portant sur les êtres</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/A_.-B_M_.e.-'.html">A:.-B:M:.e.-'</a> acquérir les compétences actuelles du trivium de l'être</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/A_.-B_M_.e.-'.html"> A:.-B:M:.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="acquérir les compétences actuelles du trivium de l'être"
+                data-en="gain the actual skills of the trivium of being">
+                acquérir les compétences actuelles du trivium de l'être
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/A_.-k.e.-'.html"> A:.-k.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="autonomie affective (acquérir)"
+                data-en="affective autonomy (gain)">
+                autonomie affective (acquérir)
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/A_.-m.e.-'.html"> A:.-m.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="respect de l'interlocuteur (acquérir)"
+                data-en="respect for the interlocutor (gain)">
+                respect de l'interlocuteur (acquérir)
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/A_.-n.e.-'.html"> A:.-n.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="inspirer (acquérir la capacité d')"
+                data-en="inspire (gain the ability to)">
+                inspirer (acquérir la capacité d')
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1837 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            M:O:.M:M:.-
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>obstacles</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>obstacles</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>54</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>1</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/M_O_.M_M_.-+M_M_.M_O_.-.html"> M:O:.M:M:.-+M:M:.M:O:.- </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_O_.M_M_.-+M_M_.M_O_.-.html"> M:O:.M:M:.-+M:M:.M:O:.- </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(6, 9)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:O:.M:M:.-</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-59573334539">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-59573334539"
+                    aria-expanded="false"
+                    aria-controls="body-59573334539">
+                    <span> <span class="badge badge-pill badge-Light">1</span> opposed </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-59573334539"
+         class="collapse"
+         aria-labelledby="heading-59573334539"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.M_O_.-.html">M:M:.M:O:.-</a></td>
+                        <td data-fr="cycle de création-innovation" data-en="creation-innovation cycle" class="translation">cycle de création-innovation</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-44100340398">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-44100340398"
+                    aria-expanded="false"
+                    aria-controls="body-44100340398">
+                    <span> <span class="badge badge-pill badge-Light">51</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-44100340398"
+         class="collapse"
+         aria-labelledby="heading-44100340398"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/j.S_M_.-.html">j.S:M:.-</a></td>
+                        <td data-fr="obstacle poétique formel" data-en="formal poetical obstacle" class="translation">obstacle poétique formel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.B_M_.-.html">j.B:M:.-</a></td>
+                        <td data-fr="obstacle poétique existentiel" data-en="existential poetical obstacle" class="translation">obstacle poétique existentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.T_M_.-.html">j.T:M:.-</a></td>
+                        <td data-fr="obstacle poétique objectif" data-en="objective poetical obtacle" class="translation">obstacle poétique objectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.M_S_.-.html">j.M:S:.-</a></td>
+                        <td data-fr="défaut linguistique" data-en="linguistic defect" class="translation">défaut linguistique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.M_B_.-.html">j.M:B:.-</a></td>
+                        <td data-fr="défaut esthétique" data-en="aesthetic defect" class="translation">défaut esthétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.M_T_.-.html">j.M:T:.-</a></td>
+                        <td data-fr="défaut de communication" data-en="communication defect" class="translation">défaut de communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.S_M_.-.html">g.S:M:.-</a></td>
+                        <td data-fr="obstacle formel à la communication" data-en="communication with formal obstacle" class="translation">obstacle formel à la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.B_M_.-.html">g.B:M:.-</a></td>
+                        <td data-fr="obstacle subjectif à la communication" data-en="communication with subjective obstacle" class="translation">obstacle subjectif à la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.T_M_.-.html">g.T:M:.-</a></td>
+                        <td data-fr="obstacle objectif à la communication" data-en="communication with objective obstacle" class="translation">obstacle objectif à la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.M_S_.-.html">g.M:S:.-</a></td>
+                        <td data-fr="défaillance formelle de la communication" data-en="formal failure of communication" class="translation">défaillance formelle de la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.M_B_.-.html">g.M:B:.-</a></td>
+                        <td data-fr="défaillance subjective de la communication" data-en="communication with subjective failure" class="translation">défaillance subjective de la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.M_T_.-.html">g.M:T:.-</a></td>
+                        <td data-fr="défaillance objective de la communication" data-en="objective failure of communication" class="translation">défaillance objective de la communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.S_M_.-.html">h.S:M:.-</a></td>
+                        <td data-fr="obstacle spirituel formel" data-en="formal spiritual obstacle" class="translation">obstacle spirituel formel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.B_M_.-.html">h.B:M:.-</a></td>
+                        <td data-fr="obstacle spirituel existentiel" data-en="existential spiritual obstacle" class="translation">obstacle spirituel existentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.T_M_.-.html">h.T:M:.-</a></td>
+                        <td data-fr="obstacle spirituel objectif" data-en="objective spiritual obstacle" class="translation">obstacle spirituel objectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_S_.-.html">h.M:S:.-</a></td>
+                        <td data-fr="défaillance spirituelle dans la forme" data-en="spiritual failure in formal matters" class="translation">défaillance spirituelle dans la forme</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_B_.-.html">h.M:B:.-</a></td>
+                        <td data-fr="défaillance spirituelle dans l'intersubjectivité" data-en="spiritual failure in intersubjective matters" class="translation">défaillance spirituelle dans l'intersubjectivité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_T_.-.html">h.M:T:.-</a></td>
+                        <td data-fr="défaillance spirituelle dans l'objectivité" data-en="spiritual failure in objective matters" class="translation">défaillance spirituelle dans l'objectivité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.S_M_.-.html">c.S:M:.-</a></td>
+                        <td data-fr="obstacle socio-politique formel" data-en="formal socio-political obstacle" class="translation">obstacle socio-politique formel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.B_M_.-.html">c.B:M:.-</a></td>
+                        <td data-fr="obstacle socio-politique existentiel" data-en="existential socio-political obstacle" class="translation">obstacle socio-politique existentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.T_M_.-.html">c.T:M:.-</a></td>
+                        <td data-fr="obstacle socio-politique objectif" data-en="objective socio-political obstacle" class="translation">obstacle socio-politique objectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.M_S_.-.html">c.M:S:.-</a></td>
+                        <td data-fr="défaillance socio-politique formelle" data-en="formal socio-political failure" class="translation">défaillance socio-politique formelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.M_B_.-.html">c.M:B:.-</a></td>
+                        <td data-fr="défaillance socio-politique existentielle" data-en="existential socio-political failure" class="translation">défaillance socio-politique existentielle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.M_T_.-.html">c.M:T:.-</a></td>
+                        <td data-fr="défaillance socio-politique objective" data-en="objective socio-political failure" class="translation">défaillance socio-politique objective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.S_M_.-.html">p.S:M:.-</a></td>
+                        <td data-fr="obstacle économique formel" data-en="formal economic obstacle" class="translation">obstacle économique formel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.B_M_.-.html">p.B:M:.-</a></td>
+                        <td data-fr="obstacle économique subjectif" data-en="subjective economic obstacle" class="translation">obstacle économique subjectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.T_M_.-.html">p.T:M:.-</a></td>
+                        <td data-fr="obstacle économique objectif" data-en="objective economic obstacle" class="translation">obstacle économique objectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.M_S_.-.html">p.M:S:.-</a></td>
+                        <td data-fr="défaillance économique formelle" data-en="formal economic failure" class="translation">défaillance économique formelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.M_B_.-.html">p.M:B:.-</a></td>
+                        <td data-fr="défaillance économique intersubjective" data-en="intersubjective economic failure" class="translation">défaillance économique intersubjective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.M_T_.-.html">p.M:T:.-</a></td>
+                        <td data-fr="défaillance économique objective" data-en="objective economic failure" class="translation">défaillance économique objective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.S_M_.-.html">x.S:M:.-</a></td>
+                        <td data-fr="obstacle technique formel" data-en="formal technical obstacle" class="translation">obstacle technique formel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.B_M_.-.html">x.B:M:.-</a></td>
+                        <td data-fr="obstacle technique existentiel" data-en="existential technical obstacle" class="translation">obstacle technique existentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.T_M_.-.html">x.T:M:.-</a></td>
+                        <td data-fr="obstacle technique objectif" data-en="objective technical obstacle" class="translation">obstacle technique objectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.M_S_.-.html">x.M:S:.-</a></td>
+                        <td data-fr="défaillance technique formelle" data-en="formal technical failure" class="translation">défaillance technique formelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.M_B_.-.html">x.M:B:.-</a></td>
+                        <td data-fr="défaillance technique intersubjective" data-en="intersubjective technical failure" class="translation">défaillance technique intersubjective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.M_T_.-.html">x.M:T:.-</a></td>
+                        <td data-fr="défaillance technique objective" data-en="objective technical failure" class="translation">défaillance technique objective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.s.-.html">M:O:.s.-</a></td>
+                        <td data-fr="obstacle initial" data-en="initial obstacle" class="translation">obstacle initial</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.b.-.html">M:O:.b.-</a></td>
+                        <td data-fr="défaut du langage" data-en="defect of language" class="translation">défaut du langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.t.-.html">M:O:.t.-</a></td>
+                        <td data-fr="défaut temporel" data-en="temporal defect" class="translation">défaut temporel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.k.-.html">M:O:.k.-</a></td>
+                        <td data-fr="défaut de communauté" data-en="defect in community" class="translation">défaut de communauté</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.m.-.html">M:O:.m.-</a></td>
+                        <td data-fr="défaut éthique" data-en="ethical defect" class="translation">défaut éthique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.n.-.html">M:O:.n.-</a></td>
+                        <td data-fr="défaut de vitalité" data-en="vitality deficiency" class="translation">défaut de vitalité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.d.-.html">M:O:.d.-</a></td>
+                        <td data-fr="défaut épistémique" data-en="epistemic defect" class="translation">défaut épistémique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.f.-.html">M:O:.f.-</a></td>
+                        <td data-fr="obstacle personnel" data-en="personal obstacle" class="translation">obstacle personnel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.l.-.html">M:O:.l.-</a></td>
+                        <td data-fr="obstacle spatial" data-en="spatial obstacle" class="translation">obstacle spatial</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.M_M_.-.html">j.M:M:.-</a></td>
+                        <td data-fr="obstacle poétique" data-en="poetic obstacle" class="translation">obstacle poétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.M_M_.-.html">g.M:M:.-</a></td>
+                        <td data-fr="obstacle communicationnel" data-en="obstacle related to communication" class="translation">obstacle communicationnel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_M_.-.html">h.M:M:.-</a></td>
+                        <td data-fr="obstacle spirituel" data-en="spiritual obstacle" class="translation">obstacle spirituel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.M_M_.-.html">c.M:M:.-</a></td>
+                        <td data-fr="obstacle sociopolitique" data-en="socio-political obstacle" class="translation">obstacle sociopolitique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.M_M_.-.html">p.M:M:.-</a></td>
+                        <td data-fr="obstacle économique" data-en="economic obstacle" class="translation">obstacle économique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.M_M_.-.html">x.M:M:.-</a></td>
+                        <td data-fr="obstacle technique" data-en="technical obstacle" class="translation">obstacle technique</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-51164610180">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-51164610180"
+                    aria-expanded="false"
+                    aria-controls="body-51164610180">
+                    <span> <span class="badge badge-pill badge-Light">1</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-51164610180"
+         class="collapse"
+         aria-labelledby="heading-51164610180"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.M_M_.-+M_M_.M_O_.-.html">M:O:.M:M:.-+M:M:.M:O:.-</a></td>
+                        <td data-fr="déterminants de la création (positifs et négatifs)" data-en="déterminations of creation (positive and negative)" class="translation">déterminants de la création (positifs et négatifs)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-27950671884">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-27950671884"
+                    aria-expanded="false"
+                    aria-controls="body-27950671884">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-27950671884"
+         class="collapse"
+         aria-labelledby="heading-27950671884"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_..html">M:O:.</a></td>
+                        <td data-fr="agents" data-en="agents" class="translation">agents</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-59837379959">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-59837379959"
+                    aria-expanded="false"
+                    aria-controls="body-59837379959">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-59837379959"
+         class="collapse"
+         aria-labelledby="heading-59837379959"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_O_.M_M_.-.html">M:O:.M:M:.-</a> obstacles</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="10" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.M_M_.-.html"> M:O:.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacles"
+                data-en="obstacles">
+                obstacles
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.s.-.html"> M:O:.s.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle initial"
+                data-en="initial obstacle">
+                obstacle initial
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.b.-.html"> M:O:.b.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut du langage"
+                data-en="defect of language">
+                défaut du langage
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.t.-.html"> M:O:.t.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut temporel"
+                data-en="temporal defect">
+                défaut temporel
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.k.-.html"> M:O:.k.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut de communauté"
+                data-en="defect in community">
+                défaut de communauté
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.m.-.html"> M:O:.m.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut éthique"
+                data-en="ethical defect">
+                défaut éthique
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.n.-.html"> M:O:.n.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut de vitalité"
+                data-en="vitality deficiency">
+                défaut de vitalité
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.d.-.html"> M:O:.d.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut épistémique"
+                data-en="epistemic defect">
+                défaut épistémique
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.f.-.html"> M:O:.f.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle personnel"
+                data-en="personal obstacle">
+                obstacle personnel
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.l.-.html"> M:O:.l.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle spatial"
+                data-en="spatial obstacle">
+                obstacle spatial
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.M_M_.-.html"> j.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle poétique"
+                data-en="poetic obstacle">
+                obstacle poétique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.s.-.html"> j.s.- </a>
+            <span class="translation table-cell"
+                data-fr="lapsus"
+                data-en="slip of tongue">
+                lapsus
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.b.-.html"> j.b.- </a>
+            <span class="translation table-cell"
+                data-fr="redondance"
+                data-en="redundancy">
+                redondance
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.t.-.html"> j.t.- </a>
+            <span class="translation table-cell"
+                data-fr="archaïsme"
+                data-en="archaism">
+                archaïsme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.k.-.html"> j.k.- </a>
+            <span class="translation table-cell"
+                data-fr="erreur de syntaxe | impropriété lexicale"
+                data-en="syntactic mistake | lexical inappropriateness">
+                erreur de syntaxe | impropriété lexicale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.m.-.html"> j.m.- </a>
+            <span class="translation table-cell"
+                data-fr="expression non-sentie"
+                data-en="unfelt expression">
+                expression non-sentie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.n.-.html"> j.n.- </a>
+            <span class="translation table-cell"
+                data-fr="cliché | platitude | banalité"
+                data-en="cliché | platitude | banality">
+                cliché | platitude | banalité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.d.-.html"> j.d.- </a>
+            <span class="translation table-cell"
+                data-fr="langue de bois | imitation | psittacisme"
+                data-en="double talk | mimicry | parroting">
+                langue de bois | imitation | psittacisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.f.-.html"> j.f.- </a>
+            <span class="translation table-cell"
+                data-fr="absence de sensibilité esthétique"
+                data-en="lack of aesthetic sensibility">
+                absence de sensibilité esthétique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.l.-.html"> j.l.- </a>
+            <span class="translation table-cell"
+                data-fr="isolement | absence d'écho"
+                data-en="isolation | absence of echo">
+                isolement | absence d'écho
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.M_M_.-.html"> g.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle communicationnel"
+                data-en="obstacle related to communication">
+                obstacle communicationnel
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.s.-.html"> g.s.- </a>
+            <span class="translation table-cell"
+                data-fr="bruit, chaos"
+                data-en="noise, chaos">
+                bruit, chaos
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.b.-.html"> g.b.- </a>
+            <span class="translation table-cell"
+                data-fr="erreur de transmission"
+                data-en="transmission error">
+                erreur de transmission
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.t.-.html"> g.t.- </a>
+            <span class="translation table-cell"
+                data-fr="incongruité | propos inopportun"
+                data-en="inappropriate expression | untimely expression">
+                incongruité | propos inopportun
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.k.-.html"> g.k.- </a>
+            <span class="translation table-cell"
+                data-fr="désaffection du public | du médium"
+                data-en="lack of interest from the public | for the medium">
+                désaffection du public | du médium
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.m.-.html"> g.m.- </a>
+            <span class="translation table-cell"
+                data-fr="médisance | mépris"
+                data-en="malicious gossip | contempt">
+                médisance | mépris
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.n.-.html"> g.n.- </a>
+            <span class="translation table-cell"
+                data-fr="inertie des mentalités"
+                data-en="inertia of mindsets">
+                inertie des mentalités
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.d.-.html"> g.d.- </a>
+            <span class="translation table-cell"
+                data-fr="erreur de calcul"
+                data-en="calculation mistake">
+                erreur de calcul
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.f.-.html"> g.f.- </a>
+            <span class="translation table-cell"
+                data-fr="censure | trahison du message"
+                data-en="censorship | message betrayal">
+                censure | trahison du message
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.l.-.html"> g.l.- </a>
+            <span class="translation table-cell"
+                data-fr="fermeture | rigidité intellectuelle"
+                data-en="intellectual closedness | rigidity">
+                fermeture | rigidité intellectuelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.M_M_.-.html"> h.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle spirituel"
+                data-en="spiritual obstacle">
+                obstacle spirituel
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.s.-.html"> h.s.- </a>
+            <span class="translation table-cell"
+                data-fr="confusion"
+                data-en="confusion">
+                confusion
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.b.-.html"> h.b.- </a>
+            <span class="translation table-cell"
+                data-fr="langage manipulateur | manipulation"
+                data-en="manipulative language | manipulation">
+                langage manipulateur | manipulation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.t.-.html"> h.t.- </a>
+            <span class="translation table-cell"
+                data-fr="oubli"
+                data-en="forgetfulness">
+                oubli
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.k.-.html"> h.k.- </a>
+            <span class="translation table-cell"
+                data-fr="trahison de l'esprit | de la tradition"
+                data-en="betrayal of the spirit | of tradition">
+                trahison de l'esprit | de la tradition
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.m.-.html"> h.m.- </a>
+            <span class="translation table-cell"
+                data-fr="incohérence entre les paroles et les actes"
+                data-en="inconsistency between word and action">
+                incohérence entre les paroles et les actes
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.n.-.html"> h.n.- </a>
+            <span class="translation table-cell"
+                data-fr="opportunisme"
+                data-en="opportunism">
+                opportunisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.d.-.html"> h.d.- </a>
+            <span class="translation table-cell"
+                data-fr="grossièreté | pauvreté culturelle"
+                data-en="cultural coarseness | poorness">
+                grossièreté | pauvreté culturelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.f.-.html"> h.f.- </a>
+            <span class="translation table-cell"
+                data-fr="rupture"
+                data-en="break-up">
+                rupture
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.l.-.html"> h.l.- </a>
+            <span class="translation table-cell"
+                data-fr="intégrisme | xénophobie"
+                data-en="fundamentalism | xenophobia">
+                intégrisme | xénophobie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.M_M_.-.html"> c.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle sociopolitique"
+                data-en="socio-political obstacle">
+                obstacle sociopolitique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.s.-.html"> c.s.- </a>
+            <span class="translation table-cell"
+                data-fr="fanatisme révolutionnaire | ultraconservatisme"
+                data-en="revolutionary fanaticism | ultraconservatism">
+                fanatisme révolutionnaire | ultraconservatisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.b.-.html"> c.b.- </a>
+            <span class="translation table-cell"
+                data-fr="langage d'exclusion ou de haine | discrimination basée sur des préjugés"
+                data-en="language of exclusion or hate | discrimination based on prejudice">
+                langage d'exclusion ou de haine | discrimination basée sur des préjugés
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.t.-.html"> c.t.- </a>
+            <span class="translation table-cell"
+                data-fr="érosion de la base politique"
+                data-en="erosion of political base">
+                érosion de la base politique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.k.-.html"> c.k.- </a>
+            <span class="translation table-cell"
+                data-fr="sclérose du lien"
+                data-en="sclerosis of the bond">
+                sclérose du lien
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.m.-.html"> c.m.- </a>
+            <span class="translation table-cell"
+                data-fr="harcèlement | persécution"
+                data-en="harassment | persecution">
+                harcèlement | persécution
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.n.-.html"> c.n.- </a>
+            <span class="translation table-cell"
+                data-fr="stagnation politique"
+                data-en="political stagnation">
+                stagnation politique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.d.-.html"> c.d.- </a>
+            <span class="translation table-cell"
+                data-fr="hypocrisie | tromperie"
+                data-en="hypocrisy | deception">
+                hypocrisie | tromperie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.f.-.html"> c.f.- </a>
+            <span class="translation table-cell"
+                data-fr="échec | défaite personnelle"
+                data-en="personal failure | defeat">
+                échec | défaite personnelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.l.-.html"> c.l.- </a>
+            <span class="translation table-cell"
+                data-fr="exil"
+                data-en="exile">
+                exil
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.M_M_.-.html"> p.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle économique"
+                data-en="economic obstacle">
+                obstacle économique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.s.-.html"> p.s.- </a>
+            <span class="translation table-cell"
+                data-fr="absence d'initiative économique"
+                data-en="lack of economic initiative">
+                absence d'initiative économique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.b.-.html"> p.b.- </a>
+            <span class="translation table-cell"
+                data-fr="mauvaise réputation | rejet par les consommateurs"
+                data-en="bad reputation | rejection from the consumers">
+                mauvaise réputation | rejet par les consommateurs
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.t.-.html"> p.t.- </a>
+            <span class="translation table-cell"
+                data-fr="gaspillage | perte, érosion du capital"
+                data-en="waste | loss, erosion of capital">
+                gaspillage | perte, érosion du capital
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.k.-.html"> p.k.- </a>
+            <span class="translation table-cell"
+                data-fr="fermeture d'entreprise | faillite"
+                data-en="company closing down | bankruptcy">
+                fermeture d'entreprise | faillite
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.m.-.html"> p.m.- </a>
+            <span class="translation table-cell"
+                data-fr="exploitation"
+                data-en="exploitation">
+                exploitation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.n.-.html"> p.n.- </a>
+            <span class="translation table-cell"
+                data-fr="pauvreté | manque de moyens"
+                data-en="poverty | lack of means">
+                pauvreté | manque de moyens
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.d.-.html"> p.d.- </a>
+            <span class="translation table-cell"
+                data-fr="absence d'éducation et d'information économique"
+                data-en="lack of economic information and training">
+                absence d'éducation et d'information économique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.f.-.html"> p.f.- </a>
+            <span class="translation table-cell"
+                data-fr="vol | concurrence déloyale"
+                data-en="theft | unfair competition">
+                vol | concurrence déloyale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.l.-.html"> p.l.- </a>
+            <span class="translation table-cell"
+                data-fr="circuits économiques fermés"
+                data-en="closed economic cicuits">
+                circuits économiques fermés
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.M_M_.-.html"> x.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="obstacle technique"
+                data-en="technical obstacle">
+                obstacle technique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.s.-.html"> x.s.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut de conception"
+                data-en="design flaw">
+                défaut de conception
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.b.-.html"> x.b.- </a>
+            <span class="translation table-cell"
+                data-fr="absence de langage commun | de moyens de communication"
+                data-en="lack of common language | of communication tools">
+                absence de langage commun | de moyens de communication
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.t.-.html"> x.t.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut de coordination | de gestion des ressources"
+                data-en="deficiency in coordination | in resources management">
+                défaut de coordination | de gestion des ressources
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.k.-.html"> x.k.- </a>
+            <span class="translation table-cell"
+                data-fr="manque de ressources humaines"
+                data-en="lack of human resources">
+                manque de ressources humaines
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.m.-.html"> x.m.- </a>
+            <span class="translation table-cell"
+                data-fr="conflit de travail | au travail"
+                data-en="labour dispute | conflicts at work">
+                conflit de travail | au travail
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.n.-.html"> x.n.- </a>
+            <span class="translation table-cell"
+                data-fr="obsolescence | usure"
+                data-en="obsolescence | wear">
+                obsolescence | usure
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.d.-.html"> x.d.- </a>
+            <span class="translation table-cell"
+                data-fr="défaut d'exécution"
+                data-en="execution flaw">
+                défaut d'exécution
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.f.-.html"> x.f.- </a>
+            <span class="translation table-cell"
+                data-fr="panne non réparée | inefficacité"
+                data-en="non repaired breakdown | inefficiency">
+                panne non réparée | inefficacité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.l.-.html"> x.l.- </a>
+            <span class="translation table-cell"
+                data-fr="expulsion | destruction d'habitat"
+                data-en="expulsion | habitat destruction">
+                expulsion | destruction d'habitat
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

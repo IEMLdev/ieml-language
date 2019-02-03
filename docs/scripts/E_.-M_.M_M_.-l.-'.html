@@ -1,0 +1,1271 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            E:.-M:.M:M:.-l.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>situation: cheminement</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>situation: path</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-aux">Auxiliary</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>27</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>2</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/E_.-F_.M_M_.-l.-'.html"> E:.-F:.M:M:.-l.-' </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/E_.-F_.M_M_.-l.-'.html"> E:.-F:.M:M:.-l.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(3, 9)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table E:.-M:.M:M:.-l.-'</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-81307386157">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-81307386157"
+                    aria-expanded="false"
+                    aria-controls="body-81307386157">
+                    <span> <span class="badge badge-pill badge-Light">34</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-81307386157"
+         class="collapse"
+         aria-labelledby="heading-81307386157"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.S_M_.-l.-'.html">E:.-S:.S:M:.-l.-'</a></td>
+                        <td data-fr="origine objective" data-en="objective origin" class="translation">origine objective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.B_M_.-l.-'.html">E:.-S:.B:M:.-l.-'</a></td>
+                        <td data-fr="parcours" data-en="course" class="translation">parcours</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.T_M_.-l.-'.html">E:.-S:.T:M:.-l.-'</a></td>
+                        <td data-fr="fin objective" data-en="objective end" class="translation">fin objective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.M_S_.-l.-'.html">E:.-S:.M:S:.-l.-'</a></td>
+                        <td data-fr="moteur (situation spatiale)" data-en="shifter" class="translation">moteur (situation spatiale)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.M_B_.-l.-'.html">E:.-S:.M:B:.-l.-'</a></td>
+                        <td data-fr="chemin" data-en="path" class="translation">chemin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.M_T_.-l.-'.html">E:.-S:.M:T:.-l.-'</a></td>
+                        <td data-fr="traversée" data-en="traversal" class="translation">traversée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.S_M_.-l.-'.html">E:.-B:.S:M:.-l.-'</a></td>
+                        <td data-fr="origine subjective" data-en="subjective origin" class="translation">origine subjective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.B_M_.-l.-'.html">E:.-B:.B:M:.-l.-'</a></td>
+                        <td data-fr="proximité" data-en="proximity" class="translation">proximité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.T_M_.-l.-'.html">E:.-B:.T:M:.-l.-'</a></td>
+                        <td data-fr="fin subjective" data-en="subjective end" class="translation">fin subjective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_S_.-l.-'.html">E:.-B:.M:S:.-l.-'</a></td>
+                        <td data-fr="orientation dedans-dehors" data-en="inside-outside orientation" class="translation">orientation dedans-dehors</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_B_.-l.-'.html">E:.-B:.M:B:.-l.-'</a></td>
+                        <td data-fr="orientation latérale" data-en="lateral orientation" class="translation">orientation latérale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_T_.-l.-'.html">E:.-B:.M:T:.-l.-'</a></td>
+                        <td data-fr="orientation de distance" data-en="distance orientation" class="translation">orientation de distance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.S_M_.-l.-'.html">E:.-T:.S:M:.-l.-'</a></td>
+                        <td data-fr="vers l'extérieur" data-en="to the outside" class="translation">vers l'extérieur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.B_M_.-l.-'.html">E:.-T:.B:M:.-l.-'</a></td>
+                        <td data-fr="tangent" data-en="tangent" class="translation">tangent</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.T_M_.-l.-'.html">E:.-T:.T:M:.-l.-'</a></td>
+                        <td data-fr="vers l'intérieur" data-en="to the inside" class="translation">vers l'intérieur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.M_S_.-l.-'.html">E:.-T:.M:S:.-l.-'</a></td>
+                        <td data-fr="relatif à un point" data-en="relative to a point" class="translation">relatif à un point</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.M_B_.-l.-'.html">E:.-T:.M:B:.-l.-'</a></td>
+                        <td data-fr="relatif à un lieu" data-en="relative to a place" class="translation">relatif à un lieu</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.M_T_.-l.-'.html">E:.-T:.M:T:.-l.-'</a></td>
+                        <td data-fr="relatif à un centre" data-en="relative to a center" class="translation">relatif à un centre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.s.-l.-'.html">E:.-M:.s.-l.-'</a></td>
+                        <td data-fr="origine dynamique" data-en="dynamic origin" class="translation">origine dynamique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.b.-l.-'.html">E:.-M:.b.-l.-'</a></td>
+                        <td data-fr="origine relative" data-en="relative origin" class="translation">origine relative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.t.-l.-'.html">E:.-M:.t.-l.-'</a></td>
+                        <td data-fr="origine absolue" data-en="absolute origin" class="translation">origine absolue</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.k.-l.-'.html">E:.-M:.k.-l.-'</a></td>
+                        <td data-fr="intermédiaire dynamique" data-en="dynamic intermediary" class="translation">intermédiaire dynamique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.m.-l.-'.html">E:.-M:.m.-l.-'</a></td>
+                        <td data-fr="intermediaire relatif" data-en="relative intermediary" class="translation">intermediaire relatif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.n.-l.-'.html">E:.-M:.n.-l.-'</a></td>
+                        <td data-fr="intermédiaire absolu" data-en="absolute intermediary" class="translation">intermédiaire absolu</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.d.-l.-'.html">E:.-M:.d.-l.-'</a></td>
+                        <td data-fr="terminaison dynamique" data-en="dynamic termination" class="translation">terminaison dynamique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.f.-l.-'.html">E:.-M:.f.-l.-'</a></td>
+                        <td data-fr="terminaison relative" data-en="relative termination" class="translation">terminaison relative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.l.-l.-'.html">E:.-M:.l.-l.-'</a></td>
+                        <td data-fr="terminaison absolue" data-en="absolute termination" class="translation">terminaison absolue</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.M_M_.-l.-'.html">E:.-S:.M:M:.-l.-'</a></td>
+                        <td data-fr="rôles de chemin" data-en="path roles" class="translation">rôles de chemin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_M_.-l.-'.html">E:.-B:.M:M:.-l.-'</a></td>
+                        <td data-fr="position" data-en="position" class="translation">position</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.M_M_.-l.-'.html">E:.-T:.M:M:.-l.-'</a></td>
+                        <td data-fr="mouvement" data-en="movement" class="translation">mouvement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.S_M_.-l.-'.html">E:.-M:.S:M:.-l.-'</a></td>
+                        <td data-fr="commencement" data-en="beginning" class="translation">commencement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.B_M_.-l.-'.html">E:.-M:.B:M:.-l.-'</a></td>
+                        <td data-fr="intermédiaire" data-en="intermediary" class="translation">intermédiaire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.T_M_.-l.-'.html">E:.-M:.T:M:.-l.-'</a></td>
+                        <td data-fr="terminaison" data-en="termination" class="translation">terminaison</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.M_B_.-l.-'.html">E:.-M:.M:B:.-l.-'</a></td>
+                        <td data-fr="lateral" data-en="lateral" class="translation">lateral</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-43526142904">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-43526142904"
+                    aria-expanded="false"
+                    aria-controls="body-43526142904">
+                    <span> <span class="badge badge-pill badge-Light">1</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-43526142904"
+         class="collapse"
+         aria-labelledby="heading-43526142904"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.M_M_.-l.-'.html">E:.-F:.M:M:.-l.-'</a></td>
+                        <td data-fr="situation spatiale, dans l'espace | où" data-en="spatial situation, in the space | where" class="translation">situation spatiale, dans l'espace | où</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-14298516985">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-14298516985"
+                    aria-expanded="false"
+                    aria-controls="body-14298516985">
+                    <span> <span class="badge badge-pill badge-Light">4</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-14298516985"
+         class="collapse"
+         aria-labelledby="heading-14298516985"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_.html">S:</a></td>
+                        <td data-fr="signe" data-en="sign" class="translation">signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.html">B:</a></td>
+                        <td data-fr="être" data-en="being" class="translation">être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_.html">T:</a></td>
+                        <td data-fr="chose" data-en="thing" class="translation">chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-25291465518">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-25291465518"
+                    aria-expanded="false"
+                    aria-controls="body-25291465518">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-25291465518"
+         class="collapse"
+         aria-labelledby="heading-25291465518"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/l..html">l.</a></td>
+                        <td data-fr="espace" data-en="space" class="translation">espace</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/E_.-M_.M_M_.-l.-'.html">E:.-M:.M:M:.-l.-'</a> situation: cheminement</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="10" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.M_M_.-l.-'.html"> E:.-M:.M:M:.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="situation: cheminement"
+                data-en="situation: path">
+                situation: cheminement
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.s.-l.-'.html"> E:.-M:.s.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="origine dynamique"
+                data-en="dynamic origin">
+                origine dynamique
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.b.-l.-'.html"> E:.-M:.b.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="origine relative"
+                data-en="relative origin">
+                origine relative
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.t.-l.-'.html"> E:.-M:.t.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="origine absolue"
+                data-en="absolute origin">
+                origine absolue
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.k.-l.-'.html"> E:.-M:.k.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="intermédiaire dynamique"
+                data-en="dynamic intermediary">
+                intermédiaire dynamique
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.m.-l.-'.html"> E:.-M:.m.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="intermediaire relatif"
+                data-en="relative intermediary">
+                intermediaire relatif
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.n.-l.-'.html"> E:.-M:.n.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="intermédiaire absolu"
+                data-en="absolute intermediary">
+                intermédiaire absolu
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.d.-l.-'.html"> E:.-M:.d.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="terminaison dynamique"
+                data-en="dynamic termination">
+                terminaison dynamique
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.f.-l.-'.html"> E:.-M:.f.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="terminaison relative"
+                data-en="relative termination">
+                terminaison relative
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-M_.l.-l.-'.html"> E:.-M:.l.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="terminaison absolue"
+                data-en="absolute termination">
+                terminaison absolue
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.M_M_.-l.-'.html"> E:.-S:.M:M:.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="rôles de chemin"
+                data-en="path roles">
+                rôles de chemin
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.s.-l.-'.html"> E:.-S:.s.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="source, commencement"
+                data-en="source, beginning">
+                source, commencement
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.b.-l.-'.html"> E:.-S:.b.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="point de départ"
+                data-en="point of departure">
+                point de départ
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.t.-l.-'.html"> E:.-S:.t.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="point d'entrée"
+                data-en="entry point">
+                point d'entrée
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.k.-l.-'.html"> E:.-S:.k.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="mobile"
+                data-en="mobile">
+                mobile
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.m.-l.-'.html"> E:.-S:.m.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="trajet"
+                data-en="route">
+                trajet
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.n.-l.-'.html"> E:.-S:.n.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="voie, route, canal, tunnel (rôle)"
+                data-en="way, road, channel, tunnel (role)">
+                voie, route, canal, tunnel (rôle)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.d.-l.-'.html"> E:.-S:.d.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="puits, terminaison, fin"
+                data-en="well, termination, end">
+                puits, terminaison, fin
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.f.-l.-'.html"> E:.-S:.f.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="point d'arrivée"
+                data-en="arrival point">
+                point d'arrivée
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-S_.l.-l.-'.html"> E:.-S:.l.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="point de sortie"
+                data-en="point of exit">
+                point de sortie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.M_M_.-l.-'.html"> E:.-B:.M:M:.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="position"
+                data-en="position">
+                position
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.s.-l.-'.html"> E:.-B:.s.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="ouverture"
+                data-en="openning">
+                ouverture
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.b.-l.-'.html"> E:.-B:.b.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="à gauche, côté gauche"
+                data-en="at the left, left side">
+                à gauche, côté gauche
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.t.-l.-'.html"> E:.-B:.t.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="centre, au centre"
+                data-en="center, at the center">
+                centre, au centre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.k.-l.-'.html"> E:.-B:.k.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="limitant, au bord"
+                data-en="limiting, at the edge">
+                limitant, au bord
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.m.-l.-'.html"> E:.-B:.m.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="entre"
+                data-en="between">
+                entre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.n.-l.-'.html"> E:.-B:.n.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="là | près"
+                data-en="near | there">
+                là | près
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.d.-l.-'.html"> E:.-B:.d.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="fermeture"
+                data-en="closing">
+                fermeture
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.f.-l.-'.html"> E:.-B:.f.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="à  droite, côté droit"
+                data-en="at the right, right side">
+                à  droite, côté droit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-B_.l.-l.-'.html"> E:.-B:.l.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="là-bas | loin"
+                data-en="over there | far away">
+                là-bas | loin
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #fff38e;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.M_M_.-l.-'.html"> E:.-T:.M:M:.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="mouvement"
+                data-en="movement">
+                mouvement
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.s.-l.-'.html"> E:.-T:.s.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="à partir de"
+                data-en="from">
+                à partir de
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.b.-l.-'.html"> E:.-T:.b.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="hors de"
+                data-en="out of">
+                hors de
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.t.-l.-'.html"> E:.-T:.t.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="centrifuge"
+                data-en="centrifugal">
+                centrifuge
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.k.-l.-'.html"> E:.-T:.k.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="par"
+                data-en="by">
+                par
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.m.-l.-'.html"> E:.-T:.m.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="à  travers"
+                data-en="through">
+                à  travers
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.n.-l.-'.html"> E:.-T:.n.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="autour"
+                data-en="around">
+                autour
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.d.-l.-'.html"> E:.-T:.d.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="en direction de"
+                data-en="toward">
+                en direction de
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.f.-l.-'.html"> E:.-T:.f.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="dans"
+                data-en="in | into">
+                dans
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #fff1bc;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/E_.-T_.l.-l.-'.html"> E:.-T:.l.-l.-' </a>
+            <span class="translation table-cell"
+                data-fr="centripète"
+                data-en="centripetal">
+                centripète
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

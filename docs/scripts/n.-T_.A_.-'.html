@@ -1,0 +1,851 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            n.-T:.A:.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>eau</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>water</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Seme</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>6</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/M_M_.-M_.O_.-'.html"> M:M:.-M:.O:.-' </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_M_.-M_.O_.-'.html"> M:M:.-M:.O:.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(1,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-5302413702">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-5302413702"
+                    aria-expanded="false"
+                    aria-controls="body-5302413702">
+                    <span> <span class="badge badge-pill badge-Light">5</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-5302413702"
+         class="collapse"
+         aria-labelledby="heading-5302413702"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.O_.-'.html">n.-T:.O:.-'</a></td>
+                        <td data-fr="éléments du haut et du bas" data-en="elements of low and high" class="translation">éléments du haut et du bas</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-M_.A_.-'.html">n.-M:.A:.-'</a></td>
+                        <td data-fr="éléments sud-ouest-bas" data-en="south-west-low elements" class="translation">éléments sud-ouest-bas</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-M_.O_.-'.html">n.-M:.O:.-'</a></td>
+                        <td data-fr="éléments" data-en="elements" class="translation">éléments</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-T_.A_.-'.html">M:M:.-T:.A:.-'</a></td>
+                        <td data-fr="qualités des profondeurs" data-en="deepness qualities" class="translation">qualités des profondeurs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-M_.O_.-'.html">M:M:.-M:.O:.-'</a></td>
+                        <td data-fr="qualités" data-en="qualities" class="translation">qualités</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-62648252333">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-62648252333"
+                    aria-expanded="false"
+                    aria-controls="body-62648252333">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-62648252333"
+         class="collapse"
+         aria-labelledby="heading-62648252333"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/n..html">n.</a></td>
+                        <td data-fr="monde" data-en="world" class="translation">monde</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-97460268171">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-97460268171"
+                    aria-expanded="false"
+                    aria-controls="body-97460268171">
+                    <span> <span class="badge badge-pill badge-Light">2</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-97460268171"
+         class="collapse"
+         aria-labelledby="heading-97460268171"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/A_.html">A:</a></td>
+                        <td data-fr="actuel" data-en="actual" class="translation">actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_.html">T:</a></td>
+                        <td data-fr="chose" data-en="thing" class="translation">chose</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-57601697033">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-57601697033"
+                    aria-expanded="false"
+                    aria-controls="body-57601697033">
+                    <span> <span class="badge badge-pill badge-Light">8</span> child-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-57601697033"
+         class="collapse"
+         aria-labelledby="heading-57601697033"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'S_.-'M_.-'_.html">n.-T:.A:.-'S:.-'M:.-',</a></td>
+                        <td data-fr="océan nord" data-en="north ocean" class="translation">océan nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'B_.-'M_.-'_.html">n.-T:.A:.-'B:.-'M:.-',</a></td>
+                        <td data-fr="océan central" data-en="central ocean" class="translation">océan central</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'T_.-'M_.-'_.html">n.-T:.A:.-'T:.-'M:.-',</a></td>
+                        <td data-fr="océan sud" data-en="south ocean" class="translation">océan sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'S_.-'_.html">n.-T:.A:.-'M:.-'S:.-',</a></td>
+                        <td data-fr="océan Atlantique" data-en="Atlantic ocean" class="translation">océan Atlantique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'B_.-'_.html">n.-T:.A:.-'M:.-'B:.-',</a></td>
+                        <td data-fr="ocean Indien" data-en="Indian ocean" class="translation">ocean Indien</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'T_.-'_.html">n.-T:.A:.-'M:.-'T:.-',</a></td>
+                        <td data-fr="océan Pacifique" data-en="Pacific ocean" class="translation">océan Pacifique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'M_.-'_.html">n.-T:.A:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="mers principales" data-en="main seas" class="translation">mers principales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-S_.U_.-'n.-T_.A_.-'l.-S_.O_.-'_+n.-T_.A_.-'M_.-'M_.-'_.html">s.-S:.U:.-'n.-T:.A:.-'l.-S:.O:.-',+n.-T:.A:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="océans" data-en="oceans" class="translation">océans</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-15486089320">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-15486089320"
+                    aria-expanded="false"
+                    aria-controls="body-15486089320">
+                    <span> <span class="badge badge-pill badge-Light">12</span> child-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-15486089320"
+         class="collapse"
+         aria-labelledby="heading-15486089320"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-S_.U_.-'n.-T_.A_.-'l.-S_.O_.-'_.html">s.-S:.U:.-'n.-T:.A:.-'l.-S:.O:.-',</a></td>
+                        <td data-fr="mers polaires" data-en="polar seas" class="translation">mers polaires</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-y.-'n.-T_.A_.-'e.B_.-'+n.-S_.U_.-'+E_.S_.S_M_.-l.-'_.html">l.-y.-'n.-T:.A:.-'e.B:.-'+n.-S:.U:.-'+E:.S:.S:M:.-l.-',</a></td>
+                        <td data-fr="paysage aquatique" data-en="aquatic landscape" class="translation">paysage aquatique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-S_.U_.-'n.-T_.A_.-'l.-S_.O_.-'_+n.-T_.A_.-'M_.-'M_.-'_.html">s.-S:.U:.-'n.-T:.A:.-'l.-S:.O:.-',+n.-T:.A:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="océans" data-en="oceans" class="translation">océans</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-y.-'n.-T_.A_.-'e.B_.-'+n.-S_.U_.-'+E_.S_.S_M_.-l.-'_+l.-y.-'E_U_.M_T_.-l.-'E_U_.S_M_.-l.-'_.html">l.-y.-'n.-T:.A:.-'e.B:.-'+n.-S:.U:.-'+E:.S:.S:M:.-l.-',+l.-y.-'E:U:.M:T:.-l.-'E:U:.S:M:.-l.-',</a></td>
+                        <td data-fr="paysage" data-en="landscape" class="translation">paysage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_b.-T_.U_.-'+n.-T_.A_.-'_s.u.-l.u.-'__.html">l.-T:.U:.-',b.-T:.U:.-'+n.-T:.A:.-',s.u.-l.u.-',_</a></td>
+                        <td data-fr="phénomènes d'ombre et de lumière" data-en="shadow and light phenomena" class="translation">phénomènes d'ombre et de lumière</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_b.-T_.U_.-'+n.-T_.A_.-'_b.-S_.A_.-'U_.-'U_.-'__.html">l.-T:.U:.-',b.-T:.U:.-'+n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_</a></td>
+                        <td data-fr="phénomènes d'un blanc éclatant" data-en="bright white phenomena" class="translation">phénomènes d'un blanc éclatant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_b.-T_.U_.-'+n.-T_.A_.-'_b.-B_.A_.-'__.html">l.-T:.U:.-',b.-T:.U:.-'+n.-T:.A:.-',b.-B:.A:.-',_</a></td>
+                        <td data-fr="phénomènes flous" data-en="fuzzy phenomena" class="translation">phénomènes flous</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_b.-T_.U_.-'+n.-T_.A_.-'_t.o.-f.o.-'__.html">l.-T:.U:.-',b.-T:.U:.-'+n.-T:.A:.-',t.o.-f.o.-',_</a></td>
+                        <td data-fr="phénomènes qui vont et viennent" data-en="phenomena that come and go" class="translation">phénomènes qui vont et viennent</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_b.-T_.U_.-'+n.-T_.A_.-'_m.-B_.U_.-'m.-B_.U_.-'E_A_T_.-'__.html">l.-T:.U:.-',b.-T:.U:.-'+n.-T:.A:.-',m.-B:.U:.-'m.-B:.U:.-'E:A:T:.-',_</a></td>
+                        <td data-fr="phénomènes violents" data-en="violent phenomena" class="translation">phénomènes violents</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_b.-T_.U_.-'+n.-T_.A_.-'_d.-S_.U_.-'__.html">l.-T:.U:.-',b.-T:.U:.-'+n.-T:.A:.-',d.-S:.U:.-',_</a></td>
+                        <td data-fr="phénomènes solides, fixes" data-en="fixed, solid phenomena" class="translation">phénomènes solides, fixes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_n.-T_.A_.-'_b.-S_.A_.-'U_.-'U_.-'_+m.-B_.U_.-'m.-B_.U_.-'E_A_T_.-'_+s.u.-l.u.-'+b.-B_.A_.-'+t.o.-f.o.-'+d.-S_.U_.-'__.html">l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',+m.-B:.U:.-'m.-B:.U:.-'E:A:T:.-',+s.u.-l.u.-'+b.-B:.A:.-'+t.o.-f.o.-'+d.-S:.U:.-',_</a></td>
+                        <td data-fr="eaux du ciel" data-en="waters from the sky" class="translation">eaux du ciel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_b.-T_.U_.-'+n.-T_.A_.-'_b.-S_.A_.-'U_.-'U_.-'_+m.-B_.U_.-'m.-B_.U_.-'E_A_T_.-'_+s.u.-l.u.-'+b.-B_.A_.-'+t.o.-f.o.-'+d.-S_.U_.-'__.html">l.-T:.U:.-',b.-T:.U:.-'+n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',+m.-B:.U:.-'m.-B:.U:.-'E:A:T:.-',+s.u.-l.u.-'+b.-B:.A:.-'+t.o.-f.o.-'+d.-S:.U:.-',_</a></td>
+                        <td data-fr="phénomènes célestes et météorologiques" data-en="celestial and meteorological phenomena" class="translation">phénomènes célestes et météorologiques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    
+
+<div class="card m-1">
+    <div class="card-header" id="heading-4967058885">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-4967058885"
+                    aria-expanded="false"
+                    aria-controls="body-4967058885">
+                    <span> <span class="badge badge-pill badge-Light">6</span> eau/ms_qualite_de_l_eau.yaml </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-4967058885"
+         class="collapse"
+         aria-labelledby="heading-4967058885"
+         data-parent="#words">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_da541951963950b636bc950fbb6834e9ff5b5a0ba7a0a885d47cca4c.html">[([u.l.-]+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="eau polluée" data-en="polluted water" class="translation">eau polluée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_5f09594d096ef9460068670b52364242d1b60bbbe5ea0861db7822f5.html">[([a.B:.-]+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="eau potable" data-en="drinking water" class="translation">eau potable</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_e816b4202212f4d14fb6e9dfda29e6f1c053e9cfd661f3ca73da4925.html">[([a.B:.-]+[n.-T:.A:.-']+[d.-h.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="eau non potable" data-en="non drinking water" class="translation">eau non potable</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_f6bf2d4c103569a5928cf02e7630fee03adb28e3221c2b895f1d38ac.html">[([n.-T:.A:.-']+[d.-h.-']+[u.l.-+a.B:.-'+f.-S:.U:.-+T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="Eau: qualité de l'eau" data-en="" class="translation">Eau: qualité de l'eau</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_dbf34b9bcdd800685f07f74507793696546cb421ceb164e92275561e.html">[([n.-T:.A:.-']+[f.-S:.U:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="eau salée" data-en="salt water" class="translation">eau salée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_18557d739e0882686cc2d7663175b3a9e6de990ce1c86f55ba1610ef.html">[([n.-T:.A:.-']+[f.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="eau douce" data-en="fresh water" class="translation">eau douce</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                
+                    
+
+<div class="card m-1">
+    <div class="card-header" id="heading-5653994969">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-5653994969"
+                    aria-expanded="false"
+                    aria-controls="body-5653994969">
+                    <span> <span class="badge badge-pill badge-Light">8</span> meteorologie/ms_eau.yaml </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-5653994969"
+         class="collapse"
+         aria-labelledby="heading-5653994969"
+         data-parent="#words">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_b74ef700e34c3457696e281ec3b17e16d15889ed70b4816b80f22123.html">[([E:T:S:.]+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="sècheresse" data-en="drought" class="translation">sècheresse</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_d1f91b9e4a98e2f70979f11e6108d5752b36298517f829a52e538684.html">[([E:T:T:.]+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="inondation" data-en="flood" class="translation">inondation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_e17148286aa291b3627d8824f07468f3ab702c1e0f808ac54c437086.html">[([E:.S:.x.-]+[p.E:A:S:.-]+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="goutte d'eau" data-en="drop of water" class="translation">goutte d'eau</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_4b3897303fa9fcf14d5aa8b1a6e3f5add1387244d0f5a0a1a8e32e44.html">[([we.f.T:.-]+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="eau stagnante" data-en="stagnant water" class="translation">eau stagnante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_a412ec0cf8a7a3789d9ea432e7975412a9c729867a1cf60011e1c26c.html">[([u.A:.-]+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="ruissellement" data-en="runoff" class="translation">ruissellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_941a5620636734497f0888f5ab53cc66d08fc5a9654322a5d7bac4d7.html">[([s.-S:.A:.-']+[n.-T:.U:.-']+[n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vapeur" data-en="steam" class="translation">vapeur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_f70487607379fd535cbb306b9ea44464a8647f320a348426f3f8ad4d.html">[([n.-T:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="eau" data-en="water" class="translation">eau</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_0dd158ef14d806a8f5200548a5b3d8059bec06c19f31ced56c92c302.html">[([n.-T:.A:.-']+[E:.S:.x.-'+n.-T:.U:.-']+[s.-S:.A:.-'+we.f.T:.-+u.A:.-+p.E:A:S:.-+E:T:S:+T:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="Météorologie: eau" data-en="" class="translation">Météorologie: eau</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                
+                    
+
+<div class="card m-1">
+    <div class="card-header" id="heading-29921876130">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-29921876130"
+                    aria-expanded="false"
+                    aria-controls="body-29921876130">
+                    <span> <span class="badge badge-pill badge-Light">5</span> meteorologie/ms_gel.yaml </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-29921876130"
+         class="collapse"
+         aria-labelledby="heading-29921876130"
+         data-parent="#words">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_8066dfb4c6652c5e79d3533102f6ea311bdd2422942b053eab856cc3.html">[([E:.-U:.b.-l.-']+[E:.-B:.k.-l.-']+[s.-S:.U:.-']+[n.-T:.A:.-']+[d.-S:.U:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="au-dessus du point de congélation" data-en="above the freezing point" class="translation">au-dessus du point de congélation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_244abf8d597f943470deeeaafa032d652cd917274ec70dd07fbaad09.html">[([E:.-U:.f.-l.-']+[E:.-B:.k.-l.-']+[s.-S:.U:.-']+[n.-T:.A:.-']+[d.-S:.U:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="sous le point de congélation" data-en="under the freezing point" class="translation">sous le point de congélation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_b1e72f9e4c8b839e72b96b6e44314d86fb7221cd2968f9d79902cb91.html">[([E:.-B:.k.-l.-']+[s.-S:.U:.-']+[n.-T:.A:.-']+[d.-S:.U:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="point de congélation" data-en="freezing point" class="translation">point de congélation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_2d8cc353e42e8a1f3ae23f175113e9027cd568c54aed041922faf0c7.html">[([E:.-B:.k.-l.-']+[s.-S:.U:.-']+[n.-T:.A:.-']+[d.-S:.U:.-']+[E:.-U:.S:+T:B:.-l.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="Météorologie: gel" data-en="" class="translation">Météorologie: gel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_4d6f086fc081398ad1d7702af847052a8a3eaee4a62e1e008d533e44.html">[([s.-S:.U:.-']+[n.-T:.A:.-']+[d.-S:.U:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="glace" data-en="ice" class="translation">glace</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                
+                    
+
+<div class="card m-1">
+    <div class="card-header" id="heading-20735532516">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-20735532516"
+                    aria-expanded="false"
+                    aria-controls="body-20735532516">
+                    <span> <span class="badge badge-pill badge-Light">1</span> meteorologie/ms_neige.yaml </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-20735532516"
+         class="collapse"
+         aria-labelledby="heading-20735532516"
+         data-parent="#words">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_33b82d5179d655d4ec2d3060b530bd56b7793498d823a883a89a39fb.html">[([n.-T:.A:.-']+[l.-T:.U:.-',n.-T:.A:.-',b.-S:.A:.-'U:.-'U:.-',_])*([E:])*([E:])]</a></td>
+                        <td data-fr="neige mouillée" data-en="slush" class="translation">neige mouillée</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                
+                    
+
+<div class="card m-1">
+    <div class="card-header" id="heading-47922279383">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-47922279383"
+                    aria-expanded="false"
+                    aria-controls="body-47922279383">
+                    <span> <span class="badge badge-pill badge-Light">1</span> meteorologie/ms_vagues.yaml </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-47922279383"
+         class="collapse"
+         aria-labelledby="heading-47922279383"
+         data-parent="#words">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_827d6d8eee22ca993d95ad48629b8da0abc367026d7d578efc75b420.html">[([n.-T:.A:.-']+[n.i.-s.i.-t.u.-']+[l.-y.-'E:U:.n.-l.-'E:U:.b.-l.-',])*([E:])*([E:])]</a></td>
+                        <td data-fr="vague (eau)" data-en="wave (water)" class="translation">vague (eau)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

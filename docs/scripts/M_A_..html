@@ -1,0 +1,883 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            M:A:.
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>agents actuels</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>actual agents</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>1</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>3</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>3</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/M_O_..html"> M:O:. </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/O_M_.+M_O_..html"> O:M:.+M:O:. </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>1</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(3,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:A:.</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-21249574824">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-21249574824"
+                    aria-expanded="false"
+                    aria-controls="body-21249574824">
+                    <span> <span class="badge badge-pill badge-Light">1</span> opposed </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-21249574824"
+         class="collapse"
+         aria-labelledby="heading-21249574824"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_..html">A:M:.</a></td>
+                        <td data-fr="actions actuelles" data-en="actions virtuelles" class="translation">actions actuelles</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-65517150569">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-65517150569"
+                    aria-expanded="false"
+                    aria-controls="body-65517150569">
+                    <span> <span class="badge badge-pill badge-Light">2</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-65517150569"
+         class="collapse"
+         aria-labelledby="heading-65517150569"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_..html">M:O:.</a></td>
+                        <td data-fr="agents" data-en="agents" class="translation">agents</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.+M_O_..html">O:M:.+M:O:.</a></td>
+                        <td data-fr="actions et agents | hexades verticale et horizontale" data-en="actions and agents | vertical and horizontal hexads" class="translation">actions et agents | hexades verticale et horizontale</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-77954679842">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-77954679842"
+                    aria-expanded="false"
+                    aria-controls="body-77954679842">
+                    <span> <span class="badge badge-pill badge-Light">3</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-77954679842"
+         class="collapse"
+         aria-labelledby="heading-77954679842"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_.html">S:</a></td>
+                        <td data-fr="signe" data-en="sign" class="translation">signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.html">B:</a></td>
+                        <td data-fr="être" data-en="being" class="translation">être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_.html">T:</a></td>
+                        <td data-fr="chose" data-en="thing" class="translation">chose</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-55389909478">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-55389909478"
+                    aria-expanded="false"
+                    aria-controls="body-55389909478">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-55389909478"
+         class="collapse"
+         aria-labelledby="heading-55389909478"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/A_.html">A:</a></td>
+                        <td data-fr="actuel" data-en="actual" class="translation">actuel</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-11392350707">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-11392350707"
+                    aria-expanded="false"
+                    aria-controls="body-11392350707">
+                    <span> <span class="badge badge-pill badge-Light">16</span> child-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-11392350707"
+         class="collapse"
+         aria-labelledby="heading-11392350707"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.wo.-.html">M:A:.wo.-</a></td>
+                        <td data-fr="mutation actuelle des possibles" data-en="actual mutation of possibilities" class="translation">mutation actuelle des possibles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.wa.-.html">M:A:.wa.-</a></td>
+                        <td data-fr="mutation des conditions de l'action" data-en="mutation of the conditions for action" class="translation">mutation des conditions de l'action</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.y.-.html">M:A:.y.-</a></td>
+                        <td data-fr="conditions actuelles du savoir" data-en="actual conditions of knowledge" class="translation">conditions actuelles du savoir</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.o.-.html">M:A:.o.-</a></td>
+                        <td data-fr="conditions actuelles du désir" data-en="actual conditions of desire" class="translation">conditions actuelles du désir</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.e.-.html">M:A:.e.-</a></td>
+                        <td data-fr="conditions actuelles du pouvoir" data-en="actual conditions of power" class="translation">conditions actuelles du pouvoir</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.wu.-.html">M:A:.wu.-</a></td>
+                        <td data-fr="mutation actuelle de la perception" data-en="actual mutation of the perception" class="translation">mutation actuelle de la perception</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.we.-.html">M:A:.we.-</a></td>
+                        <td data-fr="mutation actuelle de l'environnement" data-en="actual mutation of the environment" class="translation">mutation actuelle de l'environnement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.u.-.html">M:A:.u.-</a></td>
+                        <td data-fr="conditions actuelles de l'énonciation" data-en="actual conditions of the enunciation" class="translation">conditions actuelles de l'énonciation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.a.-.html">M:A:.a.-</a></td>
+                        <td data-fr="conditions actuelles de l'intégration" data-en="actual conditions of the integration" class="translation">conditions actuelles de l'intégration</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.i.-.html">M:A:.i.-</a></td>
+                        <td data-fr="conditions actuelles de l'efficacité" data-en="actual conditions of the efficiency" class="translation">conditions actuelles de l'efficacité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.j.-.html">M:A:.j.-</a></td>
+                        <td data-fr="transformation actuelle dans la manipulation symbolique" data-en="actual transformation into symbolic manipulation" class="translation">transformation actuelle dans la manipulation symbolique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.g.-.html">M:A:.g.-</a></td>
+                        <td data-fr="transformation actuelle d'un message" data-en="actual transformation of a message" class="translation">transformation actuelle d'un message</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.h.-.html">M:A:.h.-</a></td>
+                        <td data-fr="transformation actuelle dans le sens" data-en="actual transformation in the meaning" class="translation">transformation actuelle dans le sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.c.-.html">M:A:.c.-</a></td>
+                        <td data-fr="transformation actuelle dans les personnes" data-en="actual transformation in people" class="translation">transformation actuelle dans les personnes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.p.-.html">M:A:.p.-</a></td>
+                        <td data-fr="transformation actuelle dans le référent" data-en="actual transformation in the referent" class="translation">transformation actuelle dans le référent</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_.x.-.html">M:A:.x.-</a></td>
+                        <td data-fr="transformation actuelle dans la matière" data-en="actual transformation in matter" class="translation">transformation actuelle dans la matière</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-38758829925">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-38758829925"
+                    aria-expanded="false"
+                    aria-controls="body-38758829925">
+                    <span> <span class="badge badge-pill badge-Light">27</span> child-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-38758829925"
+         class="collapse"
+         aria-labelledby="heading-38758829925"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/wo.M_A_.-.html">wo.M:A:.-</a></td>
+                        <td data-fr="questionner les cadres actuels" data-en="questioning actual frameworks" class="translation">questionner les cadres actuels</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/wa.M_A_.-.html">wa.M:A:.-</a></td>
+                        <td data-fr="améliorer les cadres actuels de l'activité" data-en="improve the actual frameworks" class="translation">améliorer les cadres actuels de l'activité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.M_A_.-.html">y.M:A:.-</a></td>
+                        <td data-fr="examiner les possibles actuels" data-en="ponder the actual possibilities" class="translation">examiner les possibles actuels</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.M_A_.-.html">o.M:A:.-</a></td>
+                        <td data-fr="orienter une production actuellement" data-en="orient a production actually" class="translation">orienter une production actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.M_A_.-.html">e.M:A:.-</a></td>
+                        <td data-fr="maîtriser une production actuellement" data-en="master a production actually" class="translation">maîtriser une production actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/wu.M_A_.-.html">wu.M:A:.-</a></td>
+                        <td data-fr="évaluer l'actuel" data-en="assess the actual" class="translation">évaluer l'actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/we.M_A_.-.html">we.M:A:.-</a></td>
+                        <td data-fr="unifier l'actuel" data-en="unify the actual" class="translation">unifier l'actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.M_A_.-.html">u.M:A:.-</a></td>
+                        <td data-fr="communiquer une oeuvre actuellement" data-en="communicate a work actually" class="translation">communiquer une oeuvre actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.M_A_.-.html">a.M:A:.-</a></td>
+                        <td data-fr="s'engager dans une oeuvre actuellement" data-en="commit to a work actually" class="translation">s'engager dans une oeuvre actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.M_A_.-.html">i.M:A:.-</a></td>
+                        <td data-fr="parachever une oeuvre actuellement" data-en="achieve a work actually" class="translation">parachever une oeuvre actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.M_A_.-.html">j.M:A:.-</a></td>
+                        <td data-fr="transformation actuelle de la manipulation symbolique" data-en="actual transformation of symbolic manipulation" class="translation">transformation actuelle de la manipulation symbolique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.M_A_.-.html">g.M:A:.-</a></td>
+                        <td data-fr="transformation actuelle du message" data-en="actual transformation of the message" class="translation">transformation actuelle du message</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.M_A_.-.html">s.M:A:.-</a></td>
+                        <td data-fr="projet de création actuelle" data-en="project of actual creation" class="translation">projet de création actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.M_A_.-.html">b.M:A:.-</a></td>
+                        <td data-fr="innovation actuelle en communication" data-en="actual innovation incommunication" class="translation">innovation actuelle en communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.M_A_.-.html">t.M:A:.-</a></td>
+                        <td data-fr="projection actuelle dans le temps" data-en="actual projection in time" class="translation">projection actuelle dans le temps</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.M_A_.-.html">h.M:A:.-</a></td>
+                        <td data-fr="transformation actuelle du sens" data-en="actual transformation of the meaning" class="translation">transformation actuelle du sens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.M_A_.-.html">c.M:A:.-</a></td>
+                        <td data-fr="transformation actuelle des personnes" data-en="actual transformation des personnes" class="translation">transformation actuelle des personnes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.M_A_.-.html">k.M:A:.-</a></td>
+                        <td data-fr="renouvellement social actuel" data-en="actual social renewal" class="translation">renouvellement social actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.M_A_.-.html">m.M:A:.-</a></td>
+                        <td data-fr="réverbération affective actuelle" data-en="actual affective reverberation" class="translation">réverbération affective actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.M_A_.-.html">n.M:A:.-</a></td>
+                        <td data-fr="évolutions culturelles actuelles" data-en="actual cultural evolutions" class="translation">évolutions culturelles actuelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.M_A_.-.html">p.M:A:.-</a></td>
+                        <td data-fr="transformation actuelle du référent" data-en="actual transformation of the referent" class="translation">transformation actuelle du référent</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.M_A_.-.html">x.M:A:.-</a></td>
+                        <td data-fr="transformation materielle actuelle" data-en="actual material transformation" class="translation">transformation materielle actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.M_A_.-.html">d.M:A:.-</a></td>
+                        <td data-fr="rigueur actuelle dans la création" data-en="actual rigour in creation" class="translation">rigueur actuelle dans la création</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.M_A_.-.html">f.M:A:.-</a></td>
+                        <td data-fr="connexion personnelle actuelle" data-en="actual  personal connection" class="translation">connexion personnelle actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.M_A_.-.html">l.M:A:.-</a></td>
+                        <td data-fr="manifestation spatiale actuelle" data-en="actual spatial manifestation" class="translation">manifestation spatiale actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.o.-M_A_.-'.html">t.o.-M:A:.-'</a></td>
+                        <td data-fr="orientation vers la vie quotidienne" data-en="everyday life orientation" class="translation">orientation vers la vie quotidienne</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'M_A_.-'_.html">s.o.-k.o.-'M:A:.-',</a></td>
+                        <td data-fr="développement humain actuel" data-en="actual human development" class="translation">développement humain actuel</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-23871096762">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-23871096762"
+                    aria-expanded="false"
+                    aria-controls="body-23871096762">
+                    <span> <span class="badge badge-pill badge-Light">5</span> child-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-23871096762"
+         class="collapse"
+         aria-labelledby="heading-23871096762"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.U_.M_A_.-.html">E:.U:.M:A:.-</a></td>
+                        <td data-fr="négativité actuelle" data-en="actual negativity" class="translation">négativité actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.A_.M_A_.-.html">E:.A:.M:A:.-</a></td>
+                        <td data-fr="positivité actuelle" data-en="actual positivity" class="translation">positivité actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.S_.M_A_.-.html">E:.S:.M:A:.-</a></td>
+                        <td data-fr="spécification actualisante" data-en="actualising specification" class="translation">spécification actualisante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.M_A_.-.html">E:.B:.M:A:.-</a></td>
+                        <td data-fr="cause actualisante" data-en="actualizing cause" class="translation">cause actualisante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.T_.M_A_.-.html">E:.T:.M:A:.-</a></td>
+                        <td data-fr="réalisation actuelle" data-en="actual realization" class="translation">réalisation actuelle</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_A_..html">M:A:.</a> agents actuels</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_A_..html"> M:A:. </a>
+            <span class="translation table-cell"
+                data-fr="agents actuels"
+                data-en="actual agents">
+                agents actuels
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g..html"> g. </a>
+            <span class="translation table-cell"
+                data-fr="message"
+                data-en="message">
+                message
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c..html"> c. </a>
+            <span class="translation table-cell"
+                data-fr="individu"
+                data-en="individual">
+                individu
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x..html"> x. </a>
+            <span class="translation table-cell"
+                data-fr="corps"
+                data-en="body">
+                corps
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

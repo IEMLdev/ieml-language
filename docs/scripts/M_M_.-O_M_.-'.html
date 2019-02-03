@@ -1,0 +1,1674 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            M:M:.-O:M:.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>objets des sciences humaines (1)</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>objects of humanities and social sciences (1)</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>54</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>2</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/M_M_.-O_M_.+M_O_.-'.html"> M:M:.-O:M:.+M:O:.-' </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_M_.-O_M_.+M_O_.-E_.-+s.y.-'.html"> M:M:.-O:M:.+M:O:.-E:.-+s.y.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(9, 6)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:M:.-O:M:.-'</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-68532903672">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-68532903672"
+                    aria-expanded="false"
+                    aria-controls="body-68532903672">
+                    <span> <span class="badge badge-pill badge-Light">1</span> associated </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-68532903672"
+         class="collapse"
+         aria-labelledby="heading-68532903672"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-O_M_.-s.y.-'.html">M:M:.-O:M:.-s.y.-'</a></td>
+                        <td data-fr="sciences humaines (1)" data-en="human sciences (1)" class="translation">sciences humaines (1)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-530571930">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-530571930"
+                    aria-expanded="false"
+                    aria-controls="body-530571930">
+                    <span> <span class="badge badge-pill badge-Light">15</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-530571930"
+         class="collapse"
+         aria-labelledby="heading-530571930"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-O_M_.-'.html">s.-O:M:.-'</a></td>
+                        <td data-fr="structures culturelles (1)" data-en="cultural structures (1)" class="translation">structures culturelles (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-O_M_.-'.html">b.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes de communication (1)" data-en="communication phenomena (1)" class="translation">phénomènes de communication (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.-O_M_.-'.html">t.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes datés (1)" data-en="dated phenomena (1)" class="translation">phénomènes datés (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.-O_M_.-'.html">k.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes sociaux (1)" data-en="social phenomena (1)" class="translation">phénomènes sociaux (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.-O_M_.-'.html">m.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes d'évaluation" data-en="assessing phenomena" class="translation">phénomènes d'évaluation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-O_M_.-'.html">n.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes culturels (1)" data-en="cultural phenomena (1)" class="translation">phénomènes culturels (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.-O_M_.-'.html">d.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes déterminés | mesurés (1)" data-en="determined | measured phenomena (1)" class="translation">phénomènes déterminés | mesurés (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.-O_M_.-'.html">f.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes vivants (1)" data-en="living phenomena (1)" class="translation">phénomènes vivants (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-O_M_.-'.html">l.-O:M:.-'</a></td>
+                        <td data-fr="phénomènes spatiaux | topologiques (1)" data-en="spatial | topological phenomena (1)" class="translation">phénomènes spatiaux | topologiques (1)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-y.-'.html">M:M:.-y.-'</a></td>
+                        <td data-fr="phénomènes de connaissance" data-en="knowledge phenomena" class="translation">phénomènes de connaissance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-o.-'.html">M:M:.-o.-'</a></td>
+                        <td data-fr="phénomènes politiques" data-en="political phenomena" class="translation">phénomènes politiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-e.-'.html">M:M:.-e.-'</a></td>
+                        <td data-fr="phénomènes économiques" data-en="economic phenomena" class="translation">phénomènes économiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-u.-'.html">M:M:.-u.-'</a></td>
+                        <td data-fr="vecteurs de communication" data-en="communication vectors" class="translation">vecteurs de communication</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-a.-'.html">M:M:.-a.-'</a></td>
+                        <td data-fr="phénomènes collectifs" data-en="collective phenomena" class="translation">phénomènes collectifs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-i.-'.html">M:M:.-i.-'</a></td>
+                        <td data-fr="phénomènes techno-scientifiques" data-en="techno-scientific phenomena" class="translation">phénomènes techno-scientifiques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-14906332145">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-14906332145"
+                    aria-expanded="false"
+                    aria-controls="body-14906332145">
+                    <span> <span class="badge badge-pill badge-Light">2</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-14906332145"
+         class="collapse"
+         aria-labelledby="heading-14906332145"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-O_M_.+M_O_.-'.html">M:M:.-O:M:.+M:O:.-'</a></td>
+                        <td data-fr="objets des sciences humaines" data-en="objects of humanities and social sciences" class="translation">objets des sciences humaines</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-O_M_.+M_O_.-E_.-+s.y.-'.html">M:M:.-O:M:.+M:O:.-E:.-+s.y.-'</a></td>
+                        <td data-fr="les sciences humaines et leurs objets" data-en="humanities, social sciences and their objects" class="translation">les sciences humaines et leurs objets</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-90144827980">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-90144827980"
+                    aria-expanded="false"
+                    aria-controls="body-90144827980">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-90144827980"
+         class="collapse"
+         aria-labelledby="heading-90144827980"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-23275863836">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-23275863836"
+                    aria-expanded="false"
+                    aria-controls="body-23275863836">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-23275863836"
+         class="collapse"
+         aria-labelledby="heading-23275863836"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_..html">O:M:.</a></td>
+                        <td data-fr="actions" data-en="actions" class="translation">actions</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_M_.-O_M_.-'.html">M:M:.-O:M:.-'</a> objets des sciences humaines (1)</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="7" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.-O_M_.-'.html"> M:M:.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="objets des sciences humaines (1)"
+                data-en="objects of humanities and social sciences (1)">
+                objets des sciences humaines (1)
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.-y.-'.html"> M:M:.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes de connaissance"
+                data-en="knowledge phenomena">
+                phénomènes de connaissance
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.-o.-'.html"> M:M:.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes politiques"
+                data-en="political phenomena">
+                phénomènes politiques
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.-e.-'.html"> M:M:.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes économiques"
+                data-en="economic phenomena">
+                phénomènes économiques
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.-u.-'.html"> M:M:.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="vecteurs de communication"
+                data-en="communication vectors">
+                vecteurs de communication
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.-a.-'.html"> M:M:.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes collectifs"
+                data-en="collective phenomena">
+                phénomènes collectifs
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.-i.-'.html"> M:M:.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes techno-scientifiques"
+                data-en="techno-scientific phenomena">
+                phénomènes techno-scientifiques
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.-O_M_.-'.html"> s.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="structures culturelles (1)"
+                data-en="cultural structures (1)">
+                structures culturelles (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.-y.-'.html"> s.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="organisation de la connaissance"
+                data-en="knowledge organization">
+                organisation de la connaissance
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.-o.-'.html"> s.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="organisation politique"
+                data-en="political organization">
+                organisation politique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.-e.-'.html"> s.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="organisation économique"
+                data-en="economic organization">
+                organisation économique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.-u.-'.html"> s.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="signification, sémiose"
+                data-en="meaning, semiosis">
+                signification, sémiose
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.-a.-'.html"> s.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="organisation sociale"
+                data-en="social organization">
+                organisation sociale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.-i.-'.html"> s.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="organisation technique"
+                data-en="technical organization">
+                organisation technique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.-O_M_.-'.html"> b.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes de communication (1)"
+                data-en="communication phenomena (1)">
+                phénomènes de communication (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.-y.-'.html"> b.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="communication | vulgarisation scientifique"
+                data-en="scientific communication | vulgarization">
+                communication | vulgarisation scientifique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.-o.-'.html"> b.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="sphère publique"
+                data-en="public sphere">
+                sphère publique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.-e.-'.html"> b.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="image de marque, publicité"
+                data-en="brand, advertisement">
+                image de marque, publicité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.-u.-'.html"> b.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="langue naturelle"
+                data-en="natural language">
+                langue naturelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.-a.-'.html"> b.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="parole en contexte"
+                data-en="speech in context">
+                parole en contexte
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.-i.-'.html"> b.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="technique de communication"
+                data-en="communication technique">
+                technique de communication
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.-O_M_.-'.html"> t.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes datés (1)"
+                data-en="dated phenomena (1)">
+                phénomènes datés (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.-y.-'.html"> t.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="moment scientifique (événement, période)"
+                data-en="scientific moment (event, epoch)">
+                moment scientifique (événement, période)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.-o.-'.html"> t.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="moment politique (période, conjoncture)"
+                data-en="political moment (epoch, conjuncture)">
+                moment politique (période, conjoncture)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.-e.-'.html"> t.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="moment économique (phase, conjoncture)"
+                data-en="economic moment (phase, conjuncture)">
+                moment économique (phase, conjoncture)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.-u.-'.html"> t.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="phase | conjoncture de communication"
+                data-en="communication phase | conjuncture">
+                phase | conjoncture de communication
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.-a.-'.html"> t.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="moment social (période, conjoncture)"
+                data-en="social moment (period, conjuncture)">
+                moment social (période, conjoncture)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.-i.-'.html"> t.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="moment | époque technique"
+                data-en="technical moment | epoch">
+                moment | époque technique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.-O_M_.-'.html"> k.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes sociaux (1)"
+                data-en="social phenomena (1)">
+                phénomènes sociaux (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.-y.-'.html"> k.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="communauté scientifique"
+                data-en="scientific community">
+                communauté scientifique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.-o.-'.html"> k.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="mouvement socio-politiques"
+                data-en="socio-political movements">
+                mouvement socio-politiques
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.-e.-'.html"> k.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="administration, gestion (objet de savoir)"
+                data-en="administration, management (object of knowledge)">
+                administration, gestion (objet de savoir)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.-u.-'.html"> k.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="communication publique"
+                data-en="public communication">
+                communication publique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.-a.-'.html"> k.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="société civile"
+                data-en="civil society">
+                société civile
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.-i.-'.html"> k.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="communauté technique (ingénieurs, techniciens)"
+                data-en="technical community (engineers, technicians)">
+                communauté technique (ingénieurs, techniciens)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.-O_M_.-'.html"> m.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes d'évaluation"
+                data-en="assessing phenomena">
+                phénomènes d'évaluation
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.-y.-'.html"> m.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="évaluation scientifique"
+                data-en="scientific evaluation">
+                évaluation scientifique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.-o.-'.html"> m.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="évaluation politique"
+                data-en="political evaluation">
+                évaluation politique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.-e.-'.html"> m.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="évaluation économique"
+                data-en="economic evaluation">
+                évaluation économique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.-u.-'.html"> m.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="évaluation de la communication"
+                data-en="communication evaluation">
+                évaluation de la communication
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.-a.-'.html"> m.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="évaluation sociale"
+                data-en="social evaluation">
+                évaluation sociale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.-i.-'.html"> m.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="évaluation technique"
+                data-en="technical evaluation">
+                évaluation technique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.-O_M_.-'.html"> n.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes culturels (1)"
+                data-en="cultural phenomena (1)">
+                phénomènes culturels (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.-y.-'.html"> n.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="univers, cosmos"
+                data-en="universe, cosmos">
+                univers, cosmos
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.-o.-'.html"> n.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="singularité | résistance culturelle"
+                data-en="cultural singularity | resistance">
+                singularité | résistance culturelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.-e.-'.html"> n.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="confort, sécurité et efficacité au travail"
+                data-en="security, comfort and efficiency at work">
+                confort, sécurité et efficacité au travail
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.-u.-'.html"> n.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="taxon, catégorie, paradigme (linguistique)"
+                data-en="taxon, category, paradigm (linguistics)">
+                taxon, catégorie, paradigme (linguistique)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.-a.-'.html"> n.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="invariant culturel"
+                data-en="cultural invariant">
+                invariant culturel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.-i.-'.html"> n.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="innovation, diffusion, désuétude"
+                data-en="innovation, diffusion, disuse">
+                innovation, diffusion, désuétude
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.-O_M_.-'.html"> d.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes déterminés | mesurés (1)"
+                data-en="determined | measured phenomena (1)">
+                phénomènes déterminés | mesurés (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.-y.-'.html"> d.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="structure formelle"
+                data-en="formal structure">
+                structure formelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.-o.-'.html"> d.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="constitution politique"
+                data-en="political constitution">
+                constitution politique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.-e.-'.html"> d.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="opération | résultat financier | comptable"
+                data-en="financial | accounting operation | result">
+                opération | résultat financier | comptable
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.-u.-'.html"> d.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ensemble de données"
+                data-en="data set">
+                ensemble de données
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.-a.-'.html"> d.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="relation sociale"
+                data-en="social relation">
+                relation sociale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.-i.-'.html"> d.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="technosciences informatiques"
+                data-en="computing technology and science">
+                technosciences informatiques
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.-O_M_.-'.html"> f.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes vivants (1)"
+                data-en="living phenomena (1)">
+                phénomènes vivants (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.-y.-'.html"> f.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="dynamique évolutive, modèle du vivant"
+                data-en="evolution dynamics, life modelling">
+                dynamique évolutive, modèle du vivant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.-o.-'.html"> f.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="relation de genre | de sexe"
+                data-en="gender | sexual relation">
+                relation de genre | de sexe
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.-e.-'.html"> f.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="marché des talents | de l'emploi"
+                data-en="talent | labour market">
+                marché des talents | de l'emploi
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.-u.-'.html"> f.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="performance de communication | acte de langage"
+                data-en="communication performance | speech act">
+                performance de communication | acte de langage
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.-a.-'.html"> f.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="population humaine"
+                data-en="human population">
+                population humaine
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.-i.-'.html"> f.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="technosciences biologiques"
+                data-en="biological technoscience">
+                technosciences biologiques
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.-O_M_.-'.html"> l.-O:M:.-' </a>
+            <span class="translation table-cell"
+                data-fr="phénomènes spatiaux | topologiques (1)"
+                data-en="spatial | topological phenomena (1)">
+                phénomènes spatiaux | topologiques (1)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.-y.-'.html"> l.-y.-' </a>
+            <span class="translation table-cell"
+                data-fr="la planète Terre"
+                data-en="planet Earth">
+                la planète Terre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.-o.-'.html"> l.-o.-' </a>
+            <span class="translation table-cell"
+                data-fr="relations internationales"
+                data-en="international relations">
+                relations internationales
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.-e.-'.html"> l.-e.-' </a>
+            <span class="translation table-cell"
+                data-fr="commerce international"
+                data-en="international trade">
+                commerce international
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.-u.-'.html"> l.-u.-' </a>
+            <span class="translation table-cell"
+                data-fr="communication transculturelle"
+                data-en="transcultural communication">
+                communication transculturelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.-a.-'.html"> l.-a.-' </a>
+            <span class="translation table-cell"
+                data-fr="réseau social"
+                data-en="social network">
+                réseau social
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.-i.-'.html"> l.-i.-' </a>
+            <span class="translation table-cell"
+                data-fr="technosciences physiques | moléculaires"
+                data-en="physics | molecular technosciences">
+                technosciences physiques | moléculaires
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,481 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <h2 class="text-center m-4">
+        [([S:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]
+    </h2>
+
+    <div class="card-body row">
+        
+        <div class="col-sm-4">
+            <h6 class="text-center m-3"> substance </h6>
+            <table class="table table-bordered text-truncate table-component" >
+                <tbody>
+                       <!--<colgroup>-->
+                        <!--<col span="2" style="background-color:red">-->
+                        <!--<col style="background-color:yellow">-->
+                       <!--</colgroup>-->
+                    
+                    <tr>
+                        <td><a href="/scripts/S_.E_A_T_.-.html">S:.E:A:T:.-</a></td>
+                        <td data-fr="long" data-en="long" class="translation">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="/scripts/l.-T_.U_.-'_n.-T_.A_.-'_t.o.-f.o.-'__.html">l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_</a></td>
+                        <td data-fr="pluie" data-en="rain" class="translation">
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="col-sm-4">
+            <h6 class="text-center m-3"> attribute </h6>
+            <table class="table table-bordered text-truncate table-component" >
+                <tbody>
+                       <!--<colgroup>-->
+                        <!--<col span="2" style="background-color:red">-->
+                        <!--<col style="background-color:yellow">-->
+                       <!--</colgroup>-->
+                    
+                    <tr>
+                        <td><a href="/scripts/E_.html">E:</a></td>
+                        <td data-fr="vide, illusion, monade" data-en="emptiness, illusion, monad" class="translation">
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="col-sm-4">
+            <h6 class="text-center m-3"> mode </h6>
+            <table class="table table-bordered text-truncate table-component" >
+                <tbody>
+                       <!--<colgroup>-->
+                        <!--<col span="2" style="background-color:red">-->
+                        <!--<col style="background-color:yellow">-->
+                       <!--</colgroup>-->
+                    
+                    <tr>
+                        <td><a href="/scripts/E_.html">E:</a></td>
+                        <td data-fr="vide, illusion, monade" data-en="emptiness, illusion, monad" class="translation">
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+    <div class="row" id="translations">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-header">Translations</div>
+                <div class="card-body">
+                    
+                    <ul class="translation list-group" data-lang="fr">
+                        
+                        <li class="list-group-item">longue pluie</li>
+                        
+                    </ul>
+                    
+                    <ul class="translation list-group" data-lang="en">
+                        
+                        <li class="list-group-item">long rain</li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-header">Properties</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <dl class="list-group list-group-flush">
+                                <dt>Type</dt>
+                                <dd><span class="badge badge-secondary">Word</span></dd>
+                                <dt>Class</dt>
+                                <dd><span class="badge badge-noun">Noun</span></dd>
+                            </dl>
+                        </div>
+
+                        <div class="col-sm-5">
+                            <dl class="list-group list-group-flush">
+                                <dt>File</dt>
+                                <dd><small>meteorologie/ms_pluie.yaml</small></dd>
+                            </dl>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <dl class="list-group list-group-flush">
+                                <dt>Layer </dt>
+                                <dd>2</dd>
+
+                                <dt>Multiplicity </dt>
+                                <dd>1
+                                    (word)</dd>
+                            </dl>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav nav-tabs mt-2" role="tablist">
+        <!--<a class="nav-item nav-link active"-->
+           <!--id="nav-composition-tab"-->
+           <!--data-toggle="tab"-->
+           <!--href="#composition"-->
+           <!--role="tab"-->
+           <!--aria-controls="composition"-->
+           <!--aria-selected="true">Composition</a>-->
+        <a class="nav-item nav-link active"
+           id="nav-relations-tab"
+           data-toggle="tab"
+           href="#relations"
+           role="tab"
+           aria-controls="relations"
+           aria-selected="true">Relations</a>
+        <!--<a class="nav-item nav-link"-->
+           <!--id="nav-character_series-tab"-->
+           <!--data-toggle="tab"-->
+           <!--href="#character_series"-->
+           <!--role="tab"-->
+           <!--aria-controls="character_series"-->
+           <!--aria-selected="false">Character series</a>-->
+
+    </div>
+
+    <div class="tab-content" id="tab-content">
+        <!--<div class="tab-pane fade show active"-->
+               <!--id="composition"-->
+               <!--role="tabpanel"-->
+               <!--aria-labelledby="nav-composition-tab">-->
+        <!--</div>-->
+        <div class="tab-pane fade show active"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row m-1">
+                        <div class="col-sm-6">
+                            <h6 class="text-center m-3">Analogies - Same layer</h6>
+
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-66929741776">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-66929741776"
+                    aria-expanded="false"
+                    aria-controls="body-66929741776">
+                    <span> <span class="badge badge-pill badge-Light">1</span> Contained by </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-66929741776"
+         class="collapse"
+         aria-labelledby="heading-66929741776"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_745e765006cec139be7a1c94ffa30c5d9013817b953099b659a9767c.html">[([S:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]</a></td>
+                        <td data-fr="longue pluie" data-en="long rain" class="translation">longue pluie</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-23579280566">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-23579280566"
+                    aria-expanded="false"
+                    aria-controls="body-23579280566">
+                    <span> <span class="badge badge-pill badge-Light">1</span> Contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-23579280566"
+         class="collapse"
+         aria-labelledby="heading-23579280566"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_745e765006cec139be7a1c94ffa30c5d9013817b953099b659a9767c.html">[([S:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]</a></td>
+                        <td data-fr="longue pluie" data-en="long rain" class="translation">longue pluie</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-95454760277">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-95454760277"
+                    aria-expanded="false"
+                    aria-controls="body-95454760277">
+                    <span> <span class="badge badge-pill badge-Light">2</span> Child </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-95454760277"
+         class="collapse"
+         aria-labelledby="heading-95454760277"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_2193f790a6cb4969f3c6c47d8ae2083c750f4973b1afb7da1d5f2460.html">[([S:.E:A:T:.-]+[T:.E:A:S:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]</a></td>
+                        <td data-fr="bruine continue" data-en="continuous drizzle" class="translation">bruine continue</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_7d1f102c7eb78626eb623aa5d830d0c7a7df7433079fbea15715d41a.html">[([S:.E:A:T:.-]+[T:.E:A:T:.-]+[l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]</a></td>
+                        <td data-fr="forte pluie persistante" data-en="persistent heavy rain" class="translation">forte pluie persistante</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-28370631510">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-28370631510"
+                    aria-expanded="false"
+                    aria-controls="body-28370631510">
+                    <span> <span class="badge badge-pill badge-Light">1</span> Parents </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-28370631510"
+         class="collapse"
+         aria-labelledby="heading-28370631510"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_81c493c996a3ee15430732feb5b63986480baa66a55e238b9043b777.html">[([l.-T:.U:.-',n.-T:.A:.-',t.o.-f.o.-',_])*([E:])*([E:])]</a></td>
+                        <td data-fr="pluie" data-en="rain" class="translation">pluie</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="tab-pane fade"-->
+               <!--id="morpheme_series"-->
+               <!--role="tabpanel"-->
+               <!--aria-labelledby="nav-morpheme_series-tab">-->
+            <!--<div class="card">-->
+                <!--<div class="card-body">-->
+                    <!--<span class="morpheme_series"-->
+                        <!--data-lang="fr">-->
+                        <!--['longue pluie']-->
+                    <!--</span>-->
+                    <!--<span class="morpheme_series"-->
+                        <!--data-lang="en" style="display: none;">-->
+                        <!--['long rain']-->
+                    <!--</span>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+
+
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

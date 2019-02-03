@@ -1,0 +1,3731 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            M:M:.i.-M:M:.i.-E:.-+t.u.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>fonctions et qualités techniques</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>technical functions and qualities</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">RootParadigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>162</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>0</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        Root paradigm
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_M_.i.-M_M_.i.-E_.-+t.u.-'.html"> M:M:.i.-M:M:.i.-E:.-+t.u.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>[(9, 9), (9, 9)]</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+        
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:M:.i.-M:M:.i.-'</a>
+    
+        
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-2-tab"
+       data-toggle="tab"
+       href="#tables-2"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:M:.i.-M:M:.i.-t.u.-'</a>
+    
+        
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-22703427023">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-22703427023"
+                    aria-expanded="false"
+                    aria-controls="body-22703427023">
+                    <span> <span class="badge badge-pill badge-Light">29</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-22703427023"
+         class="collapse"
+         aria-labelledby="heading-22703427023"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/s.i.-M_M_.i.-'.html">s.i.-M:M:.i.-'</a></td>
+                        <td data-fr="interface en substance" data-en="interface in substance" class="translation">interface en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.i.-M_M_.i.-t.u.-'.html">s.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="interface en substance" data-en="interface in substance" class="translation">interface en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-M_M_.i.-'.html">b.i.-M:M:.i.-'</a></td>
+                        <td data-fr="medium en substance" data-en="medium in substance" class="translation">medium en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-M_M_.i.-t.u.-'.html">b.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="medium in substance" data-en="medium in substance" class="translation">medium in substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-M_M_.i.-'.html">t.i.-M:M:.i.-'</a></td>
+                        <td data-fr="contenant en substance" data-en="container in substance" class="translation">contenant en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-M_M_.i.-t.u.-'.html">t.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="contenant en substance" data-en="container in substance" class="translation">contenant en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.i.-M_M_.i.-'.html">k.i.-M:M:.i.-'</a></td>
+                        <td data-fr="don en substance" data-en="gift in substance" class="translation">don en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.i.-M_M_.i.-t.u.-'.html">k.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="don en substance" data-en="gift in substance" class="translation">don en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.i.-M_M_.i.-'.html">m.i.-M:M:.i.-'</a></td>
+                        <td data-fr="jouet en substance" data-en="toy in substance" class="translation">jouet en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.i.-M_M_.i.-t.u.-'.html">m.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="jouet en substance" data-en="toy in substance" class="translation">jouet en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.i.-M_M_.i.-'.html">n.i.-M:M:.i.-'</a></td>
+                        <td data-fr="feu en substance" data-en="fire in substance" class="translation">feu en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.i.-M_M_.i.-t.u.-'.html">n.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="feu en substance" data-en="fire in substance" class="translation">feu en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.i.-M_M_.i.-'.html">d.i.-M:M:.i.-'</a></td>
+                        <td data-fr="mètre en substance" data-en="meter in substance" class="translation">mètre en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.i.-M_M_.i.-t.u.-'.html">d.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="mètre, instrument de mesure en substance" data-en="meter, measurement instrument in substance" class="translation">mètre, instrument de mesure en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.i.-M_M_.i.-'.html">f.i.-M:M:.i.-'</a></td>
+                        <td data-fr="organe en substance" data-en="organ in substance" class="translation">organe en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.i.-M_M_.i.-t.u.-'.html">f.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="organe en substance" data-en="organ in substance" class="translation">organe en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.i.-M_M_.i.-'.html">l.i.-M:M:.i.-'</a></td>
+                        <td data-fr="noeud en substance" data-en="knot in substance" class="translation">noeud en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.i.-M_M_.i.-t.u.-'.html">l.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="noeud en substance" data-en="knot in substance" class="translation">noeud en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-s.i.-'.html">M:M:.i.-s.i.-'</a></td>
+                        <td data-fr="interface en attribut" data-en="interface in attribute" class="translation">interface en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-b.i.-'.html">M:M:.i.-b.i.-'</a></td>
+                        <td data-fr="medium en attribut" data-en="medium in attribute" class="translation">medium en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-t.i.-'.html">M:M:.i.-t.i.-'</a></td>
+                        <td data-fr="contenant en attribut" data-en="container in attribute" class="translation">contenant en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-k.i.-'.html">M:M:.i.-k.i.-'</a></td>
+                        <td data-fr="don en attribut" data-en="gift in attribute" class="translation">don en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-m.i.-'.html">M:M:.i.-m.i.-'</a></td>
+                        <td data-fr="jouet en attibut" data-en="toy in attribute" class="translation">jouet en attibut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-n.i.-'.html">M:M:.i.-n.i.-'</a></td>
+                        <td data-fr="feu en attribut" data-en="fire in attribute" class="translation">feu en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-d.i.-'.html">M:M:.i.-d.i.-'</a></td>
+                        <td data-fr="mètre en attribut" data-en="meter in attribute" class="translation">mètre en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-f.i.-'.html">M:M:.i.-f.i.-'</a></td>
+                        <td data-fr="organe en attribut" data-en="organ in attribute" class="translation">organe en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-l.i.-'.html">M:M:.i.-l.i.-'</a></td>
+                        <td data-fr="noeud en attribut" data-en="knot in attribute" class="translation">noeud en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-M_M_.i.-'.html">M:M:.i.-M:M:.i.-'</a></td>
+                        <td data-fr="fonctions techniques" data-en="technical functions" class="translation">fonctions techniques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-M_M_.i.-t.u.-'.html">M:M:.i.-M:M:.i.-t.u.-'</a></td>
+                        <td data-fr="qualités techniques" data-en="technical qualities" class="translation">qualités techniques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-25505961692">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-25505961692"
+                    aria-expanded="false"
+                    aria-controls="body-25505961692">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-25505961692"
+         class="collapse"
+         aria-labelledby="heading-25505961692"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-.html">M:M:.i.-</a></td>
+                        <td data-fr="genres d'outils | techniques" data-en="kind of tools | technology" class="translation">genres d'outils | techniques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-52759889305">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-52759889305"
+                    aria-expanded="false"
+                    aria-controls="body-52759889305">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-52759889305"
+         class="collapse"
+         aria-labelledby="heading-52759889305"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-.html">M:M:.i.-</a></td>
+                        <td data-fr="genres d'outils | techniques" data-en="kind of tools | technology" class="translation">genres d'outils | techniques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-80069062747">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-80069062747"
+                    aria-expanded="false"
+                    aria-controls="body-80069062747">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-80069062747"
+         class="collapse"
+         aria-labelledby="heading-80069062747"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/t.u.-.html">t.u.-</a></td>
+                        <td data-fr="marque | signe durable" data-en="mark | enduring sign" class="translation">marque | signe durable</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+        
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_M_.i.-M_M_.i.-'.html">M:M:.i.-M:M:.i.-'</a> fonctions techniques</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="10" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-M_M_.i.-'.html"> M:M:.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="fonctions techniques"
+                data-en="technical functions">
+                fonctions techniques
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-s.i.-'.html"> M:M:.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="interface en attribut"
+                data-en="interface in attribute">
+                interface en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-b.i.-'.html"> M:M:.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="medium en attribut"
+                data-en="medium in attribute">
+                medium en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-t.i.-'.html"> M:M:.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="contenant en attribut"
+                data-en="container in attribute">
+                contenant en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-k.i.-'.html"> M:M:.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="don en attribut"
+                data-en="gift in attribute">
+                don en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-m.i.-'.html"> M:M:.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="jouet en attibut"
+                data-en="toy in attribute">
+                jouet en attibut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-n.i.-'.html"> M:M:.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="feu en attribut"
+                data-en="fire in attribute">
+                feu en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-d.i.-'.html"> M:M:.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="mètre en attribut"
+                data-en="meter in attribute">
+                mètre en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-f.i.-'.html"> M:M:.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="organe en attribut"
+                data-en="organ in attribute">
+                organe en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-l.i.-'.html"> M:M:.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="noeud en attribut"
+                data-en="knot in attribute">
+                noeud en attribut
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-M_M_.i.-'.html"> s.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="interface en substance"
+                data-en="interface in substance">
+                interface en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-s.i.-'.html"> s.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="commutateur, électricité"
+                data-en="switch, electricity">
+                commutateur, électricité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-b.i.-'.html"> s.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="studio multimédia"
+                data-en="multimedia studio">
+                studio multimédia
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-t.i.-'.html"> s.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="filtre"
+                data-en="filter">
+                filtre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-k.i.-'.html"> s.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="engrais"
+                data-en="fertilizer">
+                engrais
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-m.i.-'.html"> s.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="robot | mécanisme"
+                data-en="robot | mechanism">
+                robot | mécanisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-n.i.-'.html"> s.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="dispositif de réfrigération"
+                data-en="cooling device">
+                dispositif de réfrigération
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-d.i.-'.html"> s.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="émetteur"
+                data-en="transmitter">
+                émetteur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-f.i.-'.html"> s.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="système nerveux | système immunitaire"
+                data-en="nervous system | immune system">
+                système nerveux | système immunitaire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-l.i.-'.html"> s.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="articulation physique"
+                data-en="articulation | joint">
+                articulation physique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-M_M_.i.-'.html"> b.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="medium en substance"
+                data-en="medium in substance">
+                medium en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-s.i.-'.html"> b.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="atmosphère"
+                data-en="atmosphere">
+                atmosphère
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-b.i.-'.html"> b.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="cyberespace | médium algorithmique"
+                data-en="cyberspace | algorithmic medium">
+                cyberespace | médium algorithmique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-t.i.-'.html"> b.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="médiathèque"
+                data-en="media library">
+                médiathèque
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-k.i.-'.html"> b.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="place publique"
+                data-en="public place">
+                place publique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-m.i.-'.html"> b.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="bijou"
+                data-en="jewel">
+                bijou
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-n.i.-'.html"> b.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="instrument de musique"
+                data-en="musical instrument">
+                instrument de musique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-d.i.-'.html"> b.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="dispositif d'affichage"
+                data-en="display device">
+                dispositif d'affichage
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-f.i.-'.html"> b.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="système circulatoire | système respiratoire, coeur | poumon"
+                data-en="circulatory system | respiratory system, heart | lung">
+                système circulatoire | système respiratoire, coeur | poumon
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-l.i.-'.html"> b.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="route, chemin, voie, canal, tuyau"
+                data-en="road, path, way, channel, pipe">
+                route, chemin, voie, canal, tuyau
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-M_M_.i.-'.html"> t.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="contenant en substance"
+                data-en="container in substance">
+                contenant en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-s.i.-'.html"> t.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="véhicule"
+                data-en="vehicle">
+                véhicule
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-b.i.-'.html"> t.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="document"
+                data-en="document">
+                document
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-t.i.-'.html"> t.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="enregistrement (dispositif d')"
+                data-en="recording device">
+                enregistrement (dispositif d')
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-k.i.-'.html"> t.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="capital"
+                data-en="capital">
+                capital
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-m.i.-'.html"> t.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="trésor"
+                data-en="treasure">
+                trésor
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-n.i.-'.html"> t.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="chauffage (dispositif de)"
+                data-en="heating device">
+                chauffage (dispositif de)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-d.i.-'.html"> t.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="horloge, chronomètre"
+                data-en="clock, chronometer, timer">
+                horloge, chronomètre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-f.i.-'.html"> t.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="code génétique | ADN, protéines, molécules organiques"
+                data-en="genetic code | DNA, proteins, organic molécules">
+                code génétique | ADN, protéines, molécules organiques
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-l.i.-'.html"> t.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="ville"
+                data-en="city">
+                ville
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-M_M_.i.-'.html"> k.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="don en substance"
+                data-en="gift in substance">
+                don en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-s.i.-'.html"> k.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="recyclage"
+                data-en="recycling">
+                recyclage
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-b.i.-'.html"> k.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="système d'exploitation"
+                data-en="operating system">
+                système d'exploitation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-t.i.-'.html"> k.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="magasin | entrepôt"
+                data-en="store | storage">
+                magasin | entrepôt
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-k.i.-'.html"> k.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="bien économique"
+                data-en="economic good">
+                bien économique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-m.i.-'.html"> k.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="terrain de jeu"
+                data-en="playing ground">
+                terrain de jeu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-n.i.-'.html"> k.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="atelier"
+                data-en="workshop">
+                atelier
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-d.i.-'.html"> k.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="marché"
+                data-en="market">
+                marché
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-f.i.-'.html"> k.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="bouche | système digestif"
+                data-en="mouth | digestive system">
+                bouche | système digestif
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-l.i.-'.html"> k.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="bâtiment | maison | foyer"
+                data-en="building | house | home">
+                bâtiment | maison | foyer
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-M_M_.i.-'.html"> m.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="jouet en substance"
+                data-en="toy in substance">
+                jouet en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-s.i.-'.html"> m.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="appât"
+                data-en="lure">
+                appât
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-b.i.-'.html"> m.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="parfum"
+                data-en="perfume">
+                parfum
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-t.i.-'.html"> m.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="sécurité (dispositif de)"
+                data-en="security device">
+                sécurité (dispositif de)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-k.i.-'.html"> m.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="pièce d'un jeu"
+                data-en="piece of a game">
+                pièce d'un jeu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-m.i.-'.html"> m.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="fétiche"
+                data-en="fetish">
+                fétiche
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-n.i.-'.html"> m.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="nettoyage (instrument de)"
+                data-en="cleaning device">
+                nettoyage (instrument de)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-d.i.-'.html"> m.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="cible"
+                data-en="target">
+                cible
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-f.i.-'.html"> m.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="peau, membrane"
+                data-en="skin, membrane">
+                peau, membrane
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-l.i.-'.html"> m.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="fil | textile | vêtement"
+                data-en="thread | textile | clothing">
+                fil | textile | vêtement
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-M_M_.i.-'.html"> n.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="feu en substance"
+                data-en="fire in substance">
+                feu en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-s.i.-'.html"> n.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="moteur"
+                data-en="engine">
+                moteur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-b.i.-'.html"> n.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="éclairage"
+                data-en="lighting">
+                éclairage
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-t.i.-'.html"> n.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="carburant"
+                data-en="fuel">
+                carburant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-k.i.-'.html"> n.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="marchandise"
+                data-en="merchandise">
+                marchandise
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-m.i.-'.html"> n.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="travail humain | métier, profession"
+                data-en="human work | trade, profession">
+                travail humain | métier, profession
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-n.i.-'.html"> n.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="énergie"
+                data-en="energy">
+                énergie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-d.i.-'.html"> n.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="roue | levier"
+                data-en="wheel | lever">
+                roue | levier
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-f.i.-'.html"> n.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="membre, extrémité, main et pied"
+                data-en="limb, end of limb, hand and foot">
+                membre, extrémité, main et pied
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-l.i.-'.html"> n.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="colle | joint"
+                data-en="glue | joint">
+                colle | joint
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-M_M_.i.-'.html"> d.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="mètre en substance"
+                data-en="meter in substance">
+                mètre en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-s.i.-'.html"> d.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="circuit intégré"
+                data-en="integrated circuit">
+                circuit intégré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-b.i.-'.html"> d.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="ordinateur"
+                data-en="computer">
+                ordinateur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-t.i.-'.html"> d.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="compteur | jauge"
+                data-en="meter | gauge">
+                compteur | jauge
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-k.i.-'.html"> d.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="monnaie"
+                data-en="money">
+                monnaie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-m.i.-'.html"> d.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="prix | médaille"
+                data-en="award | medal">
+                prix | médaille
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-n.i.-'.html"> d.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="instrument de pilotage"
+                data-en="steering device">
+                instrument de pilotage
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-d.i.-'.html"> d.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="données quantitatives"
+                data-en="quantitative data">
+                données quantitatives
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-f.i.-'.html"> d.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="organe sensoriel"
+                data-en="sensory organ">
+                organe sensoriel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-l.i.-'.html"> d.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="lieu | site | pièce | salle"
+                data-en="place | site | room | hall">
+                lieu | site | pièce | salle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-M_M_.i.-'.html"> f.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="organe en substance"
+                data-en="organ in substance">
+                organe en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-s.i.-'.html"> f.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="prothèse"
+                data-en="prosthesis">
+                prothèse
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-b.i.-'.html"> f.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="drogue | médicament"
+                data-en="drug | medicine">
+                drogue | médicament
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-t.i.-'.html"> f.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="graisse"
+                data-en="fat">
+                graisse
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-k.i.-'.html"> f.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="nourriture | boisson"
+                data-en="food | drink">
+                nourriture | boisson
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-m.i.-'.html"> f.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="sexe"
+                data-en="sexuality">
+                sexe
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-n.i.-'.html"> f.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="arme"
+                data-en="weapon">
+                arme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-d.i.-'.html"> f.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="capteur | détecteur"
+                data-en="sensor | detector">
+                capteur | détecteur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-f.i.-'.html"> f.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="organisme"
+                data-en="organism">
+                organisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-l.i.-'.html"> f.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="cadre | charpente"
+                data-en="frame | framework">
+                cadre | charpente
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-M_M_.i.-'.html"> l.i.-M:M:.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="noeud en substance"
+                data-en="knot in substance">
+                noeud en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-s.i.-'.html"> l.i.-s.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="ouverture | porte | fenêtre"
+                data-en="opening | door | window">
+                ouverture | porte | fenêtre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-b.i.-'.html"> l.i.-b.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="simulation"
+                data-en="simulation">
+                simulation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-t.i.-'.html"> l.i.-t.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="fermeture | sac"
+                data-en="closure | bag">
+                fermeture | sac
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-k.i.-'.html"> l.i.-k.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="terrain | champ"
+                data-en="terrain | field">
+                terrain | champ
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-m.i.-'.html"> l.i.-m.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="meuble"
+                data-en="furniture">
+                meuble
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-n.i.-'.html"> l.i.-n.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="outil coupant | perçant"
+                data-en="cutting | piercing tool">
+                outil coupant | perçant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-d.i.-'.html"> l.i.-d.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="boussole"
+                data-en="compass">
+                boussole
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-f.i.-'.html"> l.i.-f.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="muscle | os, squelette"
+                data-en="muscle | os, skeleton">
+                muscle | os, squelette
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-l.i.-'.html"> l.i.-l.i.-' </a>
+            <span class="translation table-cell"
+                data-fr="réseau"
+                data-en="network">
+                réseau
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+        
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-2"
+       aria-labelledby="nav-tables-2-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_M_.i.-M_M_.i.-t.u.-'.html">M:M:.i.-M:M:.i.-t.u.-'</a> qualités techniques</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="10" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-M_M_.i.-t.u.-'.html"> M:M:.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="qualités techniques"
+                data-en="technical qualities">
+                qualités techniques
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-s.i.-t.u.-'.html"> M:M:.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-b.i.-t.u.-'.html"> M:M:.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-t.i.-t.u.-'.html"> M:M:.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-k.i.-t.u.-'.html"> M:M:.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-m.i.-t.u.-'.html"> M:M:.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-n.i.-t.u.-'.html"> M:M:.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-d.i.-t.u.-'.html"> M:M:.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-f.i.-t.u.-'.html"> M:M:.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-l.i.-t.u.-'.html"> M:M:.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr=""
+                data-en="">
+                
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-M_M_.i.-t.u.-'.html"> s.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="interface en substance"
+                data-en="interface in substance">
+                interface en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-s.i.-t.u.-'.html"> s.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="allumé"
+                data-en="switched on">
+                allumé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-b.i.-t.u.-'.html"> s.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="multimédia"
+                data-en="multimedia">
+                multimédia
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-t.i.-t.u.-'.html"> s.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="filtré"
+                data-en="filtered">
+                filtré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-k.i.-t.u.-'.html"> s.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="récolté"
+                data-en="harvested">
+                récolté
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-m.i.-t.u.-'.html"> s.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="mécanique"
+                data-en="mechanical">
+                mécanique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-n.i.-t.u.-'.html"> s.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="réfrigéré"
+                data-en="refrigerated">
+                réfrigéré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-d.i.-t.u.-'.html"> s.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="émis | diffusé, émission"
+                data-en="emitted | broadcasted, program">
+                émis | diffusé, émission
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-f.i.-t.u.-'.html"> s.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="reconnu"
+                data-en="recognized">
+                reconnu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-l.i.-t.u.-'.html"> s.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="articulé"
+                data-en="articulated">
+                articulé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-M_M_.i.-t.u.-'.html"> b.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="medium in substance"
+                data-en="medium in substance">
+                medium in substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-s.i.-t.u.-'.html"> b.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="atmosphérique"
+                data-en="atmospheric">
+                atmosphérique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-b.i.-t.u.-'.html"> b.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ubiquitaire, présent sur Internet, dans le médium algorithmique"
+                data-en="ubiquitous, online, in the algorithmic medium">
+                ubiquitaire, présent sur Internet, dans le médium algorithmique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-t.i.-t.u.-'.html"> b.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="support d'information"
+                data-en="information medium">
+                support d'information
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-k.i.-t.u.-'.html"> b.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="monumental"
+                data-en="monumental">
+                monumental
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-m.i.-t.u.-'.html"> b.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="brillant"
+                data-en="bright">
+                brillant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-n.i.-t.u.-'.html"> b.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="virtuose"
+                data-en="virtuoso">
+                virtuose
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-d.i.-t.u.-'.html"> b.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="affiché"
+                data-en="displayed">
+                affiché
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-f.i.-t.u.-'.html"> b.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="distribué"
+                data-en="distributed">
+                distribué
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-l.i.-t.u.-'.html"> b.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="relié"
+                data-en="linked">
+                relié
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-M_M_.i.-t.u.-'.html"> t.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="contenant en substance"
+                data-en="container in substance">
+                contenant en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-s.i.-t.u.-'.html"> t.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="en transit"
+                data-en="in transit">
+                en transit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-b.i.-t.u.-'.html"> t.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="informatif"
+                data-en="informative">
+                informatif
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-t.i.-t.u.-'.html"> t.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="enregistré"
+                data-en="recorded">
+                enregistré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-k.i.-t.u.-'.html"> t.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="stocké"
+                data-en="stocked">
+                stocké
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-m.i.-t.u.-'.html"> t.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="précieux"
+                data-en="precious">
+                précieux
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-n.i.-t.u.-'.html"> t.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="chauffé"
+                data-en="heated">
+                chauffé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-d.i.-t.u.-'.html"> t.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="chronométré"
+                data-en="measured time">
+                chronométré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-f.i.-t.u.-'.html"> t.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="génétique"
+                data-en="genetic">
+                génétique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-l.i.-t.u.-'.html"> t.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="urbain"
+                data-en="urban">
+                urbain
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-M_M_.i.-t.u.-'.html"> k.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="don en substance"
+                data-en="gift in substance">
+                don en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-s.i.-t.u.-'.html"> k.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="à  recycler"
+                data-en="to be recycled">
+                à  recycler
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-b.i.-t.u.-'.html"> k.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="logiciel, programme, algorithme"
+                data-en="software, program, algorithm">
+                logiciel, programme, algorithme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-t.i.-t.u.-'.html"> k.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="entreposé"
+                data-en="stored">
+                entreposé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-k.i.-t.u.-'.html"> k.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="économique"
+                data-en="economic">
+                économique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-m.i.-t.u.-'.html"> k.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="symbole de jeu"
+                data-en="play symbol">
+                symbole de jeu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-n.i.-t.u.-'.html"> k.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="assemblé | manufacturé"
+                data-en="assembled | manufactured">
+                assemblé | manufacturé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-d.i.-t.u.-'.html"> k.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="prix"
+                data-en="price">
+                prix
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-f.i.-t.u.-'.html"> k.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="digéré"
+                data-en="digested">
+                digéré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-l.i.-t.u.-'.html"> k.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="habité"
+                data-en="inhabited">
+                habité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-M_M_.i.-t.u.-'.html"> m.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="jouet en substance"
+                data-en="toy in substance">
+                jouet en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-s.i.-t.u.-'.html"> m.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="piégé"
+                data-en="trapped">
+                piégé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-b.i.-t.u.-'.html"> m.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="parfumé"
+                data-en="perfumed">
+                parfumé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-t.i.-t.u.-'.html"> m.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="protégé"
+                data-en="protected">
+                protégé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-k.i.-t.u.-'.html"> m.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ludique"
+                data-en="playful">
+                ludique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-m.i.-t.u.-'.html"> m.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="fétichisé"
+                data-en="fetishized">
+                fétichisé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-n.i.-t.u.-'.html"> m.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="nettoyé"
+                data-en="cleaned">
+                nettoyé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-d.i.-t.u.-'.html"> m.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ciblé"
+                data-en="targeted">
+                ciblé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-f.i.-t.u.-'.html"> m.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="caressé"
+                data-en="caressed">
+                caressé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-l.i.-t.u.-'.html"> m.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="vêtu | recouvert"
+                data-en="clothed | covered">
+                vêtu | recouvert
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-M_M_.i.-t.u.-'.html"> n.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="feu en substance"
+                data-en="fire in substance">
+                feu en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-s.i.-t.u.-'.html"> n.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="en mouvement"
+                data-en="in motion">
+                en mouvement
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-b.i.-t.u.-'.html"> n.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="éclairé"
+                data-en="lighted">
+                éclairé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-t.i.-t.u.-'.html"> n.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="consommé"
+                data-en="consumed">
+                consommé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-k.i.-t.u.-'.html"> n.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="à  vendre"
+                data-en="for sale">
+                à  vendre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-m.i.-t.u.-'.html"> n.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="valeur ajoutée"
+                data-en="added value">
+                valeur ajoutée
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-n.i.-t.u.-'.html"> n.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="source d'énergie"
+                data-en="energy source">
+                source d'énergie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-d.i.-t.u.-'.html"> n.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="rapide"
+                data-en="quick">
+                rapide
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-f.i.-t.u.-'.html"> n.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="pris | possédé"
+                data-en="taken | possessed">
+                pris | possédé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-l.i.-t.u.-'.html"> n.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="collé | joint"
+                data-en="glued | joint">
+                collé | joint
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-M_M_.i.-t.u.-'.html"> d.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="mètre, instrument de mesure en substance"
+                data-en="meter, measurement instrument in substance">
+                mètre, instrument de mesure en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-s.i.-t.u.-'.html"> d.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="électronique | photonique"
+                data-en="electronics | photonics">
+                électronique | photonique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-b.i.-t.u.-'.html"> d.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="numérique"
+                data-en="digital">
+                numérique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-t.i.-t.u.-'.html"> d.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="compté | mesuré"
+                data-en="numbered | measured">
+                compté | mesuré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-k.i.-t.u.-'.html"> d.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="monétaire"
+                data-en="monetary">
+                monétaire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-m.i.-t.u.-'.html"> d.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="primé | décoré"
+                data-en="awarded | decorated">
+                primé | décoré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-n.i.-t.u.-'.html"> d.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="piloté"
+                data-en="steered">
+                piloté
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-d.i.-t.u.-'.html"> d.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="quantifié"
+                data-en="quantified">
+                quantifié
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-f.i.-t.u.-'.html"> d.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="perceptible"
+                data-en="perceptible">
+                perceptible
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-l.i.-t.u.-'.html"> d.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="adresse | indicateur"
+                data-en="address | indicator">
+                adresse | indicateur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-M_M_.i.-t.u.-'.html"> f.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="organe en substance"
+                data-en="organ in substance">
+                organe en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-s.i.-t.u.-'.html"> f.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="assisté"
+                data-en="assisted">
+                assisté
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-b.i.-t.u.-'.html"> f.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="médicamenté"
+                data-en="medicated">
+                médicamenté
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-t.i.-t.u.-'.html"> f.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="nourri"
+                data-en="fed">
+                nourri
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-k.i.-t.u.-'.html"> f.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="comestible | potable"
+                data-en="edible | drinkable">
+                comestible | potable
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-m.i.-t.u.-'.html"> f.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="sexuel"
+                data-en="sexual">
+                sexuel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-n.i.-t.u.-'.html"> f.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="armé"
+                data-en="armed">
+                armé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-d.i.-t.u.-'.html"> f.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="détecté | capté"
+                data-en="detected | sensed">
+                détecté | capté
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-f.i.-t.u.-'.html"> f.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="organique"
+                data-en="organic">
+                organique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-l.i.-t.u.-'.html"> f.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="soutenu"
+                data-en="supported">
+                soutenu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-M_M_.i.-t.u.-'.html"> l.i.-M:M:.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="noeud en substance"
+                data-en="knot in substance">
+                noeud en substance
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-s.i.-t.u.-'.html"> l.i.-s.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ouvert"
+                data-en="open">
+                ouvert
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-b.i.-t.u.-'.html"> l.i.-b.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="simulé"
+                data-en="simulated">
+                simulé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-t.i.-t.u.-'.html"> l.i.-t.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="fermé | emballé"
+                data-en="closed | packed">
+                fermé | emballé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-k.i.-t.u.-'.html"> l.i.-k.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="immobilier | foncier"
+                data-en="real-estate | land">
+                immobilier | foncier
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-m.i.-t.u.-'.html"> l.i.-m.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="meublé"
+                data-en="furnished">
+                meublé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-n.i.-t.u.-'.html"> l.i.-n.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="découpé | percé"
+                data-en="cut | pierced">
+                découpé | percé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-d.i.-t.u.-'.html"> l.i.-d.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="dirigé (vers)"
+                data-en="directed (toward)">
+                dirigé (vers)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-f.i.-t.u.-'.html"> l.i.-f.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="puissant | agile"
+                data-en="powerful | agile">
+                puissant | agile
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-l.i.-t.u.-'.html"> l.i.-l.i.-t.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="en réseau"
+                data-en="networked">
+                en réseau
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+        
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,595 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            n.a.-
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>juge</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>judge</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Seme</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>6</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/O_M_.M_M_.-+M_M_.O_M_.-.html"> O:M:.M:M:.-+M:M:.O:M:.- </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/O_M_.M_M_.-+M_M_.O_M_.-.html"> O:M:.M:M:.-+M:M:.O:M:.- </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(1,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            <p>Le juge applique la loi ou la coutume – en principe de manière impartiale – et fait donc régner dans la société l'équivalent d'un ordre cosmique. Quant au juste, il a intériorisé la loi, et parfois même une loi plus exigeante que celle dont la société se contente. Certaines traditions spirituelles ne nous apprennent-elles pas que les justes cachés soutiennent le monde ?</p>
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            <p>The judge applies the law or custom - in principle impartially - and thus ensures that the equivalent of a cosmic order prevails in society. As for the righteous, he has internalized the law, and sometimes even a law more demanding than the one with which society is content. Do not some spiritual traditions teach us that the hidden righteous support the world?</p>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-53110101724">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-53110101724"
+                    aria-expanded="false"
+                    aria-controls="body-53110101724">
+                    <span> <span class="badge badge-pill badge-Light">1</span> opposed </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-53110101724"
+         class="collapse"
+         aria-labelledby="heading-53110101724"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/a.n.-.html">a.n.-</a></td>
+                        <td data-fr="corrompre" data-en="corrupt" class="translation">corrompre</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-69447561110">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-69447561110"
+                    aria-expanded="false"
+                    aria-controls="body-69447561110">
+                    <span> <span class="badge badge-pill badge-Light">12</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-69447561110"
+         class="collapse"
+         aria-labelledby="heading-69447561110"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_B_.-.html">n.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de monde" data-en="existential world factors" class="translation">facteurs existentiels de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.A_M_.-.html">n.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de monde" data-en="actual world factors" class="translation">facteurs actuels de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.a.-.html">B:M:.a.-</a></td>
+                        <td data-fr="socialise par l'être" data-en="socialize with being" class="translation">socialise par l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.a.-.html">M:T:.a.-</a></td>
+                        <td data-fr="rôle tourné vers la chose" data-en="role facing thing" class="translation">rôle tourné vers la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_M_.-.html">n.O:M:.-</a></td>
+                        <td data-fr="facteurs de monde" data-en="world factors" class="translation">facteurs de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.a.-.html">M:M:.a.-</a></td>
+                        <td data-fr="genres de rôles sociaux" data-en="kinds of social roles" class="translation">genres de rôles sociaux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.O_M_.-.html">B:M:.O:M:.-</a></td>
+                        <td data-fr="être du développement humain" data-en="being of human development" class="translation">être du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.O_M_.-.html">M:T:.O:M:.-</a></td>
+                        <td data-fr="devenir chose du développement humain" data-en="human development becoming thing" class="translation">devenir chose du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_B_.-.html">M:M:.O:B:.-</a></td>
+                        <td data-fr="développement humain de l'être" data-en="human development of the being" class="translation">développement humain de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.A_M_.-.html">M:M:.A:M:.-</a></td>
+                        <td data-fr="développement humain actuel" data-en="actual human development" class="translation">développement humain actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_M_.-.html">M:M:.O:M:.-</a></td>
+                        <td data-fr="développement humain" data-en="human development" class="translation">développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.M_M_.-+M_M_.O_M_.-.html">O:M:.M:M:.-+M:M:.O:M:.-</a></td>
+                        <td data-fr="déterminants du développement humain, positifs et négatifs (verbes et noms)" data-en="determinants of human development, positive and negative (verbs and nouns)" class="translation">déterminants du développement humain, positifs et négatifs (verbes et noms)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-90727257908">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-90727257908"
+                    aria-expanded="false"
+                    aria-controls="body-90727257908">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-90727257908"
+         class="collapse"
+         aria-labelledby="heading-90727257908"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/n..html">n.</a></td>
+                        <td data-fr="monde" data-en="world" class="translation">monde</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-2826468005">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-2826468005"
+                    aria-expanded="false"
+                    aria-controls="body-2826468005">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-2826468005"
+         class="collapse"
+         aria-labelledby="heading-2826468005"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/a..html">a.</a></td>
+                        <td data-fr="s'engager" data-en="be commited" class="translation">s'engager</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-57770519279">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-57770519279"
+                    aria-expanded="false"
+                    aria-controls="body-57770519279">
+                    <span> <span class="badge badge-pill badge-Light">2</span> child-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-57770519279"
+         class="collapse"
+         aria-labelledby="heading-57770519279"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/n.a.-M_M_.a.-'.html">n.a.-M:M:.a.-'</a></td>
+                        <td data-fr="responsabilité en substance" data-en="responsibility in substance" class="translation">responsabilité en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.a.-M_M_.a.-f.o.-'.html">n.a.-M:M:.a.-f.o.-'</a></td>
+                        <td data-fr="juge en substance" data-en="judge in substance" class="translation">juge en substance</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-26460144812">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-26460144812"
+                    aria-expanded="false"
+                    aria-controls="body-26460144812">
+                    <span> <span class="badge badge-pill badge-Light">4</span> child-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-26460144812"
+         class="collapse"
+         aria-labelledby="heading-26460144812"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.e.-n.a.-'.html">B:M:.e.-n.a.-'</a></td>
+                        <td data-fr="idéaux de discernement" data-en="discerning ideals" class="translation">idéaux de discernement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.e.-n.a.-wa.e.-'.html">B:M:.e.-n.a.-wa.e.-'</a></td>
+                        <td data-fr="vertus de discernement" data-en="virtues of discerning" class="translation">vertus de discernement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.a.-n.a.-'.html">M:M:.a.-n.a.-'</a></td>
+                        <td data-fr="responsabilité en attribut" data-en="responsibility in attribute" class="translation">responsabilité en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.a.-n.a.-f.o.-'.html">M:M:.a.-n.a.-f.o.-'</a></td>
+                        <td data-fr="juge en attribut" data-en="judge in attribute" class="translation">juge en attribut</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

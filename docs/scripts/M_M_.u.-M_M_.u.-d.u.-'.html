@@ -1,0 +1,2236 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            M:M:.u.-M:M:.u.-d.u.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>qualités sémiotiques</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>semiotic qualities</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>81</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>1</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/M_M_.u.-M_M_.u.-E_.-+d.u.-'.html"> M:M:.u.-M:M:.u.-E:.-+d.u.-' </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_M_.u.-M_M_.u.-E_.-+d.u.-'.html"> M:M:.u.-M:M:.u.-E:.-+d.u.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(9, 9)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:M:.u.-M:M:.u.-d.u.-'</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-9517805410">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-9517805410"
+                    aria-expanded="false"
+                    aria-controls="body-9517805410">
+                    <span> <span class="badge badge-pill badge-Light">1</span> twin </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-9517805410"
+         class="collapse"
+         aria-labelledby="heading-9517805410"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-M_M_.u.-'.html">M:M:.u.-M:M:.u.-'</a></td>
+                        <td data-fr="fonctions sémiotiques" data-en="semiotic functions" class="translation">fonctions sémiotiques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-27704958699">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-27704958699"
+                    aria-expanded="false"
+                    aria-controls="body-27704958699">
+                    <span> <span class="badge badge-pill badge-Light">1</span> associated </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-27704958699"
+         class="collapse"
+         aria-labelledby="heading-27704958699"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-M_M_.u.-'.html">M:M:.u.-M:M:.u.-'</a></td>
+                        <td data-fr="fonctions sémiotiques" data-en="semiotic functions" class="translation">fonctions sémiotiques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-12263144057">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-12263144057"
+                    aria-expanded="false"
+                    aria-controls="body-12263144057">
+                    <span> <span class="badge badge-pill badge-Light">1</span> opposed </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-12263144057"
+         class="collapse"
+         aria-labelledby="heading-12263144057"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-M_M_.u.-'.html">M:M:.u.-M:M:.u.-'</a></td>
+                        <td data-fr="fonctions sémiotiques" data-en="semiotic functions" class="translation">fonctions sémiotiques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-25785631468">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-25785631468"
+                    aria-expanded="false"
+                    aria-controls="body-25785631468">
+                    <span> <span class="badge badge-pill badge-Light">18</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-25785631468"
+         class="collapse"
+         aria-labelledby="heading-25785631468"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/s.u.-M_M_.u.-d.u.-'.html">s.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="image en substance (qualité)" data-en="image in substance (quality)" class="translation">image en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.u.-M_M_.u.-d.u.-'.html">b.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="parole en substance (qualité)" data-en="speech in substance (quality)" class="translation">parole en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.u.-M_M_.u.-d.u.-'.html">t.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="marque en substance (qualité)" data-en="mark in substance (quality)" class="translation">marque en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.u.-M_M_.u.-d.u.-'.html">k.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="symbole en substance (qualité)" data-en="symbol in substance (quality)" class="translation">symbole en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.u.-M_M_.u.-d.u.-'.html">m.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="symptôme en substance (qualité)" data-en="symptom in substance (quality)" class="translation">symptôme en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.u.-M_M_.u.-d.u.-'.html">n.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="nom en substance (qualité)" data-en="name in substance (quality)" class="translation">nom en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.u.-M_M_.u.-d.u.-'.html">d.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="pointeur en substance (qualité)" data-en="pointer in substance (quality)" class="translation">pointeur en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.u.-M_M_.u.-d.u.-'.html">f.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="sensation en substance (qualité)" data-en="sensation en substance (quality)" class="translation">sensation en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.u.-M_M_.u.-d.u.-'.html">l.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="trace en substance (qualité)" data-en="trace in substance (quality)" class="translation">trace en substance (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-s.u.-d.u.-'.html">M:M:.u.-s.u.-d.u.-'</a></td>
+                        <td data-fr="image en attribut (qualité)" data-en="image in attribute (quality)" class="translation">image en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-b.u.-d.u.-'.html">M:M:.u.-b.u.-d.u.-'</a></td>
+                        <td data-fr="parole en attribut (qualité)" data-en="speech in attribute (quality)" class="translation">parole en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-t.u.-d.u.-'.html">M:M:.u.-t.u.-d.u.-'</a></td>
+                        <td data-fr="marque en attribut (qualité)" data-en="mark in attribute (quality)" class="translation">marque en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-k.u.-d.u.-'.html">M:M:.u.-k.u.-d.u.-'</a></td>
+                        <td data-fr="symbole en attribut (qualité)" data-en="symbol in attribute (quality)" class="translation">symbole en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-m.u.-d.u.-'.html">M:M:.u.-m.u.-d.u.-'</a></td>
+                        <td data-fr="symptôme en attribut (qualité)" data-en="symptom in attribute (quality)" class="translation">symptôme en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-n.u.-d.u.-'.html">M:M:.u.-n.u.-d.u.-'</a></td>
+                        <td data-fr="nom en attribut (qualité)" data-en="name in attribute (quality)" class="translation">nom en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-d.u.-d.u.-'.html">M:M:.u.-d.u.-d.u.-'</a></td>
+                        <td data-fr="pointeur en attribut (qualité)" data-en="pointer in attribute (quality)" class="translation">pointeur en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-f.u.-d.u.-'.html">M:M:.u.-f.u.-d.u.-'</a></td>
+                        <td data-fr="sensation en attribut (qualité)" data-en="sensation in attribute (quality)" class="translation">sensation en attribut (qualité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-l.u.-d.u.-'.html">M:M:.u.-l.u.-d.u.-'</a></td>
+                        <td data-fr="trace en attribut (qualité)" data-en="trace in attribute (quality)" class="translation">trace en attribut (qualité)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-57235511598">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-57235511598"
+                    aria-expanded="false"
+                    aria-controls="body-57235511598">
+                    <span> <span class="badge badge-pill badge-Light">1</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-57235511598"
+         class="collapse"
+         aria-labelledby="heading-57235511598"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-M_M_.u.-E_.-+d.u.-'.html">M:M:.u.-M:M:.u.-E:.-+d.u.-'</a></td>
+                        <td data-fr="fonctions et qualités sémiotiques" data-en="semiotic functions and qualities" class="translation">fonctions et qualités sémiotiques</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-10869968264">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-10869968264"
+                    aria-expanded="false"
+                    aria-controls="body-10869968264">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-10869968264"
+         class="collapse"
+         aria-labelledby="heading-10869968264"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-.html">M:M:.u.-</a></td>
+                        <td data-fr="genres de signes" data-en="kinds of signs" class="translation">genres de signes</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-96511282025">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-96511282025"
+                    aria-expanded="false"
+                    aria-controls="body-96511282025">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-96511282025"
+         class="collapse"
+         aria-labelledby="heading-96511282025"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-.html">M:M:.u.-</a></td>
+                        <td data-fr="genres de signes" data-en="kinds of signs" class="translation">genres de signes</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-51024505178">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-51024505178"
+                    aria-expanded="false"
+                    aria-controls="body-51024505178">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-51024505178"
+         class="collapse"
+         aria-labelledby="heading-51024505178"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/d.u.-.html">d.u.-</a></td>
+                        <td data-fr="pointeur | signe indiciel" data-en="pointer | indexation sign" class="translation">pointeur | signe indiciel</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_M_.u.-M_M_.u.-d.u.-'.html">M:M:.u.-M:M:.u.-d.u.-'</a> qualités sémiotiques</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="10" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-M_M_.u.-d.u.-'.html"> M:M:.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="qualités sémiotiques"
+                data-en="semiotic qualities">
+                qualités sémiotiques
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-s.u.-d.u.-'.html"> M:M:.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="image en attribut (qualité)"
+                data-en="image in attribute (quality)">
+                image en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-b.u.-d.u.-'.html"> M:M:.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="parole en attribut (qualité)"
+                data-en="speech in attribute (quality)">
+                parole en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-t.u.-d.u.-'.html"> M:M:.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="marque en attribut (qualité)"
+                data-en="mark in attribute (quality)">
+                marque en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-k.u.-d.u.-'.html"> M:M:.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="symbole en attribut (qualité)"
+                data-en="symbol in attribute (quality)">
+                symbole en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-m.u.-d.u.-'.html"> M:M:.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="symptôme en attribut (qualité)"
+                data-en="symptom in attribute (quality)">
+                symptôme en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-n.u.-d.u.-'.html"> M:M:.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="nom en attribut (qualité)"
+                data-en="name in attribute (quality)">
+                nom en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-d.u.-d.u.-'.html"> M:M:.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="pointeur en attribut (qualité)"
+                data-en="pointer in attribute (quality)">
+                pointeur en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-f.u.-d.u.-'.html"> M:M:.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="sensation en attribut (qualité)"
+                data-en="sensation in attribute (quality)">
+                sensation en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-l.u.-d.u.-'.html"> M:M:.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="trace en attribut (qualité)"
+                data-en="trace in attribute (quality)">
+                trace en attribut (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-M_M_.u.-d.u.-'.html"> s.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="image en substance (qualité)"
+                data-en="image in substance (quality)">
+                image en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-s.u.-d.u.-'.html"> s.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="reflété"
+                data-en="reflected">
+                reflété
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-b.u.-d.u.-'.html"> s.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="énoncé"
+                data-en="enunciated">
+                énoncé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-t.u.-d.u.-'.html"> s.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="schématisé"
+                data-en="schematised">
+                schématisé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-k.u.-d.u.-'.html"> s.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="visualisé (dans un exercice spirituel)"
+                data-en="visualized (in a spiritual exercise)">
+                visualisé (dans un exercice spirituel)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-m.u.-d.u.-'.html"> s.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="onirique"
+                data-en="dream-like">
+                onirique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-n.u.-d.u.-'.html"> s.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="conceptuel"
+                data-en="conceptual">
+                conceptuel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-d.u.-d.u.-'.html"> s.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="repéré"
+                data-en="located">
+                repéré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-f.u.-d.u.-'.html"> s.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="perçu"
+                data-en="perceived">
+                perçu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-l.u.-d.u.-'.html"> s.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="caché"
+                data-en="hidden">
+                caché
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-M_M_.u.-d.u.-'.html"> b.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="parole en substance (qualité)"
+                data-en="speech in substance (quality)">
+                parole en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-s.u.-d.u.-'.html"> b.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="semblable"
+                data-en="similar">
+                semblable
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-b.u.-d.u.-'.html"> b.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="signifiant"
+                data-en="significant">
+                signifiant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-t.u.-d.u.-'.html"> b.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="programmé"
+                data-en="programmed">
+                programmé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-k.u.-d.u.-'.html"> b.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="demandé (aux puissances supérieures)"
+                data-en="asked for (to higher powers)">
+                demandé (aux puissances supérieures)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-m.u.-d.u.-'.html"> b.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="chanté"
+                data-en="sung">
+                chanté
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-n.u.-d.u.-'.html"> b.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="agissant"
+                data-en="acting">
+                agissant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-d.u.-d.u.-'.html"> b.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="partiel, incomplet, presque"
+                data-en="partial, incomplete, almost">
+                partiel, incomplet, presque
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-f.u.-d.u.-'.html"> b.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="genre littéraire, etc. (appartenant à un)"
+                data-en="genre (literary, etc.) belonging to a">
+                genre littéraire, etc. (appartenant à un)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-l.u.-d.u.-'.html"> b.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="cité"
+                data-en="cited">
+                cité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-M_M_.u.-d.u.-'.html"> t.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="marque en substance (qualité)"
+                data-en="mark in substance (quality)">
+                marque en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-s.u.-d.u.-'.html"> t.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="imprimé | gravé"
+                data-en="printed | engraved">
+                imprimé | gravé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-b.u.-d.u.-'.html"> t.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="écrit"
+                data-en="written">
+                écrit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-t.u.-d.u.-'.html"> t.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="quantitatif"
+                data-en="quantitative">
+                quantitatif
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-k.u.-d.u.-'.html"> t.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="scriptural"
+                data-en="scriptural">
+                scriptural
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-m.u.-d.u.-'.html"> t.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="auditif"
+                data-en="auditive">
+                auditif
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-n.u.-d.u.-'.html"> t.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="unique"
+                data-en="unique">
+                unique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-d.u.-d.u.-'.html"> t.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="indexé"
+                data-en="indexed">
+                indexé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-f.u.-d.u.-'.html"> t.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="séquentiel"
+                data-en="sequential">
+                séquentiel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-l.u.-d.u.-'.html"> t.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="photographié"
+                data-en="photographed">
+                photographié
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-M_M_.u.-d.u.-'.html"> k.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="symbole en substance (qualité)"
+                data-en="symbol in substance (quality)">
+                symbole en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-s.u.-d.u.-'.html"> k.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="symétrique"
+                data-en="symmetrical">
+                symétrique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-b.u.-d.u.-'.html"> k.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="révélé"
+                data-en="revealed">
+                révélé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-t.u.-d.u.-'.html"> k.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="prémonitoire"
+                data-en="premonitory">
+                prémonitoire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-k.u.-d.u.-'.html"> k.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="divin"
+                data-en="divine">
+                divin
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-m.u.-d.u.-'.html"> k.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="stigmatisé"
+                data-en="stigmatized">
+                stigmatisé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-n.u.-d.u.-'.html"> k.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="tribal"
+                data-en="tribal">
+                tribal
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-d.u.-d.u.-'.html"> k.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="illuminé"
+                data-en="illuminated">
+                illuminé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-f.u.-d.u.-'.html"> k.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="saint"
+                data-en="holy">
+                saint
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-l.u.-d.u.-'.html"> k.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="funéraire"
+                data-en="funerary">
+                funéraire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-M_M_.u.-d.u.-'.html"> m.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="symptôme en substance (qualité)"
+                data-en="symptom in substance (quality)">
+                symptôme en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-s.u.-d.u.-'.html"> m.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="fantasmé"
+                data-en="fantasized">
+                fantasmé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-b.u.-d.u.-'.html"> m.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ensorcelé"
+                data-en="bewitched">
+                ensorcelé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-t.u.-d.u.-'.html"> m.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="masqué | dissimulé"
+                data-en="masked | concealed">
+                masqué | dissimulé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-k.u.-d.u.-'.html"> m.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="sacré"
+                data-en="sacred">
+                sacré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-m.u.-d.u.-'.html"> m.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="autre"
+                data-en="other">
+                autre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-n.u.-d.u.-'.html"> m.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="subjectif"
+                data-en="subjective">
+                subjectif
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-d.u.-d.u.-'.html"> m.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="maquillé"
+                data-en="made-up">
+                maquillé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-f.u.-d.u.-'.html"> m.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="agréable"
+                data-en="pleasant">
+                agréable
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-l.u.-d.u.-'.html"> m.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="rappelé à la mémoire"
+                data-en="remembered">
+                rappelé à la mémoire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-M_M_.u.-d.u.-'.html"> n.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="nom en substance (qualité)"
+                data-en="name in substance (quality)">
+                nom en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-s.u.-d.u.-'.html"> n.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="total | intégral"
+                data-en="total | integral">
+                total | intégral
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-b.u.-d.u.-'.html"> n.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="proposé"
+                data-en="proposed">
+                proposé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-t.u.-d.u.-'.html"> n.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="emblématique"
+                data-en="emblematic">
+                emblématique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-k.u.-d.u.-'.html"> n.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="vertueux"
+                data-en="virtuous">
+                vertueux
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-m.u.-d.u.-'.html"> n.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="imité"
+                data-en="imitated">
+                imité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-n.u.-d.u.-'.html"> n.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="inconnu"
+                data-en="unknown">
+                inconnu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-d.u.-d.u.-'.html"> n.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="étiqueté"
+                data-en="tagged">
+                étiqueté
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-f.u.-d.u.-'.html"> n.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="visuel"
+                data-en="visual">
+                visuel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-l.u.-d.u.-'.html"> n.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="retracé"
+                data-en="retraced">
+                retracé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-M_M_.u.-d.u.-'.html"> d.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="pointeur en substance (qualité)"
+                data-en="pointer in substance (quality)">
+                pointeur en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-s.u.-d.u.-'.html"> d.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="cartographié"
+                data-en="mapped">
+                cartographié
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-b.u.-d.u.-'.html"> d.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="conseillé"
+                data-en="advised">
+                conseillé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-t.u.-d.u.-'.html"> d.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="lié | référencé | en note"
+                data-en="linked | referenced | in a note">
+                lié | référencé | en note
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-k.u.-d.u.-'.html"> d.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="consacré"
+                data-en="consecreted">
+                consacré
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-m.u.-d.u.-'.html"> d.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="réflexe"
+                data-en="reflex">
+                réflexe
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-n.u.-d.u.-'.html"> d.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="contextuel"
+                data-en="contextual">
+                contextuel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-d.u.-d.u.-'.html"> d.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="saillant"
+                data-en="salient">
+                saillant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-f.u.-d.u.-'.html"> d.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="présent"
+                data-en="present">
+                présent
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-l.u.-d.u.-'.html"> d.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="soupçonné"
+                data-en="suspected">
+                soupçonné
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-M_M_.u.-d.u.-'.html"> f.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="sensation en substance (qualité)"
+                data-en="sensation en substance (quality)">
+                sensation en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-s.u.-d.u.-'.html"> f.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="imaginé"
+                data-en="imagined">
+                imaginé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-b.u.-d.u.-'.html"> f.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="accentué"
+                data-en="accentuated">
+                accentué
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-t.u.-d.u.-'.html"> f.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="composé (partition musicale)"
+                data-en="composed (musical score)">
+                composé (partition musicale)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-k.u.-d.u.-'.html"> f.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="aperçu dans une vision"
+                data-en="glimpsed in a vision">
+                aperçu dans une vision
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-m.u.-d.u.-'.html"> f.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="sentimental"
+                data-en="sentimental">
+                sentimental
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-n.u.-d.u.-'.html"> f.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="attribué"
+                data-en="attributed">
+                attribué
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-d.u.-d.u.-'.html"> f.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="remarquable"
+                data-en="remarkable">
+                remarquable
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-f.u.-d.u.-'.html"> f.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="illusoire"
+                data-en="illusory">
+                illusoire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-l.u.-d.u.-'.html"> f.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ridé"
+                data-en="wrinkled">
+                ridé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-M_M_.u.-d.u.-'.html"> l.u.-M:M:.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="trace en substance (qualité)"
+                data-en="trace in substance (quality)">
+                trace en substance (qualité)
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-s.u.-d.u.-'.html"> l.u.-s.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="moulé"
+                data-en="casted">
+                moulé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-b.u.-d.u.-'.html"> l.u.-b.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="transcrit"
+                data-en="transcribed">
+                transcrit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-t.u.-d.u.-'.html"> l.u.-t.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="scellé | timbré | tamponné"
+                data-en="sealed | stamped">
+                scellé | timbré | tamponné
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-k.u.-d.u.-'.html"> l.u.-k.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="miraculeux"
+                data-en="miraculous">
+                miraculeux
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-m.u.-d.u.-'.html"> l.u.-m.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="habituel"
+                data-en="usual">
+                habituel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-n.u.-d.u.-'.html"> l.u.-n.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="ayant lieu | survenant"
+                data-en="happening | occuring">
+                ayant lieu | survenant
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-d.u.-d.u.-'.html"> l.u.-d.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="échantillonné"
+                data-en="sampled">
+                échantillonné
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-f.u.-d.u.-'.html"> l.u.-f.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="tactile | kinesthésique"
+                data-en="tactile | kinesthetic">
+                tactile | kinesthésique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-l.u.-d.u.-'.html"> l.u.-l.u.-d.u.-' </a>
+            <span class="translation table-cell"
+                data-fr="matériel"
+                data-en="material">
+                matériel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

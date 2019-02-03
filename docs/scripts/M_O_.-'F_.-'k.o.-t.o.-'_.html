@@ -1,0 +1,1203 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            M:O:.-'F:.-'k.o.-t.o.-',
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>évolution culturelle | périodes historiques</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>cultural evolution | historical periods</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">RootParadigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>4</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>30</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>0</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        Root paradigm
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/M_O_.-'F_.-'k.o.-t.o.-'_.html"> M:O:.-'F:.-'k.o.-t.o.-', </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(6, 5)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:O:.-'F:.-'k.o.-t.o.-',</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-44024657557">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-44024657557"
+                    aria-expanded="false"
+                    aria-controls="body-44024657557">
+                    <span> <span class="badge badge-pill badge-Light">11</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-44024657557"
+         class="collapse"
+         aria-labelledby="heading-44024657557"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/j.-'F_.-'k.o.-t.o.-'_.html">j.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation épistémique" data-en="epistemic mutation" class="translation">mutation épistémique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.-'F_.-'k.o.-t.o.-'_.html">g.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation éducative" data-en="education mutation" class="translation">mutation éducative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.-'F_.-'k.o.-t.o.-'_.html">h.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation religieuse" data-en="religious mutation" class="translation">mutation religieuse</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.-'F_.-'k.o.-t.o.-'_.html">c.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation politique" data-en="political mutation" class="translation">mutation politique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.-'F_.-'k.o.-t.o.-'_.html">p.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation économique" data-en="economic mutation" class="translation">mutation économique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.-'F_.-'k.o.-t.o.-'_.html">x.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation technique" data-en="technical mutation" class="translation">mutation technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.-'U_.-'k.o.-t.o.-'_.html">M:O:.-'U:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="régime d'oralité primaire" data-en="primary orality regime" class="translation">régime d'oralité primaire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.-'A_.-'k.o.-t.o.-'_.html">M:O:.-'A:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="régime scribal" data-en="scribal regime" class="translation">régime scribal</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.-'S_.-'k.o.-t.o.-'_.html">M:O:.-'S:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="régime lettré" data-en="literate regime" class="translation">régime lettré</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.-'B_.-'k.o.-t.o.-'_.html">M:O:.-'B:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="régime typographique" data-en="typographic regime" class="translation">régime typographique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.-'T_.-'k.o.-t.o.-'_.html">M:O:.-'T:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="regime algorithmique" data-en="algorithmic regime" class="translation">regime algorithmique</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-76272817580">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-76272817580"
+                    aria-expanded="false"
+                    aria-controls="body-76272817580">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-76272817580"
+         class="collapse"
+         aria-labelledby="heading-76272817580"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_..html">M:O:.</a></td>
+                        <td data-fr="agents" data-en="agents" class="translation">agents</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-37353342028">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-37353342028"
+                    aria-expanded="false"
+                    aria-controls="body-37353342028">
+                    <span> <span class="badge badge-pill badge-Light">5</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-37353342028"
+         class="collapse"
+         aria-labelledby="heading-37353342028"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/U_.html">U:</a></td>
+                        <td data-fr="virtuel" data-en="virtual" class="translation">virtuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_.html">A:</a></td>
+                        <td data-fr="actuel" data-en="actual" class="translation">actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_.html">S:</a></td>
+                        <td data-fr="signe" data-en="sign" class="translation">signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.html">B:</a></td>
+                        <td data-fr="être" data-en="being" class="translation">être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_.html">T:</a></td>
+                        <td data-fr="chose" data-en="thing" class="translation">chose</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-13779627915">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-13779627915"
+                    aria-expanded="false"
+                    aria-controls="body-13779627915">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-13779627915"
+         class="collapse"
+         aria-labelledby="heading-13779627915"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/k.o.-t.o.-'.html">k.o.-t.o.-'</a></td>
+                        <td data-fr="histoire" data-en="history" class="translation">histoire</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_O_.-'F_.-'k.o.-t.o.-'_.html">M:O:.-'F:.-'k.o.-t.o.-',</a> évolution culturelle | périodes historiques</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="6" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.-'F_.-'k.o.-t.o.-'_.html"> M:O:.-'F:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="évolution culturelle | périodes historiques"
+                data-en="cultural evolution | historical periods">
+                évolution culturelle | périodes historiques
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.-'U_.-'k.o.-t.o.-'_.html"> M:O:.-'U:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="régime d'oralité primaire"
+                data-en="primary orality regime">
+                régime d'oralité primaire
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.-'A_.-'k.o.-t.o.-'_.html"> M:O:.-'A:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="régime scribal"
+                data-en="scribal regime">
+                régime scribal
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.-'S_.-'k.o.-t.o.-'_.html"> M:O:.-'S:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="régime lettré"
+                data-en="literate regime">
+                régime lettré
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.-'B_.-'k.o.-t.o.-'_.html"> M:O:.-'B:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="régime typographique"
+                data-en="typographic regime">
+                régime typographique
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_O_.-'T_.-'k.o.-t.o.-'_.html"> M:O:.-'T:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="regime algorithmique"
+                data-en="algorithmic regime">
+                regime algorithmique
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.-'F_.-'k.o.-t.o.-'_.html"> j.-'F:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="mutation épistémique"
+                data-en="epistemic mutation">
+                mutation épistémique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.-'U_.-'k.o.-t.o.-'_.html"> j.-'U:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="connaissance narrative | rituelle"
+                data-en="narrative | ritual knowledge">
+                connaissance narrative | rituelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.-'A_.-'k.o.-t.o.-'_.html"> j.-'A:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="connaissance systématique"
+                data-en="systematic knowledge">
+                connaissance systématique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.-'S_.-'k.o.-t.o.-'_.html"> j.-'S:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="connaissance philosophique"
+                data-en="philosophical knowledge">
+                connaissance philosophique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.-'B_.-'k.o.-t.o.-'_.html"> j.-'B:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="sciences de la nature"
+                data-en="natural sciences">
+                sciences de la nature
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/j.-'T_.-'k.o.-t.o.-'_.html"> j.-'T:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="sciences de l'humanité"
+                data-en="scientific humanities">
+                sciences de l'humanité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.-'F_.-'k.o.-t.o.-'_.html"> g.-'F:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="mutation éducative"
+                data-en="education mutation">
+                mutation éducative
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.-'U_.-'k.o.-t.o.-'_.html"> g.-'U:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="immersion | initiation"
+                data-en="immersion | initiation">
+                immersion | initiation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.-'A_.-'k.o.-t.o.-'_.html"> g.-'A:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="éducation scribale"
+                data-en="scribal education">
+                éducation scribale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.-'S_.-'k.o.-t.o.-'_.html"> g.-'S:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="éducation libérale"
+                data-en="liberal education">
+                éducation libérale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.-'B_.-'k.o.-t.o.-'_.html"> g.-'B:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="éducation obligatoire"
+                data-en="mandatory education">
+                éducation obligatoire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/g.-'T_.-'k.o.-t.o.-'_.html"> g.-'T:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="apprentissage social permanent"
+                data-en="life long social learning">
+                apprentissage social permanent
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.-'F_.-'k.o.-t.o.-'_.html"> h.-'F:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="mutation religieuse"
+                data-en="religious mutation">
+                mutation religieuse
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.-'U_.-'k.o.-t.o.-'_.html"> h.-'U:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="shamanisme"
+                data-en="shamanism">
+                shamanisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.-'A_.-'k.o.-t.o.-'_.html"> h.-'A:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="temple | polythéisme"
+                data-en="temple | polytheism">
+                temple | polythéisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.-'S_.-'k.o.-t.o.-'_.html"> h.-'S:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="religion universelle"
+                data-en="universal religions">
+                religion universelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.-'B_.-'k.o.-t.o.-'_.html"> h.-'B:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="réforme | idéologie séculière"
+                data-en="reform | counter reform">
+                réforme | idéologie séculière
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/h.-'T_.-'k.o.-t.o.-'_.html"> h.-'T:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="religion du futur"
+                data-en="future religion">
+                religion du futur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.-'F_.-'k.o.-t.o.-'_.html"> c.-'F:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="mutation politique"
+                data-en="political mutation">
+                mutation politique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.-'U_.-'k.o.-t.o.-'_.html"> c.-'U:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="tribu"
+                data-en="tribe">
+                tribu
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.-'A_.-'k.o.-t.o.-'_.html"> c.-'A:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="palais | état"
+                data-en="palace | state">
+                palais | état
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.-'S_.-'k.o.-t.o.-'_.html"> c.-'S:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="cité | empire"
+                data-en="city | empire">
+                cité | empire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.-'B_.-'k.o.-t.o.-'_.html"> c.-'B:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="état nation"
+                data-en="nation state">
+                état nation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/c.-'T_.-'k.o.-t.o.-'_.html"> c.-'T:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="état en essaim"
+                data-en="swarm state">
+                état en essaim
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.-'F_.-'k.o.-t.o.-'_.html"> p.-'F:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="mutation économique"
+                data-en="economic mutation">
+                mutation économique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.-'U_.-'k.o.-t.o.-'_.html"> p.-'U:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="chasse | cueillette | domestication des plantes et animaux"
+                data-en="hunting | gathering | domestication of plants and animals">
+                chasse | cueillette | domestication des plantes et animaux
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.-'A_.-'k.o.-t.o.-'_.html"> p.-'A:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="agriculture à grande échelle (révolution néolithique)"
+                data-en="large scale farming (neolithic revolution)">
+                agriculture à grande échelle (révolution néolithique)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.-'S_.-'k.o.-t.o.-'_.html"> p.-'S:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="monnaie | révolution commerciale"
+                data-en="money | trade revolution">
+                monnaie | révolution commerciale
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.-'B_.-'k.o.-t.o.-'_.html"> p.-'B:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="révolution industrielle"
+                data-en="industrial revolution">
+                révolution industrielle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/p.-'T_.-'k.o.-t.o.-'_.html"> p.-'T:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="économie de l'information"
+                data-en="information economy">
+                économie de l'information
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.-'F_.-'k.o.-t.o.-'_.html"> x.-'F:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="mutation technique"
+                data-en="technical mutation">
+                mutation technique
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.-'U_.-'k.o.-t.o.-'_.html"> x.-'U:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="premiers outils"
+                data-en="first tools">
+                premiers outils
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.-'A_.-'k.o.-t.o.-'_.html"> x.-'A:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="technologies scribales (roue, métallurgie, architecture, irrigation...)"
+                data-en="scribal technologies (metallurgy, architecture, irrigation...)">
+                technologies scribales (roue, métallurgie, architecture, irrigation...)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.-'S_.-'k.o.-t.o.-'_.html"> x.-'S:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="outils et machines complexes"
+                data-en="complex tools and machines">
+                outils et machines complexes
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.-'B_.-'k.o.-t.o.-'_.html"> x.-'B:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="techniques des révolutions industrielles"
+                data-en="industrial revolutions technologies">
+                techniques des révolutions industrielles
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/x.-'T_.-'k.o.-t.o.-'_.html"> x.-'T:.-'k.o.-t.o.-', </a>
+            <span class="translation table-cell"
+                data-fr="électro-nano-bio technologies"
+                data-en="electro-nano-bio technologies">
+                électro-nano-bio technologies
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

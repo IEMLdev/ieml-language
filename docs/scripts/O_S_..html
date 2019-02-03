@@ -1,0 +1,902 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            O:S:.
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>actions signifiantes</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>signifying actions</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-verb">Verb</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>1</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>2</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>3</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/O_M_..html"> O:M:. </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/O_M_.+M_O_..html"> O:M:.+M:O:. </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>1</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(2,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table O:S:.</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-17140183178">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-17140183178"
+                    aria-expanded="false"
+                    aria-controls="body-17140183178">
+                    <span> <span class="badge badge-pill badge-Light">1</span> opposed </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-17140183178"
+         class="collapse"
+         aria-labelledby="heading-17140183178"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_O_..html">S:O:.</a></td>
+                        <td data-fr="agents signifiants" data-en="signifying agents" class="translation">agents signifiants</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-5234143457">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-5234143457"
+                    aria-expanded="false"
+                    aria-controls="body-5234143457">
+                    <span> <span class="badge badge-pill badge-Light">2</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-5234143457"
+         class="collapse"
+         aria-labelledby="heading-5234143457"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_..html">O:M:.</a></td>
+                        <td data-fr="actions" data-en="actions" class="translation">actions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.+M_O_..html">O:M:.+M:O:.</a></td>
+                        <td data-fr="actions et agents | hexades verticale et horizontale" data-en="actions and agents | vertical and horizontal hexads" class="translation">actions et agents | hexades verticale et horizontale</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-76980699723">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-76980699723"
+                    aria-expanded="false"
+                    aria-controls="body-76980699723">
+                    <span> <span class="badge badge-pill badge-Light">2</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-76980699723"
+         class="collapse"
+         aria-labelledby="heading-76980699723"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/U_.html">U:</a></td>
+                        <td data-fr="virtuel" data-en="virtual" class="translation">virtuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_.html">A:</a></td>
+                        <td data-fr="actuel" data-en="actual" class="translation">actuel</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-20454774406">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-20454774406"
+                    aria-expanded="false"
+                    aria-controls="body-20454774406">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-20454774406"
+         class="collapse"
+         aria-labelledby="heading-20454774406"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_.html">S:</a></td>
+                        <td data-fr="signe" data-en="sign" class="translation">signe</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-30801782327">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-30801782327"
+                    aria-expanded="false"
+                    aria-controls="body-30801782327">
+                    <span> <span class="badge badge-pill badge-Light">30</span> child-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-30801782327"
+         class="collapse"
+         aria-labelledby="heading-30801782327"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.U_.-.html">O:S:.U:.-</a></td>
+                        <td data-fr="bouger-glisser dedans" data-en="move-slip in" class="translation">bouger-glisser dedans</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.wo.-.html">O:S:.wo.-</a></td>
+                        <td data-fr="gagner en puissance créative selon le signe" data-en="gain in creative power according to the sign" class="translation">gagner en puissance créative selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.wa.-.html">O:S:.wa.-</a></td>
+                        <td data-fr="gagner en puissance économique selon le signe" data-en="gain in economic power according to the sign" class="translation">gagner en puissance économique selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.y.-.html">O:S:.y.-</a></td>
+                        <td data-fr="performer dans le savoir selon le signe" data-en="perform into knowledge according to sign" class="translation">performer dans le savoir selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.o.-.html">O:S:.o.-</a></td>
+                        <td data-fr="performer dans la volonté selon le signe" data-en="perform into will according to sign" class="translation">performer dans la volonté selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.e.-.html">O:S:.e.-</a></td>
+                        <td data-fr="performer dans la compétence selon le signe" data-en="perform into competency according to sign" class="translation">performer dans la compétence selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.A_.-.html">O:S:.A:.-</a></td>
+                        <td data-fr="bouger-glisser dehors" data-en="move-slip out" class="translation">bouger-glisser dehors</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.wu.-.html">O:S:.wu.-</a></td>
+                        <td data-fr="gagner en puissance citoyenne selon le signe" data-en="gain in citizen empowerment according to the sign" class="translation">gagner en puissance citoyenne selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.we.-.html">O:S:.we.-</a></td>
+                        <td data-fr="gagner en puissance familiale selon le signe" data-en="gain in family empowerment according to the sign" class="translation">gagner en puissance familiale selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.u.-.html">O:S:.u.-</a></td>
+                        <td data-fr="performer dans l'expression selon le signe" data-en="perform into expression according to sign" class="translation">performer dans l'expression selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.a.-.html">O:S:.a.-</a></td>
+                        <td data-fr="performer dans la relation sociale selon le signe" data-en="perform into social relation according to sign" class="translation">performer dans la relation sociale selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.i.-.html">O:S:.i.-</a></td>
+                        <td data-fr="performer dans le concret selon le signe" data-en="perform into concrete matters according to sign" class="translation">performer dans le concret selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.S_.-.html">O:S:.S:.-</a></td>
+                        <td data-fr="bouger-souffler en glissant" data-en="move-blow by sliping" class="translation">bouger-souffler en glissant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.j.-.html">O:S:.j.-</a></td>
+                        <td data-fr="travailler le médium selon le signe" data-en="work on the medium according to sign" class="translation">travailler le médium selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.g.-.html">O:S:.g.-</a></td>
+                        <td data-fr="travailler une démarche selon le signe" data-en="work on a statement according to sign" class="translation">travailler une démarche selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.s.-.html">O:S:.s.-</a></td>
+                        <td data-fr="miner la pensée abstraitement" data-en="undermine thought in an abstract way" class="translation">miner la pensée abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.b.-.html">O:S:.b.-</a></td>
+                        <td data-fr="défaire le langage abstraitement" data-en="undo language in an abstract way" class="translation">défaire le langage abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.t.-.html">O:S:.t.-</a></td>
+                        <td data-fr="détruire la mémoire abstraitement" data-en="destroy memory in an abstract way" class="translation">détruire la mémoire abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.B_.-.html">O:S:.B:.-</a></td>
+                        <td data-fr="bouger-couler en glissant" data-en="move-leak by sliping" class="translation">bouger-couler en glissant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.h.-.html">O:S:.h.-</a></td>
+                        <td data-fr="travailler l'interprétation selon le sign" data-en="work on the interpretation according to sign" class="translation">travailler l'interprétation selon le sign</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.c.-.html">O:S:.c.-</a></td>
+                        <td data-fr="travailler sur soi selon le signe" data-en="work on oneself according to sign" class="translation">travailler sur soi selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.k.-.html">O:S:.k.-</a></td>
+                        <td data-fr="défaire la société abstaritement" data-en="undo society in a n abstract way" class="translation">défaire la société abstaritement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.m.-.html">O:S:.m.-</a></td>
+                        <td data-fr="défaire un lien affectif abstraitement" data-en="undo an affective bond in an abstract way" class="translation">défaire un lien affectif abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.n.-.html">O:S:.n.-</a></td>
+                        <td data-fr="défaire un monde abstraitement" data-en="undo a world in an abstract way" class="translation">défaire un monde abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.T_.-.html">O:S:.T:.-</a></td>
+                        <td data-fr="bouger-coller en glissant" data-en="move-stick by sliping" class="translation">bouger-coller en glissant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.p.-.html">O:S:.p.-</a></td>
+                        <td data-fr="travailler sur un sujet selon le signe" data-en="work on a subject according to sign" class="translation">travailler sur un sujet selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.x.-.html">O:S:.x.-</a></td>
+                        <td data-fr="travailler une méthode selon le sign" data-en="work on a method according to sign" class="translation">travailler une méthode selon le sign</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.d.-.html">O:S:.d.-</a></td>
+                        <td data-fr="miner la vérité abstraitement" data-en="undermine truth in an abstract way" class="translation">miner la vérité abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.f.-.html">O:S:.f.-</a></td>
+                        <td data-fr="affaiblir la vie abstraitement" data-en="weaken life in an abstract way" class="translation">affaiblir la vie abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.l.-.html">O:S:.l.-</a></td>
+                        <td data-fr="détruire l'espace abstraitement" data-en="destroy space in an abstract way" class="translation">détruire l'espace abstraitement</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-85772850922">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-85772850922"
+                    aria-expanded="false"
+                    aria-controls="body-85772850922">
+                    <span> <span class="badge badge-pill badge-Light">32</span> child-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-85772850922"
+         class="collapse"
+         aria-labelledby="heading-85772850922"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/wo.O_S_.-.html">wo.O:S:.-</a></td>
+                        <td data-fr="identifier les points clés selon le signe" data-en="identify key-points according to sign" class="translation">identifier les points clés selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/wa.O_S_.-.html">wa.O:S:.-</a></td>
+                        <td data-fr="maîtriser l'activité selon le signe" data-en="master the activity according to the sign" class="translation">maîtriser l'activité selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.O_S_.-.html">y.O:S:.-</a></td>
+                        <td data-fr="savoir performer abstraitement" data-en="knowing perform abstractly" class="translation">savoir performer abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.O_S_.-.html">o.O:S:.-</a></td>
+                        <td data-fr="performer à partir de la volonté selon le signe" data-en="perform from the will according to sign" class="translation">performer à partir de la volonté selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.O_S_.-.html">e.O:S:.-</a></td>
+                        <td data-fr="performer à partir de la compétence selon le signe" data-en="perform from competency according to sign" class="translation">performer à partir de la compétence selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/wu.O_S_.-.html">wu.O:S:.-</a></td>
+                        <td data-fr="exercer son jugement critique selon le signe" data-en="exercise critical judgement according to the sign" class="translation">exercer son jugement critique selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/we.O_S_.-.html">we.O:S:.-</a></td>
+                        <td data-fr="renouveler l'activité selon le signe" data-en="renew the activity according to the sign" class="translation">renouveler l'activité selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.O_S_.-.html">u.O:S:.-</a></td>
+                        <td data-fr="performer à partir de l'expression selon le signe" data-en="perform from the expression according to sign" class="translation">performer à partir de l'expression selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.O_S_.-.html">a.O:S:.-</a></td>
+                        <td data-fr="performer sur une base sociale selon le signe" data-en="perform on a social basis according to sign" class="translation">performer sur une base sociale selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.O_S_.-.html">i.O:S:.-</a></td>
+                        <td data-fr="performer sur une base concrète selon le signe" data-en="perform on a concrete basis according to sign" class="translation">performer sur une base concrète selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.O_S_.-.html">j.O:S:.-</a></td>
+                        <td data-fr="cadre structurel abstrait" data-en="abstract structural framework" class="translation">cadre structurel abstrait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.O_S_.-.html">g.O:S:.-</a></td>
+                        <td data-fr="processus d'expression abstrait" data-en="abstract process of expression" class="translation">processus d'expression abstrait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_S_.-.html">s.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de pensée" data-en="abstract thought factors" class="translation">facteurs abstraits de pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_S_.-.html">b.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de langage" data-en="abstract language factors" class="translation">facteurs abstraits de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_S_.-.html">t.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de mémoire" data-en="abstract memory factors" class="translation">facteurs abstraits de mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_S_.-.html">h.O:S:.-</a></td>
+                        <td data-fr="cadre sémantique abstrait" data-en="abstract semantic framework" class="translation">cadre sémantique abstrait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.O_S_.m.-.html">h.O:S:.m.-</a></td>
+                        <td data-fr="absence au monde" data-en="absence from the world" class="translation">absence au monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.O_S_.-.html">c.O:S:.-</a></td>
+                        <td data-fr="processus personnel abstrait" data-en="abstract personal process" class="translation">processus personnel abstrait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_S_.-.html">k.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de société" data-en="abstract society factors" class="translation">facteurs abstraits de société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_S_.-.html">m.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de lien affectif" data-en="abstract factors of an affective bond" class="translation">facteurs abstraits de lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_S_.-.html">n.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de monde" data-en="abstract world factors" class="translation">facteurs abstraits de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.O_S_.-.html">p.O:S:.-</a></td>
+                        <td data-fr="cadre référentiel abstrait" data-en="abstract referential framwork" class="translation">cadre référentiel abstrait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.O_S_.-.html">x.O:S:.-</a></td>
+                        <td data-fr="processus matériel abstrait" data-en="abstract material process" class="translation">processus matériel abstrait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_S_.-.html">d.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de vérité" data-en="abstract factors of truth" class="translation">facteurs abstraits de vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_S_.-.html">f.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de vie" data-en="abstract life factors" class="translation">facteurs abstraits de vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_S_.-.html">l.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits d'espace" data-en="abstract space factors" class="translation">facteurs abstraits d'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_S_.-.html">M:M:.O:S:.-</a></td>
+                        <td data-fr="développement humain du signe" data-en="human development of the sign" class="translation">développement humain du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-U_.O_S_.-t.-'.html">E:.-U:.O:S:.-t.-'</a></td>
+                        <td data-fr="voix passive selon le signe" data-en="passive voice according to sign" class="translation">voix passive selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-A_.O_S_.-t.-'.html">E:.-A:.O:S:.-t.-'</a></td>
+                        <td data-fr="voix active selon le signe" data-en="active voice according to sign" class="translation">voix active selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-S_.O_S_.-t.-'.html">E:.-S:.O:S:.-t.-'</a></td>
+                        <td data-fr="futur selon le signe" data-en="future according to sign" class="translation">futur selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.O_S_.-t.-'.html">E:.-B:.O:S:.-t.-'</a></td>
+                        <td data-fr="présent selon le signe" data-en="present according to sign" class="translation">présent selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.O_S_.-t.-'.html">E:.-T:.O:S:.-t.-'</a></td>
+                        <td data-fr="passé selon le signe" data-en="past according to sign" class="translation">passé selon le signe</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/O_S_..html">O:S:.</a> actions signifiantes</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_S_..html"> O:S:. </a>
+            <span class="translation table-cell"
+                data-fr="actions signifiantes"
+                data-en="signifying actions">
+                actions signifiantes
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y..html"> y. </a>
+            <span class="translation table-cell"
+                data-fr="savoir"
+                data-en="know">
+                savoir
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+        <tr>
+            
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u..html"> u. </a>
+            <span class="translation table-cell"
+                data-fr="dire"
+                data-en="say">
+                dire
+            </span>
+        </div>
+    
+    </td>
+    
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

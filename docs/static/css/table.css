@@ -1,0 +1,64 @@
+.badge-noun {
+    color: #4e4e4e;
+    background-color: #94ceff;
+}
+.badge-aux {
+    color: #4e4e4e;
+    background-color: #fff38e;
+}
+.badge-verb {
+    color: #4e4e4e;
+    background-color: #ffd8c0;
+}
+
+
+.table-component {
+    table-layout: fixed;
+}
+.table-component td {
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+.table-fixed {
+    table-layout: fixed;
+}
+
+.table-fixed td,
+.table-fixed th {
+    height: 90px;
+    overflow: hidden;
+    word-break: break-all;
+    border: 1px solid #000 !important;
+}
+
+
+.ieml-cell {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ieml {
+
+}
+
+.table-cell {
+    font-size: small;
+    word-break: normal;
+}
+
+
+.comment {
+    font-size: normal;
+    white-space: pre-line;
+}
+
+#fixed-top {
+    background-color: white;
+}
+
+#main-content {
+    position: absolute;
+}

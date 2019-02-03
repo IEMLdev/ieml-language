@@ -1,0 +1,3677 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            O:M:.M:M:.-+M:M:.O:M:.-
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>déterminants du développement humain, positifs et négatifs (verbes et noms)</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>determinants of human development, positive and negative (verbs and nouns)</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">RootParadigm</span> (AdditiveScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>108</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>0</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        Root paradigm
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/O_M_.M_M_.-+M_M_.O_M_.-.html"> O:M:.M:M:.-+M:M:.O:M:.- </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>4</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>[(6, 9), (9, 6)]</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+        
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table O:M:.M:M:.-</a>
+    
+        
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-2-tab"
+       data-toggle="tab"
+       href="#tables-2"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table M:M:.O:M:.-</a>
+    
+        
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            <p>Les deux paradigmes M:M:.O:M:.- et O:M:.M:M:.- font partie du même paradigme-racine M:M:.O:M:.- + O:M:.M:M:.- intitulé «déterminants du développement humain ». Dans ce paradigme-racine,les sèmes inverses sont sémantiquement liés, par exemple t.y.- (gestion de la mémoire) et y.t.- (oublier) ou k.y.- (intelligence relationnelle) et y.k.- (ignorer les relations).
+Allez à <a href="https://intlekt.io/?comments=M%3AM%3A.O%3AM%3A.-">M:M:.O:M:.-</a> et explorez les sèmes de ce paradigme, qui sont au fondement de plusieurs autres paradigmes de couche 3</p>
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            <p>Both paradigms M:M:.O:M:.- and O:M:.M:M:.- are part of the same root-paradigm M:M:.O:M:.- + O:M:.M:M:.- that is entitled « determinants of human development ». In this root-paradigm, inverse semes are semantically related, for example t.y.- (memory management) and y.t.- (forget) or k.y.- (relational intelligence) and y.k.- (ignore relations).
+Please, go to <a href="https://intlekt.io/?comments=M%3AM%3A.O%3AM%3A.-">M:M:.O:M:.-</a> and explore the semes of this paradigm, which are the foundation of several other Layer 3 paradigms.</p>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-66552315606">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-66552315606"
+                    aria-expanded="false"
+                    aria-controls="body-66552315606">
+                    <span> <span class="badge badge-pill badge-Light">205</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-66552315606"
+         class="collapse"
+         aria-labelledby="heading-66552315606"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.s.-.html">O:S:.s.-</a></td>
+                        <td data-fr="miner la pensée abstraitement" data-en="undermine thought in an abstract way" class="translation">miner la pensée abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.b.-.html">O:S:.b.-</a></td>
+                        <td data-fr="défaire le langage abstraitement" data-en="undo language in an abstract way" class="translation">défaire le langage abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.t.-.html">O:S:.t.-</a></td>
+                        <td data-fr="détruire la mémoire abstraitement" data-en="destroy memory in an abstract way" class="translation">détruire la mémoire abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.k.-.html">O:S:.k.-</a></td>
+                        <td data-fr="défaire la société abstaritement" data-en="undo society in a n abstract way" class="translation">défaire la société abstaritement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.m.-.html">O:S:.m.-</a></td>
+                        <td data-fr="défaire un lien affectif abstraitement" data-en="undo an affective bond in an abstract way" class="translation">défaire un lien affectif abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.n.-.html">O:S:.n.-</a></td>
+                        <td data-fr="défaire un monde abstraitement" data-en="undo a world in an abstract way" class="translation">défaire un monde abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.d.-.html">O:S:.d.-</a></td>
+                        <td data-fr="miner la vérité abstraitement" data-en="undermine truth in an abstract way" class="translation">miner la vérité abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.f.-.html">O:S:.f.-</a></td>
+                        <td data-fr="affaiblir la vie abstraitement" data-en="weaken life in an abstract way" class="translation">affaiblir la vie abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.l.-.html">O:S:.l.-</a></td>
+                        <td data-fr="détruire l'espace abstraitement" data-en="destroy space in an abstract way" class="translation">détruire l'espace abstraitement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.s.-.html">O:B:.s.-</a></td>
+                        <td data-fr="miner la pensée existentiellement" data-en="undermine thought in an existential way" class="translation">miner la pensée existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.b.-.html">O:B:.b.-</a></td>
+                        <td data-fr="défaire le langage existentiellement" data-en="undo language in an existential way" class="translation">défaire le langage existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.t.-.html">O:B:.t.-</a></td>
+                        <td data-fr="détruire la mémoire existentiellement" data-en="destroy memory in an existential way" class="translation">détruire la mémoire existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.k.-.html">O:B:.k.-</a></td>
+                        <td data-fr="défaire la société existentiellement" data-en="undo society in an existential way" class="translation">défaire la société existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.m.-.html">O:B:.m.-</a></td>
+                        <td data-fr="défaire un lien affectif existentiellement" data-en="undo an affective bond in an existential way" class="translation">défaire un lien affectif existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.n.-.html">O:B:.n.-</a></td>
+                        <td data-fr="défaire un monde existentiellement" data-en="undo a world existentially" class="translation">défaire un monde existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.d.-.html">O:B:.d.-</a></td>
+                        <td data-fr="miner la vérité existentiellement" data-en="undermine truth in an existential way" class="translation">miner la vérité existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.f.-.html">O:B:.f.-</a></td>
+                        <td data-fr="affaiblir la vie existentiellement" data-en="weaken life existentially" class="translation">affaiblir la vie existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.l.-.html">O:B:.l.-</a></td>
+                        <td data-fr="détruire l'espace existentiellement" data-en="destroy space in an existential way" class="translation">détruire l'espace existentiellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.s.-.html">O:T:.s.-</a></td>
+                        <td data-fr="miner la pensée concrètement" data-en="undermine thought in a concrete way" class="translation">miner la pensée concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.b.-.html">O:T:.b.-</a></td>
+                        <td data-fr="défaire le langage concrètement" data-en="undo language in a concrete way" class="translation">défaire le langage concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.t.-.html">O:T:.t.-</a></td>
+                        <td data-fr="détruire la mémoire concrètement" data-en="destroy memory in a concrete way" class="translation">détruire la mémoire concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.k.-.html">O:T:.k.-</a></td>
+                        <td data-fr="défaire la société concrètement" data-en="undo society in a concrete way" class="translation">défaire la société concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.m.-.html">O:T:.m.-</a></td>
+                        <td data-fr="défaire un lien affectif concrètement" data-en="undo an affective bond in a concrete way" class="translation">défaire un lien affectif concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.n.-.html">O:T:.n.-</a></td>
+                        <td data-fr="défaire un monde concrètement" data-en="undo a world in a concrete way" class="translation">défaire un monde concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.d.-.html">O:T:.d.-</a></td>
+                        <td data-fr="miner la vérité concrètement" data-en="undermine truth in a concrete way" class="translation">miner la vérité concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.f.-.html">O:T:.f.-</a></td>
+                        <td data-fr="affaiblir la vie concrètement" data-en="weaken life in a concrete way" class="translation">affaiblir la vie concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.l.-.html">O:T:.l.-</a></td>
+                        <td data-fr="détruire l'espace concrètement" data-en="destroy space in a concrete way" class="translation">détruire l'espace concrètement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_S_.-.html">s.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de pensée" data-en="abstract thought factors" class="translation">facteurs abstraits de pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_B_.-.html">s.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de pensée" data-en="existential thought factors" class="translation">facteurs existentiels de pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_T_.-.html">s.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets de pensée" data-en="concrete thought factors" class="translation">facteurs concrets de pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_S_.-.html">b.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de langage" data-en="abstract language factors" class="translation">facteurs abstraits de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_B_.-.html">b.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de langage" data-en="existential language factors" class="translation">facteurs existentiels de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_T_.-.html">b.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets de langage" data-en="concrete language factors" class="translation">facteurs concrets de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_S_.-.html">t.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de mémoire" data-en="abstract memory factors" class="translation">facteurs abstraits de mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_B_.-.html">t.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de mémoire" data-en="existential memory factors" class="translation">facteurs existentiels de mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_T_.-.html">t.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets de mémoire" data-en="concrete memory factors" class="translation">facteurs concrets de mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_S_.-.html">k.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de société" data-en="abstract society factors" class="translation">facteurs abstraits de société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_B_.-.html">k.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de société" data-en="existential society factors" class="translation">facteurs existentiels de société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_T_.-.html">k.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets de société" data-en="concrete society factors" class="translation">facteurs concrets de société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_S_.-.html">m.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de lien affectif" data-en="abstract factors of an affective bond" class="translation">facteurs abstraits de lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_B_.-.html">m.O:B:.-</a></td>
+                        <td data-fr="production existentielle de lien affectif" data-en="existential production of an affective bond" class="translation">production existentielle de lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_T_.-.html">m.O:T:.-</a></td>
+                        <td data-fr="production concrète de lien affectif" data-en="concrete production of an affective bond" class="translation">production concrète de lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_S_.-.html">n.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de monde" data-en="abstract world factors" class="translation">facteurs abstraits de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_B_.-.html">n.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de monde" data-en="existential world factors" class="translation">facteurs existentiels de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_T_.-.html">n.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets de monde" data-en="concrete world factors" class="translation">facteurs concrets de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_S_.-.html">d.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de vérité" data-en="abstract factors of truth" class="translation">facteurs abstraits de vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_B_.-.html">d.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de vérité" data-en="existential factors of truth" class="translation">facteurs existentiels de vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_T_.-.html">d.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets de vérité" data-en="concrete factors of truth" class="translation">facteurs concrets de vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_S_.-.html">f.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de vie" data-en="abstract life factors" class="translation">facteurs abstraits de vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_B_.-.html">f.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels de vie" data-en="existential life factors" class="translation">facteurs existentiels de vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_T_.-.html">f.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets de vie" data-en="concrete life factors" class="translation">facteurs concrets de vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_S_.-.html">l.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits d'espace" data-en="abstract space factors" class="translation">facteurs abstraits d'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_B_.-.html">l.O:B:.-</a></td>
+                        <td data-fr="facteurs existentiels d'espace" data-en="existential space factors" class="translation">facteurs existentiels d'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_T_.-.html">l.O:T:.-</a></td>
+                        <td data-fr="facteurs concrets d'espace" data-en="concrete space factors" class="translation">facteurs concrets d'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.S_M_.-.html">y.S:M:.-</a></td>
+                        <td data-fr="ignorer le signe" data-en="ignore sign" class="translation">ignorer le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.B_M_.-.html">y.B:M:.-</a></td>
+                        <td data-fr="ignorer l'être" data-en="ignore being" class="translation">ignorer l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.T_M_.-.html">y.T:M:.-</a></td>
+                        <td data-fr="ignorer la chose" data-en="ignore thing" class="translation">ignorer la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.M_S_.-.html">y.M:S:.-</a></td>
+                        <td data-fr="montrer le signe de l'ignorance" data-en="show the sign of ignorance" class="translation">montrer le signe de l'ignorance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.M_B_.-.html">y.M:B:.-</a></td>
+                        <td data-fr="montrer l'être de l'ignorance" data-en="show the being of ignorance" class="translation">montrer l'être de l'ignorance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.M_T_.-.html">y.M:T:.-</a></td>
+                        <td data-fr="montrer la chose de l'ignorance" data-en="show the thing of ignorance" class="translation">montrer la chose de l'ignorance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.S_M_.-.html">o.S:M:.-</a></td>
+                        <td data-fr="assombrir le signe" data-en="darken the sign" class="translation">assombrir le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.B_M_.-.html">o.B:M:.-</a></td>
+                        <td data-fr="assombrir l'être" data-en="darken the being" class="translation">assombrir l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.T_M_.-.html">o.T:M:.-</a></td>
+                        <td data-fr="assombrir la chose" data-en="darken the thing" class="translation">assombrir la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.M_S_.-.html">o.M:S:.-</a></td>
+                        <td data-fr="montrer le signe de l'obscurité" data-en="show the sign of darkness" class="translation">montrer le signe de l'obscurité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.M_B_.-.html">o.M:B:.-</a></td>
+                        <td data-fr="montrer l'être de l'obscurité" data-en="show the being of darkness" class="translation">montrer l'être de l'obscurité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.M_T_.-.html">o.M:T:.-</a></td>
+                        <td data-fr="montrer la chose de l'obscurité" data-en="show the thing of darkness" class="translation">montrer la chose de l'obscurité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.S_M_.-.html">e.S:M:.-</a></td>
+                        <td data-fr="manquer d'habiletés dans le trivium du signe" data-en="lack skills in the trivium of the sign" class="translation">manquer d'habiletés dans le trivium du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.B_M_.-.html">e.B:M:.-</a></td>
+                        <td data-fr="manquer d'habiletés dans le trivium de l'être" data-en="lack skills in the trivium of the being" class="translation">manquer d'habiletés dans le trivium de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.T_M_.-.html">e.T:M:.-</a></td>
+                        <td data-fr="manquer d'habileté dans le trivium de la chose" data-en="lack skills in the trivium of the thing" class="translation">manquer d'habileté dans le trivium de la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.M_S_.-.html">e.M:S:.-</a></td>
+                        <td data-fr="manquer d'habiletés grammaticales" data-en="lack grammatical skills" class="translation">manquer d'habiletés grammaticales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.M_B_.-.html">e.M:B:.-</a></td>
+                        <td data-fr="manquer d'habiletés dialectiques" data-en="lack dialectical skills" class="translation">manquer d'habiletés dialectiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.M_T_.-.html">e.M:T:.-</a></td>
+                        <td data-fr="manquer d'habiletés rhétoriques" data-en="lack rhetorical skills" class="translation">manquer d'habiletés rhétoriques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.s.-.html">U:M:.s.-</a></td>
+                        <td data-fr="miner la pensée virtuellement" data-en="undermine thought virtually" class="translation">miner la pensée virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.b.-.html">U:M:.b.-</a></td>
+                        <td data-fr="défaire le langage virtuellement" data-en="undo language virtually" class="translation">défaire le langage virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.t.-.html">U:M:.t.-</a></td>
+                        <td data-fr="détruire la mémoire virtuellement" data-en="destroy memory virtually" class="translation">détruire la mémoire virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.k.-.html">U:M:.k.-</a></td>
+                        <td data-fr="défaire la société virtuellement" data-en="undo society virtually" class="translation">défaire la société virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.m.-.html">U:M:.m.-</a></td>
+                        <td data-fr="défaire un lien affectif virtuellement" data-en="undo an affective bon virtually" class="translation">défaire un lien affectif virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.n.-.html">U:M:.n.-</a></td>
+                        <td data-fr="défaire un monde virtuellement" data-en="undo a world virtually" class="translation">défaire un monde virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.d.-.html">U:M:.d.-</a></td>
+                        <td data-fr="miner la vérité virtuellement" data-en="undermine truth virtually" class="translation">miner la vérité virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.f.-.html">U:M:.f.-</a></td>
+                        <td data-fr="affaiblir la vie virtuellement" data-en="weaken life virtually" class="translation">affaiblir la vie virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.l.-.html">U:M:.l.-</a></td>
+                        <td data-fr="détruire l'espace virtuellement" data-en="destroy space virtually" class="translation">détruire l'espace virtuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.S_M_.-.html">u.S:M:.-</a></td>
+                        <td data-fr="détruire le signe de la signification" data-en="destroy the sign of meaning" class="translation">détruire le signe de la signification</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.B_M_.-.html">u.B:M:.-</a></td>
+                        <td data-fr="détruire l'être de la signification" data-en="destroy the being of meaning" class="translation">détruire l'être de la signification</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.T_M_.-.html">u.T:M:.-</a></td>
+                        <td data-fr="détruire la chose de la signification" data-en="destroy the thing of meaning" class="translation">détruire la chose de la signification</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.M_S_.-.html">u.M:S:.-</a></td>
+                        <td data-fr="montrer le signe de la signification détruite" data-en="show the sign of destroyed signification" class="translation">montrer le signe de la signification détruite</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.M_B_.-.html">u.M:B:.-</a></td>
+                        <td data-fr="montrer l'être de la signification détruite" data-en="show the being of destroyed meaning" class="translation">montrer l'être de la signification détruite</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.M_T_.-.html">u.M:T:.-</a></td>
+                        <td data-fr="montrer la chose de la signification détruite" data-en="show the thing of the destroyed meaning" class="translation">montrer la chose de la signification détruite</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.S_M_.-.html">a.S:M:.-</a></td>
+                        <td data-fr="détruire le signe des relations sociales" data-en="destroy the sign of social relations" class="translation">détruire le signe des relations sociales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.B_M_.-.html">a.B:M:.-</a></td>
+                        <td data-fr="détruire l'être des relations sociales" data-en="destroy the being of social relations" class="translation">détruire l'être des relations sociales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.T_M_.-.html">a.T:M:.-</a></td>
+                        <td data-fr="détruire la chose des relations sociales" data-en="destroy the thing of social relations" class="translation">détruire la chose des relations sociales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.M_S_.-.html">a.M:S:.-</a></td>
+                        <td data-fr="montrer le signe des relations détruites" data-en="show the sign of destroyed relationships" class="translation">montrer le signe des relations détruites</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.M_B_.-.html">a.M:B:.-</a></td>
+                        <td data-fr="montrer l'être des relations détruites" data-en="show the being of destroyed relationships" class="translation">montrer l'être des relations détruites</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.M_T_.-.html">a.M:T:.-</a></td>
+                        <td data-fr="montrer la chose des relations détruites" data-en="show the thing of destroyed relationship" class="translation">montrer la chose des relations détruites</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.S_M_.-.html">i.S:M:.-</a></td>
+                        <td data-fr="détruire le signe techniquement" data-en="destroy the sign technically" class="translation">détruire le signe techniquement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.B_M_.-.html">i.B:M:.-</a></td>
+                        <td data-fr="détruire l'être techniquement" data-en="destroy the being technically" class="translation">détruire l'être techniquement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.T_M_.-.html">i.T:M:.-</a></td>
+                        <td data-fr="détruire la chose techniquement" data-en="destroy the thing technically" class="translation">détruire la chose techniquement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.M_S_.-.html">i.M:S:.-</a></td>
+                        <td data-fr="montrer le signe de la destruction technique" data-en="show the sign of technical destruction" class="translation">montrer le signe de la destruction technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.M_B_.-.html">i.M:B:.-</a></td>
+                        <td data-fr="montrer l'être de la destruction technique" data-en="show the being of technical destruction" class="translation">montrer l'être de la destruction technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.M_T_.-.html">i.M:T:.-</a></td>
+                        <td data-fr="montrer la chose de la destruction technique" data-en="show the thing of technical destruction" class="translation">montrer la chose de la destruction technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.s.-.html">A:M:.s.-</a></td>
+                        <td data-fr="miner la pensée actuellement" data-en="undermine thought actually" class="translation">miner la pensée actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.b.-.html">A:M:.b.-</a></td>
+                        <td data-fr="défaire le langage actuellement" data-en="undo language actually" class="translation">défaire le langage actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.t.-.html">A:M:.t.-</a></td>
+                        <td data-fr="détruire la mémoire actuellement" data-en="destroy memory actually" class="translation">détruire la mémoire actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.k.-.html">A:M:.k.-</a></td>
+                        <td data-fr="défaire la société actuellement" data-en="undo society actually" class="translation">défaire la société actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.m.-.html">A:M:.m.-</a></td>
+                        <td data-fr="défaire un lien affectif actuellement" data-en="undo an affective bond actually" class="translation">défaire un lien affectif actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.n.-.html">A:M:.n.-</a></td>
+                        <td data-fr="défaire un monde actuellement" data-en="undo a world actually" class="translation">défaire un monde actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.d.-.html">A:M:.d.-</a></td>
+                        <td data-fr="miner la vérité actuellement" data-en="undermine truth actually" class="translation">miner la vérité actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.f.-.html">A:M:.f.-</a></td>
+                        <td data-fr="affaiblir la vie actuellement" data-en="weaken life actually" class="translation">affaiblir la vie actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.l.-.html">A:M:.l.-</a></td>
+                        <td data-fr="détruire l'espace actuellement" data-en="destroy space actually" class="translation">détruire l'espace actuellement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.U_M_.-.html">s.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de pensée" data-en="virtual thought factors" class="translation">facteurs virtuels de pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.A_M_.-.html">s.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de pensée" data-en="actual thought factors" class="translation">facteurs actuels de pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.U_M_.-.html">b.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de langage" data-en="virtual language factors" class="translation">facteurs virtuels de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.A_M_.-.html">b.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de langage" data-en="actual language factors" class="translation">facteurs actuels de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.U_M_.-.html">t.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de mémoire" data-en="virtual memory factors" class="translation">facteurs virtuels de mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.A_M_.-.html">t.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de mémoire" data-en="actual memory factors" class="translation">facteurs actuels de mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.y.-.html">S:M:.y.-</a></td>
+                        <td data-fr="connaissance par le signe" data-en="knowing by sign" class="translation">connaissance par le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.o.-.html">S:M:.o.-</a></td>
+                        <td data-fr="désir du signe" data-en="desiring the sign" class="translation">désir du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-.html">S:M:.e.-</a></td>
+                        <td data-fr="savoir faire portant sur les signes, trivium au sens étroit" data-en="know how of the sign, trivium in the narrow sense" class="translation">savoir faire portant sur les signes, trivium au sens étroit</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.u.-.html">S:M:.u.-</a></td>
+                        <td data-fr="signifie le signe" data-en="signifying sign" class="translation">signifie le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.a.-.html">S:M:.a.-</a></td>
+                        <td data-fr="socialise par le signe" data-en="socialize with sign" class="translation">socialise par le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.i.-.html">S:M:.i.-</a></td>
+                        <td data-fr="signe en substance technique" data-en="sign in technical substance" class="translation">signe en substance technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.U_M_.-.html">k.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de société" data-en="virtual society factors" class="translation">facteurs virtuels de société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.A_M_.-.html">k.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de société" data-en="actual society factors" class="translation">facteurs actuels de société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.U_M_.-.html">m.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de lien affectif" data-en="virtual factors of affective bond" class="translation">facteurs virtuels de lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.A_M_.-.html">m.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de lien affectif" data-en="actual factors of affective bond" class="translation">facteurs actuels de lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.U_M_.-.html">n.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de monde" data-en="virtual world factors" class="translation">facteurs virtuels de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.A_M_.-.html">n.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de monde" data-en="actual world factors" class="translation">facteurs actuels de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.y.-.html">B:M:.y.-</a></td>
+                        <td data-fr="connaissance par l'être" data-en="knowing by being" class="translation">connaissance par l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.o.-.html">B:M:.o.-</a></td>
+                        <td data-fr="désir de l'être" data-en="desiring the being" class="translation">désir de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.e.-.html">B:M:.e.-</a></td>
+                        <td data-fr="savoir faire portant sur les êtres" data-en="expertise on beings" class="translation">savoir faire portant sur les êtres</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.u.-.html">B:M:.u.-</a></td>
+                        <td data-fr="signifie l'être" data-en="signifying being" class="translation">signifie l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.a.-.html">B:M:.a.-</a></td>
+                        <td data-fr="socialise par l'être" data-en="socialize with being" class="translation">socialise par l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.i.-.html">B:M:.i.-</a></td>
+                        <td data-fr="être en substance technique" data-en="being in technical substance" class="translation">être en substance technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.U_M_.-.html">d.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de vérité" data-en="virtual truth factors" class="translation">facteurs virtuels de vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.A_M_.-.html">d.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de vérité" data-en="actual truth factors" class="translation">facteurs actuels de vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.U_M_.-.html">f.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels de vie" data-en="virtual life factors" class="translation">facteurs virtuels de vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.A_M_.-.html">f.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de vie" data-en="actual life factors" class="translation">facteurs actuels de vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.U_M_.-.html">l.U:M:.-</a></td>
+                        <td data-fr="facteurs virtuels d'espace" data-en="virtual space factors" class="translation">facteurs virtuels d'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.A_M_.-.html">l.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels d'espace" data-en="actual space factors" class="translation">facteurs actuels d'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.y.-.html">T:M:.y.-</a></td>
+                        <td data-fr="connaissance par la chose" data-en="knowing by thing" class="translation">connaissance par la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.o.-.html">T:M:.o.-</a></td>
+                        <td data-fr="désir de la chose" data-en="dsering the thing" class="translation">désir de la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.e.-.html">T:M:.e.-</a></td>
+                        <td data-fr="savoir faire portant sur les choses" data-en="know how of the thing" class="translation">savoir faire portant sur les choses</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.u.-.html">T:M:.u.-</a></td>
+                        <td data-fr="signifie la chose" data-en="signifying thing" class="translation">signifie la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.a.-.html">T:M:.a.-</a></td>
+                        <td data-fr="socialise par la chose" data-en="socialize with thing" class="translation">socialise par la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.i.-.html">T:M:.i.-</a></td>
+                        <td data-fr="chose en substance technique" data-en="thing in technical substance" class="translation">chose en substance technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.y.-.html">M:S:.y.-</a></td>
+                        <td data-fr="connaissance du signe" data-en="knowledge of the sign" class="translation">connaissance du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.o.-.html">M:S:.o.-</a></td>
+                        <td data-fr="vouloir devenir signe" data-en="want becoming sign" class="translation">vouloir devenir signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.e.-.html">M:S:.e.-</a></td>
+                        <td data-fr="grammaire" data-en="grammar" class="translation">grammaire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.u.-.html">M:S:.u.-</a></td>
+                        <td data-fr="signe tourné vers le signe" data-en="sign oriented sign" class="translation">signe tourné vers le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.a.-.html">M:S:.a.-</a></td>
+                        <td data-fr="rôle tourné vers le signe" data-en="role facing sign" class="translation">rôle tourné vers le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.i.-.html">M:S:.i.-</a></td>
+                        <td data-fr="signe en attribut technique" data-en="sign in technical attribute" class="translation">signe en attribut technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.y.-.html">M:B:.y.-</a></td>
+                        <td data-fr="connaissance de l'être" data-en="knowledge of the being" class="translation">connaissance de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.o.-.html">M:B:.o.-</a></td>
+                        <td data-fr="vouloir devenir être" data-en="want becoming being" class="translation">vouloir devenir être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.e.-.html">M:B:.e.-</a></td>
+                        <td data-fr="dialectique" data-en="dialectic" class="translation">dialectique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.u.-.html">M:B:.u.-</a></td>
+                        <td data-fr="signe tourné vers l'être" data-en="being oriented sign" class="translation">signe tourné vers l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.a.-.html">M:B:.a.-</a></td>
+                        <td data-fr="rôle tourné vers l'être" data-en="role facing being" class="translation">rôle tourné vers l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.i.-.html">M:B:.i.-</a></td>
+                        <td data-fr="être en attribut technique" data-en="being in technical attribute" class="translation">être en attribut technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.y.-.html">M:T:.y.-</a></td>
+                        <td data-fr="connaissance de la chose" data-en="knowledge of the thing" class="translation">connaissance de la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.o.-.html">M:T:.o.-</a></td>
+                        <td data-fr="vouloir devenir chose" data-en="want becoming thing" class="translation">vouloir devenir chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.e.-.html">M:T:.e.-</a></td>
+                        <td data-fr="rhétorique" data-en="rhetorics" class="translation">rhétorique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.u.-.html">M:T:.u.-</a></td>
+                        <td data-fr="signe tourné vers la chose" data-en="thing oriented sign" class="translation">signe tourné vers la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.a.-.html">M:T:.a.-</a></td>
+                        <td data-fr="rôle tourné vers la chose" data-en="role facing thing" class="translation">rôle tourné vers la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.i.-.html">M:T:.i.-</a></td>
+                        <td data-fr="chose en attribut technique" data-en="thing in technical attribute" class="translation">chose en attribut technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.s.-.html">O:M:.s.-</a></td>
+                        <td data-fr="miner la pensée" data-en="undermine thought" class="translation">miner la pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.b.-.html">O:M:.b.-</a></td>
+                        <td data-fr="défaire le  langage" data-en="undo language" class="translation">défaire le  langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.t.-.html">O:M:.t.-</a></td>
+                        <td data-fr="détruire la mémoire" data-en="destroy memory" class="translation">détruire la mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.k.-.html">O:M:.k.-</a></td>
+                        <td data-fr="défaire la société" data-en="undo society" class="translation">défaire la société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.m.-.html">O:M:.m.-</a></td>
+                        <td data-fr="défaire un lien affectif" data-en="undo an affective bond" class="translation">défaire un lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.n.-.html">O:M:.n.-</a></td>
+                        <td data-fr="défaire un monde" data-en="undo a world" class="translation">défaire un monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.d.-.html">O:M:.d.-</a></td>
+                        <td data-fr="miner la vérité" data-en="undermine truth" class="translation">miner la vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.f.-.html">O:M:.f.-</a></td>
+                        <td data-fr="affaiblir la vie" data-en="weaken life" class="translation">affaiblir la vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.l.-.html">O:M:.l.-</a></td>
+                        <td data-fr="détruire l'espace" data-en="destroy space" class="translation">détruire l'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_M_.-.html">s.O:M:.-</a></td>
+                        <td data-fr="facteurs de pensée" data-en="thought factors" class="translation">facteurs de pensée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_M_.-.html">b.O:M:.-</a></td>
+                        <td data-fr="facteurs de langage" data-en="language factors" class="translation">facteurs de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.O_M_.-.html">t.O:M:.-</a></td>
+                        <td data-fr="facteurs de mémoire" data-en="memory factors" class="translation">facteurs de mémoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.O_M_.-.html">k.O:M:.-</a></td>
+                        <td data-fr="facteurs de société" data-en="society factors" class="translation">facteurs de société</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.O_M_.-.html">m.O:M:.-</a></td>
+                        <td data-fr="facteurs de lien affectif" data-en="factors of affective bond" class="translation">facteurs de lien affectif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.O_M_.-.html">n.O:M:.-</a></td>
+                        <td data-fr="facteurs de monde" data-en="world factors" class="translation">facteurs de monde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.O_M_.-.html">d.O:M:.-</a></td>
+                        <td data-fr="facteurs de vérité" data-en="truth factors" class="translation">facteurs de vérité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.O_M_.-.html">f.O:M:.-</a></td>
+                        <td data-fr="facteurs de vie" data-en="life factors" class="translation">facteurs de vie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.O_M_.-.html">l.O:M:.-</a></td>
+                        <td data-fr="facteurs d'espace" data-en="space factors" class="translation">facteurs d'espace</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.M_M_.-.html">y.M:M:.-</a></td>
+                        <td data-fr="ignorer" data-en="ignore" class="translation">ignorer</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.M_M_.-.html">o.M:M:.-</a></td>
+                        <td data-fr="assombrir l'existence humaine" data-en="darken human existence" class="translation">assombrir l'existence humaine</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.M_M_.-.html">e.M:M:.-</a></td>
+                        <td data-fr="manquer d'habileté" data-en="lack skill" class="translation">manquer d'habileté</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.M_M_.-.html">u.M:M:.-</a></td>
+                        <td data-fr="détruire la signification" data-en="destroy meaning" class="translation">détruire la signification</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.M_M_.-.html">a.M:M:.-</a></td>
+                        <td data-fr="détruire les relations sociales" data-en="destroy social relations" class="translation">détruire les relations sociales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.M_M_.-.html">i.M:M:.-</a></td>
+                        <td data-fr="détruire techniquement" data-en="destroy technically" class="translation">détruire techniquement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.y.-.html">M:M:.y.-</a></td>
+                        <td data-fr="genres de connaissances" data-en="kinds of knowledge" class="translation">genres de connaissances</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.o.-.html">M:M:.o.-</a></td>
+                        <td data-fr="genres de valeurs | vouloir être" data-en="kinds of value | will to be" class="translation">genres de valeurs | vouloir être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.e.-.html">M:M:.e.-</a></td>
+                        <td data-fr="genres de compétences" data-en="kinds of competencies" class="translation">genres de compétences</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-.html">M:M:.u.-</a></td>
+                        <td data-fr="genres de signes" data-en="kinds of signs" class="translation">genres de signes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.a.-.html">M:M:.a.-</a></td>
+                        <td data-fr="genres de rôles sociaux" data-en="kinds of social roles" class="translation">genres de rôles sociaux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.i.-.html">M:M:.i.-</a></td>
+                        <td data-fr="genres d'outils | techniques" data-en="kind of tools | technology" class="translation">genres d'outils | techniques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.O_M_.-.html">S:M:.O:M:.-</a></td>
+                        <td data-fr="signe du développement humain" data-en="sign of human development" class="translation">signe du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_.O_M_.-.html">B:M:.O:M:.-</a></td>
+                        <td data-fr="être du développement humain" data-en="being of human development" class="translation">être du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_.O_M_.-.html">T:M:.O:M:.-</a></td>
+                        <td data-fr="chose du développement humain" data-en="thing of human development" class="translation">chose du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_.O_M_.-.html">M:S:.O:M:.-</a></td>
+                        <td data-fr="devenir signe du développement humain" data-en="human development becoming sign" class="translation">devenir signe du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.O_M_.-.html">M:B:.O:M:.-</a></td>
+                        <td data-fr="devenir être du développement humain" data-en="human development becoming being" class="translation">devenir être du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_.O_M_.-.html">M:T:.O:M:.-</a></td>
+                        <td data-fr="devenir chose du développement humain" data-en="human development becoming thing" class="translation">devenir chose du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_S_.-.html">M:M:.O:S:.-</a></td>
+                        <td data-fr="développement humain du signe" data-en="human development of the sign" class="translation">développement humain du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_B_.-.html">M:M:.O:B:.-</a></td>
+                        <td data-fr="développement humain de l'être" data-en="human development of the being" class="translation">développement humain de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_T_.-.html">M:M:.O:T:.-</a></td>
+                        <td data-fr="développement humain de la chose" data-en="human development of the thing" class="translation">développement humain de la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.U_M_.-.html">M:M:.U:M:.-</a></td>
+                        <td data-fr="développement humain virtuel" data-en="virtual human development" class="translation">développement humain virtuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.A_M_.-.html">M:M:.A:M:.-</a></td>
+                        <td data-fr="développement humain actuel" data-en="actual human development" class="translation">développement humain actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.M_M_.-.html">O:M:.M:M:.-</a></td>
+                        <td data-fr="saper le développement humain" data-en="undermine human development" class="translation">saper le développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_M_.-.html">M:M:.O:M:.-</a></td>
+                        <td data-fr="développement humain" data-en="human development" class="translation">développement humain</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-96730537378">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-96730537378"
+                    aria-expanded="false"
+                    aria-controls="body-96730537378">
+                    <span> <span class="badge badge-pill badge-Light">2</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-96730537378"
+         class="collapse"
+         aria-labelledby="heading-96730537378"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_..html">O:M:.</a></td>
+                        <td data-fr="actions" data-en="actions" class="translation">actions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-47523900453">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-47523900453"
+                    aria-expanded="false"
+                    aria-controls="body-47523900453">
+                    <span> <span class="badge badge-pill badge-Light">2</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-47523900453"
+         class="collapse"
+         aria-labelledby="heading-47523900453"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_..html">O:M:.</a></td>
+                        <td data-fr="actions" data-en="actions" class="translation">actions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+        
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/O_M_.M_M_.-.html">O:M:.M:M:.-</a> saper le développement humain</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="10" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.M_M_.-.html"> O:M:.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="saper le développement humain"
+                data-en="undermine human development">
+                saper le développement humain
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.s.-.html"> O:M:.s.- </a>
+            <span class="translation table-cell"
+                data-fr="miner la pensée"
+                data-en="undermine thought">
+                miner la pensée
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.b.-.html"> O:M:.b.- </a>
+            <span class="translation table-cell"
+                data-fr="défaire le  langage"
+                data-en="undo language">
+                défaire le  langage
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.t.-.html"> O:M:.t.- </a>
+            <span class="translation table-cell"
+                data-fr="détruire la mémoire"
+                data-en="destroy memory">
+                détruire la mémoire
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.k.-.html"> O:M:.k.- </a>
+            <span class="translation table-cell"
+                data-fr="défaire la société"
+                data-en="undo society">
+                défaire la société
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.m.-.html"> O:M:.m.- </a>
+            <span class="translation table-cell"
+                data-fr="défaire un lien affectif"
+                data-en="undo an affective bond">
+                défaire un lien affectif
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.n.-.html"> O:M:.n.- </a>
+            <span class="translation table-cell"
+                data-fr="défaire un monde"
+                data-en="undo a world">
+                défaire un monde
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.d.-.html"> O:M:.d.- </a>
+            <span class="translation table-cell"
+                data-fr="miner la vérité"
+                data-en="undermine truth">
+                miner la vérité
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.f.-.html"> O:M:.f.- </a>
+            <span class="translation table-cell"
+                data-fr="affaiblir la vie"
+                data-en="weaken life">
+                affaiblir la vie
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/O_M_.l.-.html"> O:M:.l.- </a>
+            <span class="translation table-cell"
+                data-fr="détruire l'espace"
+                data-en="destroy space">
+                détruire l'espace
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.M_M_.-.html"> y.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="ignorer"
+                data-en="ignore">
+                ignorer
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.s.-.html"> y.s.- </a>
+            <span class="translation table-cell"
+                data-fr="négliger la discipline intellectuelle"
+                data-en="neglect intellectual discipline">
+                négliger la discipline intellectuelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.b.-.html"> y.b.- </a>
+            <span class="translation table-cell"
+                data-fr="ne pas abstraire"
+                data-en="not be able to abstract">
+                ne pas abstraire
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.t.-.html"> y.t.- </a>
+            <span class="translation table-cell"
+                data-fr="oublier"
+                data-en="forget">
+                oublier
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.k.-.html"> y.k.- </a>
+            <span class="translation table-cell"
+                data-fr="ignorer les relations"
+                data-en="ignore relations">
+                ignorer les relations
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.m.-.html"> y.m.- </a>
+            <span class="translation table-cell"
+                data-fr="ignorer ses émotions"
+                data-en="ignore emotions">
+                ignorer ses émotions
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.n.-.html"> y.n.- </a>
+            <span class="translation table-cell"
+                data-fr="ignorer les principes"
+                data-en="ignore principles">
+                ignorer les principes
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.d.-.html"> y.d.- </a>
+            <span class="translation table-cell"
+                data-fr="ignorer les faits"
+                data-en="ignore facts">
+                ignorer les faits
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.f.-.html"> y.f.- </a>
+            <span class="translation table-cell"
+                data-fr="intoxiquer | tromper"
+                data-en="intoxicate | deceive">
+                intoxiquer | tromper
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/y.l.-.html"> y.l.- </a>
+            <span class="translation table-cell"
+                data-fr="ignorer les limites"
+                data-en="ignore limits">
+                ignorer les limites
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.M_M_.-.html"> o.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="assombrir l'existence humaine"
+                data-en="darken human existence">
+                assombrir l'existence humaine
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.s.-.html"> o.s.- </a>
+            <span class="translation table-cell"
+                data-fr="avoir des préjugés"
+                data-en="have prejudices">
+                avoir des préjugés
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.b.-.html"> o.b.- </a>
+            <span class="translation table-cell"
+                data-fr="mal comprendre"
+                data-en="misunderstand">
+                mal comprendre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.t.-.html"> o.t.- </a>
+            <span class="translation table-cell"
+                data-fr="être en retard | procrastiner | manquer l'occasion"
+                data-en="be late | procrastinate | miss the opportunity">
+                être en retard | procrastiner | manquer l'occasion
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.k.-.html"> o.k.- </a>
+            <span class="translation table-cell"
+                data-fr="briser les liens sociaux"
+                data-en="break social bonds">
+                briser les liens sociaux
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.m.-.html"> o.m.- </a>
+            <span class="translation table-cell"
+                data-fr="manquer d'empathie | de compassion"
+                data-en="lack empathy | compassion">
+                manquer d'empathie | de compassion
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.n.-.html"> o.n.- </a>
+            <span class="translation table-cell"
+                data-fr="être fermé d'esprit"
+                data-en="be narrow-minded">
+                être fermé d'esprit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.d.-.html"> o.d.- </a>
+            <span class="translation table-cell"
+                data-fr="mentir"
+                data-en="lie">
+                mentir
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.f.-.html"> o.f.- </a>
+            <span class="translation table-cell"
+                data-fr="faire souffrir"
+                data-en="inflict suffering">
+                faire souffrir
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/o.l.-.html"> o.l.- </a>
+            <span class="translation table-cell"
+                data-fr="provoquer le chaos | la confusion"
+                data-en="provoke chaos | confusion">
+                provoquer le chaos | la confusion
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.M_M_.-.html"> e.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="manquer d'habileté"
+                data-en="lack skill">
+                manquer d'habileté
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.s.-.html"> e.s.- </a>
+            <span class="translation table-cell"
+                data-fr="négliger les codes"
+                data-en="neglect codes">
+                négliger les codes
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.b.-.html"> e.b.- </a>
+            <span class="translation table-cell"
+                data-fr="être incohérent"
+                data-en="be incoherent">
+                être incohérent
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.t.-.html"> e.t.- </a>
+            <span class="translation table-cell"
+                data-fr="offenser"
+                data-en="offend">
+                offenser
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.k.-.html"> e.k.- </a>
+            <span class="translation table-cell"
+                data-fr="être emporté par ses passions"
+                data-en="be carried away by one's passions">
+                être emporté par ses passions
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.m.-.html"> e.m.- </a>
+            <span class="translation table-cell"
+                data-fr="menacer, être dangereux"
+                data-en="threaten, be dangerous">
+                menacer, être dangereux
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.n.-.html"> e.n.- </a>
+            <span class="translation table-cell"
+                data-fr="être conformiste | suiviste"
+                data-en="blindly conform">
+                être conformiste | suiviste
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.d.-.html"> e.d.- </a>
+            <span class="translation table-cell"
+                data-fr="négliger le corps"
+                data-en="neglect the body">
+                négliger le corps
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.f.-.html"> e.f.- </a>
+            <span class="translation table-cell"
+                data-fr="être techniquement incompétent"
+                data-en="be technically incompetent">
+                être techniquement incompétent
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/e.l.-.html"> e.l.- </a>
+            <span class="translation table-cell"
+                data-fr="entreprendre une action irréaliste"
+                data-en="undertake an impractical act">
+                entreprendre une action irréaliste
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.M_M_.-.html"> u.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="détruire la signification"
+                data-en="destroy meaning">
+                détruire la signification
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.s.-.html"> u.s.- </a>
+            <span class="translation table-cell"
+                data-fr="défigurer | rendre illisible"
+                data-en="disfigure | deface">
+                défigurer | rendre illisible
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.b.-.html"> u.b.- </a>
+            <span class="translation table-cell"
+                data-fr="soliloquer"
+                data-en="soliloquize">
+                soliloquer
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.t.-.html"> u.t.- </a>
+            <span class="translation table-cell"
+                data-fr="contrefaire | faire un faux"
+                data-en="counterfeit | forge">
+                contrefaire | faire un faux
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.k.-.html"> u.k.- </a>
+            <span class="translation table-cell"
+                data-fr="parler jargon"
+                data-en="use jargon">
+                parler jargon
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.m.-.html"> u.m.- </a>
+            <span class="translation table-cell"
+                data-fr="manipuler les émotions"
+                data-en="manipulate emotions">
+                manipuler les émotions
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.n.-.html"> u.n.- </a>
+            <span class="translation table-cell"
+                data-fr="se réfugier dans l'anonymat | présenter une fausse identité"
+                data-en="take refuge in anonymity | faking an identity">
+                se réfugier dans l'anonymat | présenter une fausse identité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.d.-.html"> u.d.- </a>
+            <span class="translation table-cell"
+                data-fr="manquer de précision"
+                data-en="lack precision">
+                manquer de précision
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.f.-.html"> u.f.- </a>
+            <span class="translation table-cell"
+                data-fr="fuir ses sensations | anesthésier"
+                data-en="shun one's sensations | anesthetize">
+                fuir ses sensations | anesthésier
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/u.l.-.html"> u.l.- </a>
+            <span class="translation table-cell"
+                data-fr="salir | empoisonner"
+                data-en="soil | poison">
+                salir | empoisonner
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.M_M_.-.html"> a.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="détruire les relations sociales"
+                data-en="destroy social relations">
+                détruire les relations sociales
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.s.-.html"> a.s.- </a>
+            <span class="translation table-cell"
+                data-fr="prendre à  la lettre"
+                data-en="interpret literally">
+                prendre à  la lettre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.b.-.html"> a.b.- </a>
+            <span class="translation table-cell"
+                data-fr="interrompre la communication"
+                data-en="interrupt the communication">
+                interrompre la communication
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.t.-.html"> a.t.- </a>
+            <span class="translation table-cell"
+                data-fr="imiter | plagier"
+                data-en="imitate | plagiarize">
+                imiter | plagier
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.k.-.html"> a.k.- </a>
+            <span class="translation table-cell"
+                data-fr="attiser le conflit"
+                data-en="stir up conflict">
+                attiser le conflit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.m.-.html"> a.m.- </a>
+            <span class="translation table-cell"
+                data-fr="abandonner un projet | une personne"
+                data-en="give up | forsake">
+                abandonner un projet | une personne
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.n.-.html"> a.n.- </a>
+            <span class="translation table-cell"
+                data-fr="corrompre"
+                data-en="corrupt">
+                corrompre
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.d.-.html"> a.d.- </a>
+            <span class="translation table-cell"
+                data-fr="être superficiel"
+                data-en="be superficial">
+                être superficiel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.f.-.html"> a.f.- </a>
+            <span class="translation table-cell"
+                data-fr="agresser physiquement"
+                data-en="physically assault">
+                agresser physiquement
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/a.l.-.html"> a.l.- </a>
+            <span class="translation table-cell"
+                data-fr="transgresser"
+                data-en="transgress">
+                transgresser
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #ffd8c0;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.M_M_.-.html"> i.M:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="détruire techniquement"
+                data-en="destroy technically">
+                détruire techniquement
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.s.-.html"> i.s.- </a>
+            <span class="translation table-cell"
+                data-fr="bloquer les interfaces"
+                data-en="block interfaces">
+                bloquer les interfaces
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.b.-.html"> i.b.- </a>
+            <span class="translation table-cell"
+                data-fr="interrompre la transmission"
+                data-en="cut off transmission">
+                interrompre la transmission
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.t.-.html"> i.t.- </a>
+            <span class="translation table-cell"
+                data-fr="briser, fracasser, détruire, faire des dégâts"
+                data-en="break, smash, destroy, provoque dammage">
+                briser, fracasser, détruire, faire des dégâts
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.k.-.html"> i.k.- </a>
+            <span class="translation table-cell"
+                data-fr="voler quelque chose"
+                data-en="steal">
+                voler quelque chose
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.m.-.html"> i.m.- </a>
+            <span class="translation table-cell"
+                data-fr="utiliser des armes"
+                data-en="use weapons">
+                utiliser des armes
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.n.-.html"> i.n.- </a>
+            <span class="translation table-cell"
+                data-fr="provoquer un accident"
+                data-en="provoke an accident">
+                provoquer un accident
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.d.-.html"> i.d.- </a>
+            <span class="translation table-cell"
+                data-fr="dérégler | détraquer un mécanisme"
+                data-en="break down | wreck a mechanism">
+                dérégler | détraquer un mécanisme
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.f.-.html"> i.f.- </a>
+            <span class="translation table-cell"
+                data-fr="être malade | blessé"
+                data-en="be sick | injured">
+                être malade | blessé
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #ffe5d7;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/i.l.-.html"> i.l.- </a>
+            <span class="translation table-cell"
+                data-fr="tomber dans un piège"
+                data-en="be caught in a trap">
+                tomber dans un piège
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+        
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-2"
+       aria-labelledby="nav-tables-2-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/M_M_.O_M_.-.html">M:M:.O:M:.-</a> développement humain</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="7" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.O_M_.-.html"> M:M:.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="développement humain"
+                data-en="human development">
+                développement humain
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.y.-.html"> M:M:.y.- </a>
+            <span class="translation table-cell"
+                data-fr="genres de connaissances"
+                data-en="kinds of knowledge">
+                genres de connaissances
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.o.-.html"> M:M:.o.- </a>
+            <span class="translation table-cell"
+                data-fr="genres de valeurs | vouloir être"
+                data-en="kinds of value | will to be">
+                genres de valeurs | vouloir être
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.e.-.html"> M:M:.e.- </a>
+            <span class="translation table-cell"
+                data-fr="genres de compétences"
+                data-en="kinds of competencies">
+                genres de compétences
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.u.-.html"> M:M:.u.- </a>
+            <span class="translation table-cell"
+                data-fr="genres de signes"
+                data-en="kinds of signs">
+                genres de signes
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.a.-.html"> M:M:.a.- </a>
+            <span class="translation table-cell"
+                data-fr="genres de rôles sociaux"
+                data-en="kinds of social roles">
+                genres de rôles sociaux
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/M_M_.i.-.html"> M:M:.i.- </a>
+            <span class="translation table-cell"
+                data-fr="genres d'outils | techniques"
+                data-en="kind of tools | technology">
+                genres d'outils | techniques
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.O_M_.-.html"> s.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de pensée"
+                data-en="thought factors">
+                facteurs de pensée
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.y.-.html"> s.y.- </a>
+            <span class="translation table-cell"
+                data-fr="connaissance organisée"
+                data-en="organized knowledge">
+                connaissance organisée
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.o.-.html"> s.o.- </a>
+            <span class="translation table-cell"
+                data-fr="souci de la pensée"
+                data-en="concern for thought">
+                souci de la pensée
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-.html"> s.e.- </a>
+            <span class="translation table-cell"
+                data-fr="maîtrise des codes, grammaire au sens étroit"
+                data-en="mastery of codes, grammar in the narrow sense">
+                maîtrise des codes, grammaire au sens étroit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.u.-.html"> s.u.- </a>
+            <span class="translation table-cell"
+                data-fr="image, signe analogique, représentation"
+                data-en="image, analog sign, representation">
+                image, signe analogique, représentation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.a.-.html"> s.a.- </a>
+            <span class="translation table-cell"
+                data-fr="interprète"
+                data-en="interpreter">
+                interprète
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.i.-.html"> s.i.- </a>
+            <span class="translation table-cell"
+                data-fr="interface | tech. de traduction"
+                data-en="interface | translation tech.">
+                interface | tech. de traduction
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.O_M_.-.html"> b.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de langage"
+                data-en="language factors">
+                facteurs de langage
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.y.-.html"> b.y.- </a>
+            <span class="translation table-cell"
+                data-fr="intelligence formelle"
+                data-en="formal intelligence">
+                intelligence formelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.o.-.html"> b.o.- </a>
+            <span class="translation table-cell"
+                data-fr="goût du langage"
+                data-en="taste for language">
+                goût du langage
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-.html"> b.e.- </a>
+            <span class="translation table-cell"
+                data-fr="capacité de raisonner, dialectique au sens étroit"
+                data-en="reasoning ability, dialectic in the narrow sense">
+                capacité de raisonner, dialectique au sens étroit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.u.-.html"> b.u.- </a>
+            <span class="translation table-cell"
+                data-fr="parole | signe linguistique"
+                data-en="speech | linguistic sign">
+                parole | signe linguistique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.a.-.html"> b.a.- </a>
+            <span class="translation table-cell"
+                data-fr="conteur"
+                data-en="storyteller">
+                conteur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.i.-.html"> b.i.- </a>
+            <span class="translation table-cell"
+                data-fr="médium | technique de transmission"
+                data-en="medium | transmission technique">
+                médium | technique de transmission
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.O_M_.-.html"> t.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de mémoire"
+                data-en="memory factors">
+                facteurs de mémoire
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.y.-.html"> t.y.- </a>
+            <span class="translation table-cell"
+                data-fr="gestion de la mémoire, mnémotechnique"
+                data-en="memory management, mnemonics">
+                gestion de la mémoire, mnémotechnique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.o.-.html"> t.o.- </a>
+            <span class="translation table-cell"
+                data-fr="moment opportun | occasion, évolution, valeur du temps"
+                data-en="right moment | good timing, evolution, value of time">
+                moment opportun | occasion, évolution, valeur du temps
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-.html"> t.e.- </a>
+            <span class="translation table-cell"
+                data-fr="capacité de convaincre, rhétorique au sens étroit"
+                data-en="ability to convince, rhetoric in a narrow sense">
+                capacité de convaincre, rhétorique au sens étroit
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.u.-.html"> t.u.- </a>
+            <span class="translation table-cell"
+                data-fr="marque | signe durable"
+                data-en="mark | enduring sign">
+                marque | signe durable
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.a.-.html"> t.a.- </a>
+            <span class="translation table-cell"
+                data-fr="scribe"
+                data-en="scribe">
+                scribe
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.i.-.html"> t.i.- </a>
+            <span class="translation table-cell"
+                data-fr="contenant | technique de conservation"
+                data-en="container | conservation technique">
+                contenant | technique de conservation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.O_M_.-.html"> k.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de société"
+                data-en="society factors">
+                facteurs de société
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.y.-.html"> k.y.- </a>
+            <span class="translation table-cell"
+                data-fr="intelligence relationnelle"
+                data-en="relational intelligence">
+                intelligence relationnelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.o.-.html"> k.o.- </a>
+            <span class="translation table-cell"
+                data-fr="désir de lien social"
+                data-en="desire for social bond">
+                désir de lien social
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.e.-.html"> k.e.- </a>
+            <span class="translation table-cell"
+                data-fr="maîtrise de soi"
+                data-en="self-control">
+                maîtrise de soi
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.u.-.html"> k.u.- </a>
+            <span class="translation table-cell"
+                data-fr="symbole | signe conventionnel"
+                data-en="symbol | conventional sign">
+                symbole | signe conventionnel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.a.-.html"> k.a.- </a>
+            <span class="translation table-cell"
+                data-fr="chef, roi, président, directeur"
+                data-en="chief, king, head of state, president, director">
+                chef, roi, président, directeur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/k.i.-.html"> k.i.- </a>
+            <span class="translation table-cell"
+                data-fr="don | technique d'échange"
+                data-en="gift | technique of exchange">
+                don | technique d'échange
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.O_M_.-.html"> m.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de lien affectif"
+                data-en="factors of affective bond">
+                facteurs de lien affectif
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.y.-.html"> m.y.- </a>
+            <span class="translation table-cell"
+                data-fr="intelligence émotionnelle"
+                data-en="emotional intelligence">
+                intelligence émotionnelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.o.-.html"> m.o.- </a>
+            <span class="translation table-cell"
+                data-fr="empathie"
+                data-en="empathy">
+                empathie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.e.-.html"> m.e.- </a>
+            <span class="translation table-cell"
+                data-fr="capacité de négocier"
+                data-en="negotiation ability">
+                capacité de négocier
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.u.-.html"> m.u.- </a>
+            <span class="translation table-cell"
+                data-fr="symptôme | signe d'affect"
+                data-en="symptom | sign of affect">
+                symptôme | signe d'affect
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.a.-.html"> m.a.- </a>
+            <span class="translation table-cell"
+                data-fr="parent"
+                data-en="parent">
+                parent
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/m.i.-.html"> m.i.- </a>
+            <span class="translation table-cell"
+                data-fr="jouet | technique de séduction"
+                data-en="toy | seduction technique">
+                jouet | technique de séduction
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.O_M_.-.html"> n.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de monde"
+                data-en="world factors">
+                facteurs de monde
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.y.-.html"> n.y.- </a>
+            <span class="translation table-cell"
+                data-fr="connaissance des principes"
+                data-en="knowledge of principles">
+                connaissance des principes
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.o.-.html"> n.o.- </a>
+            <span class="translation table-cell"
+                data-fr="volonté de cosmos"
+                data-en="will for cosmos">
+                volonté de cosmos
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.e.-.html"> n.e.- </a>
+            <span class="translation table-cell"
+                data-fr="capacité de diriger"
+                data-en="leadership">
+                capacité de diriger
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.u.-.html"> n.u.- </a>
+            <span class="translation table-cell"
+                data-fr="nom | place symbolique"
+                data-en="name | symbolic place">
+                nom | place symbolique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.a.-.html"> n.a.- </a>
+            <span class="translation table-cell"
+                data-fr="juge"
+                data-en="judge">
+                juge
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/n.i.-.html"> n.i.- </a>
+            <span class="translation table-cell"
+                data-fr="feu | technique de transformation"
+                data-en="fire | transformation technique">
+                feu | technique de transformation
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.O_M_.-.html"> d.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de vérité"
+                data-en="truth factors">
+                facteurs de vérité
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.y.-.html"> d.y.- </a>
+            <span class="translation table-cell"
+                data-fr="connaissance factuelle"
+                data-en="knowledge of facts">
+                connaissance factuelle
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.o.-.html"> d.o.- </a>
+            <span class="translation table-cell"
+                data-fr="valorisation de la vérité"
+                data-en="valuation of truth">
+                valorisation de la vérité
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.e.-.html"> d.e.- </a>
+            <span class="translation table-cell"
+                data-fr="habileté sensori-motrice"
+                data-en="sensorimotor ability">
+                habileté sensori-motrice
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.u.-.html"> d.u.- </a>
+            <span class="translation table-cell"
+                data-fr="pointeur | signe indiciel"
+                data-en="pointer | indexation sign">
+                pointeur | signe indiciel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.a.-.html"> d.a.- </a>
+            <span class="translation table-cell"
+                data-fr="chercheur"
+                data-en="researcher">
+                chercheur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/d.i.-.html"> d.i.- </a>
+            <span class="translation table-cell"
+                data-fr="mètre | technique de mesure"
+                data-en="meter | technique of measurement">
+                mètre | technique de mesure
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.O_M_.-.html"> f.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs de vie"
+                data-en="life factors">
+                facteurs de vie
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.y.-.html"> f.y.- </a>
+            <span class="translation table-cell"
+                data-fr="intelligence du corps"
+                data-en="body intelligence">
+                intelligence du corps
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.o.-.html"> f.o.- </a>
+            <span class="translation table-cell"
+                data-fr="appréciation du corps | de la vie"
+                data-en="appreciation of the body | life">
+                appréciation du corps | de la vie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.e.-.html"> f.e.- </a>
+            <span class="translation table-cell"
+                data-fr="habileté technique"
+                data-en="technical ability">
+                habileté technique
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.u.-.html"> f.u.- </a>
+            <span class="translation table-cell"
+                data-fr="sensation | signe phénomenal"
+                data-en="sensation | phenomenal sign">
+                sensation | signe phénomenal
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.a.-.html"> f.a.- </a>
+            <span class="translation table-cell"
+                data-fr="guérisseur"
+                data-en="healer">
+                guérisseur
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/f.i.-.html"> f.i.- </a>
+            <span class="translation table-cell"
+                data-fr="organe | technique de soin"
+                data-en="organ | caring technique">
+                organe | technique de soin
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.O_M_.-.html"> l.O:M:.- </a>
+            <span class="translation table-cell"
+                data-fr="facteurs d'espace"
+                data-en="space factors">
+                facteurs d'espace
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.y.-.html"> l.y.- </a>
+            <span class="translation table-cell"
+                data-fr="conscience des limites"
+                data-en="awareness of limits">
+                conscience des limites
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.o.-.html"> l.o.- </a>
+            <span class="translation table-cell"
+                data-fr="organisation | aménagement de l'espace"
+                data-en="space organization | fitting out">
+                organisation | aménagement de l'espace
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.e.-.html"> l.e.- </a>
+            <span class="translation table-cell"
+                data-fr="compétence en ingénierie"
+                data-en="engineering competence">
+                compétence en ingénierie
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.u.-.html"> l.u.- </a>
+            <span class="translation table-cell"
+                data-fr="trace | signe matériel"
+                data-en="trace | material sign">
+                trace | signe matériel
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.a.-.html"> l.a.- </a>
+            <span class="translation table-cell"
+                data-fr="gardien"
+                data-en="guardian">
+                gardien
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/l.i.-.html"> l.i.- </a>
+            <span class="translation table-cell"
+                data-fr="noeud | technique de connection"
+                data-en="knot | connection technique">
+                noeud | technique de connection
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+        
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

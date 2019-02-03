@@ -1,0 +1,448 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.l.-l.-'E:.-A:.l.-l.-',_
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>cou</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>neck</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Seme</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>5</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>6</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_M_O_.-O_.-'__+f.o.-f.o.-'E_.-U_.S_+B_T_.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.M_T_.-l.-'__.html"> f.o.-f.o.-',n.i.-f.i.-',M:O:.-O:.-',_+f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_ </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_M_O_.-O_.-'__+f.o.-f.o.-'E_.-U_.S_+B_T_.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.M_T_.-l.-'__.html"> f.o.-f.o.-',n.i.-f.i.-',M:O:.-O:.-',_+f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_ </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(1,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-44411985579">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-44411985579"
+                    aria-expanded="false"
+                    aria-controls="body-44411985579">
+                    <span> <span class="badge badge-pill badge-Light">5</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-44411985579"
+         class="collapse"
+         aria-labelledby="heading-44411985579"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'E_.-U_.t.-l.-'_E_.-U_.l.-l.-'E_.-A_.M_T_.-l.-'__.html">f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.l.-l.-'E:.-A:.M:T:.-l.-',_</a></td>
+                        <td data-fr="bas de la tête" data-en="bottom of the head" class="translation">bas de la tête</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'E_.-U_.t.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.l.-l.-'__.html">f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.l.-l.-',_</a></td>
+                        <td data-fr="arrière de la tête" data-en="back of the head" class="translation">arrière de la tête</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'E_.-U_.t.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.M_T_.-l.-'__.html">f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_</a></td>
+                        <td data-fr="Parties du corps: la tête" data-en="Body parts: head" class="translation">Parties du corps: la tête</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'E_.-U_.S_+B_T_.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.M_T_.-l.-'__.html">f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_</a></td>
+                        <td data-fr="Parties du corps: la tête et le tronc" data-en="Body parts: head and trunk" class="translation">Parties du corps: la tête et le tronc</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_M_O_.-O_.-'__+f.o.-f.o.-'E_.-U_.S_+B_T_.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.M_T_.-l.-'__.html">f.o.-f.o.-',n.i.-f.i.-',M:O:.-O:.-',_+f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_</a></td>
+                        <td data-fr="parties du corps" data-en="body parts" class="translation">parties du corps</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-95196317822">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-95196317822"
+                    aria-expanded="false"
+                    aria-controls="body-95196317822">
+                    <span> <span class="badge badge-pill badge-Light">2</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-95196317822"
+         class="collapse"
+         aria-labelledby="heading-95196317822"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-U_.t.-l.-'.html">E:.-U:.t.-l.-'</a></td>
+                        <td data-fr="sommet" data-en="summit" class="translation">sommet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'.html">f.o.-f.o.-'</a></td>
+                        <td data-fr="corps" data-en="body" class="translation">corps</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-75962723604">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-75962723604"
+                    aria-expanded="false"
+                    aria-controls="body-75962723604">
+                    <span> <span class="badge badge-pill badge-Light">2</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-75962723604"
+         class="collapse"
+         aria-labelledby="heading-75962723604"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-U_.l.-l.-'.html">E:.-U:.l.-l.-'</a></td>
+                        <td data-fr="fond | base | cul" data-en="bottom | basis" class="translation">fond | base | cul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-A_.l.-l.-'.html">E:.-A:.l.-l.-'</a></td>
+                        <td data-fr="dos, postérieur" data-en="back, posterior" class="translation">dos, postérieur</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,497 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <h2 class="text-center m-4">
+        [([E:.-T:.d.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]
+    </h2>
+
+    <div class="card-body row">
+        
+        <div class="col-sm-4">
+            <h6 class="text-center m-3"> substance </h6>
+            <table class="table table-bordered text-truncate table-component" >
+                <tbody>
+                       <!--<colgroup>-->
+                        <!--<col span="2" style="background-color:red">-->
+                        <!--<col style="background-color:yellow">-->
+                       <!--</colgroup>-->
+                    
+                    <tr>
+                        <td><a href="/scripts/E_.-T_.d.-l.-'.html">E:.-T:.d.-l.-'</a></td>
+                        <td data-fr="en direction de" data-en="toward" class="translation">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="/scripts/l.-S_.A_.-'.html">l.-S:.A:.-'</a></td>
+                        <td data-fr="sud" data-en="south" class="translation">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="/scripts/l.-B_.A_.-'.html">l.-B:.A:.-'</a></td>
+                        <td data-fr="ouest" data-en="west" class="translation">
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="col-sm-4">
+            <h6 class="text-center m-3"> attribute </h6>
+            <table class="table table-bordered text-truncate table-component" >
+                <tbody>
+                       <!--<colgroup>-->
+                        <!--<col span="2" style="background-color:red">-->
+                        <!--<col style="background-color:yellow">-->
+                       <!--</colgroup>-->
+                    
+                    <tr>
+                        <td><a href="/scripts/E_.html">E:</a></td>
+                        <td data-fr="vide, illusion, monade" data-en="emptiness, illusion, monad" class="translation">
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="col-sm-4">
+            <h6 class="text-center m-3"> mode </h6>
+            <table class="table table-bordered text-truncate table-component" >
+                <tbody>
+                       <!--<colgroup>-->
+                        <!--<col span="2" style="background-color:red">-->
+                        <!--<col style="background-color:yellow">-->
+                       <!--</colgroup>-->
+                    
+                    <tr>
+                        <td><a href="/scripts/E_.html">E:</a></td>
+                        <td data-fr="vide, illusion, monade" data-en="emptiness, illusion, monad" class="translation">
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+    <div class="row" id="translations">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-header">Translations</div>
+                <div class="card-body">
+                    
+                    <ul class="translation list-group" data-lang="fr">
+                        
+                        <li class="list-group-item">vers le sud-ouest</li>
+                        
+                    </ul>
+                    
+                    <ul class="translation list-group" data-lang="en">
+                        
+                        <li class="list-group-item">to the south-west</li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-header">Properties</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <dl class="list-group list-group-flush">
+                                <dt>Type</dt>
+                                <dd><span class="badge badge-secondary">Word</span></dd>
+                                <dt>Class</dt>
+                                <dd><span class="badge badge-noun">Noun</span></dd>
+                            </dl>
+                        </div>
+
+                        <div class="col-sm-5">
+                            <dl class="list-group list-group-flush">
+                                <dt>File</dt>
+                                <dd><small>geographie/ms_directions_geographiques.yaml</small></dd>
+                            </dl>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <dl class="list-group list-group-flush">
+                                <dt>Layer </dt>
+                                <dd>3</dd>
+
+                                <dt>Multiplicity </dt>
+                                <dd>1
+                                    (word)</dd>
+                            </dl>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav nav-tabs mt-2" role="tablist">
+        <!--<a class="nav-item nav-link active"-->
+           <!--id="nav-composition-tab"-->
+           <!--data-toggle="tab"-->
+           <!--href="#composition"-->
+           <!--role="tab"-->
+           <!--aria-controls="composition"-->
+           <!--aria-selected="true">Composition</a>-->
+        <a class="nav-item nav-link active"
+           id="nav-relations-tab"
+           data-toggle="tab"
+           href="#relations"
+           role="tab"
+           aria-controls="relations"
+           aria-selected="true">Relations</a>
+        <!--<a class="nav-item nav-link"-->
+           <!--id="nav-character_series-tab"-->
+           <!--data-toggle="tab"-->
+           <!--href="#character_series"-->
+           <!--role="tab"-->
+           <!--aria-controls="character_series"-->
+           <!--aria-selected="false">Character series</a>-->
+
+    </div>
+
+    <div class="tab-content" id="tab-content">
+        <!--<div class="tab-pane fade show active"-->
+               <!--id="composition"-->
+               <!--role="tabpanel"-->
+               <!--aria-labelledby="nav-composition-tab">-->
+        <!--</div>-->
+        <div class="tab-pane fade show active"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row m-1">
+                        <div class="col-sm-6">
+                            <h6 class="text-center m-3">Analogies - Same layer</h6>
+
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-13929970169">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-13929970169"
+                    aria-expanded="false"
+                    aria-controls="body-13929970169">
+                    <span> <span class="badge badge-pill badge-Light">1</span> Contained by </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-13929970169"
+         class="collapse"
+         aria-labelledby="heading-13929970169"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_c308b87c2e075b1cd3ab71eac292392b946aa0869fa9060f7e85dbc8.html">[([E:.-T:.d.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vers le sud-ouest" data-en="to the south-west" class="translation">vers le sud-ouest</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-52466632220">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-52466632220"
+                    aria-expanded="false"
+                    aria-controls="body-52466632220">
+                    <span> <span class="badge badge-pill badge-Light">1</span> Contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-52466632220"
+         class="collapse"
+         aria-labelledby="heading-52466632220"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_c308b87c2e075b1cd3ab71eac292392b946aa0869fa9060f7e85dbc8.html">[([E:.-T:.d.-l.-']+[l.-S:.A:.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vers le sud-ouest" data-en="to the south-west" class="translation">vers le sud-ouest</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-55099391383">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-55099391383"
+                    aria-expanded="false"
+                    aria-controls="body-55099391383">
+                    <span> <span class="badge badge-pill badge-Light">0</span> Child </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-55099391383"
+         class="collapse"
+         aria-labelledby="heading-55099391383"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-79251613052">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-79251613052"
+                    aria-expanded="false"
+                    aria-controls="body-79251613052">
+                    <span> <span class="badge badge-pill badge-Light">5</span> Parents </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-79251613052"
+         class="collapse"
+         aria-labelledby="heading-79251613052"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/words/usl_17741388cdbf009597413668d3696d5f13c182d15e649382cbd6f54a.html">[([E:.-T:.d.-l.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="en direction de" data-en="toward" class="translation">en direction de</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_7b882d0e1b274e15d0dc2c0cce159b235290f00c47a00b443e7b451f.html">[([E:.-T:.d.-l.-']+[l.-S:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vers le sud" data-en="to the south" class="translation">vers le sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_a2c36bcb9d6c48189820d63914d0178ff39e1b2f6754ce455c9e906d.html">[([E:.-T:.d.-l.-']+[l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="vers l'ouest" data-en="to the west" class="translation">vers l'ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_b183b1612b80017d238c880149831f800a6131674abb026bb47ae976.html">[([l.-S:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="sud" data-en="south" class="translation">sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/words/usl_78874d12ba7b1ad29489b9449bde66541793218646ee73c89ae749ac.html">[([l.-B:.A:.-'])*([E:])*([E:])]</a></td>
+                        <td data-fr="ouest" data-en="west" class="translation">ouest</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="tab-pane fade"-->
+               <!--id="morpheme_series"-->
+               <!--role="tabpanel"-->
+               <!--aria-labelledby="nav-morpheme_series-tab">-->
+            <!--<div class="card">-->
+                <!--<div class="card-body">-->
+                    <!--<span class="morpheme_series"-->
+                        <!--data-lang="fr">-->
+                        <!--['vers le sud-ouest']-->
+                    <!--</span>-->
+                    <!--<span class="morpheme_series"-->
+                        <!--data-lang="en" style="display: none;">-->
+                        <!--['to the south-west']-->
+                    <!--</span>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+
+
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

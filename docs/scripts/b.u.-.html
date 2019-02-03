@@ -1,0 +1,595 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            b.u.-
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>parole | signe linguistique</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>speech | linguistic sign</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Seme</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>6</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/O_M_.M_M_.-+M_M_.O_M_.-.html"> O:M:.M:M:.-+M:M:.O:M:.- </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/O_M_.M_M_.-+M_M_.O_M_.-.html"> O:M:.M:M:.-+M:M:.O:M:.- </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(1,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            <p>La parole s'entend comme expression concrète d'un système de signes abstrait, performance effective qui actualise une compétence linguistique. La parole est un signe adressé à quelqu'un. Elle demande l'écoute par l'autre et provoque réflexivement l'écoute de soi, en ce moment où le signe proféré s'intériorise et prend sens pour un être.</p>
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            <p>Speech is understood as the concrete expression of a system of abstract signs, an effective performance that updates linguistic competence. The word is a sign addressed to someone. It asks for listening by the other and provokes reflexively listening to oneself, at this moment when the sign uttered becomes internalized and takes on meaning for a being.</p>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-80084485094">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-80084485094"
+                    aria-expanded="false"
+                    aria-controls="body-80084485094">
+                    <span> <span class="badge badge-pill badge-Light">1</span> opposed </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-80084485094"
+         class="collapse"
+         aria-labelledby="heading-80084485094"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/u.b.-.html">u.b.-</a></td>
+                        <td data-fr="soliloquer" data-en="soliloquize" class="translation">soliloquer</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-9880184035">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-9880184035"
+                    aria-expanded="false"
+                    aria-controls="body-9880184035">
+                    <span> <span class="badge badge-pill badge-Light">12</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-9880184035"
+         class="collapse"
+         aria-labelledby="heading-9880184035"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_S_.-.html">b.O:S:.-</a></td>
+                        <td data-fr="facteurs abstraits de langage" data-en="abstract language factors" class="translation">facteurs abstraits de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.A_M_.-.html">b.A:M:.-</a></td>
+                        <td data-fr="facteurs actuels de langage" data-en="actual language factors" class="translation">facteurs actuels de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.u.-.html">S:M:.u.-</a></td>
+                        <td data-fr="signifie le signe" data-en="signifying sign" class="translation">signifie le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.u.-.html">M:B:.u.-</a></td>
+                        <td data-fr="signe tourné vers l'être" data-en="being oriented sign" class="translation">signe tourné vers l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.O_M_.-.html">b.O:M:.-</a></td>
+                        <td data-fr="facteurs de langage" data-en="language factors" class="translation">facteurs de langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-.html">M:M:.u.-</a></td>
+                        <td data-fr="genres de signes" data-en="kinds of signs" class="translation">genres de signes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.O_M_.-.html">S:M:.O:M:.-</a></td>
+                        <td data-fr="signe du développement humain" data-en="sign of human development" class="translation">signe du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_.O_M_.-.html">M:B:.O:M:.-</a></td>
+                        <td data-fr="devenir être du développement humain" data-en="human development becoming being" class="translation">devenir être du développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_S_.-.html">M:M:.O:S:.-</a></td>
+                        <td data-fr="développement humain du signe" data-en="human development of the sign" class="translation">développement humain du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.A_M_.-.html">M:M:.A:M:.-</a></td>
+                        <td data-fr="développement humain actuel" data-en="actual human development" class="translation">développement humain actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.O_M_.-.html">M:M:.O:M:.-</a></td>
+                        <td data-fr="développement humain" data-en="human development" class="translation">développement humain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.M_M_.-+M_M_.O_M_.-.html">O:M:.M:M:.-+M:M:.O:M:.-</a></td>
+                        <td data-fr="déterminants du développement humain, positifs et négatifs (verbes et noms)" data-en="determinants of human development, positive and negative (verbs and nouns)" class="translation">déterminants du développement humain, positifs et négatifs (verbes et noms)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-47634753480">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-47634753480"
+                    aria-expanded="false"
+                    aria-controls="body-47634753480">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-47634753480"
+         class="collapse"
+         aria-labelledby="heading-47634753480"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/b..html">b.</a></td>
+                        <td data-fr="langage" data-en="language" class="translation">langage</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-51340599487">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-51340599487"
+                    aria-expanded="false"
+                    aria-controls="body-51340599487">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-51340599487"
+         class="collapse"
+         aria-labelledby="heading-51340599487"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/u..html">u.</a></td>
+                        <td data-fr="dire" data-en="say" class="translation">dire</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-97173411746">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-97173411746"
+                    aria-expanded="false"
+                    aria-controls="body-97173411746">
+                    <span> <span class="badge badge-pill badge-Light">2</span> child-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-97173411746"
+         class="collapse"
+         aria-labelledby="heading-97173411746"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/b.u.-M_M_.u.-'.html">b.u.-M:M:.u.-'</a></td>
+                        <td data-fr="parole en substance" data-en="speech in substance" class="translation">parole en substance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.u.-M_M_.u.-d.u.-'.html">b.u.-M:M:.u.-d.u.-'</a></td>
+                        <td data-fr="parole en substance (qualité)" data-en="speech in substance (quality)" class="translation">parole en substance (qualité)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-36624288948">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-36624288948"
+                    aria-expanded="false"
+                    aria-controls="body-36624288948">
+                    <span> <span class="badge badge-pill badge-Light">4</span> child-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-36624288948"
+         class="collapse"
+         aria-labelledby="heading-36624288948"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-b.u.-'.html">S:M:.e.-b.u.-'</a></td>
+                        <td data-fr="formes inter-linguistiques" data-en="inter-linguistic forms" class="translation">formes inter-linguistiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-b.u.-wa.e.-'.html">S:M:.e.-b.u.-wa.e.-'</a></td>
+                        <td data-fr="arts du langage" data-en="language arts" class="translation">arts du langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-b.u.-'.html">M:M:.u.-b.u.-'</a></td>
+                        <td data-fr="parole en attribut" data-en="speech in attribute" class="translation">parole en attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-b.u.-d.u.-'.html">M:M:.u.-b.u.-d.u.-'</a></td>
+                        <td data-fr="parole en attribut (qualité)" data-en="speech in attribute (quality)" class="translation">parole en attribut (qualité)</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

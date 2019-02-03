@@ -1,0 +1,2507 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            B:
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>être</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>being</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Seme</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>6</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/I_.html"> I: </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/I_.html"> I: </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>0</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(1,)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            <p>Un être (B) est un sujet ou un interprétant. Ce peut être un humain, un groupe, un animal, une machine, n'importe quelle entité ou processus capable d'auto-référence et d'interprétation. Par extension, "B" réfère à l'intériorité psychique, l'esprit, la capacité de concevoir ou d'interpréter. Sont apparentées à l'être: les intentions, les émotions, les personnes et leurs relations, les communautés, sociétés et valeurs.</p>
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            <p>A being is a subject or an interpreter. It can be a human, a group, an animal, a machine or whatever entity or process endowed with self-reference and interpretation. By extension, &quot;B&quot; refers to psychic interiority, the mind, the ability to conceive or interpret, intentions, emotions, people, their relationships, communities, societies and values.</p>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-99241887737">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-99241887737"
+                    aria-expanded="false"
+                    aria-controls="body-99241887737">
+                    <span> <span class="badge badge-pill badge-Light">3</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-99241887737"
+         class="collapse"
+         aria-labelledby="heading-99241887737"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.html">M:</a></td>
+                        <td data-fr="représentation, nom, triade" data-en="representation, noun, triad" class="translation">représentation, nom, triade</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/F_.html">F:</a></td>
+                        <td data-fr="plénitude | forme | pentade | dialectique dyade/triade" data-en="fullness | form | pentad | dyad/pentad dialectic" class="translation">plénitude | forme | pentade | dialectique dyade/triade</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/I_.html">I:</a></td>
+                        <td data-fr="information, dialectiques vide/forme et monade/pentade" data-en="information, emptiness/form and monad/pentad dialectics" class="translation">information, dialectiques vide/forme et monade/pentade</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-46488412340">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-46488412340"
+                    aria-expanded="false"
+                    aria-controls="body-46488412340">
+                    <span> <span class="badge badge-pill badge-Light">28</span> child-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-46488412340"
+         class="collapse"
+         aria-labelledby="heading-46488412340"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/B_O_..html">B:O:.</a></td>
+                        <td data-fr="agents personnels" data-en="personal agents" class="translation">agents personnels</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_..html">B:M:.</a></td>
+                        <td data-fr="devenir de l'être" data-en="becoming of the being" class="translation">devenir de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_U_..html">M:U:.</a></td>
+                        <td data-fr="agents virtuels" data-en="virtual agents" class="translation">agents virtuels</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_A_..html">M:A:.</a></td>
+                        <td data-fr="agents actuels" data-en="actual agents" class="translation">agents actuels</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_S_..html">M:S:.</a></td>
+                        <td data-fr="devenir signe" data-en="becoming sign" class="translation">devenir signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_..html">M:B:.</a></td>
+                        <td data-fr="devenir être" data-en="becoming being" class="translation">devenir être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_T_..html">M:T:.</a></td>
+                        <td data-fr="devenir chose" data-en="becoming thing" class="translation">devenir chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_..html">M:O:.</a></td>
+                        <td data-fr="agents" data-en="agents" class="translation">agents</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.+M_O_..html">O:M:.+M:O:.</a></td>
+                        <td data-fr="actions et agents | hexades verticale et horizontale" data-en="actions and agents | vertical and horizontal hexads" class="translation">actions et agents | hexades verticale et horizontale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.E_A_M_.-.html">B:.E:A:M:.-</a></td>
+                        <td data-fr="taille du passage" data-en="size in width (passage)" class="translation">taille du passage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.E_.n.-.html">M:.E:.n.-</a></td>
+                        <td data-fr="niveau mathématique" data-en="mathematic level" class="translation">niveau mathématique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.E_A_S_.-.html">M:.E:A:S:.-</a></td>
+                        <td data-fr="petit" data-en="small" class="translation">petit</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.E_A_B_.-.html">M:.E:A:B:.-</a></td>
+                        <td data-fr="moyen" data-en="medium" class="translation">moyen</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.E_A_T_.-.html">M:.E:A:T:.-</a></td>
+                        <td data-fr="grand" data-en="large" class="translation">grand</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.U_.n.-.html">M:.U:.n.-</a></td>
+                        <td data-fr="niveau énergétique" data-en="energetic level" class="translation">niveau énergétique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.A_.n.-.html">M:.A:.n.-</a></td>
+                        <td data-fr="niveau minéral et moléculaire" data-en="mineral and molecular level" class="translation">niveau minéral et moléculaire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.S_.n.-.html">M:.S:.n.-</a></td>
+                        <td data-fr="niveau biologique (végétaux)" data-en="biological level (vegetal)" class="translation">niveau biologique (végétaux)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.B_.n.-.html">M:.B:.n.-</a></td>
+                        <td data-fr="niveau animal" data-en="animal level" class="translation">niveau animal</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.T_.n.-.html">M:.T:.n.-</a></td>
+                        <td data-fr="niveau culturel" data-en="cultural level" class="translation">niveau culturel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.I_.n.-.html">B:.I:.n.-</a></td>
+                        <td data-fr="processus générateur" data-en="generative process" class="translation">processus générateur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.E_A_M_.-.html">M:.E:A:M:.-</a></td>
+                        <td data-fr="adjectifs de taille" data-en="adjectives for size" class="translation">adjectifs de taille</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.I_.n.-.html">M:.I:.n.-</a></td>
+                        <td data-fr="niveaux de la nature" data-en="nature's levels" class="translation">niveaux de la nature</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.B_.-+u.M_.-U_.-'.html">i.B:.-+u.M:.-U:.-'</a></td>
+                        <td data-fr="mouvement haut" data-en="top movement" class="translation">mouvement haut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.B_.-+u.M_.-A_.-'.html">i.B:.-+u.M:.-A:.-'</a></td>
+                        <td data-fr="mouvement bas" data-en="low motion" class="translation">mouvement bas</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.B_.-+u.M_.-O_.-'.html">i.B:.-+u.M:.-O:.-'</a></td>
+                        <td data-fr="mouvements et milieux (verbes)" data-en="movements in environments (verbs)" class="translation">mouvements et milieux (verbes)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'E_.-U_.S_+B_T_.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.M_T_.-l.-'__.html">f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_</a></td>
+                        <td data-fr="Parties du corps: la tête et le tronc" data-en="Body parts: head and trunk" class="translation">Parties du corps: la tête et le tronc</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_M_O_.-O_.-'__+f.o.-f.o.-'E_.-U_.S_+B_T_.-l.-'_E_.-U_.M_T_.-l.-'E_.-A_.M_T_.-l.-'__.html">f.o.-f.o.-',n.i.-f.i.-',M:O:.-O:.-',_+f.o.-f.o.-'E:.-U:.S:+B:T:.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.M:T:.-l.-',_</a></td>
+                        <td data-fr="parties du corps" data-en="body parts" class="translation">parties du corps</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-23291896831">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-23291896831"
+                    aria-expanded="false"
+                    aria-controls="body-23291896831">
+                    <span> <span class="badge badge-pill badge-Light">262</span> child-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-23291896831"
+         class="collapse"
+         aria-labelledby="heading-23291896831"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_B_O_..html">E:B:O:.</a></td>
+                        <td data-fr="croyance" data-en="belief" class="translation">croyance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_..html">O:B:.</a></td>
+                        <td data-fr="actions personnelles" data-en="personal actions" class="translation">actions personnelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_B_M_..html">E:B:M:.</a></td>
+                        <td data-fr="distribution de fréquence | la substance arrive dans l'attribut selon le mode" data-en="frequency distribution | the substance happens in the attribute according to the mode" class="translation">distribution de fréquence | la substance arrive dans l'attribut selon le mode</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_U_..html">E:M:U:.</a></td>
+                        <td data-fr="peut inférentiel" data-en="inferential may" class="translation">peut inférentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_A_..html">E:M:A:.</a></td>
+                        <td data-fr="doit inférentiel" data-en="inferential must" class="translation">doit inférentiel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_S_..html">E:M:S:.</a></td>
+                        <td data-fr="moins distributif" data-en="distributive minus" class="translation">moins distributif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_B_..html">E:M:B:.</a></td>
+                        <td data-fr="medium distributif" data-en="distributive medium" class="translation">medium distributif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_T_..html">E:M:T:.</a></td>
+                        <td data-fr="plus distributif" data-en="distributive plus" class="translation">plus distributif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_..html">U:M:.</a></td>
+                        <td data-fr="actions virtuelles" data-en="virtual actions" class="translation">actions virtuelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_..html">A:M:.</a></td>
+                        <td data-fr="actions actuelles" data-en="actions virtuelles" class="translation">actions actuelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_..html">S:M:.</a></td>
+                        <td data-fr="devenir du signe" data-en="becoming of the sign" class="translation">devenir du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_M_..html">B:M:.</a></td>
+                        <td data-fr="devenir de l'être" data-en="becoming of the being" class="translation">devenir de l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_M_..html">T:M:.</a></td>
+                        <td data-fr="devenir de la chose" data-en="becoming of the thing" class="translation">devenir de la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_B_..html">M:B:.</a></td>
+                        <td data-fr="devenir être" data-en="becoming being" class="translation">devenir être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_F_S_..html">E:F:S:.</a></td>
+                        <td data-fr="moins" data-en="less" class="translation">moins</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_F_B_..html">E:F:B:.</a></td>
+                        <td data-fr="medium (gradient)" data-en="medium (gradient)" class="translation">medium (gradient)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_F_T_..html">E:F:T:.</a></td>
+                        <td data-fr="plus" data-en="more" class="translation">plus</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_O_..html">E:M:O:.</a></td>
+                        <td data-fr="types d'inférence | dans une clause: la substance (le sujet) possède l'attribut (le prédicat) selon le type d'inférence en mode" data-en="inference types | in a clause: the substance (the subject) has the attribute (the predicate) following the inference type in mode" class="translation">types d'inférence | dans une clause: la substance (le sujet) possède l'attribut (le prédicat) selon le type d'inférence en mode</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_..html">O:M:.</a></td>
+                        <td data-fr="actions" data-en="actions" class="translation">actions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_M_..html">E:M:M:.</a></td>
+                        <td data-fr="distribution (adverbes de)" data-en="distribution (adverbs of)" class="translation">distribution (adverbes de)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_..html">M:M:.</a></td>
+                        <td data-fr="dimensions de l'interaction | ennéade" data-en="dimensions of interaction | ennead" class="translation">dimensions de l'interaction | ennéade</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.+M_O_..html">O:M:.+M:O:.</a></td>
+                        <td data-fr="actions et agents | hexades verticale et horizontale" data-en="actions and agents | vertical and horizontal hexads" class="translation">actions et agents | hexades verticale et horizontale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_F_M_..html">E:F:M:.</a></td>
+                        <td data-fr="adverbes de gradient | en mode de topic ou de clause" data-en="gradient adverb | in topic or clause mode" class="translation">adverbes de gradient | en mode de topic ou de clause</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.U_O_.-.html">E:.B:.U:O:.-</a></td>
+                        <td data-fr="pronom de nombre à la deuxième personne" data-en="pronoun of number in the second person" class="translation">pronom de nombre à la deuxième personne</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.A_O_.-.html">E:.B:.A:O:.-</a></td>
+                        <td data-fr="pronom de genre à la seconde personne" data-en="pronoun of gender in the second person" class="translation">pronom de genre à la seconde personne</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.O_U_.-.html">E:.B:.O:U:.-</a></td>
+                        <td data-fr="pronom deuxième personne masculin singulier" data-en="pronoun in the second person masculine singular" class="translation">pronom deuxième personne masculin singulier</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.O_A_.-.html">E:.B:.O:A:.-</a></td>
+                        <td data-fr="pronom à la seconde deuxième personne féminin pluriel" data-en="pronoun in the second person feminine plural" class="translation">pronom à la seconde deuxième personne féminin pluriel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.S_O_.-.html">E:.B:.S:O:.-</a></td>
+                        <td data-fr="rôle évolutif" data-en="evolutionary role" class="translation">rôle évolutif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.B_O_.-.html">E:.B:.B:O:.-</a></td>
+                        <td data-fr="rôle opératoire" data-en="operational role" class="translation">rôle opératoire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.T_O_.-.html">E:.B:.T:O:.-</a></td>
+                        <td data-fr="rôle d'action" data-en="action role" class="translation">rôle d'action</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_S_.B_.-.html">O:S:.B:.-</a></td>
+                        <td data-fr="bouger-couler en glissant" data-en="move-leak by sliping" class="translation">bouger-couler en glissant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_B_.B_.-.html">O:B:.B:.-</a></td>
+                        <td data-fr="bouger-couler en contenant" data-en="move-leak by containing" class="translation">bouger-couler en contenant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_T_.B_.-.html">O:T:.B:.-</a></td>
+                        <td data-fr="bouger-couler en déplaçant" data-en="move-leak by displacing" class="translation">bouger-couler en déplaçant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.M_U_.-.html">E:.B:.M:U:.-</a></td>
+                        <td data-fr="cause virtualisante" data-en="virtualising cause" class="translation">cause virtualisante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.M_A_.-.html">E:.B:.M:A:.-</a></td>
+                        <td data-fr="cause actualisante" data-en="actualizing cause" class="translation">cause actualisante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.wo.-.html">E:.M:.wo.-</a></td>
+                        <td data-fr="pronom de personne singulier" data-en="singular pronoun of person" class="translation">pronom de personne singulier</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.wa.-.html">E:.M:.wa.-</a></td>
+                        <td data-fr="pronom de personne pluriel" data-en="plural pronoun of person" class="translation">pronom de personne pluriel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.wu.-.html">E:.M:.wu.-</a></td>
+                        <td data-fr="pronom de personne masculin" data-en="masculine pronoun of person" class="translation">pronom de personne masculin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.we.-.html">E:.M:.we.-</a></td>
+                        <td data-fr="pronom de personne féminin" data-en="feminine pronoun of person" class="translation">pronom de personne féminin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.j.-.html">E:.M:.j.-</a></td>
+                        <td data-fr="cause formelle virtuelle" data-en="virtual formal cause" class="translation">cause formelle virtuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.g.-.html">E:.M:.g.-</a></td>
+                        <td data-fr="cause formelle actuelle" data-en="actual formal cause" class="translation">cause formelle actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.h.-.html">E:.M:.h.-</a></td>
+                        <td data-fr="cause systémique virtuelle" data-en="virtual systemic cause" class="translation">cause systémique virtuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.c.-.html">E:.M:.c.-</a></td>
+                        <td data-fr="cause systémique actuelle" data-en="actual systemic cause" class="translation">cause systémique actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.p.-.html">E:.M:.p.-</a></td>
+                        <td data-fr="cause existentielle virtuelle" data-en="virtual existential cause" class="translation">cause existentielle virtuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.x.-.html">E:.M:.x.-</a></td>
+                        <td data-fr="cause existentielle actuelle" data-en="actual existential cause" class="translation">cause existentielle actuelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.B_.-.html">U:M:.B:.-</a></td>
+                        <td data-fr="bouger-couler des éléments" data-en="move-leak elements" class="translation">bouger-couler des éléments</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.B_.-.html">A:M:.B:.-</a></td>
+                        <td data-fr="bouger-couler soi-même" data-en="move-leak oneself" class="translation">bouger-couler soi-même</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.B_.n.-.html">M:.B:.n.-</a></td>
+                        <td data-fr="niveau animal" data-en="animal level" class="translation">niveau animal</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.O_O_.-.html">E:.B:.O:O:.-</a></td>
+                        <td data-fr="pronom à la deuxième personne" data-en="pronoun in the second person" class="translation">pronom à la deuxième personne</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.F_.wo.-.html">E:.F:.wo.-</a></td>
+                        <td data-fr="pronom singulier" data-en="singular pronoun" class="translation">pronom singulier</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.F_.wa.-.html">E:.F:.wa.-</a></td>
+                        <td data-fr="pronom pluriel" data-en="plural pronoun" class="translation">pronom pluriel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.F_.wu.-.html">E:.F:.wu.-</a></td>
+                        <td data-fr="pronom masculin" data-en="masculine pronoun" class="translation">pronom masculin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.F_.we.-.html">E:.F:.we.-</a></td>
+                        <td data-fr="pronom féminin" data-en="feminine pronoun" class="translation">pronom féminin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/y.F_.-.html">y.F:.-</a></td>
+                        <td data-fr="accomplir un acte topologique" data-en="perform a topological act" class="translation">accomplir un acte topologique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/o.F_.-.html">o.F:.-</a></td>
+                        <td data-fr="manipuler des objets de valeur" data-en="manipulate valuable objects" class="translation">manipuler des objets de valeur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/e.F_.-.html">e.F:.-</a></td>
+                        <td data-fr="placer | déplacer des objets" data-en="place | displace objects" class="translation">placer | déplacer des objets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/u.F_.-.html">u.F:.-</a></td>
+                        <td data-fr="se déplacer" data-en="move oneself" class="translation">se déplacer</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/a.F_.-.html">a.F:.-</a></td>
+                        <td data-fr="accomplir une fonction métabolique" data-en="perform metabolic function" class="translation">accomplir une fonction métabolique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/i.F_.-.html">i.F:.-</a></td>
+                        <td data-fr="accomplir un mouvement énergique" data-en="perform a physical movement energetically" class="translation">accomplir un mouvement énergique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.B_.M_O_.-.html">E:.B:.M:O:.-</a></td>
+                        <td data-fr="cause interactive" data-en="interactive cause" class="translation">cause interactive</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.S_O_.-.html">E:.M:.S:O:.-</a></td>
+                        <td data-fr="cause formelle | rôle formel" data-en="formal cause | formal role" class="translation">cause formelle | rôle formel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.B_O_.-.html">E:.M:.B:O:.-</a></td>
+                        <td data-fr="cause systémique" data-en="systemic cause" class="translation">cause systémique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.T_O_.-.html">E:.M:.T:O:.-</a></td>
+                        <td data-fr="cause existentielle" data-en="existential cause" class="translation">cause existentielle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.B_.-.html">O:M:.B:.-</a></td>
+                        <td data-fr="bouger-couler" data-en="move-leak" class="translation">bouger-couler</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_.I_.n.-.html">S:.I:.n.-</a></td>
+                        <td data-fr="code" data-en="code" class="translation">code</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.I_.n.-.html">B:.I:.n.-</a></td>
+                        <td data-fr="processus générateur" data-en="generative process" class="translation">processus générateur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/T_.I_.n.-.html">T:.I:.n.-</a></td>
+                        <td data-fr="formes émergentes" data-en="emerging forms" class="translation">formes émergentes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.F_.U_O_.-.html">E:.F:.U:O:.-</a></td>
+                        <td data-fr="nombre indifférent" data-en="indifferent number" class="translation">nombre indifférent</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.F_.A_O_.-.html">E:.F:.A:O:.-</a></td>
+                        <td data-fr="genre neutre" data-en="neutral gender" class="translation">genre neutre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.O_O_.-.html">E:.M:.O:O:.-</a></td>
+                        <td data-fr="pronom de personne (première, deuxième, troisième)" data-en="pronoun of person (first, second, third)" class="translation">pronom de personne (première, deuxième, troisième)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_M_.F_.-.html">U:M:.F:.-</a></td>
+                        <td data-fr="bouger objectivement" data-en="move objectively" class="translation">bouger objectivement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_M_.F_.-.html">A:M:.F:.-</a></td>
+                        <td data-fr="bouger subjectivement" data-en="move subjectively" class="translation">bouger subjectivement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.M_.M_O_.-.html">E:.M:.M:O:.-</a></td>
+                        <td data-fr="rôles causaux | en mode de clause, la substance est un role causal de l'attribut" data-en="causal roles | in clause mode: the substance is a causal role of the attribute" class="translation">rôles causaux | en mode de clause, la substance est un role causal de l'attribut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.M_.-.html">O:M:.M:.-</a></td>
+                        <td data-fr="provoquer un changement physique" data-en="provoke a physical change" class="translation">provoquer un changement physique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_.I_.n.-.html">M:.I:.n.-</a></td>
+                        <td data-fr="niveaux de la nature" data-en="nature's levels" class="translation">niveaux de la nature</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.F_.O_O_.-.html">E:.F:.O:O:.-</a></td>
+                        <td data-fr="pronoms" data-en="pronouns" class="translation">pronoms</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_M_.F_.-.html">O:M:.F:.-</a></td>
+                        <td data-fr="mouvements et actions physiques (verbes)" data-en="movements and physical actions (verbs)" class="translation">mouvements et actions physiques (verbes)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.O_S_.-t.-'.html">E:.-B:.O:S:.-t.-'</a></td>
+                        <td data-fr="présent selon le signe" data-en="present according to sign" class="translation">présent selon le signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.O_B_.-t.-'.html">E:.-B:.O:B:.-t.-'</a></td>
+                        <td data-fr="présent selon l'être" data-en="present according to being" class="translation">présent selon l'être</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.O_T_.-t.-'.html">E:.-B:.O:T:.-t.-'</a></td>
+                        <td data-fr="présent selon la chose" data-en="present according to thing" class="translation">présent selon la chose</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-B_.O_.-'.html">s.-B:.O:.-'</a></td>
+                        <td data-fr="croissant/décroissant" data-en="increasing/decreasing" class="translation">croissant/décroissant</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.S_.U_.-'.html">B:.S:.n.-B:S:+T:.-n.S:.U:.-'</a></td>
+                        <td data-fr="plante terrestre, herbe" data-en="ground plant, grass" class="translation">plante terrestre, herbe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.B_.U_.-'.html">B:.S:.n.-B:S:+T:.-n.B:.U:.-'</a></td>
+                        <td data-fr="arbre" data-en="tree" class="translation">arbre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.T_.A_.-'.html">B:.S:.n.-B:S:+T:.-n.T:.A:.-'</a></td>
+                        <td data-fr="plante aquatique" data-en="aquatic plant" class="translation">plante aquatique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.B_.n.-B_S_+T_.-u.S_.-'.html">B:.B:.n.-B:S:+T:.-u.S:.-'</a></td>
+                        <td data-fr="animal volant, oiseau" data-en="flying animal, bird" class="translation">animal volant, oiseau</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.B_.n.-B_S_+T_.-u.B_.-'.html">B:.B:.n.-B:S:+T:.-u.B:.-'</a></td>
+                        <td data-fr="animal aquatique, poisson" data-en="aquatic animal, fish" class="translation">animal aquatique, poisson</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.B_.n.-B_S_+T_.-u.T_.-'.html">B:.B:.n.-B:S:+T:.-u.T:.-'</a></td>
+                        <td data-fr="animal terrestre" data-en="ground animal" class="translation">animal terrestre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-B_.O_.-'.html">n.-B:.O:.-'</a></td>
+                        <td data-fr="éléments de l'est et de l'ouest" data-en="east and west elements" class="translation">éléments de l'est et de l'ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-B_.O_.-'.html">l.-B:.O:.-'</a></td>
+                        <td data-fr="axe est-ouest" data-en="east-west axis" class="translation">axe est-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.U_M_.-t.-'.html">E:.-B:.U:M:.-t.-'</a></td>
+                        <td data-fr="présent virtuel" data-en="virtual present" class="translation">présent virtuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.A_M_.-t.-'.html">E:.-B:.A:M:.-t.-'</a></td>
+                        <td data-fr="présent actuel" data-en="actual present" class="translation">présent actuel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.S_M_.-l.-'.html">E:.-B:.S:M:.-l.-'</a></td>
+                        <td data-fr="origine subjective" data-en="subjective origin" class="translation">origine subjective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.B_M_.-l.-'.html">E:.-B:.B:M:.-l.-'</a></td>
+                        <td data-fr="proximité" data-en="proximity" class="translation">proximité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.T_M_.-l.-'.html">E:.-B:.T:M:.-l.-'</a></td>
+                        <td data-fr="fin subjective" data-en="subjective end" class="translation">fin subjective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_S_.-l.-'.html">E:.-B:.M:S:.-l.-'</a></td>
+                        <td data-fr="orientation dedans-dehors" data-en="inside-outside orientation" class="translation">orientation dedans-dehors</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_B_.-l.-'.html">E:.-B:.M:B:.-l.-'</a></td>
+                        <td data-fr="orientation latérale" data-en="lateral orientation" class="translation">orientation latérale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_T_.-l.-'.html">E:.-B:.M:T:.-l.-'</a></td>
+                        <td data-fr="orientation de distance" data-en="distance orientation" class="translation">orientation de distance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.s.-l.-'.html">E:.-M:.s.-l.-'</a></td>
+                        <td data-fr="origine dynamique" data-en="dynamic origin" class="translation">origine dynamique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.b.-l.-'.html">E:.-M:.b.-l.-'</a></td>
+                        <td data-fr="origine relative" data-en="relative origin" class="translation">origine relative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.t.-l.-'.html">E:.-M:.t.-l.-'</a></td>
+                        <td data-fr="origine absolue" data-en="absolute origin" class="translation">origine absolue</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.k.-l.-'.html">E:.-M:.k.-l.-'</a></td>
+                        <td data-fr="intermédiaire dynamique" data-en="dynamic intermediary" class="translation">intermédiaire dynamique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.m.-l.-'.html">E:.-M:.m.-l.-'</a></td>
+                        <td data-fr="intermediaire relatif" data-en="relative intermediary" class="translation">intermediaire relatif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.n.-l.-'.html">E:.-M:.n.-l.-'</a></td>
+                        <td data-fr="intermédiaire absolu" data-en="absolute intermediary" class="translation">intermédiaire absolu</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.d.-l.-'.html">E:.-M:.d.-l.-'</a></td>
+                        <td data-fr="terminaison dynamique" data-en="dynamic termination" class="translation">terminaison dynamique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.f.-l.-'.html">E:.-M:.f.-l.-'</a></td>
+                        <td data-fr="terminaison relative" data-en="relative termination" class="translation">terminaison relative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.l.-l.-'.html">E:.-M:.l.-l.-'</a></td>
+                        <td data-fr="terminaison absolue" data-en="absolute termination" class="translation">terminaison absolue</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.wo.-M_.-'.html">s.wo.-M:.-'</a></td>
+                        <td data-fr="processus de subjectivation" data-en="subjectivation process" class="translation">processus de subjectivation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.wa.-M_.-'.html">s.wa.-M:.-'</a></td>
+                        <td data-fr="contenu des idées" data-en="ideas content" class="translation">contenu des idées</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.wu.-M_.-'.html">s.wu.-M:.-'</a></td>
+                        <td data-fr="signification" data-en="signification" class="translation">signification</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.we.-M_.-'.html">s.we.-M:.-'</a></td>
+                        <td data-fr="médias" data-en="media" class="translation">médias</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-M_.U_.-'.html">n.-M:.U:.-'</a></td>
+                        <td data-fr="éléments nord-est-haut" data-en="north-east-high elements" class="translation">éléments nord-est-haut</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-M_.A_.-'.html">n.-M:.A:.-'</a></td>
+                        <td data-fr="éléments sud-ouest-bas" data-en="south-west-low elements" class="translation">éléments sud-ouest-bas</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-M_.U_.-'.html">l.-M:.U:.-'</a></td>
+                        <td data-fr="montée transversale nord-est" data-en="transverse north-east rise" class="translation">montée transversale nord-est</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-M_.A_.-'.html">l.-M:.A:.-'</a></td>
+                        <td data-fr="descente transversale sud-ouest" data-en="transverse south-west descent" class="translation">descente transversale sud-ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_O_.-B_.-'.html">s.O:O:.-B:.-'</a></td>
+                        <td data-fr="êtres cognitifs" data-en="cognitive beings" class="translation">êtres cognitifs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.y.-t.-'.html">E:.-F:.y.-t.-'</a></td>
+                        <td data-fr="mode cognitif" data-en="cognitive mood" class="translation">mode cognitif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.o.-t.-'.html">E:.-F:.o.-t.-'</a></td>
+                        <td data-fr="mode optatif" data-en="optative mood" class="translation">mode optatif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.e.-t.-'.html">E:.-F:.e.-t.-'</a></td>
+                        <td data-fr="mode abilitatif" data-en="abilitative mood" class="translation">mode abilitatif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.u.-t.-'.html">E:.-F:.u.-t.-'</a></td>
+                        <td data-fr="mode expressif" data-en="expressive mood" class="translation">mode expressif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.a.-t.-'.html">E:.-F:.a.-t.-'</a></td>
+                        <td data-fr="mode promissif" data-en="promisive mood" class="translation">mode promissif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.i.-t.-'.html">E:.-F:.i.-t.-'</a></td>
+                        <td data-fr="mode impératif" data-en="imperative mood" class="translation">mode impératif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.s.-l.-'.html">E:.-F:.s.-l.-'</a></td>
+                        <td data-fr="tension d'exi-stance" data-en="tension of exi-stance" class="translation">tension d'exi-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.b.-l.-'.html">E:.-F:.b.-l.-'</a></td>
+                        <td data-fr="relation d'exi-stance" data-en="relation of exi-stance" class="translation">relation d'exi-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.t.-l.-'.html">E:.-F:.t.-l.-'</a></td>
+                        <td data-fr="structure d'exi-stance" data-en="structure of exi-stance" class="translation">structure d'exi-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.k.-l.-'.html">E:.-F:.k.-l.-'</a></td>
+                        <td data-fr="tension d'inter-stance" data-en="tension d'inter-stance" class="translation">tension d'inter-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.m.-l.-'.html">E:.-F:.m.-l.-'</a></td>
+                        <td data-fr="relation d'inter-stance" data-en="relation of inter-stance" class="translation">relation d'inter-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.n.-l.-'.html">E:.-F:.n.-l.-'</a></td>
+                        <td data-fr="structure d'inter-stance" data-en="structure of inter-stance" class="translation">structure d'inter-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.d.-l.-'.html">E:.-F:.d.-l.-'</a></td>
+                        <td data-fr="tension d'insi-stance" data-en="tension of insi-stance" class="translation">tension d'insi-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.f.-l.-'.html">E:.-F:.f.-l.-'</a></td>
+                        <td data-fr="relation d'insi-stance" data-en="relation of insi-stance" class="translation">relation d'insi-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.l.-l.-'.html">E:.-F:.l.-l.-'</a></td>
+                        <td data-fr="structure d'insi-stance" data-en="structure of insi-stance" class="translation">structure d'insi-stance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.wo.-F_.-'.html">s.wo.-F:.-'</a></td>
+                        <td data-fr="intelligence réflexive" data-en="reflexive intelligence" class="translation">intelligence réflexive</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.wa.-F_.-'.html">s.wa.-F:.-'</a></td>
+                        <td data-fr="communication des idées" data-en="communication of ideas" class="translation">communication des idées</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.wu.-F_.-'.html">s.wu.-F:.-'</a></td>
+                        <td data-fr="système de concepts (sensorium)" data-en="system of concepts (sensorium)" class="translation">système de concepts (sensorium)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.we.-F_.-'.html">s.we.-F:.-'</a></td>
+                        <td data-fr="système de symboles" data-en="system of symbols" class="translation">système de symboles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.O_M_.-t.-'.html">E:.-B:.O:M:.-t.-'</a></td>
+                        <td data-fr="temps présent" data-en="present tense" class="translation">temps présent</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-M_.O_.-'.html">s.-M:.O:.-'</a></td>
+                        <td data-fr="qualités élémentaires" data-en="elementary qualities" class="translation">qualités élémentaires</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-M_.O_.-'.html">b.-M:.O:.-'</a></td>
+                        <td data-fr="qualités visuelles" data-en="visual qualities" class="translation">qualités visuelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.-M_.O_.-'.html">t.-M:.O:.-'</a></td>
+                        <td data-fr="saisons" data-en="seasons" class="translation">saisons</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.T_.A_.-+n.S_+B_.U_.-'.html">B:.S:.n.-B:S:+T:.-n.T:.A:.-+n.S:+B:.U:.-'</a></td>
+                        <td data-fr="végétal, plante" data-en="plant" class="translation">végétal, plante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.B_.n.-B_S_+T_.-u.M_.-'.html">B:.B:.n.-B:S:+T:.-u.M:.-'</a></td>
+                        <td data-fr="animal" data-en="animal" class="translation">animal</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/k.-M_.O_.-'.html">k.-M:.O:.-'</a></td>
+                        <td data-fr="qualités auditives, force" data-en="auditory qualities, strength" class="translation">qualités auditives, force</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/m.-M_.O_.-'.html">m.-M:.O:.-'</a></td>
+                        <td data-fr="émotions" data-en="emotions" class="translation">émotions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-M_.O_.-'.html">n.-M:.O:.-'</a></td>
+                        <td data-fr="éléments" data-en="elements" class="translation">éléments</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/d.-M_.O_.-'.html">d.-M:.O:.-'</a></td>
+                        <td data-fr="textures" data-en="textures" class="translation">textures</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.-M_.O_.-'.html">f.-M:.O:.-'</a></td>
+                        <td data-fr="goûts" data-en="tastes" class="translation">goûts</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/l.-M_.O_.-'.html">l.-M:.O:.-'</a></td>
+                        <td data-fr="directions spatiales" data-en="spatial directions" class="translation">directions spatiales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-B_.M_M_.-l.-'.html">E:.-B:.M:M:.-l.-'</a></td>
+                        <td data-fr="position" data-en="position" class="translation">position</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.S_M_.-l.-'.html">E:.-M:.S:M:.-l.-'</a></td>
+                        <td data-fr="commencement" data-en="beginning" class="translation">commencement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.B_M_.-l.-'.html">E:.-M:.B:M:.-l.-'</a></td>
+                        <td data-fr="intermédiaire" data-en="intermediary" class="translation">intermédiaire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.T_M_.-l.-'.html">E:.-M:.T:M:.-l.-'</a></td>
+                        <td data-fr="terminaison" data-en="termination" class="translation">terminaison</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.M_B_.-l.-'.html">E:.-M:.M:B:.-l.-'</a></td>
+                        <td data-fr="lateral" data-en="lateral" class="translation">lateral</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-B_.U_.-'.html">M:M:.-B:.U:.-'</a></td>
+                        <td data-fr="qualités orientales" data-en="eastern qualities" class="translation">qualités orientales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-B_.A_.-'.html">M:M:.-B:.A:.-'</a></td>
+                        <td data-fr="qualités occidentales" data-en="western qualities" class="translation">qualités occidentales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.T_.A_.-+n.S_+B_.U_.-'+B_.B_.n.-B_S_+T_.-u.M_.-'.html">B:.S:.n.-B:S:+T:.-n.T:.A:.-+n.S:+B:.U:.-'+B:.B:.n.-B:S:+T:.-u.M:.-'</a></td>
+                        <td data-fr="animaux et végétaux" data-en="animals and vegetals" class="translation">animaux et végétaux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.U_M_.-t.-'.html">E:.-F:.U:M:.-t.-'</a></td>
+                        <td data-fr="mode déclaratif" data-en="declarative mood" class="translation">mode déclaratif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.A_M_.-t.-'.html">E:.-F:.A:M:.-t.-'</a></td>
+                        <td data-fr="mode performatif" data-en="performative mood" class="translation">mode performatif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.S_M_.-l.-'.html">E:.-F:.S:M:.-l.-'</a></td>
+                        <td data-fr="exi-stance (spatial situation)" data-en="exi-stance (spatial situation)" class="translation">exi-stance (spatial situation)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.B_M_.-l.-'.html">E:.-F:.B:M:.-l.-'</a></td>
+                        <td data-fr="inter-stance (situation spatiale)" data-en="inter-stance (spatial situation)" class="translation">inter-stance (situation spatiale)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.T_M_.-l.-'.html">E:.-F:.T:M:.-l.-'</a></td>
+                        <td data-fr="insi-stance (situation spatiale)" data-en="insi-stance (spatial situation)" class="translation">insi-stance (situation spatiale)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.O_M_.-t.-'.html">E:.-M:.O:M:.-t.-'</a></td>
+                        <td data-fr="temps | quand" data-en="tense | time | when" class="translation">temps | quand</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.O_O_.-F_.-'.html">s.O:O:.-F:.-'</a></td>
+                        <td data-fr="cognition symbolique" data-en="symbolic cognition" class="translation">cognition symbolique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-M_.M_M_.-l.-'.html">E:.-M:.M:M:.-l.-'</a></td>
+                        <td data-fr="situation: cheminement" data-en="situation: path" class="translation">situation: cheminement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.O_M_.-t.-'.html">E:.-F:.O:M:.-t.-'</a></td>
+                        <td data-fr="conjugaisons et modes verbaux, temps" data-en="conjugations and verbal modes, tense, time" class="translation">conjugaisons et modes verbaux, temps</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.-F_.M_M_.-l.-'.html">E:.-F:.M:M:.-l.-'</a></td>
+                        <td data-fr="situation spatiale, dans l'espace | où" data-en="spatial situation, in the space | where" class="translation">situation spatiale, dans l'espace | où</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.-M_.O_.-'.html">M:M:.-M:.O:.-'</a></td>
+                        <td data-fr="qualités" data-en="qualities" class="translation">qualités</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'M_.-'_.html">n.-S:.U:.-'B:.-'M:.-',</a></td>
+                        <td data-fr="zones continentales centrales" data-en="central continental areas" class="translation">zones continentales centrales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'M_.-'S_.-'_.html">n.-S:.U:.-'M:.-'S:.-',</a></td>
+                        <td data-fr="continents ouest" data-en="western continents" class="translation">continents ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'M_.-'B_.-'_.html">n.-S:.U:.-'M:.-'B:.-',</a></td>
+                        <td data-fr="continents centraux" data-en="central continents" class="translation">continents centraux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'M_.-'T_.-'_.html">n.-S:.U:.-'M:.-'T:.-',</a></td>
+                        <td data-fr="continents est" data-en="eastern continents" class="translation">continents est</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'B_.-'M_.-'_.html">n.-T:.A:.-'B:.-'M:.-',</a></td>
+                        <td data-fr="océan central" data-en="central ocean" class="translation">océan central</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'S_.-'_.html">n.-T:.A:.-'M:.-'S:.-',</a></td>
+                        <td data-fr="océan Atlantique" data-en="Atlantic ocean" class="translation">océan Atlantique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'B_.-'_.html">n.-T:.A:.-'M:.-'B:.-',</a></td>
+                        <td data-fr="ocean Indien" data-en="Indian ocean" class="translation">ocean Indien</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'T_.-'_.html">n.-T:.A:.-'M:.-'T:.-',</a></td>
+                        <td data-fr="océan Pacifique" data-en="Pacific ocean" class="translation">océan Pacifique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/j.-'F_.-'k.o.-t.o.-'_.html">j.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation épistémique" data-en="epistemic mutation" class="translation">mutation épistémique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/g.-'F_.-'k.o.-t.o.-'_.html">g.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation éducative" data-en="education mutation" class="translation">mutation éducative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-l.o.-'F_.-'_.html">s.o.-l.o.-'F:.-',</a></td>
+                        <td data-fr="simples proportions" data-en="simple proportions" class="translation">simples proportions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'B_.-'F_.-'_.html">b.-S:.A:.-'B:.-'F:.-',</a></td>
+                        <td data-fr="jaune" data-en="yellow" class="translation">jaune</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'U_.-'_.html">b.-S:.A:.-'F:.-'U:.-',</a></td>
+                        <td data-fr="tirant sur le blanc" data-en="white leaning" class="translation">tirant sur le blanc</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'A_.-'_.html">b.-S:.A:.-'F:.-'A:.-',</a></td>
+                        <td data-fr="tirant sur le noir" data-en="blackish" class="translation">tirant sur le noir</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'S_.-'_.html">b.-S:.A:.-'F:.-'S:.-',</a></td>
+                        <td data-fr="tirant sur le bleu" data-en="blueish" class="translation">tirant sur le bleu</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'B_.-'_.html">b.-S:.A:.-'F:.-'B:.-',</a></td>
+                        <td data-fr="tirant sur le jaune" data-en="yellowish" class="translation">tirant sur le jaune</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'T_.-'_.html">b.-S:.A:.-'F:.-'T:.-',</a></td>
+                        <td data-fr="tirant sur le rouge" data-en="reddish" class="translation">tirant sur le rouge</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/h.-'F_.-'k.o.-t.o.-'_.html">h.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation religieuse" data-en="religious mutation" class="translation">mutation religieuse</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/c.-'F_.-'k.o.-t.o.-'_.html">c.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation politique" data-en="political mutation" class="translation">mutation politique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/p.-'F_.-'k.o.-t.o.-'_.html">p.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation économique" data-en="economic mutation" class="translation">mutation économique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/x.-'F_.-'k.o.-t.o.-'_.html">x.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="mutation technique" data-en="technical mutation" class="translation">mutation technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.-'B_.-'k.o.-t.o.-'_.html">M:O:.-'B:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="régime typographique" data-en="typographic regime" class="translation">régime typographique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'M_.-'M_.-'_.html">n.-S:.U:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="zones continentales" data-en="continental zones" class="translation">zones continentales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'M_.-'_.html">n.-T:.A:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="mers principales" data-en="main seas" class="translation">mers principales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-S_.U_.-'n.-T_.A_.-'l.-S_.O_.-'_+n.-T_.A_.-'M_.-'M_.-'_.html">s.-S:.U:.-'n.-T:.A:.-'l.-S:.O:.-',+n.-T:.A:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="océans" data-en="oceans" class="translation">océans</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'s.-S_.U_.-'l.-S_.O_.-'_+n.-S_.U_.-'M_.-'M_.-'_.html">n.-S:.U:.-'s.-S:.U:.-'l.-S:.O:.-',+n.-S:.U:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="continents" data-en="continents" class="translation">continents</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'F_.-'_.html">b.-S:.A:.-'F:.-'F:.-',</a></td>
+                        <td data-fr="couleurs" data-en="colors" class="translation">couleurs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/M_O_.-'F_.-'k.o.-t.o.-'_.html">M:O:.-'F:.-'k.o.-t.o.-',</a></td>
+                        <td data-fr="évolution culturelle | périodes historiques" data-en="cultural evolution | historical periods" class="translation">évolution culturelle | périodes historiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'j.-'_M_.-'__.html">s.o.-k.o.-'j.-',M:.-',_</a></td>
+                        <td data-fr="réseaux de connaissances, écosystèmes d'idées" data-en="knowledge networks, ideas ecosystem" class="translation">réseaux de connaissances, écosystèmes d'idées</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'g.-'_M_.-'__.html">s.o.-k.o.-'g.-',M:.-',_</a></td>
+                        <td data-fr="réseaux d'information, écosystème de messages et de documents" data-en="information network, ecosystem of messages and documents" class="translation">réseaux d'information, écosystème de messages et de documents</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'h.-'_M_.-'__.html">s.o.-k.o.-'h.-',M:.-',_</a></td>
+                        <td data-fr="réseau de volontés, disposition éthique, écosystème de subjectivités" data-en="network of wills, ethical disposition, ecosystem of subjectivities" class="translation">réseau de volontés, disposition éthique, écosystème de subjectivités</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'c.-'_M_.-'__.html">s.o.-k.o.-'c.-',M:.-',_</a></td>
+                        <td data-fr="réseau social, écosystème de relations interpersonnelles" data-en="social network, ecosystem of interpersonal relations" class="translation">réseau social, écosystème de relations interpersonnelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'p.-'_M_.-'__.html">s.o.-k.o.-'p.-',M:.-',_</a></td>
+                        <td data-fr="réseau de forces, écosystème de pouvoirs" data-en="network of strengths, ecosystem of powers" class="translation">réseau de forces, écosystème de pouvoirs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'x.-'_M_.-'__.html">s.o.-k.o.-'x.-',M:.-',_</a></td>
+                        <td data-fr="réseau de corps, écosystème biophysique" data-en="network of bodies, biophysical ecosytem" class="translation">réseau de corps, écosystème biophysique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'wo.-'_M_.-'__.html">t.i.-s.i.-'u.T:.-U:.-'wo.-',M:.-',_</a></td>
+                        <td data-fr="véhicule terrestre sans conducteur" data-en="unmanned terrestrial vehicle" class="translation">véhicule terrestre sans conducteur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'wa.-'_M_.-'__.html">t.i.-s.i.-'u.T:.-U:.-'wa.-',M:.-',_</a></td>
+                        <td data-fr="véhicule terrestre avec conducteur" data-en="manned terrestrial vehicle" class="translation">véhicule terrestre avec conducteur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'wu.-'_M_.-'__.html">t.i.-s.i.-'u.T:.-U:.-'wu.-',M:.-',_</a></td>
+                        <td data-fr="véhicule terrestre cargo" data-en="freight terrestrial vehicle" class="translation">véhicule terrestre cargo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'we.-'_M_.-'__.html">t.i.-s.i.-'u.T:.-U:.-'we.-',M:.-',_</a></td>
+                        <td data-fr="vehicle terrestre pour passagers" data-en="terrestrial vehicle for passengers" class="translation">vehicle terrestre pour passagers</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'S:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Etats Unis d'Amérique, USA" data-en="United States of America, USA" class="translation">Etats Unis d'Amérique, USA</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'S:.-'S:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="côte Ouest, zone Pacifique de l'Amérique du Nord" data-en="West coast, Pacific zone of North America" class="translation">côte Ouest, zone Pacifique de l'Amérique du Nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'S:.-'S:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Amérique du Nord: zone centrale, continentale" data-en="North America: central continental zone" class="translation">Amérique du Nord: zone centrale, continentale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'S:.-'S:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="Côte Est, zone Atlantique" data-en="East Coast, Atlantic zone" class="translation">Côte Est, zone Atlantique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'B:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Europe médiane" data-en="median Europe" class="translation">Europe médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'S:.-'B:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="Europe de l'ouest" data-en="western Europe" class="translation">Europe de l'ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'S:.-'B:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Europe centrale" data-en="central Europe" class="translation">Europe centrale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'S:.-'B:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="Europe de l'est" data-en="eastern Europe" class="translation">Europe de l'est</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'T:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Asie centrale" data-en="Central Asia" class="translation">Asie centrale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'S:.-'T:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="Asie de l'Ouest" data-en="Western Asia" class="translation">Asie de l'Ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'S:.-'T:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Asie médiane" data-en="Median Asia" class="translation">Asie médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'S:.-'T:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="Asie Orientale" data-en="Oriental Asia" class="translation">Asie Orientale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'S:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Amérique centrale et Caraïbes: zone médiane" data-en="Central America and Caribbean: middle zone" class="translation">Amérique centrale et Caraïbes: zone médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'B:.-'S:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="Pays continentaux d'Amérique centrale" data-en="continental central american countries" class="translation">Pays continentaux d'Amérique centrale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'B:.-'S:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="îles caraïbes occidentales" data-en="western caribbean Islands" class="translation">îles caraïbes occidentales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'B:.-'S:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="îles caraïbes orientales" data-en="eastern caribbean islands" class="translation">îles caraïbes orientales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'B:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique bordant au Sud le désert du Sahara" data-en="North african countries located on the southern part of the Sahara desert" class="translation">Pays d'Afrique bordant au Sud le désert du Sahara</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'B:.-'B:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique du nord et du centre à l'ouest du continent, bordant l'océan Atlantique" data-en="Countries of northern and southern Africa on the western part of the continent, bordering the Atlantic ocean" class="translation">Pays d'Afrique du nord et du centre à l'ouest du continent, bordant l'océan Atlantique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'B:.-'B:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique du nord et du centre, zone médiane" data-en="Countries of northern and central Africa, median area" class="translation">Pays d'Afrique du nord et du centre, zone médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'B:.-'B:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="Afrique du nord et du centre: partie orientale, faisant face à la mer rouge et à l'océan indien" data-en="North and central Africa, oriental part, facing the red sea and the indian ocean" class="translation">Afrique du nord et du centre: partie orientale, faisant face à la mer rouge et à l'océan indien</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'S:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Zone médiane de l'Amérique du Sud" data-en="Median area of South America" class="translation">Zone médiane de l'Amérique du Sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'T:.-'S:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="Pays de la façade Pacifique de l'Amérique du Sud" data-en="Countries of South America on the Pacific coast" class="translation">Pays de la façade Pacifique de l'Amérique du Sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'T:.-'S:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Pays de la zone centrale et Atlantique (hors Brésil) de l'Amérique du sud" data-en="Countries of the central and atlantic area (except Brazil) of South America" class="translation">Pays de la zone centrale et Atlantique (hors Brésil) de l'Amérique du sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'T:.-'S:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="Brésil" data-en="Brazil" class="translation">Brésil</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'B:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Afrique tropicale sud" data-en="Tropical south Africa" class="translation">Afrique tropicale sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'T:.-'B:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="Afrique australe tournée vers l'Atlantique" data-en="Southern Africa looking to the Atlantic" class="translation">Afrique australe tournée vers l'Atlantique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'T:.-'B:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Pays du centre de l'Afrique Australe" data-en="Countries from the center of southern Africa" class="translation">Pays du centre de l'Afrique Australe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'T:.-'B:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="Afrique Australe tournée vers l'océan indien" data-en="Southern Africa looking to the indian ocean" class="translation">Afrique Australe tournée vers l'océan indien</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'T_.-'_M_.-'_S_.-'__.html">n.-S:.U:.-'T:.-'T:.-',M:.-',S:.-',_</a></td>
+                        <td data-fr="Australie, moitié Ouest" data-en="Australia West middle part" class="translation">Australie, moitié Ouest</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'T_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'T:.-'T:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Australie, moitié orientale" data-en="Australia, Eastern part" class="translation">Australie, moitié orientale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'T_.-'_M_.-'_T_.-'__.html">n.-S:.U:.-'T:.-'T:.-',M:.-',T:.-',_</a></td>
+                        <td data-fr="Papouasie, îles, Nouvelle Zélande" data-en="Papua, Islands, New Zeland" class="translation">Papouasie, îles, Nouvelle Zélande</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'O_O_.-'_B_.-'__.html">t.i.-s.i.-'u.T:.-U:.-'O:O:.-',B:.-',_</a></td>
+                        <td data-fr="véhicules sur route" data-en="road vehicles" class="translation">véhicules sur route</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'M_O_.-'_B_.-'__.html">s.o.-k.o.-'M:O:.-',B:.-',_</a></td>
+                        <td data-fr="moments subjectifs et affectifs de l'intelligence collective" data-en="subjective and affective moments of collective intelligence" class="translation">moments subjectifs et affectifs de l'intelligence collective</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'S:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Amérique du Nord" data-en="North American countries" class="translation">Pays d'Amérique du Nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'B:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays européens" data-en="European countries" class="translation">Pays européens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'T:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Asie du Nord" data-en="Countries from Northern Asia" class="translation">Pays d'Asie du Nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'S:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Amérique centrale et des Caraïbes" data-en="Central America and Caribbean countries" class="translation">Pays d'Amérique centrale et des Caraïbes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'B:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique du nord et du centre" data-en="Countries of northern and central Africa" class="translation">Pays d'Afrique du nord et du centre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'T_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'T:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Asie du Sud" data-en="Countries from southern Asia" class="translation">Pays d'Asie du Sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'S:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Amérique du Sud" data-en="South American countries" class="translation">Pays d'Amérique du Sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'B:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique australe" data-en="Southern african countries" class="translation">Pays d'Afrique australe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'T_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'T:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Océanie" data-en="Oceanian countries" class="translation">Pays d'Océanie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'O_O_.-'_M_.-'__.html">t.i.-s.i.-'u.T:.-U:.-'O:O:.-',M:.-',_</a></td>
+                        <td data-fr="genres de véhicules de surface" data-en="kinds of surface vehicles" class="translation">genres de véhicules de surface</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.o.-k.o.-'M_O_.-'_M_.-'__.html">s.o.-k.o.-'M:O:.-',M:.-',_</a></td>
+                        <td data-fr="écosystèmes de l'intelligence collective: dialectiques ternaires (dix-huit noms)" data-en="ecosystems of collective intelligence: ternary dialectics (eight nouns)" class="translation">écosystèmes de l'intelligence collective: dialectiques ternaires (dix-huit noms)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-O_.-'__E_B_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-O:.-',_E:B:.-',_;</a></td>
+                        <td data-fr="second doigt | orteil" data-en="second finger | toe" class="translation">second doigt | orteil</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-O_.-'__B_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-O:.-',_B:.-',_;</a></td>
+                        <td data-fr="paume et plante (face de l'extrémité)" data-en="palm and sole (face of the extremity)" class="translation">paume et plante (face de l'extrémité)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'wo.-'_B_.-'__M_.-'___.html">t.i.-s.i.-'u.T:.-U:.-'wo.-',B:.-',_M:.-',_;</a></td>
+                        <td data-fr="véhicule à roues sans conducteur" data-en="unmanned wheeled vehicle" class="translation">véhicule à roues sans conducteur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'wa.-'_B_.-'__M_.-'___.html">t.i.-s.i.-'u.T:.-U:.-'wa.-',B:.-',_M:.-',_;</a></td>
+                        <td data-fr="véhicule à roues avec conducteur" data-en="manned wheeled vehicle" class="translation">véhicule à roues avec conducteur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'wu.-'_B_.-'__M_.-'___.html">t.i.-s.i.-'u.T:.-U:.-'wu.-',B:.-',_M:.-',_;</a></td>
+                        <td data-fr="véhicule à roues cargo" data-en="freight wheeled vehicle" class="translation">véhicule à roues cargo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'we.-'_B_.-'__M_.-'___.html">t.i.-s.i.-'u.T:.-U:.-'we.-',B:.-',_M:.-',_;</a></td>
+                        <td data-fr="véhicule à roues pour passagers" data-en="wheeled vehicle for passengers" class="translation">véhicule à roues pour passagers</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-U_.-'__M_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-U:.-',_M:.-',_;</a></td>
+                        <td data-fr="corps de la main" data-en="body of the hand" class="translation">corps de la main</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-A_.-'__M_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-A:.-',_M:.-',_;</a></td>
+                        <td data-fr="corps du pied" data-en="body of the foot" class="translation">corps du pied</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'O_O_.-'_B_.-'__B_.-'___.html">t.i.-s.i.-'u.T:.-U:.-'O:O:.-',B:.-',_B:.-',_;</a></td>
+                        <td data-fr="quatre roues | véhicule de taille moyenne" data-en="four wheels | medium size vehicle" class="translation">quatre roues | véhicule de taille moyenne</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-U_.-'__E_F_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-U:.-',_E:F:.-',_;</a></td>
+                        <td data-fr="doigts" data-en="fingers" class="translation">doigts</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-A_.-'__E_F_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-A:.-',_E:F:.-',_;</a></td>
+                        <td data-fr="orteils" data-en="toes" class="translation">orteils</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-O_.-'__M_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-O:.-',_M:.-',_;</a></td>
+                        <td data-fr="corps de la main et du pied" data-en="body of the hand and the foot" class="translation">corps de la main et du pied</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-O_.-'__E_F_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-O:.-',_E:F:.-',_;</a></td>
+                        <td data-fr="doigts et orteils" data-en="fingers and toes" class="translation">doigts et orteils</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.i.-s.i.-'u.T_.-U_.-'O_O_.-'_B_.-'__M_.-'___.html">t.i.-s.i.-'u.T:.-U:.-'O:O:.-',B:.-',_M:.-',_;</a></td>
+                        <td data-fr="genres de véhicules sur route" data-en="kinds of road vehicles" class="translation">genres de véhicules sur route</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/f.o.-f.o.-'_n.i.-f.i.-'_x.-O_.-'__M_.-'___+f.o.-f.o.-'_n.i.-f.i.-'_x.-O_.-'__E_F_.-'___.html">f.o.-f.o.-',n.i.-f.i.-',x.-O:.-',_M:.-',_;+f.o.-f.o.-',n.i.-f.i.-',x.-O:.-',_E:F:.-',_;</a></td>
+                        <td data-fr="parties des mains et des pieds" data-en="parts of hands and feet" class="translation">parties des mains et des pieds</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-48037041446">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-48037041446"
+                    aria-expanded="false"
+                    aria-controls="body-48037041446">
+                    <span> <span class="badge badge-pill badge-Light">122</span> child-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-48037041446"
+         class="collapse"
+         aria-labelledby="heading-48037041446"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/E_O_B_..html">E:O:B:.</a></td>
+                        <td data-fr="medium comparatif" data-en="comparative medium" class="translation">medium comparatif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_E_M_..html">E:E:M:.</a></td>
+                        <td data-fr="indicateurs de cas pour clauses verbales" data-en="case indicators for verb clauses" class="translation">indicateurs de cas pour clauses verbales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_U_M_..html">E:U:M:.</a></td>
+                        <td data-fr="variation qualitative | comparaison qualitative" data-en="qualitative variation | qualitative comparison" class="translation">variation qualitative | comparaison qualitative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_A_M_..html">E:A:M:.</a></td>
+                        <td data-fr="variation quantitative | comparaison quantitative" data-en="quantitative variation | quantitative comparaison" class="translation">variation quantitative | comparaison quantitative</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_S_M_..html">E:S:M:.</a></td>
+                        <td data-fr="distribution dans le temps | la substance arrive dans l'attribut selon le mode" data-en="time distribution | the substance happens in the attribute according to the mode" class="translation">distribution dans le temps | la substance arrive dans l'attribut selon le mode</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_B_M_..html">E:B:M:.</a></td>
+                        <td data-fr="distribution de fréquence | la substance arrive dans l'attribut selon le mode" data-en="frequency distribution | the substance happens in the attribute according to the mode" class="translation">distribution de fréquence | la substance arrive dans l'attribut selon le mode</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_T_M_..html">E:T:M:.</a></td>
+                        <td data-fr="distribution dans l'espace | la substance est dans l'attribut selon le mode" data-en="space distribution | the substance is located in the attribute according to the mode" class="translation">distribution dans l'espace | la substance est dans l'attribut selon le mode</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_B_..html">E:M:B:.</a></td>
+                        <td data-fr="medium distributif" data-en="distributive medium" class="translation">medium distributif</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_E_F_..html">E:E:F:.</a></td>
+                        <td data-fr="indicateurs de cas | modes de clause" data-en="case indicators | clause modes" class="translation">indicateurs de cas | modes de clause</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_F_B_..html">E:F:B:.</a></td>
+                        <td data-fr="medium (gradient)" data-en="medium (gradient)" class="translation">medium (gradient)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_O_M_..html">E:O:M:.</a></td>
+                        <td data-fr="variation (adverbes de)" data-en="variation (adverbs of)" class="translation">variation (adverbes de)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_M_M_..html">E:M:M:.</a></td>
+                        <td data-fr="distribution (adverbes de)" data-en="distribution (adverbs of)" class="translation">distribution (adverbes de)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_F_M_..html">E:F:M:.</a></td>
+                        <td data-fr="adverbes de gradient | en mode de topic ou de clause" data-en="gradient adverb | in topic or clause mode" class="translation">adverbes de gradient | en mode de topic ou de clause</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/U_O_.f.B_.-.html">U:O:.f.B:.-</a></td>
+                        <td data-fr="créer et diffuser un goût | une odeur" data-en="create and display a taste | a smell" class="translation">créer et diffuser un goût | une odeur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/A_O_.f.B_.-.html">A:O:.f.B:.-</a></td>
+                        <td data-fr="sentir et isoler une forme chimique" data-en="sense and insulate a chemical form" class="translation">sentir et isoler une forme chimique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_U_.f.B_.-.html">O:U:.f.B:.-</a></td>
+                        <td data-fr="créer et sentir un goût | une odeur" data-en="create and sense a taste | a smell" class="translation">créer et sentir un goût | une odeur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_A_.f.B_.-.html">O:A:.f.B:.-</a></td>
+                        <td data-fr="diffuser et bloquer une expérience gustative | olfactive" data-en="display and block a gustative | olfactive experience" class="translation">diffuser et bloquer une expérience gustative | olfactive</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_O_.f.B_.-.html">O:O:.f.B:.-</a></td>
+                        <td data-fr="contrôler la sensation chimique" data-en="control the chemical sensation" class="translation">contrôler la sensation chimique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/wo.f.F_.-.html">wo.f.F:.-</a></td>
+                        <td data-fr="moduler les phénomènes" data-en="modulate phenomena" class="translation">moduler les phénomènes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/wa.f.F_.-.html">wa.f.F:.-</a></td>
+                        <td data-fr="exposer la sensori-motricité" data-en="display sensorimotricity" class="translation">exposer la sensori-motricité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/wu.f.F_.-.html">wu.f.F:.-</a></td>
+                        <td data-fr="sentir | reconnaître les formes" data-en="feel | recognize shapes" class="translation">sentir | reconnaître les formes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/we.f.F_.-.html">we.f.F:.-</a></td>
+                        <td data-fr="interrompre la sensori-motricité" data-en="shut off sensorimotricity" class="translation">interrompre la sensori-motricité</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.U_.E_T_.+I_.-.html">E:.U:.E:T:.+I:.-</a></td>
+                        <td data-fr="métadonnées: nature des données" data-en="metadata: nature of data" class="translation">métadonnées: nature des données</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.A_.E_T_.+I_.-.html">E:.A:.E:T:.+I:.-</a></td>
+                        <td data-fr="métadonnées: identité des données" data-en="metadata: identity of data" class="translation">métadonnées: identité des données</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/E_.O_.E_T_.+I_.-.html">E:.O:.E:T:.+I:.-</a></td>
+                        <td data-fr="métadonnées documentaires" data-en="document metadata" class="translation">métadonnées documentaires</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/O_O_.f.F_.-.html">O:O:.f.F:.-</a></td>
+                        <td data-fr="contrôler l'expérience sensori-motrice" data-en="control sensori-motor experience" class="translation">contrôler l'expérience sensori-motrice</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.B_.U_.-'.html">B:.S:.n.-B:S:+T:.-n.B:.U:.-'</a></td>
+                        <td data-fr="arbre" data-en="tree" class="translation">arbre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-k.-n.T_.A_.-+n.S_+B_.U_.-'.html">B:.S:.n.-k.-n.T:.A:.-+n.S:+B:.U:.-'</a></td>
+                        <td data-fr="plantes domestiques" data-en="domestic plants" class="translation">plantes domestiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-n.-n.T_.A_.-+n.S_+B_.U_.-'.html">B:.S:.n.-n.-n.T:.A:.-+n.S:+B:.U:.-'</a></td>
+                        <td data-fr="plantes sauvages" data-en="wild plants" class="translation">plantes sauvages</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.B_.n.-k.-u.M_.-'.html">B:.B:.n.-k.-u.M:.-'</a></td>
+                        <td data-fr="animaux domestiques" data-en="domestic animals" class="translation">animaux domestiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.B_.n.-n.-u.M_.-'.html">B:.B:.n.-n.-u.M:.-'</a></td>
+                        <td data-fr="animaux sauvages" data-en="wild animals" class="translation">animaux sauvages</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.T_.A_.-+n.S_+B_.U_.-'.html">B:.S:.n.-B:S:+T:.-n.T:.A:.-+n.S:+B:.U:.-'</a></td>
+                        <td data-fr="végétal, plante" data-en="plant" class="translation">végétal, plante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.B_.n.-B_S_+T_.-u.M_.-'.html">B:.B:.n.-B:S:+T:.-u.M:.-'</a></td>
+                        <td data-fr="animal" data-en="animal" class="translation">animal</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/B_.S_.n.-B_S_+T_.-n.T_.A_.-+n.S_+B_.U_.-'+B_.B_.n.-B_S_+T_.-u.M_.-'.html">B:.S:.n.-B:S:+T:.-n.T:.A:.-+n.S:+B:.U:.-'+B:.B:.n.-B:S:+T:.-u.M:.-'</a></td>
+                        <td data-fr="animaux et végétaux" data-en="animals and vegetals" class="translation">animaux et végétaux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'j.-U_.-'M_.-'_.html">b.-S:.U:.-'j.-U:.-'M:.-',</a></td>
+                        <td data-fr="symétrie un" data-en="symmetry one" class="translation">symétrie un</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'j.-A_.-'M_.-'_.html">b.-S:.U:.-'j.-A:.-'M:.-',</a></td>
+                        <td data-fr="symétrie deux" data-en="symmetry two" class="translation">symétrie deux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'g.-U_.-'M_.-'_.html">b.-S:.U:.-'g.-U:.-'M:.-',</a></td>
+                        <td data-fr="symétrie trois" data-en="symmetry three" class="translation">symétrie trois</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'g.-A_.-'M_.-'_.html">b.-S:.U:.-'g.-A:.-'M:.-',</a></td>
+                        <td data-fr="symétrie quatre" data-en="symmetry four" class="translation">symétrie quatre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'h.-U_.-'M_.-'_.html">b.-S:.U:.-'h.-U:.-'M:.-',</a></td>
+                        <td data-fr="symétrie cinq" data-en="symmetry five" class="translation">symétrie cinq</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'h.-A_.-'M_.-'_.html">b.-S:.U:.-'h.-A:.-'M:.-',</a></td>
+                        <td data-fr="symétrie six" data-en="symmetry six" class="translation">symétrie six</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'c.-U_.-'M_.-'_.html">b.-S:.U:.-'c.-U:.-'M:.-',</a></td>
+                        <td data-fr="symétrie sept" data-en="symmetry seven" class="translation">symétrie sept</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'c.-A_.-'M_.-'_.html">b.-S:.U:.-'c.-A:.-'M:.-',</a></td>
+                        <td data-fr="symétrie huit" data-en="symmetry eight" class="translation">symétrie huit</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'p.-U_.-'M_.-'_.html">b.-S:.U:.-'p.-U:.-'M:.-',</a></td>
+                        <td data-fr="symétrie neuf" data-en="symmetry nine" class="translation">symétrie neuf</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'p.-A_.-'M_.-'_.html">b.-S:.U:.-'p.-A:.-'M:.-',</a></td>
+                        <td data-fr="symétrie dix" data-en="symmetry ten" class="translation">symétrie dix</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'x.-U_.-'M_.-'_.html">b.-S:.U:.-'x.-U:.-'M:.-',</a></td>
+                        <td data-fr="symétrie onze" data-en="symmetry eleven" class="translation">symétrie onze</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'x.-A_.-'M_.-'_.html">b.-S:.U:.-'x.-A:.-'M:.-',</a></td>
+                        <td data-fr="symétrie douze" data-en="symmetry twelve" class="translation">symétrie douze</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'M_.-'_.html">n.-S:.U:.-'S:.-'M:.-',</a></td>
+                        <td data-fr="zones continentales nord" data-en="northern continental areas" class="translation">zones continentales nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'M_.-'_.html">n.-S:.U:.-'B:.-'M:.-',</a></td>
+                        <td data-fr="zones continentales centrales" data-en="central continental areas" class="translation">zones continentales centrales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'M_.-'_.html">n.-S:.U:.-'T:.-'M:.-',</a></td>
+                        <td data-fr="zones continentales sud" data-en="southern continental area" class="translation">zones continentales sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'M_.-'B_.-'_.html">n.-S:.U:.-'M:.-'B:.-',</a></td>
+                        <td data-fr="continents centraux" data-en="central continents" class="translation">continents centraux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'S_.-'M_.-'_.html">n.-T:.A:.-'S:.-'M:.-',</a></td>
+                        <td data-fr="océan nord" data-en="north ocean" class="translation">océan nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'B_.-'M_.-'_.html">n.-T:.A:.-'B:.-'M:.-',</a></td>
+                        <td data-fr="océan central" data-en="central ocean" class="translation">océan central</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'T_.-'M_.-'_.html">n.-T:.A:.-'T:.-'M:.-',</a></td>
+                        <td data-fr="océan sud" data-en="south ocean" class="translation">océan sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'B_.-'_.html">n.-T:.A:.-'M:.-'B:.-',</a></td>
+                        <td data-fr="ocean Indien" data-en="Indian ocean" class="translation">ocean Indien</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'U_.-'F_.-'_.html">b.-S:.A:.-'U:.-'F:.-',</a></td>
+                        <td data-fr="blanc" data-en="white" class="translation">blanc</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'A_.-'F_.-'_.html">b.-S:.A:.-'A:.-'F:.-',</a></td>
+                        <td data-fr="noir" data-en="black" class="translation">noir</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'S_.-'F_.-'_.html">b.-S:.A:.-'S:.-'F:.-',</a></td>
+                        <td data-fr="bleu" data-en="blue" class="translation">bleu</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'B_.-'F_.-'_.html">b.-S:.A:.-'B:.-'F:.-',</a></td>
+                        <td data-fr="jaune" data-en="yellow" class="translation">jaune</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'T_.-'F_.-'_.html">b.-S:.A:.-'T:.-'F:.-',</a></td>
+                        <td data-fr="rouge" data-en="red" class="translation">rouge</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'B_.-'_.html">b.-S:.A:.-'F:.-'B:.-',</a></td>
+                        <td data-fr="tirant sur le jaune" data-en="yellowish" class="translation">tirant sur le jaune</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'e.U_.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'e.U:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="plectre" data-en="plectrum" class="translation">plectre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'e.A_.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'e.A:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="archet" data-en="bow" class="translation">archet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'wu.f.A_.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'wu.f.A:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="clavier" data-en="keyboard" class="translation">clavier</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'a.S_.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'a.S:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="soufflet" data-en="bellows" class="translation">soufflet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'i.U_.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'i.U:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="baguette ou marteau" data-en="stick or hammer" class="translation">baguette ou marteau</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'b.i.-l.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'b.i.-l.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="tuyau" data-en="pipe" class="translation">tuyau</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="cloche" data-en="bell" class="translation">cloche</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'m.i.-f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'m.i.-f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="membrane vibrante" data-en="vibrating membrane" class="translation">membrane vibrante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'l.o.-n.o.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'l.o.-n.o.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="murs, architecture acoustique" data-en="walls, acoustic architecture" class="translation">murs, architecture acoustique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'l.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'l.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="corde" data-en="string" class="translation">corde</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'l.i.-t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'l.i.-t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="caisse de résonance" data-en="sound box" class="translation">caisse de résonance</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'l.i.-n.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'l.i.-n.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="sifflet" data-en="whistle" class="translation">sifflet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'l.i.-f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'l.i.-f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="plaquette vibrante" data-en="vibrating plate" class="translation">plaquette vibrante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'M_.-'M_.-'_.html">n.-S:.U:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="zones continentales" data-en="continental zones" class="translation">zones continentales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-T_.A_.-'M_.-'M_.-'_.html">n.-T:.A:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="mers principales" data-en="main seas" class="translation">mers principales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.-S_.U_.-'n.-T_.A_.-'l.-S_.O_.-'_+n.-T_.A_.-'M_.-'M_.-'_.html">s.-S:.U:.-'n.-T:.A:.-'l.-S:.O:.-',+n.-T:.A:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="océans" data-en="oceans" class="translation">océans</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'s.-S_.U_.-'l.-S_.O_.-'_+n.-S_.U_.-'M_.-'M_.-'_.html">n.-S:.U:.-'s.-S:.U:.-'l.-S:.O:.-',+n.-S:.U:.-'M:.-'M:.-',</a></td>
+                        <td data-fr="continents" data-en="continents" class="translation">continents</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'M_O_.-O_.-'B_.-'_.html">b.-S:.U:.-'M:O:.-O:.-'B:.-',</a></td>
+                        <td data-fr="surfaces, formes à deux dimensions" data-en="surfaces, two dimensional shapes" class="translation">surfaces, formes à deux dimensions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'b.i.-l.i.-'+l.o.-n.o.-'+l.i.-t.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="partie des instruments de musique, orchestre, lutherie: résonateurs" data-en="parts of musical instruments, orchestra, lutherie: resonators" class="translation">partie des instruments de musique, orchestre, lutherie: résonateurs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.A_.-'F_.-'F_.-'_.html">b.-S:.A:.-'F:.-'F:.-',</a></td>
+                        <td data-fr="couleurs" data-en="colors" class="translation">couleurs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'e.A_.-+wu.f.A_.-+a.S_.-+O_T_.U_.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'e.A:.-+wu.f.A:.-+a.S:.-+O:T:.U:.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="parties des instruments de musique, orchestre, lutherie: médiateurs" data-en="parts of musical instruments, orchestra, lutherie: mediators" class="translation">parties des instruments de musique, orchestre, lutherie: médiateurs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E_.-+n.+f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'t.i.-'+m.i.-f.i.-'+l.i.-E:.-+n.+f.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="parties des instruments de musique, orchestre, lutherie: vibrateurs" data-en="parts of musical instruments, orchestra, lutherie: vibrators" class="translation">parties des instruments de musique, orchestre, lutherie: vibrateurs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'M_O_.-O_.-'M_.-'_.html">b.-S:.U:.-'M:O:.-O:.-'M:.-',</a></td>
+                        <td data-fr="formes visuelles: symétries et dimensions" data-en="visual shapes: symmetries and dimensions" class="translation">formes visuelles: symétries et dimensions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.-S_.U_.-'O_M_.-'O_.-'_+b.-S_.U_.-'M_O_.-O_.-'M_.-'_.html">b.-S:.U:.-'O:M:.-'O:.-',+b.-S:.U:.-'M:O:.-O:.-'M:.-',</a></td>
+                        <td data-fr="formes visuelles" data-en="visual shapes" class="translation">formes visuelles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+wu.f.A_.-+a.S_.-+i.U_.-+e.O_.-+S_+T_T_.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B_.A_.-+S_+B_.U_.-'_.html">b.i.-n.i.-'l.i.-n.i.-'+m.+l.i.-f.i.-'+wu.f.A:.-+a.S:.-+i.U:.-+e.O:.-+S:+T:T:.i.-'n.o.-n.o.-'+f.o.-f.o.-'+n.-B:.A:.-+S:+B:.U:.-',</a></td>
+                        <td data-fr="parties des instruments de musique, orchestre, lutherie: médiateurs et parties vibrantes" data-en="parts of musical instruments, orchestra, lutherie: mediators and vibrating parts" class="translation">parties des instruments de musique, orchestre, lutherie: médiateurs et parties vibrantes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_S_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'S:.-',S:.-',M:.-',_</a></td>
+                        <td data-fr="Canada" data-en="Canada" class="translation">Canada</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'S:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Etats Unis d'Amérique, USA" data-en="United States of America, USA" class="translation">Etats Unis d'Amérique, USA</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_T_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'S:.-',T:.-',M:.-',_</a></td>
+                        <td data-fr="Mexique" data-en="Mexico" class="translation">Mexique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'S:.-'S:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Amérique du Nord: zone centrale, continentale" data-en="North America: central continental zone" class="translation">Amérique du Nord: zone centrale, continentale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_S_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'B:.-',S:.-',M:.-',_</a></td>
+                        <td data-fr="Europe du nord" data-en="northern Europe" class="translation">Europe du nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'B:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Europe médiane" data-en="median Europe" class="translation">Europe médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_T_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'B:.-',T:.-',M:.-',_</a></td>
+                        <td data-fr="Europe du sud" data-en="southern Europe" class="translation">Europe du sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'S:.-'B:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Europe centrale" data-en="central Europe" class="translation">Europe centrale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_S_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'T:.-',S:.-',M:.-',_</a></td>
+                        <td data-fr="Russie" data-en="Russia" class="translation">Russie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'T:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Asie centrale" data-en="Central Asia" class="translation">Asie centrale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_T_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'T:.-',T:.-',M:.-',_</a></td>
+                        <td data-fr="Du Moyen-Orient asiatique à l'Asie du Sud-Est en passant par l'Iran et l'Asie centrale" data-en="From the asian Middle East to the South Eastern Asia, through Iran and Central Asia" class="translation">Du Moyen-Orient asiatique à l'Asie du Sud-Est en passant par l'Iran et l'Asie centrale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'S:.-'T:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Asie médiane" data-en="Median Asia" class="translation">Asie médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_S_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'S:.-',S:.-',M:.-',_</a></td>
+                        <td data-fr="Amérique centrale et Caraïbes nord" data-en="north central America and Caribbean" class="translation">Amérique centrale et Caraïbes nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'S:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Amérique centrale et Caraïbes: zone médiane" data-en="Central America and Caribbean: middle zone" class="translation">Amérique centrale et Caraïbes: zone médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_T_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'S:.-',T:.-',M:.-',_</a></td>
+                        <td data-fr="Amérique centrale et Caraïbes sud" data-en="south central America and Caribbean" class="translation">Amérique centrale et Caraïbes sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'B:.-'S:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="îles caraïbes occidentales" data-en="western caribbean Islands" class="translation">îles caraïbes occidentales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_S_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'B:.-',S:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique du Nord avec une côte sur la mer Méditerranée" data-en="North african countries with a coast on the mediterranean sea" class="translation">Pays d'Afrique du Nord avec une côte sur la mer Méditerranée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'B:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique bordant au Sud le désert du Sahara" data-en="North african countries located on the southern part of the Sahara desert" class="translation">Pays d'Afrique bordant au Sud le désert du Sahara</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_T_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'B:.-',T:.-',M:.-',_</a></td>
+                        <td data-fr="Afrique tropicale humide au sud de la savane, corne de l'Afrique" data-en="Tropical rainy Africa at the south of savannah, horn of Africa" class="translation">Afrique tropicale humide au sud de la savane, corne de l'Afrique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'B:.-'B:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique du nord et du centre, zone médiane" data-en="Countries of northern and central Africa, median area" class="translation">Pays d'Afrique du nord et du centre, zone médiane</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_S_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'S:.-',S:.-',M:.-',_</a></td>
+                        <td data-fr="Nord de l'Amérique du sud" data-en="North of South America" class="translation">Nord de l'Amérique du sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'S:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Zone médiane de l'Amérique du Sud" data-en="Median area of South America" class="translation">Zone médiane de l'Amérique du Sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'T:.-'S:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Pays de la zone centrale et Atlantique (hors Brésil) de l'Amérique du sud" data-en="Countries of the central and atlantic area (except Brazil) of South America" class="translation">Pays de la zone centrale et Atlantique (hors Brésil) de l'Amérique du sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_S_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'B:.-',S:.-',M:.-',_</a></td>
+                        <td data-fr="Afrique équatoriale" data-en="Equatorial Africa" class="translation">Afrique équatoriale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_B_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'B:.-',B:.-',M:.-',_</a></td>
+                        <td data-fr="Afrique tropicale sud" data-en="Tropical south Africa" class="translation">Afrique tropicale sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_T_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'B:.-',T:.-',M:.-',_</a></td>
+                        <td data-fr="Pointe sud de l'Afrique" data-en="Southern tip of Africa" class="translation">Pointe sud de l'Afrique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'T:.-'B:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Pays du centre de l'Afrique Australe" data-en="Countries from the center of southern Africa" class="translation">Pays du centre de l'Afrique Australe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'T_.-'_M_.-'_B_.-'__.html">n.-S:.U:.-'T:.-'T:.-',M:.-',B:.-',_</a></td>
+                        <td data-fr="Australie, moitié orientale" data-en="Australia, Eastern part" class="translation">Australie, moitié orientale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'S_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'S:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Amérique du Nord" data-en="North American countries" class="translation">Pays d'Amérique du Nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'B_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'B:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays européens" data-en="European countries" class="translation">Pays européens</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'S_.-'T_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'S:.-'T:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Asie du Nord" data-en="Countries from Northern Asia" class="translation">Pays d'Asie du Nord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'S_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'S:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Amérique centrale et des Caraïbes" data-en="Central America and Caribbean countries" class="translation">Pays d'Amérique centrale et des Caraïbes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'B_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'B:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique du nord et du centre" data-en="Countries of northern and central Africa" class="translation">Pays d'Afrique du nord et du centre</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'B_.-'T_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'B:.-'T:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Asie du Sud" data-en="Countries from southern Asia" class="translation">Pays d'Asie du Sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'S_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'S:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Amérique du Sud" data-en="South American countries" class="translation">Pays d'Amérique du Sud</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'B_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'B:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Afrique australe" data-en="Southern african countries" class="translation">Pays d'Afrique australe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/n.-S_.U_.-'T_.-'T_.-'_M_.-'_M_.-'__.html">n.-S:.U:.-'T:.-'T:.-',M:.-',M:.-',_</a></td>
+                        <td data-fr="Pays d'Océanie" data-en="Oceanian countries" class="translation">Pays d'Océanie</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>

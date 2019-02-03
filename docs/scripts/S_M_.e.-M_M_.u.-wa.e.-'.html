@@ -1,0 +1,1224 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEML database</title>
+    <base href="https://iemldev.github.io/ieml-language/">
+
+    <link rel="stylesheet" href="/static/css/table.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+    <div class="fixed-top" id="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/./index.html">IEML database</a>
+
+                <select class="custom-select ml-auto" style="width: auto; float: right;" id="selectLanguage">
+                    <option value="fr" selected >Fr</option>
+                    <option value="en">En</option>
+                </select>
+
+                <button class="btn btn-outline-light" style="margin-left: 10px"
+                      data-toggle="modal"
+                      data-target="#modal-stats">
+                  &#9432;
+                </button>
+            </div>
+        </nav>
+
+	    
+    </div>
+    <div id="main-content" class="container-fluid">
+        
+    <!--<div class="container-fluid">-->
+        <h2 class="text-center m-4">
+            S:M:.e.-M:M:.u.-wa.e.-'
+        </h2>
+
+        <div class="row" id="translations">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Translations</div>
+                    <div class="card-body">
+                        <dl class="list-group list-group-flush">
+                            
+                            <dt> FR </dt>
+                            <dd>arts des signes</dd>
+                            
+                            <dt> EN </dt>
+                            <dd>arts of signs</dd>
+                            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="properties">
+                    <div class="card-header">Properties</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Type</dt>
+                                    <dd><span class="badge badge-secondary">Paradigm</span> (MultiplicativeScript)</dd>
+                                    <dt>Class</dt>
+                                    <dd><span class="badge badge-noun">Noun</span></dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="list-group list-group-flush">
+                                    <dt>Layer</dt>
+                                    <dd>3</dd>
+
+                                    <dt>Size</dt>
+                                    <dd>27</dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl>
+                                    <dt>Rank</dt>
+                                    <dd>1</dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl class="list-group list-group-flush">
+
+                                    <dt>Parent</dt>
+                                    <dd>
+                                        
+                                        <a href="/scripts/S_M_.e.-M_M_.u.-E_.-+wa.e.-'+B_M_.e.-M_M_.a.-E_.-+wa.e.-'+T_M_.e.-M_M_.i.-E_.-+wa.e.-'.html"> S:M:.e.-M:M:.u.-E:.-+wa.e.-'+B:M:.e.-M:M:.a.-E:.-+wa.e.-'+T:M:.e.-M:M:.i.-E:.-+wa.e.-' </a>
+                                        
+                                    </dd>
+                                    <dt>Root paradigm</dt>
+                                    <dd>
+                                        <a href="/scripts/S_M_.e.-M_M_.u.-E_.-+wa.e.-'+B_M_.e.-M_M_.a.-E_.-+wa.e.-'+T_M_.e.-M_M_.i.-E_.-+wa.e.-'.html"> S:M:.e.-M:M:.u.-E:.-+wa.e.-'+B:M:.e.-M:M:.a.-E:.-+wa.e.-'+T:M:.e.-M:M:.i.-E:.-+wa.e.-' </a>
+                                    </dd>
+
+                                </dl>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <dl>
+                                    <dt>Ndim of table</dt>
+                                    <dd>2</dd>
+
+                                    <dt>Shape of table</dt>
+                                    <dd>(3, 9)</dd>
+                                </dl>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs mt-2" role="tablist">
+            <a class="nav-item nav-link active"
+               id="nav-comments-tab"
+               data-toggle="tab"
+               href="#comments"
+               role="tab"
+               aria-controls="comments"
+               aria-selected="true">Comments</a>
+
+            <a class="nav-item nav-link"
+               id="nav-relations-tab"
+               data-toggle="tab"
+               href="#relations"
+               role="tab"
+               aria-controls="relations"
+               aria-selected="false">Relations</a>
+
+            
+    <a class="nav-item nav-link"
+       id="nav-tables-1-tab"
+       data-toggle="tab"
+       href="#tables-1"
+       role="tab"
+       aria-controls="tables"
+       aria-selected="false">Table S:M:.e.-M:M:.u.-wa.e.-'</a>
+    
+
+            <a class="nav-item nav-link"
+               id="nav-words-tab"
+               data-toggle="tab"
+               href="#words"
+               role="tab"
+               aria-controls="words"
+               aria-selected="false">Words</a>
+
+        </div>
+
+        <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active"
+                   id="comments"
+                   role="tabpanel"
+                   aria-labelledby="nav-comments-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <span class="comment"
+                            data-lang="fr">
+                            
+                        </span>
+                        <span class="comment"
+                            data-lang="en" style="display: none;">
+                            
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show"
+               id="relations"
+               role="tabpanel"
+               aria-labelledby="nav-relations-tab">
+
+                <!--<div class="card">-->
+                    <!--<div class="card-header">Relations</div>-->
+                    <!--<div class="card-body" id="accordion-relations">-->
+                <!--<div class="card">-->
+                   <!--<div class="card-body">-->
+
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Analogies - Same layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-63168282782">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-63168282782"
+                    aria-expanded="false"
+                    aria-controls="body-63168282782">
+                    <span> <span class="badge badge-pill badge-Light">1</span> associated </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-63168282782"
+         class="collapse"
+         aria-labelledby="heading-63168282782"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-M_M_.u.-'.html">S:M:.e.-M:M:.u.-'</a></td>
+                        <td data-fr="formes des signes" data-en="forms of the signs" class="translation">formes des signes</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-20695122896">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-20695122896"
+                    aria-expanded="false"
+                    aria-controls="body-20695122896">
+                    <span> <span class="badge badge-pill badge-Light">12</span> contains </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-20695122896"
+         class="collapse"
+         aria-labelledby="heading-20695122896"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-s.u.-wa.e.-'.html">S:M:.e.-s.u.-wa.e.-'</a></td>
+                        <td data-fr="arts de l'image" data-en="visual arts" class="translation">arts de l'image</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-b.u.-wa.e.-'.html">S:M:.e.-b.u.-wa.e.-'</a></td>
+                        <td data-fr="arts du langage" data-en="language arts" class="translation">arts du langage</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-t.u.-wa.e.-'.html">S:M:.e.-t.u.-wa.e.-'</a></td>
+                        <td data-fr="arts du calcul" data-en="computing arts" class="translation">arts du calcul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-k.u.-wa.e.-'.html">S:M:.e.-k.u.-wa.e.-'</a></td>
+                        <td data-fr="arts du symbole" data-en="symbol arts" class="translation">arts du symbole</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-m.u.-wa.e.-'.html">S:M:.e.-m.u.-wa.e.-'</a></td>
+                        <td data-fr="arts de la scène" data-en="performing arts" class="translation">arts de la scène</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-n.u.-wa.e.-'.html">S:M:.e.-n.u.-wa.e.-'</a></td>
+                        <td data-fr="arts littéraires" data-en="literary arts" class="translation">arts littéraires</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-d.u.-wa.e.-'.html">S:M:.e.-d.u.-wa.e.-'</a></td>
+                        <td data-fr="arts de l'information" data-en="information arts" class="translation">arts de l'information</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-f.u.-wa.e.-'.html">S:M:.e.-f.u.-wa.e.-'</a></td>
+                        <td data-fr="arts musicaux" data-en="musical arts" class="translation">arts musicaux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-l.u.-wa.e.-'.html">S:M:.e.-l.u.-wa.e.-'</a></td>
+                        <td data-fr="arts de la recherche" data-en="research arts" class="translation">arts de la recherche</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/s.e.-M_M_.u.-wa.e.-'.html">s.e.-M:M:.u.-wa.e.-'</a></td>
+                        <td data-fr="grammaire du signe" data-en="grammar of sign" class="translation">grammaire du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/b.e.-M_M_.u.-wa.e.-'.html">b.e.-M:M:.u.-wa.e.-'</a></td>
+                        <td data-fr="dialectique du signe" data-en="dialectic of sign" class="translation">dialectique du signe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/t.e.-M_M_.u.-wa.e.-'.html">t.e.-M:M:.u.-wa.e.-'</a></td>
+                        <td data-fr="rhétorique du signe" data-en="rhetoric of sign" class="translation">rhétorique du signe</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-24083660189">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-24083660189"
+                    aria-expanded="false"
+                    aria-controls="body-24083660189">
+                    <span> <span class="badge badge-pill badge-Light">3</span> contained </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-24083660189"
+         class="collapse"
+         aria-labelledby="heading-24083660189"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-M_M_.u.-E_.-+wa.e.-'.html">S:M:.e.-M:M:.u.-E:.-+wa.e.-'</a></td>
+                        <td data-fr="les arts des signes et leurs objets" data-en="arts of signs and their objects" class="translation">les arts des signes et leurs objets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-M_M_.u.-wa.e.-'+B_M_.e.-M_M_.a.-wa.e.-'+T_M_.e.-M_M_.i.-wa.e.-'.html">S:M:.e.-M:M:.u.-wa.e.-'+B:M:.e.-M:M:.a.-wa.e.-'+T:M:.e.-M:M:.i.-wa.e.-'</a></td>
+                        <td data-fr="arts et vertus (compétences)" data-en="arts and virtues (competencies)" class="translation">arts et vertus (compétences)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-M_M_.u.-E_.-+wa.e.-'+B_M_.e.-M_M_.a.-E_.-+wa.e.-'+T_M_.e.-M_M_.i.-E_.-+wa.e.-'.html">S:M:.e.-M:M:.u.-E:.-+wa.e.-'+B:M:.e.-M:M:.a.-E:.-+wa.e.-'+T:M:.e.-M:M:.i.-E:.-+wa.e.-'</a></td>
+                        <td data-fr="compétences et objets de compétences" data-en="competencies and objects of competencies" class="translation">compétences et objets de compétences</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-center m-3">Etymologies - Different layer</h6>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-72623834207">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-72623834207"
+                    aria-expanded="false"
+                    aria-controls="body-72623834207">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-substance </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-72623834207"
+         class="collapse"
+         aria-labelledby="heading-72623834207"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/S_M_.e.-.html">S:M:.e.-</a></td>
+                        <td data-fr="savoir faire portant sur les signes, trivium au sens étroit" data-en="know how of the sign, trivium in the narrow sense" class="translation">savoir faire portant sur les signes, trivium au sens étroit</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-90833698728">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-90833698728"
+                    aria-expanded="false"
+                    aria-controls="body-90833698728">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-attribute </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-90833698728"
+         class="collapse"
+         aria-labelledby="heading-90833698728"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/M_M_.u.-.html">M:M:.u.-</a></td>
+                        <td data-fr="genres de signes" data-en="kinds of signs" class="translation">genres de signes</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                            
+
+<div class="card m-1">
+    <div class="card-header" id="heading-78176239377">
+        <h5 class="mb-0">
+            <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#body-78176239377"
+                    aria-expanded="false"
+                    aria-controls="body-78176239377">
+                    <span> <span class="badge badge-pill badge-Light">1</span> father-mode </span>
+            </button>
+        </h5>
+    </div>
+
+    <div id="body-78176239377"
+         class="collapse"
+         aria-labelledby="heading-78176239377"
+         data-parent="#relations">
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                
+                    <tr>
+                        <td><a href="/scripts/wa.e.-.html">wa.e.-</a></td>
+                        <td data-fr="maîtriser les compétences" data-en="master competences" class="translation">maîtriser les compétences</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            
+    <div class="tab-pane fade table m-1"
+       role="tabpanel"
+       id="tables-1"
+       aria-labelledby="nav-tables-1-tab">
+
+        <!--<div class="card">-->
+            <!--<div class="card-header">Table <a href="/scripts/S_M_.e.-M_M_.u.-wa.e.-'.html">S:M:.e.-M:M:.u.-wa.e.-'</a> arts des signes</div>-->
+            <!--<div class="card-body">-->
+                <table class="table table-bordered table-fixed">
+        <tr>
+            
+    <th class="cell" colspan="10" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-M_M_.u.-wa.e.-'.html"> S:M:.e.-M:M:.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts des signes"
+                data-en="arts of signs">
+                arts des signes
+            </span>
+        </div>
+    
+    </th>
+    
+        </tr>
+        <tr>
+            <th style="background-color: lightgrey;"></th>
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-s.u.-wa.e.-'.html"> S:M:.e.-s.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts de l'image"
+                data-en="visual arts">
+                arts de l'image
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-b.u.-wa.e.-'.html"> S:M:.e.-b.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts du langage"
+                data-en="language arts">
+                arts du langage
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-t.u.-wa.e.-'.html"> S:M:.e.-t.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts du calcul"
+                data-en="computing arts">
+                arts du calcul
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-k.u.-wa.e.-'.html"> S:M:.e.-k.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts du symbole"
+                data-en="symbol arts">
+                arts du symbole
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-m.u.-wa.e.-'.html"> S:M:.e.-m.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts de la scène"
+                data-en="performing arts">
+                arts de la scène
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-n.u.-wa.e.-'.html"> S:M:.e.-n.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts littéraires"
+                data-en="literary arts">
+                arts littéraires
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-d.u.-wa.e.-'.html"> S:M:.e.-d.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts de l'information"
+                data-en="information arts">
+                arts de l'information
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-f.u.-wa.e.-'.html"> S:M:.e.-f.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts musicaux"
+                data-en="musical arts">
+                arts musicaux
+            </span>
+        </div>
+    
+    </th>
+    
+            
+                
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/S_M_.e.-l.u.-wa.e.-'.html"> S:M:.e.-l.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts de la recherche"
+                data-en="research arts">
+                arts de la recherche
+            </span>
+        </div>
+    
+    </th>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-M_M_.u.-wa.e.-'.html"> s.e.-M:M:.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="grammaire du signe"
+                data-en="grammar of sign">
+                grammaire du signe
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-s.u.-wa.e.-'.html"> s.e.-s.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="dessin | peinture (compétence)"
+                data-en="drawing | painting (skill)">
+                dessin | peinture (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-b.u.-wa.e.-'.html"> s.e.-b.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="2ème langue (maîtrise d'une)"
+                data-en="2nd language (mastering a)">
+                2ème langue (maîtrise d'une)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-t.u.-wa.e.-'.html"> s.e.-t.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="compter | calculer (compétence)"
+                data-en="counting | calculating (skill)">
+                compter | calculer (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-k.u.-wa.e.-'.html"> s.e.-k.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="lecture | écriture (compétence)"
+                data-en="reading | writing (skill)">
+                lecture | écriture (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-m.u.-wa.e.-'.html"> s.e.-m.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="jouer la comédie (compétence)"
+                data-en="play comedy (skill)">
+                jouer la comédie (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-n.u.-wa.e.-'.html"> s.e.-n.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="vocabulaire (compétence)"
+                data-en="vocabulary (skill)">
+                vocabulaire (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-d.u.-wa.e.-'.html"> s.e.-d.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="recherche d'information (compétence)"
+                data-en="information search (skill)">
+                recherche d'information (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-f.u.-wa.e.-'.html"> s.e.-f.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="musique | chant (compétence: jouer, interpréter)"
+                data-en="singing | music (playing skill)">
+                musique | chant (compétence: jouer, interpréter)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/s.e.-l.u.-wa.e.-'.html"> s.e.-l.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="signes naturels (compétence en lecture des)"
+                data-en="reading natural signs (skill)">
+                signes naturels (compétence en lecture des)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-M_M_.u.-wa.e.-'.html"> b.e.-M:M:.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="dialectique du signe"
+                data-en="dialectic of sign">
+                dialectique du signe
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-s.u.-wa.e.-'.html"> b.e.-s.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="raffinement visuel (compétence)"
+                data-en="visual refinement (skill)">
+                raffinement visuel (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-b.u.-wa.e.-'.html"> b.e.-b.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="interprétariat | guide (compétence)"
+                data-en="interpreting | guiding (competence)">
+                interprétariat | guide (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-t.u.-wa.e.-'.html"> b.e.-t.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="logique | programmation (competence)"
+                data-en="logic | programming (skill)">
+                logique | programmation (competence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-k.u.-wa.e.-'.html"> b.e.-k.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="interprétation personnelle (compétence)"
+                data-en="personal interpretation (skill)">
+                interprétation personnelle (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-m.u.-wa.e.-'.html"> b.e.-m.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="arts de la scène (compétence)"
+                data-en="performing arts (skill)">
+                arts de la scène (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-n.u.-wa.e.-'.html"> b.e.-n.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="érudition littéraire (compétence)"
+                data-en="literary erudition (skill)">
+                érudition littéraire (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-d.u.-wa.e.-'.html"> b.e.-d.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="documentation (compétence)"
+                data-en="documentation (skill)">
+                documentation (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-f.u.-wa.e.-'.html"> b.e.-f.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="érudition musicale (compétence)"
+                data-en="musical erudition (skill)">
+                érudition musicale (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/b.e.-l.u.-wa.e.-'.html"> b.e.-l.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="érudition scientifique (compétence)"
+                data-en="scientific erudition (compétence)">
+                érudition scientifique (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+        <tr>
+            
+    <th class="cell" colspan="1" style="background-color: #94ceff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-M_M_.u.-wa.e.-'.html"> t.e.-M:M:.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="rhétorique du signe"
+                data-en="rhetoric of sign">
+                rhétorique du signe
+            </span>
+        </div>
+    
+    </th>
+    
+
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-s.u.-wa.e.-'.html"> t.e.-s.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="création d'image | design graphique (compétence)"
+                data-en="image creation | graphic design (skill)">
+                création d'image | design graphique (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-b.u.-wa.e.-'.html"> t.e.-b.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="éloquence (compétence)"
+                data-en="eloquence (skill)">
+                éloquence (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-t.u.-wa.e.-'.html"> t.e.-t.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="informatique | conception de logiciels (compétence)"
+                data-en="computer science | software engineering (skill)">
+                informatique | conception de logiciels (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-k.u.-wa.e.-'.html"> t.e.-k.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="création de symboles (compétence)"
+                data-en="symbol creation (skill)">
+                création de symboles (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-m.u.-wa.e.-'.html"> t.e.-m.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="mise en scène | direction artistique (competence)"
+                data-en="staging | artistic direction (skill)">
+                mise en scène | direction artistique (competence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-n.u.-wa.e.-'.html"> t.e.-n.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="écriture littéraire (compétence)"
+                data-en="literary writing (skill)">
+                écriture littéraire (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-d.u.-wa.e.-'.html"> t.e.-d.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="architecture d'information (compétence)"
+                data-en="information architecture (skill)">
+                architecture d'information (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-f.u.-wa.e.-'.html"> t.e.-f.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="composition musicale (compétence)"
+                data-en="composing music (skill)">
+                composition musicale (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+                
+    <td class="cell" style="background-color: #d9eaff;">
+    
+        <div class="ieml-cell">
+            <a class="ieml" href="/scripts/t.e.-l.u.-wa.e.-'.html"> t.e.-l.u.-wa.e.-' </a>
+            <span class="translation table-cell"
+                data-fr="recherche scientifique (compétence)"
+                data-en="scientific research (skill)">
+                recherche scientifique (compétence)
+            </span>
+        </div>
+    
+    </td>
+    
+            
+        </tr>
+        
+    </table>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    
+
+
+            <div class="tab-pane fade show"
+               id="words"
+               role="tabpanel"
+               aria-labelledby="nav-words-tab">
+
+                
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+
+        </div>
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="modal fade"
+         id="modal-stats"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="infoTitle"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoTitle">IEML database informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-6">
+                        <h5>Dictionary statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of semes</dt>
+                            <dd>2707</dd>
+                            <dt>Number of root paradigms</dt>
+                            <dd>85</dd>
+                            <dt>Number of paradigms</dt>
+                            <dd>2224</dd>
+                            <dt>Number of relations</dt>
+                            <dd>1175503</dd>
+                        </dl>
+                    </div>
+                    <div class="col-6">
+                        <h5>Lexicon statistics</h5>
+                        <dl class="list-inline navbar-nav">
+                            <dt>Number of singular words</dt>
+                            <dd>156</dd>
+                            <dt>Number of word paradigms</dt>
+                            <dd>16</dd>
+                            <dt>Number of relations</dt>
+                            <dd>858</dd>
+                            <dt>Number of semes used</dt>
+                            <dd>124</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/popper.min.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let fixed_top = document.getElementById('fixed-top');
+            let main_content = document.getElementById('main-content');
+
+            main_content.style.top = fixed_top.offsetHeight + "px";
+        })
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var select_language = document.getElementById('selectLanguage');
+
+                function do_select_language() {
+                    let lang = select_language.value;
+
+                    let list = document.getElementsByClassName("translation");
+                    for (let node of list) {
+                        if (node.getAttribute('data-' + lang))
+                            node.textContent = node.getAttribute('data-' + lang);
+                        else
+                            if (node.getAttribute('data-lang') === lang)
+                                node.style.display = '';
+                            else
+                                node.style.display = 'none';
+                    }
+
+                    let comments = document.getElementsByClassName("comment");
+                    for (let node of comments) {
+                        if (node.getAttribute('data-lang') === lang)
+                            node.style.display = '';
+                        else
+                            node.style.display = 'none';
+                    }
+                }
+
+                do_select_language();
+
+                select_language.addEventListener('change', do_select_language)
+            });
+
+    </script>
+
+</body>
+</html>
