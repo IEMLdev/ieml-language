@@ -7,7 +7,7 @@ This is the repository for the IEML (information economy metalanguage) language 
 This repository is composed of two folders :
  - __dictionary__ : contains all the files that defines the basic semantic units, the morphemes, of the IEML language. 
  - __lexicons__ : contains subfolder that contains the files that defines IEML words, build with morphemes from the dictionary.
- - __docs__ : database visualisation website. generated with the script [generate_site](https://github.com/IEMLdev/ieml-dictionary/blob/master/server/generate_site.py). accessible [here]().
+ - __docs__ : database visualisation website. generated with the script [generate_site](https://github.com/IEMLdev/ieml-dictionary/blob/master/server/generate_site.py). accessible [here](https://iemldev.github.io/ieml-language/).
 
 ## The dictionary definition
 
@@ -42,7 +42,7 @@ Each of word is composed of the following fields:
  - __comments__: a french and an english comment (optional)
 
 
-From these information, the script [generate_site](https://github.com/IEMLdev/ieml-dictionary/blob/master/server/generate_site.py) is able to compute the semantics relationships between the objects and display it [here]().
+From these information, the script [generate_site](https://github.com/IEMLdev/ieml-dictionary/blob/master/server/generate_site.py) is able to compute the semantics relationships between the objects and display it [here](https://iemldev.github.io/ieml-language/).
 
 ##Versions
  - 0.1 : add dictionary and lexicon folder, add README and version file, add docs folder with database visualisation
