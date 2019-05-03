@@ -2059,9 +2059,9 @@ d.o.-M:M:.o.-' fr comments []
 d.o.-M:M:.o.-' fr translations "['de la vérité (valeur)']"
 d.o.-M:M:.o.-' en comments []
 d.o.-M:M:.o.-' en translations "['from truth (value)']"
-E:U:U:. fr comments []
+E:U:U:. fr comments "[""accent interrogatif d'un caractère, d'un topic ou d'une clause verbale""]"
 E:U:U:. fr translations "['construction interrogative']"
-E:U:U:. en comments []
+E:U:U:. en comments "['interrogative accent for a verbal character, topic or clause']"
 E:U:U:. en translations "['interrogative construction']"
 s.wa.-M:.-' fr comments []
 s.wa.-M:.-' fr translations "['contenu des idées']"
