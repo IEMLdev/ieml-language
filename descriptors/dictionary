@@ -17080,9 +17080,9 @@ e.m.- fr translations "['menacer', 'être dangereux']"
 e.m.- en comments []
 e.m.- en translations "['threaten', 'be dangerous']"
 E:B:U:. fr comments []
-E:B:U:. fr translations "['par probabilité', ""la substance (le sujet) a probablement l'attribut (le prédicat)""]"
+E:B:U:. fr translations "['par probabilité']"
 E:B:U:. en comments []
-E:B:U:. en translations "['by probability', 'the substance (the subject) has probably the attribute (the predicate)']"
+E:B:U:. en translations "['by probability']"
 p.e.d.- fr comments []
 p.e.d.- fr translations "['objectivité réelle', 'réalité', 'réel']"
 p.e.d.- en comments []
