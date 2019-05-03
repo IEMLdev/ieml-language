@@ -17816,9 +17816,9 @@ m.-u.-' fr translations "['évaluation de la communication']"
 m.-u.-' en comments []
 m.-u.-' en translations "['communication evaluation']"
 E: fr comments "[""Le vide *E* exprime l'absence, la vacuité, le zéro, le silence, la fiction, etc. En IEML, tous les auxiliaires commencent par la lettre *E*.""]"
-E: fr translations "['vide', 'illusion', 'monade', 'place syntax vide']"
+E: fr translations "['vide', 'monade', 'place syntaxique']"
 E: en comments "['Emptiness expresses the absence, void, zero, silence, fiction, etc. In IEML, all auxiliaries begin by the letter *E*.']"
-E: en translations "['emptiness', 'illusion', 'monad']"
+E: en translations "['emptiness', 'monad', 'syntactic place']"
 O:O:.u.- fr comments []
 O:O:.u.- fr translations "['travailler la communication']"
 O:O:.u.- en comments []
