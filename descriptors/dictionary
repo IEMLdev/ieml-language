@@ -14187,9 +14187,9 @@ n.-S:.U:.-'B:.-'B:.-',T:.-',S:.-',_ fr comments []
 n.-S:.U:.-'B:.-'B:.-',T:.-',S:.-',_ fr translations "['Bénin', 'Burkina Faso', ""Côte d'Ivoire"", 'Gambie', 'Ghana', 'Guinée Bissau', 'Guinée', 'Libéria', 'Sénégal', 'Sierra Leone', 'Togo']"
 n.-S:.U:.-'B:.-'B:.-',T:.-',S:.-',_ en comments []
 n.-S:.U:.-'B:.-'B:.-',T:.-',S:.-',_ en translations "['Benin', 'Burkina Faso', 'Ivory Coast', 'Gambia', 'Ghana', 'Guinea Bissau', 'Guinea', 'Liberia', 'Senegal', 'Sierra Leone', 'Togo']"
-E:E:B:. fr comments []
+E:E:B:. fr comments "[""en trait de fonction: désigne le bénéficiaire du thème en trait de contenu ; en  mode de clause : relation entre un verbe en substance et un nom en attribut au bénéfice ou au détriment de qui a lieu l'action""]"
 E:E:B:. fr translations "['troisième actant', 'datif', 'à']"
-E:E:B:. en comments []
+E:E:B:. en comments "['in a functional trait: indicates the beneficiary of the theme in the content trait ; in clause mode: relation between a verb in substance and a noun in attribute to the benefit or detriment of whom the action takes place']"
 E:E:B:. en translations "['third actant', 'dative', 'to', '']"
 E:.-M:.M:B:.-l.-' fr comments []
 E:.-M:.M:B:.-l.-' fr translations ['lateral']
