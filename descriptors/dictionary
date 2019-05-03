@@ -15512,9 +15512,9 @@ e.B:M:.- fr translations "[""manquer d'habiletés dans le trivium de l'être""]"
 e.B:M:.- en comments []
 e.B:M:.- en translations "['lack skills in the trivium of the being']"
 E:E:S:. fr comments []
-E:E:S:. fr translations "['premier actant', 'nominatif', 'en mode: relation entre un verbe-substance et un nom-attribut en rôle de sujet ou de premier actant']"
+E:E:S:. fr translations "['premier actant', 'nominatif', 'sujet grammatical']"
 E:E:S:. en comments []
-E:E:S:. en translations "['first actant', 'nominative', 'in mode: relation between a verb-substance and a noun-attribute in a role of subject or first actant']"
+E:E:S:. en translations "['first actant', 'nominative', 'grammatical subject']"
 E:.M:.wa.- fr comments []
 E:.M:.wa.- fr translations "['pronom de personne pluriel']"
 E:.M:.wa.- en comments []
