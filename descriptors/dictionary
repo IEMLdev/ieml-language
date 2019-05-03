@@ -3303,9 +3303,9 @@ l.a.-b.a.-' fr comments []
 l.a.-b.a.-' fr translations ['renom']
 l.a.-b.a.-' en comments []
 l.a.-b.a.-' en translations ['renown']
-E:E:A:. fr comments []
+E:E:A:. fr comments "['en trait fonctionnel de caractère attribut ou en mode de clause: relation entre un nom-substance en rôle de propriétaire ou de tout et un nom-attribut en rôle de propriété ou de partie']"
 E:E:A:. fr translations "['génitif', 'de']"
-E:E:A:. en comments []
+E:E:A:. en comments "['in a functional trait or in clause mode: relation between a noun-substance in a role of owner or whole and a noun-attribute in a role of property or part']"
 E:E:A:. en translations "['genitive', 'of']"
 E:I:.-'t.u.-t.u.-', fr comments []
 E:I:.-'t.u.-t.u.-', fr translations "['auxiliaires de quantification']"
