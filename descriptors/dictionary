@@ -15511,9 +15511,9 @@ e.B:M:.- fr comments []
 e.B:M:.- fr translations "[""manquer d'habiletés dans le trivium de l'être""]"
 e.B:M:.- en comments []
 e.B:M:.- en translations "['lack skills in the trivium of the being']"
-E:E:S:. fr comments "['en trait de fonction: premier actant du thème en trait de contenu ; en mode de clause: relation entre un verbe-substance et un nom-attribut en rôle de sujet ou de premier actant']"
+E:E:S:. fr comments "['en trait de fonction: fait que le caractère désigne le premier actant du thème en trait de contenu ; en mode de clause: exprime la relation entre un verbe-substance et un nom-attribut en rôle de sujet ou de premier actant']"
 E:E:S:. fr translations "['premier actant', 'nominatif', 'sujet grammatical']"
-E:E:S:. en comments "['in a functional trait: first actant of the theme in content trait ; in mode of clause : relation between a verb-substance and a noun-attribute in a role of subject or first actant']"
+E:E:S:. en comments "['in a functional trait: makes the character meaning the first actant of the theme in the content trait ; in mode of clause : expresses the relation between a verb-substance and a noun-attribute in a role of subject or first actant']"
 E:E:S:. en translations "['first actant', 'nominative', 'grammatical subject']"
 E:.M:.wa.- fr comments []
 E:.M:.wa.- fr translations "['pronom de personne pluriel']"
