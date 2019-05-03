@@ -9871,9 +9871,9 @@ u.M:A:.- fr comments []
 u.M:A:.- fr translations "['communiquer une oeuvre actuellement']"
 u.M:A:.- en comments []
 u.M:A:.- en translations "['communicate a work actually']"
-E:E:U:. fr comments []
+E:E:U:. fr comments "[""en trait de fonction: donne un rôle d'épithète au trait de contenu ; en mode de clause: relation entre un nom-substance en rôle de sujet et un nom-attribut en rôle de prédicat""]"
 E:E:U:. fr translations "['attribut du nom', 'épithète', 'copule ""est""']"
-E:E:U:. en comments []
+E:E:U:. en comments "['in a functional trait: gives an epithet role to the trait of content ; in clause mode: relation between a noun-substance in a role of subject and a noun-attribute in a role of predicate']"
 E:E:U:. en translations "['attribute of the noun', 'epithet', 'copula ""is""']"
 t.-x.-s.y.-'wa.e.-d.-', fr comments []
 t.-x.-s.y.-'wa.e.-d.-', fr translations "['communication stigmergique']"
