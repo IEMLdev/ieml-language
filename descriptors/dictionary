@@ -19227,9 +19227,9 @@ m.-x.-' fr comments []
 m.-x.-' fr translations "[""outil de mesure de l'engagement""]"
 m.-x.-' en comments []
 m.-x.-' en translations "['engagement measurement tool']"
-E:M:O:. fr comments []
+E:M:O:. fr comments "[""dans une clause: la substance (le sujet) possède l'attribut (le prédicat) selon le type d'inférence en mode""]"
 E:M:O:. fr translations "[""types d'inférence""]"
-E:M:O:. en comments []
+E:M:O:. en comments "['in a clause: the substance (the subject) has the attribute (the predicate) following the inference type in mode']"
 E:M:O:. en translations "['inference types']"
 M:A:.h.- fr comments []
 M:A:.h.- fr translations "['transformation actuelle dans le sens']"
