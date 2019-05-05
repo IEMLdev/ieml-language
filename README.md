@@ -16,7 +16,7 @@ The IEML database aims to provide a memory of past interpretations to ground the
 
 This database is a memory of the linguistic evolution of the IEML language  : the state of the repository is a synchronic view on the language and the commit view is a diachronic history.
 
-##Versions
+## Versions
  - 0.1 : add dictionary and lexicon folder, add README and version file, add docs folder with database visualisation
  - 0.2 : refractor the database structure, remove yaml usage and use csv instead, separate the descriptors from the structure
  - 0.3 : refractor the database structure, separate the lexicons into domains but keep an unique descriptors file for the lexicons
