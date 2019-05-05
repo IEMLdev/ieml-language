@@ -4,45 +4,19 @@
 
 This is the repository for the IEML (information economy metalanguage) language database. 
 
-This repository is composed of two folders :
- - __dictionary__ : contains all the files that defines the basic semantic units, the morphemes, of the IEML language. 
- - __lexicons__ : contains subfolder that contains the files that defines IEML words, build with morphemes from the dictionary.
- - __docs__ : database visualisation website. generated with the script [generate_site](https://github.com/IEMLdev/ieml-dictionary/blob/master/server/generate_site.py). accessible [here](https://iemldev.github.io/ieml-language/).
+In this repository, you will find : 
+ - __dictionary/structure__ : the structure of IEML basic semantics units, the morphemes. This file is a space-separated csv file that contains the paradigms of the dictionary. The paradigms express each morpheme in a set of basic opposition with others morphemes (good/bad, start/ongoing/end, tall/small etc...) and by this process, defined theirs meanings.
+ - __dictionary/descriptors__ : contains the translations and comments of the morphemes and their paradigms. This file is also a space separated csv.
+ - __lexicons/{domain}/structure__ : the paradigms that structure a specific domain lexicon. As IEML is a universal language, the same IEML word can be defined in multiple domains (no silo). These files are also space separated csv.
+ - __lexicons/descriptors__ : the translations and comments of traits, characters and words. The presence of a translation in this file for any such IEML lexical items defined this item in the database. This file is also a space separated csv.
+ 
+The descriptors are for the moment only available in French and English. 
 
-## The dictionary definition
+The IEML database aims to provide a memory of past interpretations to ground the language. Asymptotically, this database could be also used to automate the translation of IEML words toward natural languages, to decentralise the IEML interpretation process.
 
-All the dictionary files in the `dictionary` folder are written in yaml and must conform to a syntax.
-The syntax is described in this [file](https://github.com/IEMLdev/ieml-dictionary/blob/master/definition/dictionary_paradigm_schema.yaml) and is expressed in the 
-[kwalify](http://www.kuwata-lab.com/kwalify/) schema syntax.
-
-Each file from the `dictionary` folder defines a root paradigm.
-A dictionary file is composed of multiple entries types :
- - __RootParadigm__ : the main opposition system, it implicitly defines a set of morphemes.
- - __Semes__ : the morphemes of this RootParadigm.
- - __Paradigms__ : additional semantic opposition systems between these morphemes.
-
-Each of these entries are composed of the following fields:
- - __ieml__ : the IEML script of this entry
- - __translations__ : french and english translations
- - __comments__: a french and an english comment (optional)
-
-A RootParadigm entry can also have the following field:
- - __inhibitions__ : a set of relations to ignore when computing the relations for this paradigm and its morphemes.
-
-## The lexicons definition
-The `lexicons` folder is composed of subfolder, that each contains yaml files in the [lexicon syntax](https://github.com/IEMLdev/ieml-dictionary/blob/master/definition/lexicons_schema.yaml).
-
-Each yaml lexicon file defines a word paradigm and some of its words it contains.
-A lexicon file is composed of one entry type :
- - __Words__ : the list of word defined in this file.
-
-Each of word is composed of the following fields:
- - __ieml__ : the IEML usl of this entry (str)
- - __translations__ : french and english translations
- - __comments__: a french and an english comment (optional)
-
-
-From these information, the script [generate_site](https://github.com/IEMLdev/ieml-dictionary/blob/master/server/generate_site.py) is able to compute the semantics relationships between the objects and display it [here](https://iemldev.github.io/ieml-language/).
+This database is a memory of the linguistic evolution of the IEML language  : the state of the repository is a synchronic view on the language and the commit view is a diachronic history.
 
 ##Versions
  - 0.1 : add dictionary and lexicon folder, add README and version file, add docs folder with database visualisation
+ - 0.2 : refractor the database structure, remove yaml usage and use csv instead, separate the descriptors from the structure
+ - 0.3 : refractor the database structure, separate the lexicons into domains but keep an unique descriptors file for the lexicons
