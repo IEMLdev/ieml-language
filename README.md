@@ -12,13 +12,12 @@ The descriptors files are contained into the __descriptors__ folder, these files
  - morpheme : contains the translations and comments of morphemes and theirs paradigms. This file contains the translations for all the dictionary and definition for the main paradigms.
  - trait : contains the translations and comments of traits and theirs paradigms. The trait are sequence of morpheme and trait paradigms are list of sequence of morphemes.
  - character : contains the translations and comments of characters and theirs paradigms. The character is a hierarchy of trait, the character is a hierarchy of trait where at least one of the trait is a paradigm.
- - words : contains the list of 
 
 All descriptor files are space separated csv and have the same columns interface ['ieml', 'language', 'descriptor', 'values'] :
  - ieml : the ieml string of the object
- - language : 2 letter language code, for the moment, only 'fr' and 'en' exists.
+ - language : 2 letters language code, for the moment, only 'fr' and 'en' exists.
  - descriptor : a value taken from ['translations', 'comments']
- - values : a list of string, if descriptor == 'comments' the string can be in the Markdown format.
+ - values : a list of strings, for comments 'descriptor', the string can be in the Markdown format.
 
 
 The IEML database aims to provide a memory of past interpretations to statistically ground the language. Asymptotically, this database could be also used to automate the translation of IEML traits, characters and words toward natural languages. 
