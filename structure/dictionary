@@ -96,4 +96,4 @@ M:M:.u.-M:M:.u.-E:.-+d.u.-' "[""s.u.-M:M:.u.-'"", ""s.u.-M:M:.u.-d.u.-'"", ""b.u
 E:.-'O:O:.-M:.t.o.-', "[""E:.-'wo.-M:.t.o.-',"", ""E:.-'wa.-M:.t.o.-',"", ""E:.-'wu.-M:.t.o.-',"", ""E:.-'we.-M:.t.o.-',""]" []
 E:F:M:. "['E:O:S:.', 'E:O:B:.', 'E:O:T:.', 'E:U:M:.', 'E:A:M:.', 'E:S:M:.', 'E:B:M:.', 'E:T:M:.', 'E:M:S:.', 'E:M:B:.', 'E:M:T:.', 'E:F:S:.', 'E:F:B:.', 'E:F:T:.', 'E:O:M:.', 'E:M:M:.']" "['father_attribute', 'father_mode']"
 M:.b.- [] []
-E:M:O:.t.o.- ['E:S:O:.t.o.-'] ['father_substance']
+E:M:O:.t.o.- "['E:B:O:.t.o.-', 'E:S:O:.t.o.-', 'E:T:O:.t.o.-']" ['father_substance']
