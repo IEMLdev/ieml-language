@@ -10041,3 +10041,4 @@ E:M:A:.t.o.- translations "['temps relatif au présent courant']"
 E:F:.-t.o.-' translations ['aspects']
 E:F:.-t.o.-' comments "['manières de considérer un processus\xa0: ponctuel, habituel, commençant, finissant ou en train de se dérouler']"
 E:U:.-t.o.-' translations "['événement ou processus achevé']"
+E:A:.-t.o.-' translations ['habituellement']
