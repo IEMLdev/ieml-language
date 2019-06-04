@@ -10039,3 +10039,4 @@ E:T:O:.t.o.- translations ['passé']
 E:M:U:.t.o.- translations "['temps par rapport à une date de référence absolue']"
 E:M:A:.t.o.- translations "['temps relatif au présent courant']"
 E:F:.-t.o.-' translations ['aspects']
+E:F:.-t.o.-' comments "['manières de considérer un processus\xa0: ponctuel, habituel, commençant, finissant ou en train de se dérouler']"
