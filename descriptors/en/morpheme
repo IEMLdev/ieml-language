@@ -10034,3 +10034,4 @@ E:T:U:.t.o.- comments "['the past is absolute, i.e. determined in relation to a 
 E:T:A:.t.o.- translations "['in a past date', 'earlier', 'yesterday', 'before', 'relative past']"
 E:T:A:.t.o.- comments "['past in relation to the current moment']"
 E:S:O:.t.o.- translations ['future']
+E:B:O:.t.o.- translations ['present']
