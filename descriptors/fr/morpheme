@@ -10016,6 +10016,6 @@ f.o.-f.o.-',n.i.-f.i.-',x.-U:.-',_S:.-',_; translations "['""talon"" de la main'
 M:.b.- translations "['noms personnels']"
 M:.b.- comments "['première, deuxième et troisième personnes']"
 S:.b.- translations "['première personne', 'moi', 'je', 'me', 'mon', 'nous', 'notre']"
-S:.b.- comments "['première personne, celui qui parle']"
+S:.b.- comments "['celui qui parle']"
 B:.b.- translations "['deuxième personne', 'tu', 'te', 'toi', 'ton', 'vous', 'votre']"
 B:.b.- comments "[""celui, celle ou ceux à qui l'on s'adresse""]"
