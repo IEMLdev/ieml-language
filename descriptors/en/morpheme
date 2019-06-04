@@ -10015,7 +10015,7 @@ f.o.-f.o.-',n.i.-f.i.-',x.-U:.-',_S:.-',_; comments []
 f.o.-f.o.-',n.i.-f.i.-',x.-U:.-',_S:.-',_; translations "['""heel"" of the hand']"
 M:.b.- translations "['personal nouns']"
 M:.b.- comments "['first, second and third persons']"
-S:.b.- translations "['first person', 'me', 'I', 'myself', 'my', 'our']"
+S:.b.- translations "['me', 'I', 'myself', 'my', 'our']"
 S:.b.- comments "['the one who speaks']"
 B:.b.- translations "['second person', 'you', 'your']"
 B:.b.- comments "['the person or persons to whom we are speaking']"
