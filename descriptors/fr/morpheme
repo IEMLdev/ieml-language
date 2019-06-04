@@ -10022,3 +10022,4 @@ B:.b.- comments "[""deuxième personne, celui, celle ou ceux à qui l'on s'adres
 T:.b.- translations "['il', 'elle', 'ils', 'elles', 'lui', 'eux', 'son', 'leur']"
 T:.b.- comments "['troisième personne, celui, ou celle, ou ceux, de qui on parle']"
 E:M:O:.t.o.- translations "['temps', 'conjugaison']"
+E:M:O:.t.o.- comments "['passé, présent, futur, absolu et relatif']"
