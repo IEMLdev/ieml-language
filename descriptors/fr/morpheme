@@ -10032,3 +10032,4 @@ E:B:A:.t.o.- translations "['maintenant', ""aujourd'hui"", 'de nos jours', 'au p
 E:T:U:.t.o.- translations "['avant la date de référence', 'plus tôt', 'tôt', 'dans un passé absolu']"
 E:T:U:.t.o.- comments "[""le passé est absolu, c'est-à-dire déterminé par rapport à une date fixe et non par rapport au présent actuel""]"
 E:T:A:.t.o.- translations "['à une date passée', 'plus tôt', 'hier', 'avant']"
+E:T:A:.t.o.- comments "['passé par rapport à maintenant']"
