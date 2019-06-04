@@ -10035,3 +10035,4 @@ E:T:A:.t.o.- translations "['in a past date', 'earlier', 'yesterday', 'before', 
 E:T:A:.t.o.- comments "['past in relation to the current moment']"
 E:S:O:.t.o.- translations ['future']
 E:B:O:.t.o.- translations ['present']
+E:T:O:.t.o.- translations ['past']
