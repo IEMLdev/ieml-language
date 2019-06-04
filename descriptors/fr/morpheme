@@ -10027,3 +10027,4 @@ E:S:U:.t.o.- translations "['après la date de référence', 'plus tard', 'futur
 E:S:A:.t.o.- translations "[""dans l'avenir"", 'plus tard', 'demain', 'futur relatif']"
 E:S:A:.t.o.- comments "['futur par rapport à ""maintenant""']"
 E:B:U:.t.o.- translations "['à la même date', 'en même temps que', 'pendant la date ou période de référence', 'simultanément']"
+E:B:U:.t.o.- comments "['présent en relation avec un temps ou moment fixé']"
