@@ -10044,3 +10044,4 @@ E:U:.-t.o.-' translations "['événement ou processus considéré comme achevé'
 E:A:.-t.o.-' translations ['habituellement']
 E:S:.-t.o.-' translations "['processus commençant']"
 E:B:.-t.o.-' translations "['processus en cours', 'en train de se faire']"
+E:T:.-t.o.-' translations "['processus finissant']"
