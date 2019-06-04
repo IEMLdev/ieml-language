@@ -10028,3 +10028,4 @@ E:S:A:.t.o.- translations "['in the future', 'later', 'tomorrow', 'relative futu
 E:S:A:.t.o.- comments "['future in relation to ""now""']"
 E:B:U:.t.o.- translations "['at the same referenced date or time', 'during', 'meanwhile', 'simultaneously']"
 E:B:U:.t.o.- comments "['present in relation to a fixed time']"
+E:B:A:.t.o.- translations "['now', 'today', 'nowadays', 'at the present time']"
