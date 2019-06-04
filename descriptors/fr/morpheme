@@ -10024,3 +10024,4 @@ T:.b.- comments "['troisième personne, celui, ou celle, ou ceux, de qui on parl
 E:M:O:.t.o.- translations "['temps', 'conjugaison']"
 E:M:O:.t.o.- comments "['passé, présent, futur, absolu et relatif']"
 E:S:U:.t.o.- translations "['après la date de référence', 'plus tard', 'futur absolu']"
+E:S:A:.t.o.- translations "[""dans l'avenir"", 'plus tard', 'demain', 'futur relatif']"
