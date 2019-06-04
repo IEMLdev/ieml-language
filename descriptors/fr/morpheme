@@ -10019,3 +10019,4 @@ S:.b.- translations "['première personne', 'moi', 'je', 'me', 'mon', 'nous', 'n
 S:.b.- comments "['celui qui parle']"
 B:.b.- translations "['deuxième personne', 'tu', 'te', 'toi', 'ton', 'vous', 'votre']"
 B:.b.- comments "[""celui, celle ou ceux à qui l'on s'adresse""]"
+T:.b.- translations "['il', 'elle', 'ils', 'elles', 'lui', 'eux', 'son', 'leur']"
