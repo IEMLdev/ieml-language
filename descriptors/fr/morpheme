@@ -10033,3 +10033,4 @@ E:T:U:.t.o.- translations "['avant la date de référence', 'plus tôt', 'tôt',
 E:T:U:.t.o.- comments "[""le passé est absolu, c'est-à-dire déterminé par rapport à une date fixe et non par rapport au présent actuel""]"
 E:T:A:.t.o.- translations "['à une date passée', 'plus tôt', 'hier', 'avant', 'passé relatif']"
 E:T:A:.t.o.- comments "['passé par rapport à maintenant']"
+E:S:O:.t.o.- translations ['futur']
