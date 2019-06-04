@@ -10023,3 +10023,4 @@ T:.b.- translations "['il', 'elle', 'ils', 'elles', 'lui', 'eux', 'son', 'leur']
 T:.b.- comments "['troisième personne, celui, ou celle, ou ceux, de qui on parle']"
 E:M:O:.t.o.- translations "['temps', 'conjugaison']"
 E:M:O:.t.o.- comments "['passé, présent, futur, absolu et relatif']"
+E:S:U:.t.o.- translations "['après la date de référence', 'plus tard', 'futur absolu']"
