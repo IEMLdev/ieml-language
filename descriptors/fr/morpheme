@@ -8908,7 +8908,7 @@ o.T:.- translations ['garder']
 m.-u.-' comments []
 m.-u.-' translations "['évaluation de la communication']"
 E: comments "['En IEML, tous les auxiliaires commencent par la lettre *E*.']"
-E: translations "['vide', 'monade', 'place syntaxique']"
+E: translations "['vide', 'monade', 'placesyntaxique']"
 O:O:.u.- comments []
 O:O:.u.- translations "['travailler la communication']"
 y.B:O:.- comments []
