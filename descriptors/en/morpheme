@@ -10048,3 +10048,4 @@ E:T:.-t.o.-' translations "['end of process']"
 F:.n.- translations "['grammatical genders']"
 n.F:.- translations "['grammatical gender']"
 n.U:.- translations ['masculine']
+n.A:.- translations ['feminine']
