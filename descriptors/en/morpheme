@@ -10051,3 +10051,4 @@ n.U:.- translations ['masculine']
 n.A:.- translations ['feminine']
 n.S:.- translations ['human']
 n.B:.- translations "['animated', 'living']"
+n.T:.- translations ['inanimate']
