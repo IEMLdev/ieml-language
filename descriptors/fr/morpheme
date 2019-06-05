@@ -10047,3 +10047,4 @@ E:B:.-t.o.-' translations "['processus en cours', 'en train de se faire']"
 E:T:.-t.o.-' translations "['processus finissant']"
 F:.n.- translations "['genres grammaticaux']"
 n.F:.- translations "['genre grammatical']"
+n.U:.- translations ['masculin']
