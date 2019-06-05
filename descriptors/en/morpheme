@@ -4203,7 +4203,7 @@ t.x.- comments []
 t.x.- translations "['schedule', 'budget']"
 n.-S:.U:.-'S:.-'B:.-',S:.-',M:.-',_ comments []
 n.-S:.U:.-'S:.-'B:.-',S:.-',M:.-',_ translations "['northern Europe']"
-E:U:U:.k.- comments []
+E:U:U:.k.- comments "['third actant']"
 E:U:U:.k.- translations "['for whom', 'to whom? in which community? according to them/us', 'in this community']"
 M:O:.b.- comments []
 M:O:.b.- translations "['defect of language']"

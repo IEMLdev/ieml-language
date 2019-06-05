@@ -4203,7 +4203,7 @@ t.x.- comments []
 t.x.- translations "['calendrier', 'budget']"
 n.-S:.U:.-'S:.-'B:.-',S:.-',M:.-',_ comments []
 n.-S:.U:.-'S:.-'B:.-',S:.-',M:.-',_ translations "['Europe du nord']"
-E:U:U:.k.- comments []
+E:U:U:.k.- comments "['troisième actant']"
 E:U:U:.k.- translations "['pour qui', 'à qui', 'dans quelle communauté? selon eux/elles/nous', 'dans cette communauté']"
 M:O:.b.- comments []
 M:O:.b.- translations "['défaut du langage']"
