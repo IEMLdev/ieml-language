@@ -1652,7 +1652,7 @@ i.wa.wa.- translations "['faire agir', 'mobiliser']"
 l.a.-b.a.-' comments []
 l.a.-b.a.-' translations ['renom']
 E:E:A:. comments "['en trait fonctionnel de caractère attribut ou en mode de clause: relation entre un nom-substance en rôle de propriétaire ou de tout et un nom-attribut en rôle de propriété ou de partie']"
-E:E:A:. translations "['génitif', 'de']"
+E:E:A:. translations "['appartenant', 'de', 'génitif']"
 E:I:.-'t.u.-t.u.-', comments []
 E:I:.-'t.u.-t.u.-', translations "['auxiliaires de quantification']"
 l.u.-t.u.-d.u.-' comments []
