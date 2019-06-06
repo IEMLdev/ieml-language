@@ -7755,7 +7755,7 @@ s.e.-m.u.-' comments []
 s.e.-m.u.-' translations "[""jeu d'acteur""]"
 e.B:M:.- comments []
 e.B:M:.- translations "[""manquer d'habiletés dans le trivium de l'être""]"
-E:E:S:. comments "['en trait de fonction: fait que le caractère désigne le premier actant du thème en trait de contenu ; en mode de clause: exprime la relation entre un verbe-substance et un nom-attribut en rôle de sujet ou de premier actant']"
+E:E:S:. comments "['dans un poly-morpheme: fait que les autres morphèmes signifient le premier actant du thème gouvernant ; en mode de clause: exprime la relation entre un verbe en position de racine et un nom en position de feuille tenant le rôle de premier actant ou de sujet grammatical']"
 E:E:S:. translations "['premier actant', 'nominatif', 'sujet grammatical']"
 E:.M:.wa.- comments []
 E:.M:.wa.- translations "['pronom de personne pluriel']"
