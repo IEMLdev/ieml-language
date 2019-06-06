@@ -7093,7 +7093,7 @@ g.A:M:.- comments []
 g.A:M:.- translations "[""processus d'expression actuel""]"
 n.-S:.U:.-'B:.-'B:.-',T:.-',S:.-',_ comments []
 n.-S:.U:.-'B:.-'B:.-',T:.-',S:.-',_ translations "['Bénin', 'Burkina Faso', ""Côte d'Ivoire"", 'Gambie', 'Ghana', 'Guinée Bissau', 'Guinée', 'Libéria', 'Sénégal', 'Sierra Leone', 'Togo']"
-E:E:B:. comments "[""en trait de fonction: fait que le caractère désigne le bénéficiaire du thème en trait de contenu ; en  mode de clause : relation entre un verbe en substance et un nom en attribut au bénéfice ou au détriment de qui a lieu l'action""]"
+E:E:B:. comments "[""dans un poly-morphème: fait que les autres morphèmes signifient le bénéficiaire du thème gouvernant ; en  mode de clause : relation entre un verbe en position de racine et un nom en position de feuille, ce dernier étant celui au bénéfice ou au détriment de qui a lieu l'action""]"
 E:E:B:. translations "['troisième actant', 'datif', 'à']"
 E:.-M:.M:B:.-l.-' comments []
 E:.-M:.M:B:.-l.-' translations ['lateral']
