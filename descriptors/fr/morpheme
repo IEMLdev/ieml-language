@@ -10053,3 +10053,4 @@ n.S:.- translations ['humain']
 n.B:.- translations "['animé', 'vivant']"
 n.T:.- translations ['inanimé']
 E:.M:.-t.o.-' translations "['voix active', 'passive', 'réflexive']"
+E:.-M:U:.-t.o.-' translations "['voix active', 'passive et réflexive']"
