@@ -10184,3 +10184,4 @@ E:M:.-U:.-t.o.-' translations "['temps par rapport à une date de référence ab
 E:M:.-A:.-t.o.-' translations "['temps relatif au présent courant']"
 E:M:.-O:.-t.o.-' translations "['temps', 'conjugaison']"
 E:M:.-O:.-t.o.-' comments "['passé, présent, futur, absolu et relatif']"
+O:O:.M:O:.s.-+s.M:O:.O:O:.- translations "['noms et verbes noétiques']"
