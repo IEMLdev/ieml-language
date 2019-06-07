@@ -10043,7 +10043,7 @@ E:F:.-t.o.-' comments "['manières de considérer un processus\xa0: ponctuel, ha
 E:U:.-t.o.-' translations "['événement ou processus considéré comme achevé']"
 E:A:.-t.o.-' translations "['processus habituel', 'habituellement']"
 E:S:.-t.o.-' translations "['processus commençant']"
-E:B:.-t.o.-' translations "['processus en cours', 'en train de se faire']"
+E:B:.-t.o.-' translations "['processus en cours', 'en train de se faire', 'continuant']"
 E:T:.-t.o.-' translations "['processus finissant']"
 F:.n.- translations "['genres grammaticaux']"
 n.F:.- translations "['genre grammatical']"
