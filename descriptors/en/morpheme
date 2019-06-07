@@ -248,7 +248,7 @@ S:O:. translations "['signifying agents']"
 g.T:M:.- comments []
 g.T:M:.- translations "['communication with objective obstacle']"
 E:.-'wo.-S:.t.o.-', comments []
-E:.-'wo.-S:.t.o.-', translations "['hypothetical mood']"
+E:.-'wo.-S:.t.o.-', translations []
 t.a.-n.a.-' comments []
 t.a.-n.a.-' translations ['law']
 U:M:.b.- comments []
@@ -638,7 +638,7 @@ b.a.-b.a.-f.o.-' translations ['author']
 m.o.-M:M:.o.-s.u.-' comments []
 m.o.-M:M:.o.-s.u.-' translations "['from affect (quality)']"
 E:.-'we.-M:.t.o.-', comments []
-E:.-'we.-M:.t.o.-', translations "['impersonal moods']"
+E:.-'we.-M:.t.o.-', translations []
 wo.u.- comments []
 wo.u.- translations "['follow conversation threads']"
 we.j.s.- comments []
@@ -2714,7 +2714,7 @@ p.g.- translations "['deliberation', 'discussion', 'debate']"
 e.A:.- comments []
 e.A:.- translations ['push']
 E:.-'we.-B:.t.o.-', comments []
-E:.-'we.-B:.t.o.-', translations "['gerund mood']"
+E:.-'we.-B:.t.o.-', translations []
 g.O:S:.- comments []
 g.O:S:.- translations "['abstract process of expression']"
 B:O:.we.- comments []
@@ -3054,7 +3054,7 @@ g.M:M:.- translations "['obstacle related to communication']"
 O:T:.u.- comments []
 O:T:.u.- translations "['perform into expression according to thing']"
 E:.-'wu.-S:.t.o.-', comments []
-E:.-'wu.-S:.t.o.-', translations "['optative mood']"
+E:.-'wu.-S:.t.o.-', translations []
 E:.-'t.u.-t.u.-', comments []
 E:.-'t.u.-t.u.-', translations "['how many', 'how much']"
 e.O:S:.- comments []
@@ -3144,7 +3144,7 @@ g.-'u.-'n.o.-s.o.-', translations "['""recitation""', 'process of emission of a 
 A:O:.g.- comments []
 A:O:.g.- translations "['assess and unify the communication']"
 E:.-'O:O:.-M:.t.o.-', comments []
-E:.-'O:O:.-M:.t.o.-', translations "['verbs moods']"
+E:.-'O:O:.-M:.t.o.-', translations []
 c.M:U:.- comments []
 c.M:U:.- translations "['virtual transformation of people']"
 E:.-M:.f.-l.-' comments []
@@ -3210,7 +3210,7 @@ E:.S:.wa.- translations "['first person plural', 'us']"
 E:.-A:.t.-l.-' comments []
 E:.-A:.t.-l.-' translations "['face (situation)', 'anterior']"
 E:.-'wu.-T:.t.o.-', comments []
-E:.-'wu.-T:.t.o.-', translations "['imperative', 'jussive mood']"
+E:.-'wu.-T:.t.o.-', translations []
 y.O:A:.- comments []
 y.O:A:.- translations "['assume a collective identity']"
 t.i.-s.i.-'u.T:.-U:.-'wo.-',B:.-',_ comments []
@@ -3444,7 +3444,7 @@ m.e.-M:M:.a.-wa.e.-' translations "['dialectic of the being']"
 O:.-n.e.-' comments []
 O:.-n.e.-' translations "['ability to lead (gain)']"
 E:.-'we.-S:.t.o.-', comments []
-E:.-'we.-S:.t.o.-', translations "['infinitive mood']"
+E:.-'we.-S:.t.o.-', translations []
 wa.wa.t.- comments []
 wa.wa.t.- translations ['strive']
 c.o.- comments []
@@ -3636,7 +3636,7 @@ E:U:T:. translations ['better']
 f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.l.-l.-',_ comments []
 f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.l.-l.-',_ translations "['behind', 'ass']"
 E:.-'we.-T:.t.o.-', comments []
-E:.-'we.-T:.t.o.-', translations "['participe mood / form']"
+E:.-'we.-T:.t.o.-', translations []
 wa.O:B:.- comments []
 wa.O:B:.- translations "['master the activity according to the being']"
 b.i.-n.i.-'a.S:.-'f.o.-f.o.-', comments []
@@ -3726,7 +3726,7 @@ t.i.-s.i.-'u.T:.-A:.-'wu.-', translations "['underground freight vehicle']"
 g.d.- comments []
 g.d.- translations "['calculation mistake']"
 E:.-'wo.-T:.t.o.-', comments []
-E:.-'wo.-T:.t.o.-', translations "['conditional mood']"
+E:.-'wo.-T:.t.o.-', translations []
 M:O:.m.- comments []
 M:O:.m.- translations "['ethical defect']"
 f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.n.-l.-'E:.-A:.M:T:.-l.-',_ comments []
@@ -3994,7 +3994,7 @@ n.O:S:.- translations "['abstract world factors']"
 b.u.-n.u.-' comments []
 b.u.-n.u.-' translations ['verb']
 E:.-'wa.-S:.t.o.-', comments []
-E:.-'wa.-S:.t.o.-', translations "['subjunctive mood']"
+E:.-'wa.-S:.t.o.-', translations []
 n.-S:.U:.-'S:.-'B:.-',T:.-',S:.-',_ comments []
 n.-S:.U:.-'S:.-'B:.-',T:.-',S:.-',_ translations "['south west Europe', 'Iberian peninsula', 'Spain', 'Portugal']"
 m.-B:.U:.-'m.-T:.U:.-'E:A:S:.-', comments []
@@ -5288,7 +5288,7 @@ U:O:.wa.t.- translations "['end the waxing phase of the symbolic and daily cycle
 wa.n.- comments []
 wa.n.- translations "[""cultivate one's motivation""]"
 E:.-'wa.-B:.t.o.-', comments []
-E:.-'wa.-B:.t.o.-', translations "['oblique', 'inferential or re-narrative mood']"
+E:.-'wa.-B:.t.o.-', translations []
 M:M:.O:M:.- comments "['Both paradigms M:M:.O:M:.- and O:M:.M:M:.- are part of the same root-paradigm M:M:.O:M:.- + O:M:.M:M:.- that is entitled «\u2009determinants of human development\u2009». In this root-paradigm, inverse semes are semantically related, for example t.y.- (memory management) and y.t.- (forget) or k.y.- (relational intelligence) and y.k.- (ignore relations).\n\nExplore the semes of M:M:.O:M:.- which are the foundation of several other Layer 3 paradigms.']"
 M:M:.O:M:.- translations "['human development']"
 A:.-M:B:.e.-' comments []
@@ -5876,7 +5876,7 @@ k.o.-n.o.-s.u.-' translations ['just']
 E:M:B:. comments []
 E:M:B:. translations "['distributive medium']"
 E:.-'wa.-T:.t.o.-', comments []
-E:.-'wa.-T:.t.o.-', translations "['indicative mood']"
+E:.-'wa.-T:.t.o.-', translations []
 y.T:M:.- comments []
 y.T:M:.- translations "['ignore thing']"
 E:B:.d.- comments []
@@ -7074,7 +7074,7 @@ i.U:M:.- translations "['perform virtually on a concrete basis']"
 m.-h.-' comments []
 m.-h.-' translations "['sage', 'saint', 'martyr']"
 E:.-'wa.-M:.t.o.-', comments []
-E:.-'wa.-M:.t.o.-', translations "['moods indicative of a relationship with reality: unreal = subjunctive ; indirect = inferential ; direct = indicative']"
+E:.-'wa.-M:.t.o.-', translations []
 b.i.-n.i.-'t.i.-'n.-B:.A:.-', comments []
 b.i.-n.i.-'t.i.-'n.-B:.A:.-', translations "['metallic bell']"
 m.-S:.A:.-'m.-S:.A:.-'E:A:T:.-', comments []
@@ -7280,7 +7280,7 @@ t.u.-k.u.-d.u.-' translations ['scriptural']
 n.-S:.U:.-'B:.-'B:.-',M:.-',B:.-',_ comments []
 n.-S:.U:.-'B:.-'B:.-',M:.-',B:.-',_ translations "['Countries of northern and central Africa', 'median area']"
 E:.-'wo.-B:.t.o.-', comments []
-E:.-'wo.-B:.t.o.-', translations "['epistemic mood']"
+E:.-'wo.-B:.t.o.-', translations []
 b.u.-d.u.-' comments []
 b.u.-d.u.-' translations "['metonymy', 'part']"
 e.p.- comments []
@@ -7470,7 +7470,7 @@ b.i.-s.i.-'O:O:.-'s.-T:.U:.-', translations "['dry', 'continental climate']"
 s.i.-n.i.-t.u.-' comments []
 s.i.-n.i.-t.u.-' translations ['refrigerated']
 E:.-'wu.-M:.t.o.-', comments []
-E:.-'wu.-M:.t.o.-', translations "['""energetic"" moods: desire = optative ; obligation = deontic ; order = imperative']"
+E:.-'wu.-M:.t.o.-', translations []
 k.-u.-s.y.-' comments []
 k.-u.-s.y.-' translations "['media studies', 'social communication studies']"
 m.a.-s.a.-f.o.-' comments []
@@ -7996,7 +7996,7 @@ E:.T:.we.- translations "['third person feminine']"
 wo.k.- comments []
 wo.k.- translations "['plant the seeds of social change']"
 E:.-'wo.-M:.t.o.-', comments []
-E:.-'wo.-M:.t.o.-', translations "['moods that express an awareness of their truth value : hypothetical (possible)', 'epistemic (expresses a degree of trust)', 'conditional (relative to a condition)']"
+E:.-'wo.-M:.t.o.-', translations []
 h.i.- comments []
 h.i.- translations ['fact']
 t.-x.-s.y.-'wa.e.-M:S:.-', comments []
@@ -8736,7 +8736,7 @@ m.u.-t.u.-d.u.-' translations "['masked', 'concealed']"
 j.-A:.-' comments []
 j.-A:.-' translations "['duality', 'secondariness', 'dyad', 'symmetry two']"
 E:.-'wu.-B:.t.o.-', comments []
-E:.-'wu.-B:.t.o.-', translations "['deontic mood']"
+E:.-'wu.-B:.t.o.-', translations []
 s.o.-d.o.-s.u.-' comments []
 s.o.-d.o.-s.u.-' translations ['humble']
 y.U:O:.- comments []
@@ -10057,3 +10057,37 @@ E:.-M:U:.-t.o.-' translations "['active', 'passive and reflexive voice']"
 E:.-j.-t.o.-' translations "['active voice']"
 E:.-h.-t.o.-' translations "['reflexive voice']"
 E:.-p.-t.o.-' translations "['passive voice']"
+E:.-'wo.-S:.-'t.o.-', comments []
+E:.-'wo.-S:.-'t.o.-', translations "['hypothetical mood']"
+E:.-'wo.-B:.-'t.o.-', comments []
+E:.-'wo.-B:.-'t.o.-', translations "['epistemic mood']"
+E:.-'wo.-T:.-'t.o.-', comments []
+E:.-'wo.-T:.-'t.o.-', translations "['conditional mood']"
+E:.-'wa.-S:.-'t.o.-', comments []
+E:.-'wa.-S:.-'t.o.-', translations "['subjunctive mood']"
+E:.-'wa.-B:.-'t.o.-', comments []
+E:.-'wa.-B:.-'t.o.-', translations "['oblique', 'inferential or re-narrative mood']"
+E:.-'wa.-T:.-'t.o.-', comments []
+E:.-'wa.-T:.-'t.o.-', translations "['indicative mood']"
+E:.-'wu.-S:.-'t.o.-', comments []
+E:.-'wu.-S:.-'t.o.-', translations "['optative mood']"
+E:.-'wu.-B:.-'t.o.-', comments []
+E:.-'wu.-B:.-'t.o.-', translations "['deontic mood']"
+E:.-'wu.-T:.-'t.o.-', comments []
+E:.-'wu.-T:.-'t.o.-', translations "['imperative', 'jussive mood']"
+E:.-'we.-S:.-'t.o.-', comments []
+E:.-'we.-S:.-'t.o.-', translations "['infinitive mood']"
+E:.-'we.-B:.-'t.o.-', comments []
+E:.-'we.-B:.-'t.o.-', translations "['gerund mood']"
+E:.-'we.-T:.-'t.o.-', comments []
+E:.-'we.-T:.-'t.o.-', translations "['participe mood / form']"
+E:.-'wo.-M:.-'t.o.-', comments []
+E:.-'wo.-M:.-'t.o.-', translations "['moods that express an awareness of their truth value : hypothetical (possible)', 'epistemic (expresses a degree of trust)', 'conditional (relative to a condition)']"
+E:.-'wa.-M:.-'t.o.-', comments []
+E:.-'wa.-M:.-'t.o.-', translations "['moods indicative of a relationship with reality: unreal = subjunctive ; indirect = inferential ; direct = indicative']"
+E:.-'wu.-M:.-'t.o.-', comments []
+E:.-'wu.-M:.-'t.o.-', translations "['""energetic"" moods: desire = optative ; obligation = deontic ; order = imperative']"
+E:.-'we.-M:.-'t.o.-', comments []
+E:.-'we.-M:.-'t.o.-', translations "['impersonal moods']"
+E:.-'O:O:.-M:.-'t.o.-', comments []
+E:.-'O:O:.-M:.-'t.o.-', translations "['verbs moods']"

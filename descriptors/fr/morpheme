@@ -248,7 +248,7 @@ S:O:. translations "['agents signifiants']"
 g.T:M:.- comments []
 g.T:M:.- translations "['obstacle objectif à la communication']"
 E:.-'wo.-S:.t.o.-', comments []
-E:.-'wo.-S:.t.o.-', translations "['mode hypothétique']"
+E:.-'wo.-S:.t.o.-', translations []
 t.a.-n.a.-' comments []
 t.a.-n.a.-' translations ['loi']
 U:M:.b.- comments []
@@ -638,7 +638,7 @@ b.a.-b.a.-f.o.-' translations ['auteur']
 m.o.-M:M:.o.-s.u.-' comments []
 m.o.-M:M:.o.-s.u.-' translations "[""de l'affect (qualité)""]"
 E:.-'we.-M:.t.o.-', comments []
-E:.-'we.-M:.t.o.-', translations "['modes impersonnels']"
+E:.-'we.-M:.t.o.-', translations []
 wo.u.- comments []
 wo.u.- translations "['suivre les fils de la conversation']"
 we.j.s.- comments []
@@ -2714,7 +2714,7 @@ p.g.- translations "['délibération', 'discussion', 'débat']"
 e.A:.- comments []
 e.A:.- translations ['pousser']
 E:.-'we.-B:.t.o.-', comments []
-E:.-'we.-B:.t.o.-', translations "['mode gérondif']"
+E:.-'we.-B:.t.o.-', translations []
 g.O:S:.- comments []
 g.O:S:.- translations "[""processus d'expression abstrait""]"
 B:O:.we.- comments []
@@ -3054,7 +3054,7 @@ g.M:M:.- translations "['obstacle communicationnel']"
 O:T:.u.- comments []
 O:T:.u.- translations "[""performer dans l'expression selon la chose""]"
 E:.-'wu.-S:.t.o.-', comments []
-E:.-'wu.-S:.t.o.-', translations "['mode optatif']"
+E:.-'wu.-S:.t.o.-', translations []
 E:.-'t.u.-t.u.-', comments []
 E:.-'t.u.-t.u.-', translations ['combien']
 e.O:S:.- comments []
@@ -3144,7 +3144,7 @@ g.-'u.-'n.o.-s.o.-', translations "['""récitation""', ""processus d'émission d
 A:O:.g.- comments []
 A:O:.g.- translations "['évaluer et unifier la communication']"
 E:.-'O:O:.-M:.t.o.-', comments []
-E:.-'O:O:.-M:.t.o.-', translations "['modes des verbes']"
+E:.-'O:O:.-M:.t.o.-', translations []
 c.M:U:.- comments []
 c.M:U:.- translations "['transformation virtuelle des personnes']"
 E:.-M:.f.-l.-' comments []
@@ -3210,7 +3210,7 @@ E:.S:.wa.- translations "['première personne pluriel', 'nous']"
 E:.-A:.t.-l.-' comments []
 E:.-A:.t.-l.-' translations "['face', 'antérieur']"
 E:.-'wu.-T:.t.o.-', comments []
-E:.-'wu.-T:.t.o.-', translations "['mode impératif', 'jussif']"
+E:.-'wu.-T:.t.o.-', translations []
 y.O:A:.- comments []
 y.O:A:.- translations "['assumer une identité collective']"
 t.i.-s.i.-'u.T:.-U:.-'wo.-',B:.-',_ comments []
@@ -3444,7 +3444,7 @@ m.e.-M:M:.a.-wa.e.-' translations "[""dialectique de l'être""]"
 O:.-n.e.-' comments []
 O:.-n.e.-' translations "['capacité de diriger (acquérir)']"
 E:.-'we.-S:.t.o.-', comments []
-E:.-'we.-S:.t.o.-', translations "['mode infinitif']"
+E:.-'we.-S:.t.o.-', translations []
 wa.wa.t.- comments []
 wa.wa.t.- translations "[""s'activer""]"
 c.o.- comments []
@@ -3636,7 +3636,7 @@ E:U:T:. translations ['meilleur']
 f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.l.-l.-',_ comments []
 f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.l.-l.-',_ translations "['derrière', 'cul']"
 E:.-'we.-T:.t.o.-', comments []
-E:.-'we.-T:.t.o.-', translations "['mode participe']"
+E:.-'we.-T:.t.o.-', translations []
 wa.O:B:.- comments []
 wa.O:B:.- translations "[""maîtriser l'activité selon l'être""]"
 b.i.-n.i.-'a.S:.-'f.o.-f.o.-', comments []
@@ -3726,7 +3726,7 @@ t.i.-s.i.-'u.T:.-A:.-'wu.-', translations "['véhicule cargo sous-terrain']"
 g.d.- comments []
 g.d.- translations "['erreur de calcul']"
 E:.-'wo.-T:.t.o.-', comments []
-E:.-'wo.-T:.t.o.-', translations "['mode conditionnel']"
+E:.-'wo.-T:.t.o.-', translations []
 M:O:.m.- comments []
 M:O:.m.- translations "['défaut éthique']"
 f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.n.-l.-'E:.-A:.M:T:.-l.-',_ comments []
@@ -3994,7 +3994,7 @@ n.O:S:.- translations "['facteurs abstraits de monde']"
 b.u.-n.u.-' comments []
 b.u.-n.u.-' translations ['verbe']
 E:.-'wa.-S:.t.o.-', comments []
-E:.-'wa.-S:.t.o.-', translations "['mode subjonctif']"
+E:.-'wa.-S:.t.o.-', translations []
 n.-S:.U:.-'S:.-'B:.-',T:.-',S:.-',_ comments []
 n.-S:.U:.-'S:.-'B:.-',T:.-',S:.-',_ translations "['Europe Sud ouest', 'péninsule ibérique', 'Espagne', 'Portugal']"
 m.-B:.U:.-'m.-T:.U:.-'E:A:S:.-', comments []
@@ -5288,7 +5288,7 @@ U:O:.wa.t.- translations "['terminer la phase croissante des cycles symbolique e
 wa.n.- comments []
 wa.n.- translations "['cultiver sa motivation']"
 E:.-'wa.-B:.t.o.-', comments []
-E:.-'wa.-B:.t.o.-', translations "['oblique', 'médiatif ou re-narratif']"
+E:.-'wa.-B:.t.o.-', translations []
 M:M:.O:M:.- comments "['Les deux paradigmes M:M:.O:M:.- et O:M:.M:M:.- font partie du même paradigme-racine M:M:.O:M:.- + O:M:.M:M:.- intitulé «déterminants du développement humain\u2009». Dans ce paradigme-racine,les sèmes inverses sont sémantiquement liés, par exemple t.y.- (gestion de la mémoire) et y.t.- (oublier) ou k.y.- (intelligence relationnelle) et y.k.- (ignorer les relations).\n\nExplorez les semes de M:M:.O:M:.- qui sont au fondement de plusieurs paradigmes de couche 3.']"
 M:M:.O:M:.- translations "['développement humain']"
 A:.-M:B:.e.-' comments []
@@ -5876,7 +5876,7 @@ k.o.-n.o.-s.u.-' translations ['juste']
 E:M:B:. comments []
 E:M:B:. translations "['medium distributif']"
 E:.-'wa.-T:.t.o.-', comments []
-E:.-'wa.-T:.t.o.-', translations "['mode indicatif']"
+E:.-'wa.-T:.t.o.-', translations []
 y.T:M:.- comments []
 y.T:M:.- translations "['ignorer la chose']"
 E:B:.d.- comments []
@@ -7074,7 +7074,7 @@ i.U:M:.- translations "['performer virtuellement sur une base concrète']"
 m.-h.-' comments []
 m.-h.-' translations "['sage', 'saint', 'martyr']"
 E:.-'wa.-M:.t.o.-', comments []
-E:.-'wa.-M:.t.o.-', translations "['modes de rapports à la réalité : irréel = subjonctif ; indirect = oblique ; direct = indicatif']"
+E:.-'wa.-M:.t.o.-', translations []
 b.i.-n.i.-'t.i.-'n.-B:.A:.-', comments []
 b.i.-n.i.-'t.i.-'n.-B:.A:.-', translations "['cloche de métal']"
 m.-S:.A:.-'m.-S:.A:.-'E:A:T:.-', comments []
@@ -7280,7 +7280,7 @@ t.u.-k.u.-d.u.-' translations ['scriptural']
 n.-S:.U:.-'B:.-'B:.-',M:.-',B:.-',_ comments []
 n.-S:.U:.-'B:.-'B:.-',M:.-',B:.-',_ translations "[""Pays d'Afrique du nord et du centre"", 'zone médiane']"
 E:.-'wo.-B:.t.o.-', comments []
-E:.-'wo.-B:.t.o.-', translations "['mode épistémique']"
+E:.-'wo.-B:.t.o.-', translations []
 b.u.-d.u.-' comments []
 b.u.-d.u.-' translations "['métonymie', 'partie']"
 e.p.- comments []
@@ -7470,7 +7470,7 @@ b.i.-s.i.-'O:O:.-'s.-T:.U:.-', translations "['climat sec', 'continental']"
 s.i.-n.i.-t.u.-' comments []
 s.i.-n.i.-t.u.-' translations ['réfrigéré']
 E:.-'wu.-M:.t.o.-', comments []
-E:.-'wu.-M:.t.o.-', translations "['modes ""énergiques"" : désir = optatif ; obligation = déontique ; ordre = impératif']"
+E:.-'wu.-M:.t.o.-', translations []
 k.-u.-s.y.-' comments []
 k.-u.-s.y.-' translations "['études des médias et de la communication sociale']"
 m.a.-s.a.-f.o.-' comments []
@@ -7996,7 +7996,7 @@ E:.T:.we.- translations "['troisième personne féminin']"
 wo.k.- comments []
 wo.k.- translations "['semer les graines du changement social']"
 E:.-'wo.-M:.t.o.-', comments []
-E:.-'wo.-M:.t.o.-', translations "['modes conscients de leur valeur de vérité : hypothétique (possible)', 'épistémique (exprime le degré de confiance)', 'condtionnel (relatif à une condition)']"
+E:.-'wo.-M:.t.o.-', translations []
 h.i.- comments []
 h.i.- translations ['fait']
 t.-x.-s.y.-'wa.e.-M:S:.-', comments []
@@ -8736,7 +8736,7 @@ m.u.-t.u.-d.u.-' translations "['masqué', 'dissimulé']"
 j.-A:.-' comments []
 j.-A:.-' translations "['dualité', 'secondarité', 'dyade', 'symétrie deux']"
 E:.-'wu.-B:.t.o.-', comments []
-E:.-'wu.-B:.t.o.-', translations "['mode déontique']"
+E:.-'wu.-B:.t.o.-', translations []
 s.o.-d.o.-s.u.-' comments []
 s.o.-d.o.-s.u.-' translations ['humble']
 y.U:O:.- comments []
@@ -10057,3 +10057,37 @@ E:.-M:U:.-t.o.-' translations "['voix active', 'passive et réflexive']"
 E:.-j.-t.o.-' translations "['voix active']"
 E:.-h.-t.o.-' translations "['voix réflexive']"
 E:.-p.-t.o.-' translations "['voix passive']"
+E:.-'wo.-S:.-'t.o.-', comments []
+E:.-'wo.-S:.-'t.o.-', translations "['mode hypothétique']"
+E:.-'wo.-B:.-'t.o.-', comments []
+E:.-'wo.-B:.-'t.o.-', translations "['mode épistémique']"
+E:.-'wo.-T:.-'t.o.-', comments []
+E:.-'wo.-T:.-'t.o.-', translations "['mode conditionnel']"
+E:.-'wa.-S:.-'t.o.-', comments []
+E:.-'wa.-S:.-'t.o.-', translations "['mode subjonctif']"
+E:.-'wa.-B:.-'t.o.-', comments []
+E:.-'wa.-B:.-'t.o.-', translations "['oblique', 'médiatif ou re-narratif']"
+E:.-'wa.-T:.-'t.o.-', comments []
+E:.-'wa.-T:.-'t.o.-', translations "['mode indicatif']"
+E:.-'wu.-S:.-'t.o.-', comments []
+E:.-'wu.-S:.-'t.o.-', translations "['mode optatif']"
+E:.-'wu.-B:.-'t.o.-', comments []
+E:.-'wu.-B:.-'t.o.-', translations "['mode déontique']"
+E:.-'wu.-T:.-'t.o.-', comments []
+E:.-'wu.-T:.-'t.o.-', translations "['mode impératif', 'jussif']"
+E:.-'we.-S:.-'t.o.-', comments []
+E:.-'we.-S:.-'t.o.-', translations "['mode infinitif']"
+E:.-'we.-B:.-'t.o.-', comments []
+E:.-'we.-B:.-'t.o.-', translations "['mode gérondif']"
+E:.-'we.-T:.-'t.o.-', comments []
+E:.-'we.-T:.-'t.o.-', translations "['mode participe']"
+E:.-'wo.-M:.-'t.o.-', comments []
+E:.-'wo.-M:.-'t.o.-', translations "['modes conscients de leur valeur de vérité : hypothétique (possible)', 'épistémique (exprime le degré de confiance)', 'condtionnel (relatif à une condition)']"
+E:.-'wa.-M:.-'t.o.-', comments []
+E:.-'wa.-M:.-'t.o.-', translations "['modes de rapports à la réalité : irréel = subjonctif ; indirect = oblique ; direct = indicatif']"
+E:.-'wu.-M:.-'t.o.-', comments []
+E:.-'wu.-M:.-'t.o.-', translations "['modes ""énergiques"" : désir = optatif ; obligation = déontique ; ordre = impératif']"
+E:.-'we.-M:.-'t.o.-', comments []
+E:.-'we.-M:.-'t.o.-', translations "['modes impersonnels']"
+E:.-'O:O:.-M:.-'t.o.-', comments []
+E:.-'O:O:.-M:.-'t.o.-', translations "['modes des verbes']"
