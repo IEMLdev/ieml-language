@@ -10021,23 +10021,23 @@ B:.b.- translations "['you', 'your', 'yours']"
 B:.b.- comments "['second person, the person or persons to whom we are speaking']"
 T:.b.- translations "['he', 'she', 'they', 'him', 'them', 'his', 'their']"
 T:.b.- comments "['third person, the one, or those, of whom we are talking']"
-E:M:O:.t.o.- translations "['tense', 'conjugation']"
-E:M:O:.t.o.- comments "['past, present, future, absolute and relative']"
-E:S:U:.t.o.- translations "['after the referenced date', 'later', 'absolute future']"
-E:S:A:.t.o.- translations "['in the future', 'later', 'tomorrow', 'relative future']"
-E:S:A:.t.o.- comments "['future in relation to ""now""']"
-E:B:U:.t.o.- translations "['at the same referenced date or time', 'during', 'meanwhile', 'simultaneously']"
-E:B:U:.t.o.- comments "['present in relation to a fixed time']"
-E:B:A:.t.o.- translations "['now', 'today', 'nowadays', 'at the present time']"
-E:T:U:.t.o.- translations "['before the referenced date', 'earlier', 'early', 'in an absolute past']"
-E:T:U:.t.o.- comments "['the past is absolute, i.e. determined in relation to a fixed date and not in relation to the current present']"
-E:T:A:.t.o.- translations "['in a past date', 'earlier', 'yesterday', 'before', 'relative past']"
-E:T:A:.t.o.- comments "['past in relation to the current moment']"
-E:S:O:.t.o.- translations ['future']
-E:B:O:.t.o.- translations ['present']
-E:T:O:.t.o.- translations ['past']
-E:M:U:.t.o.- translations "['time in relation to an absolute reference date']"
-E:M:A:.t.o.- translations "['time relative to the ongoing present']"
+E:M:O:.t.o.- translations []
+E:M:O:.t.o.- comments []
+E:S:U:.t.o.- translations []
+E:S:A:.t.o.- translations []
+E:S:A:.t.o.- comments []
+E:B:U:.t.o.- translations []
+E:B:U:.t.o.- comments []
+E:B:A:.t.o.- translations []
+E:T:U:.t.o.- translations []
+E:T:U:.t.o.- comments []
+E:T:A:.t.o.- translations []
+E:T:A:.t.o.- comments []
+E:S:O:.t.o.- translations []
+E:B:O:.t.o.- translations []
+E:T:O:.t.o.- translations []
+E:M:U:.t.o.- translations []
+E:M:A:.t.o.- translations []
 E:F:.-t.o.-' translations ['aspects']
 E:F:.-t.o.-' comments "['ways of looking at a process: punctual, habitual, beginning, ending or taking place']"
 E:U:.-t.o.-' translations "['event or process considered completed']"
@@ -10167,3 +10167,20 @@ s.o.-we.-'F:.-', comments []
 s.o.-we.-'F:.-', translations "['system of symbols']"
 s.o.-O:O:.-'F:.-', comments []
 s.o.-O:O:.-'F:.-', translations "['symbolic cognition']"
+E:S:.-U:.-t.o.-' translations "['after the referenced date', 'later', 'absolute future']"
+E:S:.-A:.-t.o.-' translations "['in the future', 'later', 'tomorrow', 'relative future']"
+E:S:.-A:.-t.o.-' comments "['future in relation to ""now""']"
+E:B:.-U:.-t.o.-' translations "['at the same referenced date or time', 'during', 'meanwhile', 'simultaneously']"
+E:B:.-U:.-t.o.-' comments "['present in relation to a fixed time']"
+E:B:.-A:.-t.o.-' translations "['now', 'today', 'nowadays', 'at the present time']"
+E:T:.-U:.-t.o.-' translations "['before the referenced date', 'earlier', 'early', 'in an absolute past']"
+E:T:.-U:.-t.o.-' comments "['the past is absolute, i.e. determined in relation to a fixed date and not in relation to the current present']"
+E:T:.-A:.-t.o.-' translations "['in a past date', 'earlier', 'yesterday', 'before', 'relative past']"
+E:T:.-A:.-t.o.-' comments "['past in relation to the current moment']"
+E:S:.-O:.-t.o.-' translations ['future']
+E:B:.-O:.-t.o.-' translations ['present']
+E:T:.-O:.-t.o.-' translations ['past']
+E:M:.-U:.-t.o.-' translations "['time in relation to an absolute reference date']"
+E:M:.-A:.-t.o.-' translations "['time relative to the ongoing present']"
+E:M:.-O:.-t.o.-' translations "['tense', 'conjugation']"
+E:M:.-O:.-t.o.-' comments "['past, present, future, absolute and relative']"
