@@ -16,7 +16,7 @@ l.a.-s.a.-f.o.-' translations ['manager']
 M:M:.u.-m.u.-d.u.-' comments []
 M:M:.u.-m.u.-d.u.-' translations "['symptôme en attribut (qualité)']"
 s.wo.-B:.-' comments []
-s.wo.-B:.-' translations ['auto-synthèse']
+s.wo.-B:.-' translations []
 b.wa.- comments []
 b.wa.- translations "['négociation', 'coordination']"
 s.c.wu.- comments []
@@ -630,7 +630,7 @@ g.j.- translations "['réponse', 'certitude']"
 g.-'S:.-'k.o.-t.o.-', comments []
 g.-'S:.-'k.o.-t.o.-', translations "['éducation libérale']"
 s.O:O:.-B:.-' comments []
-s.O:O:.-B:.-' translations "['êtres cognitifs']"
+s.O:O:.-B:.-' translations []
 e.O:M:.- comments []
 e.O:M:.- translations "['pouvoir en substance']"
 b.a.-b.a.-f.o.-' comments []
@@ -770,7 +770,7 @@ s.o.-k.o.-'g.-',S:.-',_ translations "['étude et perfectionnement de la créati
 wu.A:M:.- comments []
 wu.A:M:.- translations "[""exercer son jugement critique dans l'actuel""]"
 s.wa.-S:.-' comments []
-s.wa.-S:.-' translations "[""concept (partie d'une idée)""]"
+s.wa.-S:.-' translations []
 O:M:.wo.- comments []
 O:M:.wo.- translations "['gagner en puissance créative']"
 B:.E:A:T:.- comments []
@@ -946,7 +946,7 @@ O:B:.n.- translations "['défaire un monde existentiellement']"
 E:E:O:. comments []
 E:E:O:. translations "['indicateurs de cas pour clauses nominales']"
 s.we.-U:.-' comments []
-s.we.-U:.-' translations ['signifiés']
+s.we.-U:.-' translations []
 e.O:U:.- comments []
 e.O:U:.- translations "['contrôle indirect']"
 h.u.m.- comments []
@@ -960,7 +960,7 @@ e.M:S:.- translations "[""manquer d'habiletés grammaticales""]"
 b.a.-l.a.-' comments []
 b.a.-l.a.-' translations ['transport']
 s.we.-F:.-' comments []
-s.we.-F:.-' translations "['système de symboles']"
+s.we.-F:.-' translations []
 f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.n.-l.-',_ comments []
 f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.l.-l.-'E:.-A:.n.-l.-',_ translations ['hanches']
 s.-O:M:.-' comments []
@@ -976,7 +976,7 @@ b.-S:.A:.-'A:.-'A:.-', translations "[""noir d'encre""]"
 x.o.- comments []
 x.o.- translations ['jouissance']
 s.wa.-T:.-' comments []
-s.wa.-T:.-' translations "[""percept (partie d'une idée)""]"
+s.wa.-T:.-' translations []
 S:M:. comments []
 S:M:. translations "['devenir du signe']"
 m.-T:.A:.-'m.-S:.A:.-'E:A:S:.-', comments []
@@ -1032,7 +1032,7 @@ d.o.-M:M:.o.-' translations "['de la vérité (valeur)']"
 E:U:U:. comments "[""accent interrogatif d'un caractère, d'un topic ou d'une clause verbale""]"
 E:U:U:. translations "['construction interrogative']"
 s.wa.-M:.-' comments []
-s.wa.-M:.-' translations "['contenu des idées']"
+s.wa.-M:.-' translations []
 O:A:.wu.t.- comments []
 O:A:.wu.t.- translations "['commencer la phase décroissante des cycles quotidien et reproducteur']"
 E:.-T:.s.-l.-' comments []
@@ -1488,7 +1488,7 @@ m.A:O:.- translations "[""sources du sens dans une émotion liée à l'actuel""]
 B:.S:.n.-'we.wu.t.-', comments []
 B:.S:.n.-'we.wu.t.-', translations ['fruit']
 s.wu.-O:.-' comments []
-s.wu.-O:.-' translations ['sens']
+s.wu.-O:.-' translations []
 u.B:O:.- comments []
 u.B:O:.- translations "[""communiquer une oeuvre selon l'être""]"
 c.O:S:.- comments []
@@ -1502,7 +1502,7 @@ b.u.-b.u.-' translations ['hypertexte']
 e.S:M:.- comments []
 e.S:M:.- translations "[""manquer d'habiletés dans le trivium du signe""]"
 s.wu.-B:.-' comments []
-s.wu.-B:.-' translations ['interprétants']
+s.wu.-B:.-' translations []
 b.O:U:.- comments []
 b.O:U:.- translations "['sources du sens par les affinités']"
 S:M:.e.-l.u.-' comments []
@@ -1870,7 +1870,7 @@ l.wa.- translations "['liberté de circulation']"
 l.a.-f.a.-f.o.-' comments []
 l.a.-f.a.-f.o.-' translations "['écologiste', 'environnementaliste']"
 s.wo.-S:.-' comments []
-s.wo.-S:.-' translations ['auto-analyse']
+s.wo.-S:.-' translations []
 o.e.- comments []
 o.e.- translations ['spécifier']
 b.-S:.A:.-'U:.-'B:.-', comments []
@@ -2012,7 +2012,7 @@ A:.-B:M:.e.-' translations "[""acquérir les compétences actuelles du trivium d
 M:T:.wo.- comments []
 M:T:.wo.- translations "['quête des profondeurs']"
 s.O:O:.-T:.-' comments []
-s.O:O:.-T:.-' translations "['choses cognitives']"
+s.O:O:.-T:.-' translations []
 t.i.-s.i.-'u.S:.-A:.-'we.-', comments []
 t.i.-s.i.-'u.S:.-A:.-'we.-', translations "['hélicoptère avec passagers']"
 E:.A:.A:O:.- comments []
@@ -2678,7 +2678,7 @@ l.-T:.O:.-' translations "['axe haut-bas']"
 b.-y.-s.y.-' comments []
 b.-y.-s.y.-' translations "['encyclopédie', 'vulgarisation']"
 s.wu.-F:.-' comments []
-s.wu.-F:.-' translations "['système de concepts (sensorium)']"
+s.wu.-F:.-' translations []
 j.t.- comments []
 j.t.- translations ['archaïsme']
 k.-S:.U:.-' comments []
@@ -2936,7 +2936,7 @@ d.u.- translations "['pointeur', 'signe indiciel']"
 i.n.- comments []
 i.n.- translations "['provoquer un accident']"
 s.wo.-U:.-' comments []
-s.wo.-U:.-' translations "['continuum de conscience']"
+s.wo.-U:.-' translations []
 d.-o.-' comments []
 d.-o.-' translations "['constitution politique']"
 E:.-S:.k.-l.-' comments []
@@ -3318,7 +3318,7 @@ wo.U:O:.t.- translations "['traverser la phase croissante du cycle symbolique']"
 g.-'e.-'n.o.-s.o.-', comments []
 g.-'e.-'n.o.-s.o.-', translations "['environnement matériel de la communication', 'bâtiment', 'scène', 'décor']"
 s.we.-O:.-' comments []
-s.we.-O:.-' translations ['messages']
+s.we.-O:.-' translations []
 m.-B:.U:.-'m.-S:.A:.-'E:A:S:.-', comments []
 m.-B:.U:.-'m.-S:.A:.-'E:A:S:.-', translations "['bonne impression']"
 k.i.-n.i.-' comments []
@@ -4018,7 +4018,7 @@ E:.-F:.n.-l.-' translations "[""structure d'inter-stance""]"
 b.e.-f.u.-wa.e.-' comments []
 b.e.-f.u.-wa.e.-' translations "['érudition musicale (compétence)']"
 s.wu.-U:.-' comments []
-s.wu.-U:.-' translations "['intellections des relations']"
+s.wu.-U:.-' translations []
 d.wu.- comments []
 d.wu.- translations "['contrainte esthétique']"
 M:U:.i.- comments []
@@ -4068,7 +4068,7 @@ E:.T:.O:A:.- translations "['pronom à la troisième personne féminin pluriel']
 g.-'y.-'n.o.-s.o.-', comments []
 g.-'y.-'n.o.-s.o.-', translations "['environnement symbolique de la communication', 'systèmes de signes disponibles']"
 s.wa.-F:.-' comments []
-s.wa.-F:.-' translations "['communication des idées']"
+s.wa.-F:.-' translations []
 s.a.-l.a.-' comments []
 s.a.-l.a.-' translations ['innovation']
 O:S:.y.- comments []
@@ -4252,7 +4252,7 @@ s.e.-t.u.-'E:A:T:.-', translations ['addition']
 O:T:.a.- comments []
 O:T:.a.- translations "['performer dans la relation sociale selon la chose']"
 s.O:O:.-F:.-' comments []
-s.O:O:.-F:.-' translations "['cognition symbolique']"
+s.O:O:.-F:.-' translations []
 t.i.-s.i.-'u.T:.-A:.-'wo.-', comments []
 t.i.-s.i.-'u.T:.-A:.-'wo.-', translations "['véhicule souterrain sans équipage']"
 n.-S:.U:.-'S:.-'B:.-',S:.-',S:.-',_ comments []
@@ -4462,7 +4462,7 @@ n.o.-d.o.-' translations ['évaluation']
 j.M:A:.- comments []
 j.M:A:.- translations "['transformation actuelle de la manipulation symbolique']"
 s.wa.-A:.-' comments []
-s.wa.-A:.-' translations "['communauté de participants à un jeu de langage']"
+s.wa.-A:.-' translations []
 f.a.-M:M:.a.-f.o.-' comments []
 f.a.-M:M:.a.-f.o.-' translations "['guérisseur en substance']"
 b.o.-m.o.-' comments []
@@ -4656,7 +4656,7 @@ h.y.-wu.wu.t.-b.e.-' translations "['cycle de maîtrise universitaire']"
 T:.S:.n.- comments []
 T:.S:.n.- translations "['écosystèmes biologiques']"
 s.wo.-M:.-' comments []
-s.wo.-M:.-' translations "['processus de subjectivation']"
+s.wo.-M:.-' translations []
 n.o.-M:M:.o.-' comments []
 n.o.-M:M:.o.-' translations "['du monde (valeur)']"
 m.-M:.O:.-'m.-B:.U:.-'E:A:S:.-', comments []
@@ -4710,7 +4710,7 @@ l.-y.-'n.-T:.A:.-'E:.S:.s.-l.-', translations "['source', 'torrent de montagne']
 t.o.-n.o.-x.-' comments []
 t.o.-n.o.-x.-' translations ['millénaire']
 s.O:O:.-S:.-' comments []
-s.O:O:.-S:.-' translations "['signes cognitifs']"
+s.O:O:.-S:.-' translations []
 p.E:U:.- comments []
 p.E:U:.- translations "['qualité', 'valeur']"
 n.-p.-' comments []
@@ -4874,7 +4874,7 @@ M:O:.-'S:.-'k.o.-t.o.-', translations "['régime lettré']"
 t.a.-d.a.-' comments []
 t.a.-d.a.-' translations ['investissement']
 s.wu.-M:.-' comments []
-s.wu.-M:.-' translations ['signification']
+s.wu.-M:.-' translations []
 s.o.-k.o.-'M:O:.-',S:.-',_ comments []
 s.o.-k.o.-'M:O:.-',S:.-',_ translations "[""moments formels ou abstraits de l'intelligence collective""]"
 we.B:O:.- comments []
@@ -5008,7 +5008,7 @@ p.-'A:M:.-'n.o.-s.o.-', translations "['rôles ou facteurs du travail']"
 s.x.- comments []
 s.x.- translations "['projet technique']"
 s.we.-B:.-' comments []
-s.we.-B:.-' translations "['mobilisation des signes']"
+s.we.-B:.-' translations []
 A:O:.wu.t.- comments []
 A:O:.wu.t.- translations "['commencer la phase décroissante des cycles des âges et reproducteur']"
 h.-'U:.-'k.o.-t.o.-', comments []
@@ -5078,7 +5078,7 @@ f.g.- translations "['fidélité des représentants']"
 d.O:A:.- comments []
 d.O:A:.- translations "['sources du sens par une contrainte pratique']"
 s.wu.-A:.-' comments []
-s.wu.-A:.-' translations "['intuitions des relations']"
+s.wu.-A:.-' translations []
 M:O:.-'F:.-'k.o.-t.o.-', comments []
 M:O:.-'F:.-'k.o.-t.o.-', translations "['évolution culturelle', 'périodes historiques']"
 E:U:U:.n.- comments "['premier actant']"
@@ -5470,7 +5470,7 @@ e.we.- translations "['contrôler la reproduction']"
 h.y.d.-O:.-' comments []
 h.y.d.-O:.-' translations "['dialectique de la subjectivité à la première personne']"
 s.O:O:.-A:.-' comments []
-s.O:O:.-A:.-' translations "['actualités cognitives']"
+s.O:O:.-A:.-' translations []
 l.e.-n.i.-wa.e.-' comments []
 l.e.-n.i.-wa.e.-' translations "[""production et distribution d'énergie (compétence)""]"
 M:U:.U:M:.d.-O:.-' comments []
@@ -5502,7 +5502,7 @@ d.M:A:.- translations "['rigueur actuelle dans la création']"
 S:M:.O:M:.- comments []
 S:M:.O:M:.- translations "['signe du développement humain']"
 s.wo.-A:.-' comments []
-s.wo.-A:.-' translations "[""écosystème d'idées (d'un sujet)""]"
+s.wo.-A:.-' translations []
 M:M:.-y.-s.y.-' comments []
 M:M:.-y.-s.y.-' translations "['études de la connaissance']"
 k.o.-l.o.-s.u.-' comments []
@@ -5846,7 +5846,7 @@ O:B:.B:.- translations "['bouger-couler en contenant']"
 n.-S:.U:.-'B:.-'S:.-',B:.-',T:.-',_ comments []
 n.-S:.U:.-'B:.-'S:.-',B:.-',T:.-',_ translations "['Îles des caraïbes: St Lucia', 'Martinique', 'Guadeloupe', 'Antigua et Barbuda', 'St Martin', 'St Barts', 'Anguila', 'Saba']"
 s.we.-T:.-' comments []
-s.we.-T:.-' translations "['support des signes']"
+s.we.-T:.-' translations []
 c.M:S:.- comments []
 c.M:S:.- translations "['défaillance socio-politique formelle']"
 t.y.- comments []
@@ -6100,7 +6100,7 @@ f.i.-b.i.-t.u.-' translations ['médicamenté']
 k.-i.-' comments []
 k.-i.-' translations "['communauté technique (ingénieurs', 'techniciens)']"
 s.we.-S:.-' comments []
-s.we.-S:.-' translations "['code symbolique']"
+s.we.-S:.-' translations []
 m.o.-l.o.-s.u.-' comments []
 m.o.-l.o.-s.u.-' translations ['offert']
 we.o.- comments []
@@ -6380,7 +6380,7 @@ O:A:.g.- translations "['perfectionner et unifier la communication']"
 g.-'B:.-'k.o.-t.o.-', comments []
 g.-'B:.-'k.o.-t.o.-', translations "['éducation obligatoire']"
 s.O:O:.-U:.-' comments []
-s.O:O:.-U:.-' translations "['virtualités cognitives']"
+s.O:O:.-U:.-' translations []
 d.-O:M:.+M:O:.-s.y.-' comments []
 d.-O:M:.+M:O:.-s.y.-' translations "['études objectives']"
 O:T:.m.- comments []
@@ -6858,7 +6858,7 @@ f.i.-k.i.-t.u.-' translations "['comestible', 'potable']"
 t.o.-n.o.-g.-' comments []
 t.o.-n.o.-g.-' translations ['semaine']
 s.we.-M:.-' comments []
-s.we.-M:.-' translations ['médias']
+s.we.-M:.-' translations []
 f.M:A:.- comments []
 f.M:A:.- translations "['connexion personnelle actuelle']"
 n.u.-l.u.-' comments []
@@ -7020,7 +7020,7 @@ f.i.-M:M:.i.-t.u.-' translations "['organe en substance']"
 B:.T:.n.- comments []
 B:.T:.n.- translations "['conscience réflexive', 'subjectivité humaine']"
 s.wa.-O:.-' comments []
-s.wa.-O:.-' translations "['contexte des idées']"
+s.wa.-O:.-' translations []
 b.i.-n.i.-'l.i.-t.i.-'n.-S:.U:.-', comments []
 b.i.-n.i.-'l.i.-t.i.-'n.-S:.U:.-', translations "['caisse de résonance en terre']"
 T:M:. comments []
@@ -7192,7 +7192,7 @@ s.i.-n.i.-' translations "['dispositif de réfrigération']"
 m.u.-s.u.-d.u.-' comments []
 m.u.-s.u.-d.u.-' translations ['fantasmé']
 s.wa.-B:.-' comments []
-s.wa.-B:.-' translations "[""affect (partie d'une idée)""]"
+s.wa.-B:.-' translations []
 u.u.- comments []
 u.u.- translations ['communiquer']
 m.-M:.O:.-'m.-S:.U:.-'E:A:T:.-', comments []
@@ -7392,7 +7392,7 @@ E:O:A:. translations "['doit logique']"
 b.-S:.U:.-'c.-U:.-'S:.-', comments []
 b.-S:.U:.-'c.-U:.-'S:.-', translations "['heptagone (périmètre', 'bord)']"
 s.wu.-T:.-' comments []
-s.wu.-T:.-' translations ['références']
+s.wu.-T:.-' translations []
 e.T:O:.- comments []
 e.T:O:.- translations "['maîtriser une production selon la chose']"
 s.-p.-s.y.-' comments []
@@ -7420,7 +7420,7 @@ n.a.-s.a.-' translations "['majorité (civique)']"
 u.n.- comments []
 u.n.- translations "[""se réfugier dans l'anonymat"", 'présenter une fausse identité']"
 s.wu.-S:.-' comments []
-s.wu.-S:.-' translations ['symboles']
+s.wu.-S:.-' translations []
 p. comments []
 p. translations ['objet']
 M:O:.-A:.-'t.u.-t.u.-', comments []
@@ -7566,7 +7566,7 @@ f.o.-f.o.-'E:.-U:.t.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.l.-l.-',_ translations "['arri
 b.i.-n.i.-'l.i.-f.i.-'n.-S:.U:.-', comments []
 b.i.-n.i.-'l.i.-f.i.-'n.-S:.U:.-', translations "['plaquettes de pierre', 'de verre ou de plastique']"
 s.wa.-U:.-' comments []
-s.wa.-U:.-' translations "['jeux de langage']"
+s.wa.-U:.-' translations []
 s.a.-t.a.-' comments []
 s.a.-t.a.-' translations ['donnée']
 U:M:.p.- comments []
@@ -7606,7 +7606,7 @@ b.-y.-' translations "['communication', 'vulgarisation scientifique']"
 x.S:O:.- comments []
 x.S:O:.- translations "['transformation matérielle abstraite']"
 s.wo.-O:.-' comments []
-s.wo.-O:.-' translations "['processus de réflexion (cognition)']"
+s.wo.-O:.-' translations []
 n.-S:.U:.-'T:.-'T:.-',M:.-',S:.-',_ comments []
 n.-S:.U:.-'T:.-'T:.-',M:.-',S:.-',_ translations "['Australie', 'moitié Ouest']"
 f.o.-f.o.-'E:.-U:.n.-l.-',E:.-U:.M:T:.-l.-'E:.-A:.t.-l.-',_ comments []
@@ -8406,7 +8406,7 @@ E:.M:.we.- translations "['pronom de personne féminin']"
 f.u.-wu.f.I:.-' comments []
 f.u.-wu.f.I:.-' translations "['noms des sens']"
 s.wo.-T:.-' comments []
-s.wo.-T:.-' translations ['auto-compréhension']
+s.wo.-T:.-' translations []
 t.i.-s.i.-'u.T:.-U:.-'wo.-',B:.-',_B:.-',_; comments []
 t.i.-s.i.-'u.T:.-U:.-'wo.-',B:.-',_B:.-',_; translations "['véhicule à quatre roues sans conducteur']"
 n.-e.-s.y.-' comments []
@@ -9186,7 +9186,7 @@ n.e.-M:M:.a.-wa.e.-' translations "[""rhétorique de l'être""]"
 n.-S:.U:.-'B:.-'S:.-',T:.-',S:.-',_ comments []
 n.-S:.U:.-'B:.-'S:.-',T:.-',S:.-',_ translations "['Costa Rica', 'Panama']"
 s.we.-A:.-' comments []
-s.we.-A:.-' translations ['signifiants']
+s.we.-A:.-' translations []
 t.e.-l.u.-' comments []
 t.e.-l.u.-' translations "['découverte scientifique']"
 m.-c.-' comments []
@@ -9610,7 +9610,7 @@ x.M:U:.- translations "['transformation matérielle virtuelle']"
 A:.O:T:.- comments []
 A:.O:T:.- translations "[""avoir dans l'ordre de la chose""]"
 s.wo.-F:.-' comments []
-s.wo.-F:.-' translations "['intelligence réflexive']"
+s.wo.-F:.-' translations []
 m.-x.-' comments []
 m.-x.-' translations "[""outil de mesure de l'engagement""]"
 E:M:O:. comments "[""dans une clause: la substance (le sujet) possède l'attribut (le prédicat) selon le type d'inférence en mode""]"
@@ -10091,3 +10091,79 @@ E:.-'we.-M:.-'t.o.-', comments []
 E:.-'we.-M:.-'t.o.-', translations "['modes impersonnels']"
 E:.-'O:O:.-M:.-'t.o.-', comments []
 E:.-'O:O:.-M:.-'t.o.-', translations "['modes des verbes']"
+s.o.-wo.-'U:.-', comments []
+s.o.-wo.-'U:.-', translations "['continuum de conscience']"
+s.o.-wo.-'A:.-', comments []
+s.o.-wo.-'A:.-', translations "[""écosystème d'idées (d'un sujet)""]"
+s.o.-wo.-'S:.-', comments []
+s.o.-wo.-'S:.-', translations ['auto-analyse']
+s.o.-wo.-'B:.-', comments []
+s.o.-wo.-'B:.-', translations ['auto-synthèse']
+s.o.-wo.-'T:.-', comments []
+s.o.-wo.-'T:.-', translations ['auto-compréhension']
+s.o.-wa.-'U:.-', comments []
+s.o.-wa.-'U:.-', translations "['jeux de langage']"
+s.o.-wa.-'A:.-', comments []
+s.o.-wa.-'A:.-', translations "['communauté de participants à un jeu de langage']"
+s.o.-wa.-'S:.-', comments []
+s.o.-wa.-'S:.-', translations "[""concept (partie d'une idée)""]"
+s.o.-wa.-'B:.-', comments []
+s.o.-wa.-'B:.-', translations "[""affect (partie d'une idée)""]"
+s.o.-wa.-'T:.-', comments []
+s.o.-wa.-'T:.-', translations "[""percept (partie d'une idée)""]"
+s.o.-wu.-'U:.-', comments []
+s.o.-wu.-'U:.-', translations "['intellections des relations']"
+s.o.-wu.-'A:.-', comments []
+s.o.-wu.-'A:.-', translations "['intuitions des relations']"
+s.o.-wu.-'S:.-', comments []
+s.o.-wu.-'S:.-', translations ['symboles']
+s.o.-wu.-'B:.-', comments []
+s.o.-wu.-'B:.-', translations ['interprétants']
+s.o.-wu.-'T:.-', comments []
+s.o.-wu.-'T:.-', translations ['références']
+s.o.-we.-'U:.-', comments []
+s.o.-we.-'U:.-', translations ['signifiés']
+s.o.-we.-'A:.-', comments []
+s.o.-we.-'A:.-', translations ['signifiants']
+s.o.-we.-'S:.-', comments []
+s.o.-we.-'S:.-', translations "['code symbolique']"
+s.o.-we.-'B:.-', comments []
+s.o.-we.-'B:.-', translations "['mobilisation des signes']"
+s.o.-we.-'T:.-', comments []
+s.o.-we.-'T:.-', translations "['support des signes']"
+s.o.-wo.-'O:.-', comments []
+s.o.-wo.-'O:.-', translations "['processus de réflexion (cognition)']"
+s.o.-wa.-'O:.-', comments []
+s.o.-wa.-'O:.-', translations "['contexte des idées']"
+s.o.-wu.-'O:.-', comments []
+s.o.-wu.-'O:.-', translations ['sens']
+s.o.-we.-'O:.-', comments []
+s.o.-we.-'O:.-', translations ['messages']
+s.o.-wo.-'M:.-', comments []
+s.o.-wo.-'M:.-', translations "['processus de subjectivation']"
+s.o.-wa.-'M:.-', comments []
+s.o.-wa.-'M:.-', translations "['contenu des idées']"
+s.o.-wu.-'M:.-', comments []
+s.o.-wu.-'M:.-', translations ['signification']
+s.o.-we.-'M:.-', comments []
+s.o.-we.-'M:.-', translations ['médias']
+s.o.-O:O:.-'U:.-', comments []
+s.o.-O:O:.-'U:.-', translations "['virtualités cognitives']"
+s.o.-O:O:.-'A:.-', comments []
+s.o.-O:O:.-'A:.-', translations "['actualités cognitives']"
+s.o.-O:O:.-'S:.-', comments []
+s.o.-O:O:.-'S:.-', translations "['signes cognitifs']"
+s.o.-O:O:.-'B:.-', comments []
+s.o.-O:O:.-'B:.-', translations "['êtres cognitifs']"
+s.o.-O:O:.-'T:.-', comments []
+s.o.-O:O:.-'T:.-', translations "['choses cognitives']"
+s.o.-wo.-'F:.-', comments []
+s.o.-wo.-'F:.-', translations "['intelligence réflexive']"
+s.o.-wa.-'F:.-', comments []
+s.o.-wa.-'F:.-', translations "['communication des idées']"
+s.o.-wu.-'F:.-', comments []
+s.o.-wu.-'F:.-', translations "['système de concepts (sensorium)']"
+s.o.-we.-'F:.-', comments []
+s.o.-we.-'F:.-', translations "['système de symboles']"
+s.o.-O:O:.-'F:.-', comments []
+s.o.-O:O:.-'F:.-', translations "['cognition symbolique']"
