@@ -10186,3 +10186,4 @@ E:M:.-O:.-t.o.-' translations "['tense', 'conjugation']"
 E:M:.-O:.-t.o.-' comments "['past, present, future, absolute and relative']"
 O:O:.M:O:.s.-+s.M:O:.O:O:.- translations "['noetics nouns and verbs']"
 n.I:.- translations "['grammatical gender']"
+n.- translations ['immaterial']
