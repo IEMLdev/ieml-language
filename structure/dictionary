@@ -91,7 +91,6 @@ M:M:.u.-M:M:.u.-E:.-+d.u.-' "[""s.u.-M:M:.u.-'"", ""s.u.-M:M:.u.-d.u.-'"", ""b.u
 E:F:M:. "['E:O:S:.', 'E:O:B:.', 'E:O:T:.', 'E:U:M:.', 'E:A:M:.', 'E:S:M:.', 'E:B:M:.', 'E:T:M:.', 'E:M:S:.', 'E:M:B:.', 'E:M:T:.', 'E:F:S:.', 'E:F:B:.', 'E:F:T:.', 'E:O:M:.', 'E:M:M:.']" "['father_attribute', 'father_mode']"
 M:.b.- [] []
 E:F:.-t.o.-' [] []
-E:.-M:U:.-t.o.-' [] "['father_substance', 'father_attribute']"
 E:.-'O:O:.-M:.-'t.o.-', "[""E:.-'wo.-M:.-'t.o.-',"", ""E:.-'wa.-M:.-'t.o.-',"", ""E:.-'wu.-M:.-'t.o.-',"", ""E:.-'we.-M:.-'t.o.-',""]" []
 s.o.-O:O:.-'F:.-', "[""s.o.-wo.-'O:.-',"", ""s.o.-wa.-'O:.-',"", ""s.o.-wu.-'O:.-',"", ""s.o.-we.-'O:.-',"", ""s.o.-wo.-'M:.-',"", ""s.o.-wa.-'M:.-',"", ""s.o.-wu.-'M:.-',"", ""s.o.-we.-'M:.-',"", ""s.o.-O:O:.-'U:.-',"", ""s.o.-O:O:.-'A:.-',"", ""s.o.-O:O:.-'S:.-',"", ""s.o.-O:O:.-'B:.-',"", ""s.o.-O:O:.-'T:.-',"", ""s.o.-wo.-'F:.-',"", ""s.o.-wa.-'F:.-',"", ""s.o.-wu.-'F:.-',"", ""s.o.-we.-'F:.-',""]" "['father_attribute', 'twin', 'opposed', 'associated', 'crossed']"
 E:M:.-O:.-t.o.-' "[""E:B:.-O:.-t.o.-'"", ""E:M:.-A:.-t.o.-'"", ""E:M:.-U:.-t.o.-'"", ""E:S:.-O:.-t.o.-'"", ""E:T:.-O:.-t.o.-'""]" ['father_substance']
