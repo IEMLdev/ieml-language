@@ -1,0 +1,7 @@
+"O:O:.O:O:.t.-" is_root "True"
+"O:O:.O:O:.t.-" inhibition "father_attribute"
+"O:O:.O:O:.t.-" inhibition "father_substance"
+"O:O:.O:O:.t.-" inhibition "twin"
+"O:O:.O:O:.t.-" inhibition "opposed"
+"O:O:.O:O:.t.-" inhibition "associated"
+"O:O:.O:O:.t.-" inhibition "crossed"
