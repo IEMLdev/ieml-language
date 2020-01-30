@@ -1,6 +1,6 @@
-"E:T:.h.-" fr comments "Lorsque E:T:.h.- est utilisé dans le poly-morphème d'adresse (E:.s.- E:T:.h.-) (PC = X) cela signifie que la causalité va dans le sens ""Process -> Actant de cause X"""
-"E:T:.h.-" en comments "When E:T:.h.- is used in the address poly-morpheme (E:.s.- E:T:.h.-) (PC = X) it means that the causality goes in the direction ""Process -> Cause Actant X"""
 "E:T:.h.-" fr translations "cause"
 "E:T:.h.-" fr translations "condition"
 "E:T:.h.-" en translations "cause"
 "E:T:.h.-" en translations "condition"
+"E:T:.h.-" fr comments "Lorsque E:T:.h.- est utilisé en rôle de cause, cela signifie que la causalité va dans le sens ""Process -> cause"""
+"E:T:.h.-" en comments "When E:T:.h.- is used in cause role, it means that the causality goes in the direction ""Process -> Cause"""
